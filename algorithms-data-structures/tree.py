@@ -25,20 +25,35 @@ class BinaryTree:
 
 
 
+    def delete(value):
+        def _delete(node):
+            if node.val == value:
+                if node._leftchild is None and node._rightchild is None:
 
 
 
+        _delete(self.root)
 
-
-
-    
-
-
-
-
-
-
-
+    def print_tree(self):
+        print self._root.val
+        def _print(node):
+            if node: 
+                if node._leftchild and node._rightchild: 
+                    print '/',
+                    print '\\'
+                    print node._leftchild.val,
+                    print node._rightchild.val
+                    _print(node._leftchild)
+                    _print(node._rightchild)
+                if node._leftchild and not node._rightchild:
+                    print '/'
+                    print node._leftchild.val
+                    _print(node._leftchild)
+                if node._rightchild and not node._leftchild:
+                    print '\\'
+                    print node._rightchild.val
+                    _print(node._rightchild)
+        _print(self._root)
 
     def traverse_and_print(self):
         def _print(node):
@@ -48,6 +63,7 @@ class BinaryTree:
             print(node.val)
             _print(node._rightchild)
         _print(self._root)
+
 node52 = Node(52)
 node61 = Node(61)
 node56 = Node(56, node52, node61)
