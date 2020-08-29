@@ -28,6 +28,3 @@ BUILDING ACTUAL ENTERPRISE APPLICATION
           Jetty : Application server
           Jersey: REST endpoints
           Jackson: JSON serialiser
-
-    1.5. Properties files
-      Java Properties class
