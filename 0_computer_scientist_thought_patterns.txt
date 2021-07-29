@@ -12,7 +12,7 @@ Problem Solving Techniques
         - use them to solve the more complex problem
 
 Program Development Techniques
-    - Incrementatl Development
+    - Incremental Development
 
 Types of Iteration
     definite iteration: we know how MANY TIMES we will iterate
@@ -22,12 +22,15 @@ Types of Iteration
                         
 
 Computer Science and Programming greats
+    - Allan Turing
     - Ada Lovelace
+    - Backus
     - Shannon
     - Donald Knuth
     - Edsger W. Dijkstra
     - Ray Kurzweil
     - Peter Norvig
+    ...
 
 Papers to read
 	The turing machine
