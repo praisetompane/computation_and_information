@@ -9,6 +9,7 @@ This repository and linked repositories is an attempt at unpacking what computat
     * Know what you can and can't compute
 * algorithms and datastructures
     * Know how to compute
+    * proposition: every computation an algorithm
 * hardware
     * use FLT to ask machines to compute
 * operating systems
