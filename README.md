@@ -1,10 +1,11 @@
-# What is computation?
+# My portable notes.
+## What is computation?
 
-This repository and linked repositories is an attempt at unpacking what computation is, and humanity's current implementation of computation.
+### This repository and linked repositories is an attempt at unpacking what computation is, and humanity's current implementation of computation.  
 
-# Rough view of computation and applications
+### Rough view of computation and applications
 * theory of computation
-    * define a language(formal language theory => FLT) to express computations
+    * define a language(formal language theory = FLT) to express computations
     * Know how fast you can compute
     * Know what you can and can't compute
 * algorithms and datastructures
