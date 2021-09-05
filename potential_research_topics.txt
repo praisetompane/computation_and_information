@@ -5,8 +5,11 @@ Computer Science
     Our noses, eyes, tongues (i.e. sense are simply data highway peripherals (they can only carry so much data)??
     Can we not increase the width of these buses?
   
-  HUMANITIES GREATEST LIMITATION
+  HUMANITIES GREATEST LIMITATION??
   Data (Peripheral) —————————-> Brain (Process to Information) -> Refine to Knowledge -> Experience
+
+Information Science
+  Semantic Web
 
 Information Systems
 
@@ -28,9 +31,10 @@ Information Systems
             of technology because at their hear they are technology companies?
 
 
-  How to build actual enterprise software applications. -> Scalability, Security, Robustness 
-  How long until we have to rewrite code bases that get un maintainable. 
-    Write single purpose applications, ADD NOTHING MORE. Each category of features are encapsulated into an application.
+    How to build actual enterprise software applications? -> Scalability, Security, Robustness, Observability 
+    How long until we have to rewrite code bases that get unmaintainable?
+      Write single purpose applications, ADD NOTHING MORE?
+      Each category of features are encapsulated into an application?
 
 
 
