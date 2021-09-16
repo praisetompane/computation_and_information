@@ -1,6 +1,7 @@
+# Portable notes
 ## What is computation?
 
-### This repository and linked repositories is an attempt at unpacking what computation is, and humanity's current implementation of computation.  
+### An attempt at unpacking what computation is, and humanity's current implementation of computation.  
 
 ### Rough view of computation and applications
 * theory of computation
