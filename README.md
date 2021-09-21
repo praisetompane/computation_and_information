@@ -1,8 +1,6 @@
-# Portable notes
 ## What is computation?
 
 ### An attempt at unpacking what computation is, and humanity's current implementation of computation.  
-
 ### Rough view of computation and applications
 * theory of computation
     * define a language(formal language theory = FLT) to express computations
@@ -19,6 +17,5 @@
     * connect machines
 * software architecture
     * use machines to build(architect => think building arhicture) systems
-
 # Sources
 * https://iopscience.iop.org/book/978-1-6817-4093-5/chapter/bk978-1-6817-4093-5ch1
