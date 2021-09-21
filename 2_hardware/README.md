@@ -1,1 +1,1 @@
-https://github.com/Tompanepp/2.hardware
+https://github.com/praisetompane/2.hardware
