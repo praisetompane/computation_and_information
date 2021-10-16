@@ -15,7 +15,13 @@
     * use FLT to create computations that manage the machine
 * networking hardware
     * connect machines
-* software architecture
-    * use machines to build(architect => think building arhicture) systems
+* computer_systems_engineering
+    * use machines to build systems
+    
 # Sources
 * https://iopscience.iop.org/book/978-1-6817-4093-5/chapter/bk978-1-6817-4093-5ch1
+
+* Let's not dumb down the history of computer science - donald knuth 
+    https://www.youtube.com/watch?v=gAXdDEQveKw
+
+* https://www.youtube.com/watch?v=MZLYcxFHS2M&list=PLn0nrSd4xjjam-7b7tu1__4Xowkq9o1rR
