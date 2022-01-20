@@ -152,3 +152,9 @@ Scala/.idea/workspace.xml
 *.pyc
 *.data
 .o
+
+#local machine files
+individual_repos
+studies
+literature
+open_source
