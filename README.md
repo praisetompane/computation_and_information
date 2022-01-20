@@ -44,6 +44,8 @@ def 2: The evolution process of some enviroment, by a sequence of "simple, local
 - Let's not dumb down the history of computer science - donald knuth
 https://www.youtube.com/watch?v=gAXdDEQveKw
 
+- ACM: https://www.youtube.com/watch?v=mFYM9j8bGtg&list=PLn0nrSd4xjjam-7b7tu1__4Xowkq9o1rR&index=3
+
 - https://www.youtube.com/watch?v=MZLYcxFHS2M&list=PLn0nrSd4xjjam-7b7tu1__4Xowkq9o1rR
 
 - https://www.youtube.com/watch?v=mFYM9j8bGtg&list=PLn0nrSd4xjjam-7b7tu1__4Xowkq9o1rR&index=3
