@@ -1,7 +1,5 @@
 ## What is computation?
-
-history
-development of formal logic and mathematical formalism provides, led to preceise deifnitino of computation
+### This repo is an attempt at unpacking in layman's terms what computation is, and humanity's current implementation of computation.
 
 def 1: the **transformation** of **sequences of symblos** by **precise rules**
 
@@ -17,7 +15,6 @@ def 1: the **transformation** of **sequences of symblos** by **precise rules**
 
 def 2: The evolution process of some enviroment, by a sequence of "simple, local" steps. Church-Turing thesis
 
-### An attempt at unpacking in layman's terms what computation is, and humanity's current implementation of computation.
 
 ### Rough view of computation and applications
 
@@ -37,7 +34,7 @@ def 2: The evolution process of some enviroment, by a sequence of "simple, local
 - computer_systems_engineering
   - use machines to build systems
 
-# Sources
+# References
 
 - https://iopscience.iop.org/book/978-1-6817-4093-5/chapter/bk978-1-6817-4093-5ch1
 
