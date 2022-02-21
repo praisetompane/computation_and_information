@@ -15,6 +15,7 @@ def 1: the **transformation** of **sequences of symblos** by **precise rules**
 
 def 2: The evolution process of some enviroment, by a sequence of "simple, local" steps. Church-Turing thesis
 
+# what mathematical and/or computational questions can you ask object computational objects/other objects?
 
 ### Rough view of computation and applications
 
