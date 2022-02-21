@@ -18,19 +18,6 @@ Types of Iteration
     definite iteration: we know how MANY TIMES we will iterate
     indefinite iteration: we don't know how many times we will iterate
                         : There is also a bit of work to prove we will terminate
-                        : And more work for the programmer to ensure that we do terminate,if we do want the computation to stop(which is generallly the case)
+                        : And more work for the programmer to ensure that we do terminate,
+                            if we do want the computation to stop(which is generallly the case)
                         
-
-Computer Science and Programming greats
-    - Allan Turing
-    - Ada Lovelace
-    - Backus
-    - Shannon
-    - Donald Knuth
-    - Edsger W. Dijkstra
-    - Ray Kurzweil
-    - Peter Norvig
-    ...
-
-Papers to read
-	The turing machine
