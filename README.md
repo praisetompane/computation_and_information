@@ -15,7 +15,7 @@ def 1: the **transformation** of **sequences of symblos** by **precise rules**
 
 def 2: The evolution process of some enviroment, by a sequence of "simple, local" steps. _Church-Turing thesis_
 
-# what mathematical and/or computational questions can you ask object computational objects/other objects?
+## what computational questions can you ask object computational objects?
 
 ### Rough view of computation and applications
 
@@ -35,6 +35,9 @@ def 2: The evolution process of some enviroment, by a sequence of "simple, local
 - computer_systems_engineering
   - use machines to build systems
 
+## A Version of the History of Computation
+* Ursula Martin: Charles Barbish, Ada Lovelace, https://youtu.be/moYxYEfxO7g
+* Ursula Martin: Alan Turing, Grace Hoppe, https://youtu.be/FSlkwUMhoes
 # References
 
 - https://iopscience.iop.org/book/978-1-6817-4093-5/chapter/bk978-1-6817-4093-5ch1
