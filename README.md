@@ -13,7 +13,7 @@ def 1: the **transformation** of **sequences of symblos** by **precise rules**
 1. numerical computation
 2. non-numerical computation
 
-def 2: The evolution process of some enviroment, by a sequence of "simple, local" steps. Church-Turing thesis
+def 2: The evolution process of some enviroment, by a sequence of "simple, local" steps. _Church-Turing thesis_
 
 # what mathematical and/or computational questions can you ask object computational objects/other objects?
 
