@@ -1,0 +1,7 @@
+central question: what makes some problems SOLVABLE by computers and other NOT SOLVABLE?
+
+Examples:
+    Proof that a mathematical statement is True or False: NOT SOLVABLE.
+    Add two numbers 1 + 5: SOLVABLE.
+
+1. Perhaps we can define new models of computation that can compute the current incomputable(UNSOLVABLE) problems?

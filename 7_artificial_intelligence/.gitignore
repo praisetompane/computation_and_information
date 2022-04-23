@@ -1,0 +1,10 @@
+.metals
+.dccache
+__pycache__
+.vscode
+# Administrative
+research_topics.txt
+literature
+open_source
+targets.txt
+chapter_breakdown.txt
