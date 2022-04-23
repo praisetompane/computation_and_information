@@ -1,3 +1,5 @@
-The content of this section lives in a separate GitHub repository.  
-Repo link: https://github.com/praisetompane/6_computing_systems_engineering
-# 6_computing_sytems_engineering
+# 6_computer_systems_engineering
+# references
+* http://aosabook.org/en/index.html
+* https://github.com/aosabook
+* Writng efficient programs, Jon Bentley

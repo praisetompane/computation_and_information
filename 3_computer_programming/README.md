@@ -1,2 +1,13 @@
-The content of this section lives in a separate GitHub repository.  
-Repo link: https://github.com/praisetompane/3_computer_programming
+# 3_programming
+unpack what computer programming is and its role in the implementation of computation.
+
+# setup general programming environment
+``` bash
+    cd programming_environment_setup 
+    ./setup.sh
+```
+# references
+* peter van roy, seif haridi, complete concepts, techniques, and models of computer programming
+# radar
+* https://github.com/collections/programming-languages 
+
