@@ -10,6 +10,7 @@
 [submodule "3_computer_programming"]
 	path = 3_computer_programming
 	url = git@github.com:praisetompane/3_computer_programming.git
+	ignore = dirty
 [submodule "4_operating_systems"]
 	path = 4_operating_systems
 	url = git@github.com:praisetompane/4_operating_systems.git
@@ -22,3 +23,4 @@
 [submodule "7_artificial_intelligence"]
 	path = 7_artificial_intelligence
 	url = git@github.com:praisetompane/7_artificial_intelligence.git
+	ignore = dirty
