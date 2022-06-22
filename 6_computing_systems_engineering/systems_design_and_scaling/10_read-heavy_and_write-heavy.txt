@@ -1,7 +1,0 @@
-def:
-    read-heavy: a system in which the bulk/all requests will be to retrieve data.
-        consider caching
-
-    write-heavy: a system in which the bulk/all requests will be to create data.
-        queuing write requests for async processing to not block client.
-            how do you handle failure and inform client?

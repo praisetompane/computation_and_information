@@ -1,7 +1,0 @@
-def: layer between client nodes and server nodes
-        distributes load on server nodes evenly
-
-    pratical example: 
-        website front end access backend HTTP servers via a load balancer.
-        the load balancer evenly distributes HTTP requests
-            ensurin no one server gets overloaded and crashes  
