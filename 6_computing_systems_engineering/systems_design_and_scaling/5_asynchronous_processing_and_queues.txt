@@ -1,4 +1,0 @@
-def: processing large requests in the background
-        and notifying clients when complete
-        instead of having them wait.
-    can also process in advance(preprocess)

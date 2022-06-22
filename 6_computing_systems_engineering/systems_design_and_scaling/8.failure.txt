@@ -1,1 +1,0 @@
-def: a state in which a system unsuccessfully completes a requests.

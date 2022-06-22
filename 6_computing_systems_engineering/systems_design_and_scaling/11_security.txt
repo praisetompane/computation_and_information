@@ -1,2 +1,0 @@
-def:
-    protection of the system from malicious actors.
