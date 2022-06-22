@@ -1,5 +1,5 @@
-# 0_theory_of_computation
-theoricatical foundations of computing systems
+# (WIP) 0_theory_of_computation
+unpack the theoricatical foundations of computation.
 
 ## Turing Machine:
     An abstraction of what it means to compute.
