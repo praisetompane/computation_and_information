@@ -20,6 +20,11 @@ def 2: The evolution process of some enviroment, by a sequence of "simple, local
 
 ## what computational questions can you ask object computational objects?
 
+
+## update submodules
+```bash
+git pull --recurse-submodules
+```
 ### Rough view of computation and applications
 
 - theory of computation
