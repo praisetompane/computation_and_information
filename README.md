@@ -1,5 +1,8 @@
 ## What is computation?
-### (WIP) This repo is an attempt at unpacking in layman's terms what computation is, and humanity's current implementation of computation.
+
+This repo is an attempt at unpacking in layman's terms what computation is, and humanity's current implementation of computation.
+
+**Disclaimer**: This is an ongoing and incomplete project to unpack these concepts.
 
 def 1: the **transformation** of **sequences of symblos** by **precise rules**
 
