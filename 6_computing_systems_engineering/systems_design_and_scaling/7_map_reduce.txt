@@ -1,3 +1,0 @@
-def: a programming model and implementation for processing and generating
-        big data sets with a distributed and parrallel algorithm
-        across a cluster
