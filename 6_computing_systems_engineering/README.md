@@ -1,4 +1,5 @@
-# 6_computer_systems_engineering
+# (WIP) 6_computer_systems_engineering
+unpack the principles for engineering computating systems.
 # references
 * http://aosabook.org/en/index.html
 * https://github.com/aosabook

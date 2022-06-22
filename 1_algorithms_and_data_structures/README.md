@@ -1,7 +1,5 @@
-# 1_algorithms_and_data_structures
-# definitions
-* objective =>  build from stratch the stack of classic data structures and algorithms using the C programming language.
-This is for educational purposes as I unpack this layer of computation.
+# (WIP) 1_algorithms_and_data_structures
+unpack what algorithms & data structures are and their role in the implementation of computation.
 
 * algorithm => Algorithms are just a sequence of steps "to do something"
     "to do something", you need:
