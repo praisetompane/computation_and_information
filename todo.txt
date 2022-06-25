@@ -1,4 +1,6 @@
 0. https://plato.stanford.edu/entries/church-turing/
 
-1. Introduction to the Theory of Computation, 3rd Edition, Michael Sipser
+1. https://www.youtube.com/watch?v=BDPHfRuAFnU
+
+2. Introduction to the Theory of Computation, 3rd Edition, Michael Sipser
 
