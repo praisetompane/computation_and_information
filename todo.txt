@@ -4,3 +4,9 @@
 
 2. Introduction to the Theory of Computation, 3rd Edition, Michael Sipser
 
+2. https://www.youtube.com/watch?v=EKWGGDXe5MA
+
+3. GPT-3
+
+4. ACM Turing Laureates Interviews
+    https://www.youtube.com/watch?v=smrs6FfnCzs&list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&index=8
