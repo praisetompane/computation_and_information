@@ -4,57 +4,49 @@ This repo is an attempt at unpacking in layman's terms what computation is, and 
 
 **Disclaimer**: This is an ongoing and incomplete project to unpack these concepts.
 
-def 1: the **transformation** of **sequences of symbols** by **precise rules**
+def 1: the **transformation** of **sequences of symbols** by **precise rules**¹
 
-- symbols = {1,0,\*,{,;,<,>,...}
-- to be refined: precise rules
-  - example sequences:
-    - 11010
-    - ;\*>{11}  
+* symbols = {1,0,\*,{,;,<,>,...}
+* to be refined: precise rules
+  * example sequences:
+    * 11010
+    * ;\*>{11}  
       i.e. any sequence of the valid symbols
 
-1. numerical computation
-2. non-numerical computation
+def 2: The **evolution process** of some environment, by a **sequence of "simple, local" steps**. _Church-Turing thesis_
 
-def 2: The evolution process of some environment, by a sequence of "simple, local" steps. _Church-Turing thesis_
+### Rough overview of computation and applications
 
-## what computational questions can you ask object computational objects?
-
-
-## update sub-modules
-```bash
-git pull --recurse-submodules
-```
-### Rough view of computation and applications
-
-- theory of computation
-  - define a language(formal language theory = FLT) to express computations
-  - Know how fast you can compute
-  - Know what you can and can't compute
-- algorithms and data structures
-  - Know how to compute
-  - proposition: every computation an algorithm
-- hardware
-  - use FLT to ask machines to compute
-- operating systems
-  - use FLT to create computations that manage the machine
-- networking hardware
-  - connect machines
-- computer_systems_engineering
-  - use machines to build systems
-
-## A Version of the History of Computation
-* Ursula Martin: Charles Barbish, Ada Lovelace, https://youtu.be/moYxYEfxO7g
-* Ursula Martin: Alan Turing, Grace Hoppe, https://youtu.be/FSlkwUMhoes
+* theory of computation
+  * define a language(formal language theory = FLT) to express computations.
+  * Know what you can and can't compute.  
+  * Know how fast you can compute.
+* algorithms and data structures
+  * Know how to compute
+* hardware
+  * use FLT to ask machines to compute.
+* operating systems
+  * use FLT to create computations that manage the machine.
+* networking
+  * connect the machines.
+* computer systems engineering
+  * use machines to build systems.
+  
 # References
 
-- https://iopscience.iop.org/book/978-1-6817-4093-5/chapter/bk978-1-6817-4093-5ch1
+* 1 https://iopscience.iop.org/book/978-1-6817-4093-5/chapter/bk978-1-6817-4093-5ch1
 
-- Let's not dumb down the history of computer science - Donald Knuth
-https://www.youtube.com/watch?v=gAXdDEQveKw
+* The Church-Turing Thesis, https://plato.stanford.edu/entries/church-turing/
 
-- ACM: https://www.youtube.com/watch?v=mFYM9j8bGtg&list=PLn0nrSd4xjjam-7b7tu1__4Xowkq9o1rR&index=3
+* The early history of computing | Professor Ursula Martin (Lecture 1), https://youtu.be/moYxYEfxO7g
 
-- https://www.youtube.com/watch?v=MZLYcxFHS2M&list=PLn0nrSd4xjjam-7b7tu1__4Xowkq9o1rR
+* Alan Turing, Grace Hopper, and the history of getting things right | Ursula Martin (Lecture 2), https://www.youtube.com/watch?v=FSlkwUMhoes
 
-- https://www.youtube.com/watch?v=mFYM9j8bGtg&list=PLn0nrSd4xjjam-7b7tu1__4Xowkq9o1rR&index=3
+# Repository Maintenance
+## update sub-modules
+
+```bash
+  git pull --recurse-submodules
+```
+
+

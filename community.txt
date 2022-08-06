@@ -3,3 +3,9 @@ https://www.acm.org
 https://news.ycombinator.com
 
 https://www.sicpers.info/2022/07/phrases-in-computing-that-might-need-retiring/
+
+"Advances in Deep Neural Networks," at ACM Turing 50 Celebration
+    https://www.youtube.com/watch?v=mFYM9j8bGtg&list=PLn0nrSd4xjjam-7b7tu1__4Xowkq9o1rR&index=3
+
+Introduction to 50 Years of the ACM Turing Award Celebration
+    https://www.youtube.com/watch?v=MZLYcxFHS2M&list=PLn0nrSd4xjjam-7b7tu1__4Xowkq9o1rR
