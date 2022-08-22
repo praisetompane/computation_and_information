@@ -1,3 +1,6 @@
+[submodule "0_discrete_mathematics"]
+	path = 0_discrete_mathematics
+	url = git@github.com:praisetompane/0_discrete_mathematics.git
 [submodule "0_theory_of_computation"]
 	path = 0_theory_of_computation
 	url = git@github.com:praisetompane/0_theory_of_computation.git
