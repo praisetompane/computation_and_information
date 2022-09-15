@@ -25,11 +25,5 @@ def 2: The **evolution process** of some environment, by a **sequence of "simple
 
 * Alan Turing, Grace Hopper, and the history of getting things right | Ursula Martin (Lecture 2), https://www.youtube.com/watch?v=FSlkwUMhoes
 
-# Repository Maintenance
-## update sub-modules
-
-```bash
-  git pull --recurse-submodules
-```
 
 
