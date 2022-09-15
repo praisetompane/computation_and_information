@@ -1,0 +1,27 @@
+0. The Church-Turing Thesis
+   https://plato.stanford.edu/entries/church-turing/
+   
+1. Introduction to the Theory of Computation
+   MIT 18.404J: 
+   	https://www.youtube.com/watch?v=9syvZr-9xwk&list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY
+   	Introduction to the Theory of Computation Michael Sipser : book
+
+   Brooklyn College - Theoretical Computer Science (abbrevated BC - TCS)
+   	https://www.youtube.com/watch?v=8cBtv5lxtPY&list=PLCqUsBXxq16yBaN_hpo7dY2l9N-ZLtI-X&index=2
+	
+2. Feynman lectures on computation - Richard Feynman
+   https://www.youtube.com/watch?v=EKWGGDXe5MA
+
+3. MIT 6.045[J] - Computability and Complexity Theory
+	https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-045j-automata-computability-and-complexity-spring-2011/
+	
+5. Category Theory for Programmers - Bartosz Milewski.
+   https://www.youtube.com/playlist?list=PLbgaMIhjbmEnaH_LTkxLI7FMa2HsnawM_
+   https://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface/
+	
+* Introduction to the Theory of Computation, *d Edition, Michael Sipser
+
+* Neso Academy: https://www.youtube.com/watch?v=58N2N7zJGrQ&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev
+
+* How Shannon Entropy Imposes Fundamental Limits on Communication:
+   https://quantamagazine.us1.list-manage.com/track/click?u=0d6ddf7dc1a0b7297c8e06618&id=2214e12021&e=a07e1addb4
