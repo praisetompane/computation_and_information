@@ -14,23 +14,6 @@ def 1: the **transformation** of **sequences of symbols** by **precise rules**¹
       i.e. any sequence of the valid symbols
 
 def 2: The **evolution process** of some environment, by a **sequence of "simple, local" steps**. _Church-Turing thesis_
-
-### Rough overview of computation and applications
-
-* theory of computation
-  * define a language(formal language theory = FLT) to express computations.
-  * Know what you can and can't compute.  
-  * Know how fast you can compute.
-* algorithms and data structures
-  * Know how to compute
-* hardware
-  * use FLT to ask machines to compute.
-* operating systems
-  * use FLT to create computations that manage the machine.
-* networking
-  * connect the machines.
-* computer systems engineering
-  * use machines to build systems.
   
 # References
 
