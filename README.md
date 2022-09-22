@@ -1,8 +1,11 @@
 # computer_science
 
-unpack computer science¹ in layman terms and its relations to mathematics.
+unpack computer science¹ and its relation to mathematics in layman's terms. 
 
 **Disclaimer**: This is an ongoing and incomplete project to unpack these concepts.
+
+# Mathematics and Computer Science
+![image info](./mathematics_and_computer_science.svg)
 
 # conceptual overview of computation and humanity's current implementation and applications of it.
 * theory_of_computation
@@ -35,5 +38,7 @@ unpack computer science¹ in layman terms and its relations to mathematics.
   git pull --recurse-submodules
 ```
 
-# References
-1 https://en.wikipedia.org/wiki/Computer_science#
+# references
+1 https://en.wikipedia.org/wiki/Computer_science  
+2 The Church-Turing Thesis, https://plato.stanford.edu/entries/church-turing  
+3 Susanna S. Epp. 2010. Discrete Mathematics with Applications (4th. ed.). Brooks/Cole Publishing Co., USA.
