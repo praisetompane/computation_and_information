@@ -15,8 +15,8 @@ def 1: the **transformation** of **sequences of symbols** by **precise rules**¹
 
 def 2: The **evolution process** of some environment, by a **sequence of "simple, local" steps**. _Church-Turing thesis_
 
-# implementation overview: https://github.com/praisetompane/computer_science/blob/master/README.md
-# References
+### implementation overview: https://github.com/praisetompane/computer_science/blob/master/README.md
+## References
 
 * 1 https://iopscience.iop.org/book/978-1-6817-4093-5/chapter/bk978-1-6817-4093-5ch1
 
