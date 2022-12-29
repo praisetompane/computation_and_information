@@ -145,3 +145,7 @@ dmypy.json
 todo.txt
 
 /open_literature/Richard Feynman Computer Heuristics Lecture.mp4
+
+*.icloud
+
+open_source
