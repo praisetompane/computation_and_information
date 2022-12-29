@@ -2,7 +2,7 @@
 
 unpack computer science¹ and its relation to mathematics in layman's terms. 
 
-**Disclaimer**: This is an ongoing and incomplete project to unpack these concepts.
+**Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serve as distributed memory.
 
 # Mathematics and Computer Science
 ![image info](./mathematics_and_computer_science.svg)

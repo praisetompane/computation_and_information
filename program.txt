@@ -3,7 +3,7 @@
     https://math.mit.edu/academics/undergrad/roadmaps.php
         Applied Mathematics
             Computer Science
-    http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/
+                http://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/
 
         2024-January-01 - 2024-December-31:
             Fist Level: 
