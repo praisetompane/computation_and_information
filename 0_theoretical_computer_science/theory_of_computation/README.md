@@ -2,7 +2,7 @@
 
 unpack the theoricatical foundations of computation. 
 
-**Disclaimer**: This is an ongoing and incomplete project to unpack these concepts.
+**Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serve as my distributed memory.
 
 # references
 * Introduction to the Theory of Computation, 3rd Edition, Michael Sipser

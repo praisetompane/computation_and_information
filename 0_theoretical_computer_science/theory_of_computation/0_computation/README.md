@@ -2,7 +2,7 @@
 
 This repo is an attempt at unpacking in layman's terms what computation is, and humanity's current implementation of computation.
 
-**Disclaimer**: This is an ongoing and incomplete project to unpack these concepts.
+**Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serve as my distributed memory.
 
 def 1: the **transformation** of **sequences of symbols** by **precise rules**¹
 
