@@ -1,0 +1,36 @@
+L1 = set of all strings that start with '0'
+L1 = ∀ S | S start with '0'
+
+    Q = {0, 00, 01, 00, 001, ...}
+    ⪠ = {0, 1}
+    q0 = A
+    F = {B}
+    δ
+        current state       next state if 0 is input        next state if 1 is input
+                                0                               1
+            A                   B                               C
+            B                   B                               B
+            C                   C                               C
+
+
+Test Case:
+
+1. input = '001' 
+    DFA processing:
+        0    0    1
+      A -> B -> B -> B
+    result:
+        last state = B
+        B = final state in defintion
+        B = B
+        ∴ string is valid
+
+2. input = '101'
+    DFA processing:
+         1    0     1
+       A -> C -> C -> C
+    result:
+        last state = C
+        C ≠ final state in defintion
+        C ≠ B
+        ∴ string is invalid
