@@ -1,0 +1,17 @@
+def: in memory key-value mapping
+        between node process and data store
+
+        on data request:
+        retrieve from cache
+            if not found, 
+                qurery data store
+                maybe add to cache
+                    either data
+                    or rendered version
+            
+
+        pratical example:
+            key := query
+            value := database rows
+
+

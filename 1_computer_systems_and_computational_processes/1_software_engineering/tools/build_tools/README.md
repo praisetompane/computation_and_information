@@ -1,0 +1,1 @@
+Circuit Breakers to Improve CI/CD Pipeline Availability: https://www.infoq.com/news/2022/08/slack-ci-cd-availability/ 
