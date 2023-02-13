@@ -1,10 +1,10 @@
-## What is computation?
+## What is Computation?
 
 This repo is an attempt at unpacking in layman's terms what computation is, and humanity's current implementation of computation.
 
-**Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serve as my distributed memory.
+#### [Implementation Overview](https://github.com/praisetompane/computer_science/blob/master/README.md).
 
-def 1: the **transformation** of **sequences of symbols** by **precise rules**¹
+def¹: the **transformation** of **sequences of symbols** by **precise rules**(Konrad, Computation in Science:6)
 
 * symbols = {1,0,\*,{,;,<,>,...}
 * to be refined: precise rules
@@ -13,18 +13,13 @@ def 1: the **transformation** of **sequences of symbols** by **precise rules**¹
     * ;\*>{11}  
       i.e. any sequence of the valid symbols
 
-def 2: The **evolution process** of some environment, by a **sequence of "simple, local" steps**. _Church-Turing thesis_
+def²: The **evolution process** of some environment, by a **sequence of "simple, local" steps** (Stanford Encyclopedia of Philosophy).
 
-### Implementation overview: https://github.com/praisetompane/computer_science/blob/master/README.md
-## References
+## References:
 
-* 1 https://iopscience.iop.org/book/978-1-6817-4093-5/chapter/bk978-1-6817-4093-5ch1
+* Konrad H. 2015. Computation in Science. Morgan & Claypool Publishers.
+* Stanford Encyclopedia of Philosophy. The Church-Turing Thesis. https://plato.stanford.edu/entries/church-turing/.
 
-* The Church-Turing Thesis, https://plato.stanford.edu/entries/church-turing/
-
-* The early history of computing | Professor Ursula Martin (Lecture 1), https://youtu.be/moYxYEfxO7g
-
-* Alan Turing, Grace Hopper, and the history of getting things right | Ursula Martin (Lecture 2), https://www.youtube.com/watch?v=FSlkwUMhoes
 
 
 
