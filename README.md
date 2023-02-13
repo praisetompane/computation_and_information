@@ -3,6 +3,7 @@ def: the study of computation.
 
 objective: unpack computer science¹ and its relation to mathematics in layman's terms.
 
+a formal classification scheme is maintained here: https://zbmath.org/classification/?q=cc%3A68
 # Conceptual Overview:
 * theory_of_computation
   * Know what you can and can't compute.
@@ -22,10 +23,6 @@ objective: unpack computer science¹ and its relation to mathematics in layman's
 
 # Computer Science and Mathematics:
 ![image info](./mathematics_and_computer_science.svg)
-# References:
-1 https://en.wikipedia.org/wiki/Computer_science  
-2 The Church-Turing Thesis, https://plato.stanford.edu/entries/church-turing  
-3 Susanna S. Epp. 2010. Discrete Mathematics with Applications (4th. ed.). Brooks/Cole Publishing Co., USA.
 
 **Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serve as distributed memory.
 
