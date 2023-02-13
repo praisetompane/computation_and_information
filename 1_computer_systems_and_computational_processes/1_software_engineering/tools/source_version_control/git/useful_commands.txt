@@ -20,3 +20,11 @@ MERGING AND BRANCHING
   4. git branch -d branchName : deletes the branch
 
   5. git push --set-upstream origin origin/devs_demo : push local branch to repo and create a new branch
+
+
+
+GLOBAL CONFIG
+
+git config --global core.excludesFile '~/.gitignore'
+
+git config --global core.editor = nano
