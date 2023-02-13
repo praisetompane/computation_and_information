@@ -1,8 +1,7 @@
 git config --global user.name = "Praise Tompane"
-git config --global user.email "tompanepp@gmail.com"
-git config --global color.ui "auto"
+git config --global user.email "praisetompane@icloud.com"
+
+
 git rm --cached <file> to unstage
-
-
-giit pull origin +master:master 
-9148 port config on mac for serving a repo 
+git config --global core.editor = nano
+ssh-keygen -t ed25519 -C "praisetompane@icloud.com"
