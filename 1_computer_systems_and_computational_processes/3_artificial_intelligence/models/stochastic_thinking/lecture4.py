@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# all credit due to MIT 6.0002
 """
 Created on Sat Aug 20 11:09:36 2016
 
