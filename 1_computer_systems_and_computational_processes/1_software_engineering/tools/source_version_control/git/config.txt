@@ -1,7 +1,0 @@
-git config --global user.name = "Praise Tompane"
-git config --global user.email "praisetompane@icloud.com"
-
-
-git rm --cached <file> to unstage
-git config --global core.editor = nano
-ssh-keygen -t ed25519 -C "praisetompane@icloud.com"
