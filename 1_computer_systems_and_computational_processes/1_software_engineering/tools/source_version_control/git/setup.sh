@@ -13,6 +13,9 @@ echo "Please enter default editor":
 read editor
 git config --global core.editor $editor
 
+eval `ssh-agent -s`
+
 echo "Generaing SSH key"
 ssh-keygen -t ed25519 -C $email_address
 
+ssh-add ~/.ssh/id_ed25519
