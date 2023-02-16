@@ -1,0 +1,46 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"array.h": "c",
+			"type.h": "c",
+			"iterator": "cpp",
+			"linkedlist.h": "c",
+			"datatype.h": "c",
+			"cassert": "c",
+			"memory": "c",
+			"optional": "c",
+			"memory-allocator.h": "c",
+			"memory_allocator.h": "c",
+			"node.h": "c",
+			"array": "c",
+			"string": "c",
+			"string_view": "c",
+			"vector": "c",
+			"__bit_reference": "c",
+			"__functional_base": "c",
+			"__node_handle": "c",
+			"algorithm": "c",
+			"bitset": "c",
+			"chrono": "c",
+			"__memory": "c",
+			"functional": "c",
+			"limits": "c",
+			"ratio": "c",
+			"system_error": "c",
+			"tuple": "c",
+			"type_traits": "c",
+			"stdlib.h": "c",
+			"atomic": "c",
+			"cstddef": "c",
+			"locale": "c"
+		},
+		"files.watcherExclude": {
+			"**/target": true
+		}
+	}
+}
