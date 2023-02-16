@@ -1,0 +1,65 @@
+Priority Queue:
+    set of elements S 
+        where each element has key K
+
+        operations:
+            insert(S, x) => insert x into S
+            max(s) => return element with ma key in S
+            extract_max(S) => remove and return element with max key in S
+            increase_key(S, x, k) => increase key of element x in S to k
+                could decreasse depending on application
+
+Heap:
+    array S visualised as a nearly complete binary tree
+        conditinally complete based on members of S
+    
+    1 |2 |3 |4|5|6|7|8|9|10|
+    16|14|10|8|7|9|3|2|4|1 |
+
+                              16¹ 
+                          /        \
+                        14²       10³ 
+                      /    \       /  \
+                     8⁴     7⁵    9⁶   3⁷
+                    / \    /
+                   2⁸  4⁹ 1¹⁰ 
+
+    Heap as a Tree
+        i = index of element x in array S
+        root = first element (i = 1)
+        parent(i) = i/2
+        left(i) = 2i
+        right(i) = 2i + 1
+
+        height of tree is bound by logN,
+            because the tree representation/visualation is nearly complete tree.
+
+Heap Interface:
+    - max_heapify(A, i)
+        O(logN) => N = A length
+        NB: assumes trees at left(i) and right(i) are max heaps (i.e. already correct)
+    - build_max_heap(A)
+        for i in n/2 down to 1
+            max_heapify(A, i)
+
+        i = n/2 since leaves already satisfy max heap property.
+                   O
+                 /   \
+                O     O
+              /   \
+             O     O
+            / \   /
+  leaves = O   O O
+  leaves = elements A[n/2 + 1 ... n]
+  ∴ O(NlogN)
+
+    Performance:
+        - observee max_heapify takes:
+            - O(1) time for nodes 1 level above leaves
+            - and in general O(L) for nodes that 
+                L level above leaves
+
+        - observe we have:
+            - n/4 nodes at level 1
+            - n/8 nodes at level 2
+            - 1 node at level logN        
