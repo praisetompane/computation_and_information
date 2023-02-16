@@ -1,0 +1,43 @@
+How fast is it to peform the operation? (i.e. Time Complexity)
+    => Measured in terms of the number of steps it takes to complete the operation
+
+Read: Looking up something from a particular spot in the datastructure
+    Steps = 
+
+
+Search: Looking for a particular value in te datastructure
+
+    Breadth First Search
+        Starting at a node
+            explore all its nieghbours
+            before moving on the next node(to explore all its nieghbours)
+        Steps = O(V)
+
+    Depth First Search
+        Starting at a node
+            explore each branch completely
+            before moving on to next branch(to expplore it completely)
+        
+        Steps = O(V)
+
+    Best Suited Use Cases
+        Visit every node in graph => BFS and DFS
+            NB: DFS simpler for this
+        
+        Determine path between two nodes (or shortest path) => BFS
+            BFS to find an answer, first interrogates ALL nieghbours of a node X,
+                thus takes the shortest path to answering the question
+                    as it relates to X
+            DFS to find an answer, explores an increasily narrower branch of the graph rooted at node X
+                hence reduces the probability of find the answer, per search attempt
+                    Because it narrows down search space, per attempt
+
+    Example:
+        0: 1, 3
+        1: 3, 4
+
+Insert: Adding a value to the datastructure 
+    Steps = 
+
+Delete: Removing a value from the datastructure
+    Steps = 
