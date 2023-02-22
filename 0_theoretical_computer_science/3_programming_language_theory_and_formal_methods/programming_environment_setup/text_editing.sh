@@ -3,5 +3,5 @@ brew install aspell
 echo "done"
 
 echo "installing vscode"
-brew install --cask visual-studio-code
+brew install visual-studio-code
 echo "done"
