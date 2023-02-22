@@ -14,10 +14,6 @@ echo "installing pipenv"
 brew install pipenv
 echo "done"
 
-echo "installing Black"
-pipenv install black
-echo "done"
-
-echo "installing numpy"
-pipenv install numpy
+echo "installing all packages for python"
+pipenv install
 echo "done"
