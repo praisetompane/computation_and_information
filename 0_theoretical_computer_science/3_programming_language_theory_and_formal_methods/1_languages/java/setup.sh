@@ -1,6 +1,17 @@
-echo "installing open JDK 11"
-brew install --cask adoptopenjdk
+#!/bin/zsh
+echo "adding asdf openjdk plugin"
+asdf plugin add java
 echo "done"
 
+echo "installing java"
+asdf install java temurin-19.0.2+7
+echo "done"
 
-echo 'export PATH="/usr/local/opt/openjdk@11/bin:$PATH"' >> ~/.zshrc
+echo "set latest version to system wide version"
+asdf global java temurin-19.0.2+7
+echo "done"
+
+echo "updating automated JAVA_HOME export"
+echo ". ~/.asdf/plugins/java/set-java-home.zsh" >> ~/.zshrc
+echo "done"
+
