@@ -20,7 +20,6 @@ touch README.md
 echo "#" $project >> ./README.md
 
 touch setup.sh
-touch requirements.txt
 "done"
 
 echo "creating app folder"
