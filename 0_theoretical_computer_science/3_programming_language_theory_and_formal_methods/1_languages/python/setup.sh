@@ -1,12 +1,23 @@
+echo "adding asdf python plugin"
+asdf plugin add python
+echo "done"
+
 echo "installing python"
-brew update
-brew install python
+asdf install python latest
 echo "done"
 
-echo "installing pip"
-python3 -m ensurepip --upgrade
+echo "set latest version to system wide version"
+asdf global python latest
 echo "done"
 
-echo "installing virtualenv"
-pip3 install virtualenv
-echo "installing virtualenv"
+echo "installing pipenv"
+brew install pipenv
+echo "done"
+
+echo "installing Black"
+pipenv install black
+echo "done"
+
+echo "installing numpy"
+pipenv install numpy
+echo "done"
