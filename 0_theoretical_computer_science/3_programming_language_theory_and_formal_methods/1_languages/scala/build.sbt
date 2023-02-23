@@ -2,7 +2,7 @@ lazy val root = (project in file(".")).
     settings(
         inThisBuild(List(
             organization := "com.praise",
-            scalaVersion := "2.13.6"
+            scalaVersion := "3.*.*"
         )),
         name := "learn-scala"
     )
