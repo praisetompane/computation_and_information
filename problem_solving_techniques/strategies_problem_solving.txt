@@ -53,3 +53,7 @@ PATH PROBLEMS:
     6. determining if object A is in group B
         We do NOT always need to generate the entire group B (This could be a big list)
         Can also determine if the rules that generate object A are a subset of the rules that generate group B
+
+References:
+    Mcdowell GL. 2015. Cracking The Coding Interview. 6th ed. CareerCup.
+    

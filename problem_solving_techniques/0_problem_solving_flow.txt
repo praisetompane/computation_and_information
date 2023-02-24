@@ -16,3 +16,6 @@
     7.1 Optimise [language/tools specfic advantages]
 8. Walk through
 
+References:
+    Mcdowell GL. 2015. Cracking The Coding Interview. 6th ed. CareerCup.
+

@@ -1,28 +1,26 @@
-# What is Computer Science?
+# What is Computing?
 def: the study of computation.
 
-objective: unpack computer science¹ and its relation to mathematics in layman's terms.
+## What is Computation?
 
-a formal classification scheme is maintained here: https://zbmath.org/classification/?q=cc%3A68
-# Conceptual Overview:
-* theory_of_computation
-  * Know what you can and can't compute.
-* programming_language_theory_and_formal_methods
-  * define a language to express computations.
-* algorithms_and_data_structures
-  * know how to compute.
-* computer_architecture_and_organisation
-  * hardware
-    * create physical implementations of Turing Machines.
-  * systems_software
-    * use programming language theory to create computations that run and manage the machines.
-* networks
-  * connect machines.
-* software_engineering
-  * use machines to build systems.
+def¹: the **transformation** of **sequences of symbols** by **precise rules**(Konrad, 2015:6)
 
-# Computer Science and Mathematics:
-![image info](./mathematics_and_computer_science.svg)
+* symbols = {1,0,\*,{,;,<,>,...}
+* to be refined: precise rules
+  * example sequences:
+    * 11010
+    * ;\*>{11}  
+      i.e. any sequence of the valid symbols
+
+def²: The **evolution process** of some environment, by a **sequence of "simple, local" steps** (Stanford Encyclopedia of Philosophy).
+
+a formal classification scheme is maintained here: 
+* https://dl.acm.org/ccs
+
+# References:
+
+* Konrad H. 2015. Computation in Science. Morgan & Claypool Publishers.
+* Stanford Encyclopedia of Philosophy. The Church-Turing Thesis. https://plato.stanford.edu/entries/church-turing/.
 
 **Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serve as distributed memory.
 
