@@ -1,2 +1,0 @@
-history: https://en.m.wikipedia.org/wiki/History_of_software
-* Ursula Martin. Distinguished Lecture Series 2017: Professor Ursula Martin. https://blogs.cs.st-andrews.ac.uk/csblog/2017/10/19/distinguished-lecture-series-2017-professor-ursula-martin.

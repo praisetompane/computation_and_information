@@ -59,3 +59,6 @@ Your key weapon: Hash table
                     ∴ O(N) + O(N) => O(N2) => O(N)
                         the term that increases the complexity of the problem the most is N
                         ∴ discard the 2
+                        
+References:
+    Mcdowell GL. 2015. Cracking The Coding Interview. 6th ed. CareerCup.
