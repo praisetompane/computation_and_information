@@ -1,8 +1,7 @@
-
 //Parametisation
 //:When creating objects you can "configure" them with:
-  //Types
-  //Values
+//Types
+//Values
 //ORDER: Type then value if both used
 
 val greetStrings = new Array[String](3)
@@ -23,7 +22,6 @@ greetStrings(2) = "world!\n"
 for (i <- 0 to 2) //to return sequence 0,1,2 that "for" iterates over
   print(greetStrings(i))
 
-
 //Scala's apply and update methods
 //NB: Everything in Scala is an object
 
@@ -35,5 +33,5 @@ for (i <- 0.to(2))
   print(greetStrings.apply(i))
 
 //Shorter array
-val greetStrings =  Array("Peter","Merry","Georgge")
-val greetStrings =  Array.apply("Peter","Merry","Georgge")
+val greetStrings = Array("Peter", "Merry", "Georgge")
+val greetStrings = Array.apply("Peter", "Merry", "Georgge")

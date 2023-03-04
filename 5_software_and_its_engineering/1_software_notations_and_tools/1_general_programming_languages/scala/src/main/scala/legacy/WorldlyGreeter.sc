@@ -1,4 +1,3 @@
-
 //class
 class WorldlyGreeter(greeting: String) {
   def greet(): Unit = {

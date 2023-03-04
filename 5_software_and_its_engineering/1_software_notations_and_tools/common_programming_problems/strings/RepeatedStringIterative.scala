@@ -7,12 +7,12 @@ object Solution {
     if (s == "a") n
     else {
       for (i <- Range.Long(0, n, 1)) {
-        //println("in loop")
+        // println("in loop")
         for (patternCharacterIndex <- 0 until maxIndex) {
           println(s(patternCharacterIndex))
           if (s(patternCharacterIndex) == 'a') {
-            //println("increment As")
-            //println(patternCharacterIndex)
+            // println("increment As")
+            // println(patternCharacterIndex)
             numberOfAs += 1
           }
         }

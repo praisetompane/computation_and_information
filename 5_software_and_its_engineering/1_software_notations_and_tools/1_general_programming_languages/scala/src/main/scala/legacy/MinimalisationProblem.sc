@@ -4,16 +4,24 @@ object Main {
 
     def minSmoke(left: Int, right: Int): Long = {
       if (right - left < 1) 0
-      else cache.getOrElseUpdate((left, right), {
-        val sub = (left until right) map {
-          i => minSmoke(left, i) + minSmoke(i + 1, right) + sum(left, i) * sum(i + 1, right)
-        }
-        sub.min
-      })
+      else
+        cache.getOrElseUpdate(
+          (left, right), {
+            val sub = (left until right) map { i =>
+              minSmoke(left, i) + minSmoke(i + 1, right) + sum(left, i) * sum(
+                i + 1,
+                right
+              )
+            }
+            sub.min
+          }
+        )
     }
 
     def sum(left: Int, right: Int): Long = {
-      val sum = (left to right).foldLeft(0l) { case (acc, n) => acc + mixtures(n) }
+      val sum = (left to right).foldLeft(0L) { case (acc, n) =>
+        acc + mixtures(n)
+      }
       sum % 100
     }
 

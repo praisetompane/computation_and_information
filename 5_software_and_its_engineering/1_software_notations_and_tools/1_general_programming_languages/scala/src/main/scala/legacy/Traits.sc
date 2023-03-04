@@ -1,22 +1,22 @@
-
-trait Friendly{
-  def greet() = "Hi" //lacking an explicit return statement, Scala methods will return the value of the last expression
+trait Friendly {
+  def greet() =
+    "Hi" // lacking an explicit return statement, Scala methods will return the value of the last expression
   def hug() = "I'm hugging you now"
 }
 
-class Dog extends Friendly{
+class Dog extends Friendly {
   override def greet() = "Woof"
 }
 
-class HungryCat extends Friendly{
+class HungryCat extends Friendly {
   override def greet() = "Meow"
 }
 
-class HungryDog extends Friendly{
+class HungryDog extends Friendly {
   override def greet() = "I's like to eat my dog food now"
 }
 
-trait exclamatoryGreeter extends Friendly{
+trait exclamatoryGreeter extends Friendly {
   override def greet() = super.greet() + "!"
 }
 
