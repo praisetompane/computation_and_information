@@ -6,7 +6,7 @@ class Stack:
         self.data.append(data)
 
     def pop(self):
-        if(not self.is_empty()):
+        if not self.is_empty():
             return self.data.pop()
         raise Exception("Stack is empty")
 

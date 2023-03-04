@@ -1,23 +1,24 @@
-class Node: 
+class Node:
     data = None
     left = None
     right = None
 
-    def __init__(self,data=None):
+    def __init__(self, data=None):
         self.data = data
 
     def sum(self):
         def sum(root):
-            if root is None: return 0
-            else: 
+            if root is None:
+                return 0
+            else:
                 total = sum(root.left)
                 total += root.data
                 total += sum(root.right)
                 return total
 
         return sum(self)
-            
-                
+
+
 def main():
     root = Node(7)
     root.left = Node(5)
@@ -27,5 +28,7 @@ def main():
     root.right.right = Node(6)
 
     print(root.sum())
+
+
 if __name__ == "__main__":
     main()

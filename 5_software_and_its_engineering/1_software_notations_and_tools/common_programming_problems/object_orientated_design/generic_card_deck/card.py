@@ -1,5 +1,6 @@
 from suit import Suit
 
+
 class Card:
     number = 0
     suit = None
@@ -13,4 +14,3 @@ class Card:
 
     def __str__(self):
         return f"{self.suit} : {self.number}"
-        

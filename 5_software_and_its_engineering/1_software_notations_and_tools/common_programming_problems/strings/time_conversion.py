@@ -1,4 +1,4 @@
-'''
+"""
     Context:
         Given
             12 hour time
@@ -42,11 +42,11 @@
         Space = O(1)
             store internal variables
 
-'''
+"""
 
 
 def format_time(hour, minutes):
-    return('%s:%s' % (hour, minutes))
+    return "%s:%s" % (hour, minutes)
 
 
 def twelve_hour_time_to_twenty_four(time):
@@ -55,19 +55,19 @@ def twelve_hour_time_to_twenty_four(time):
     minutes = time[3:5]
     time_of_day = time[5:]
 
-    if hour == '12':
-        if time_of_day == 'AM':
-            return format_time('00', minutes)
-        if time_of_day == 'PM':
-           return format_time(hour, minutes) 
-    if time_of_day == 'AM':
+    if hour == "12":
+        if time_of_day == "AM":
+            return format_time("00", minutes)
+        if time_of_day == "PM":
+            return format_time(hour, minutes)
+    if time_of_day == "AM":
         return format_time(hour, minutes)
     else:
         return format_time(str(int(hour) + int(hour_difference)), minutes)
 
 
-print(twelve_hour_time_to_twenty_four('01:01PM'))  # = 13:01
-print(twelve_hour_time_to_twenty_four('11:10AM'))  # = 11:10
-print(twelve_hour_time_to_twenty_four('11:50PM'))  # = 23:50
-print(twelve_hour_time_to_twenty_four('12:40AM'))  # = 00:40
-print(twelve_hour_time_to_twenty_four('12:35PM'))  # = 12:35
+print(twelve_hour_time_to_twenty_four("01:01PM"))  # = 13:01
+print(twelve_hour_time_to_twenty_four("11:10AM"))  # = 11:10
+print(twelve_hour_time_to_twenty_four("11:50PM"))  # = 23:50
+print(twelve_hour_time_to_twenty_four("12:40AM"))  # = 00:40
+print(twelve_hour_time_to_twenty_four("12:35PM"))  # = 12:35

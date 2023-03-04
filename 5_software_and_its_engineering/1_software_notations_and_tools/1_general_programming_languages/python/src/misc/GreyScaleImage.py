@@ -12,10 +12,10 @@ for col in range(width):
         red = currentPixel.getRed()
         green = currentPixel.getGreen()
         blue = currentPixel.getBlue()
-        
-        #Key is here, not entirely sure why this works. I think one needs to study RGB in more detail
+
+        # Key is here, not entirely sure why this works. I think one needs to study RGB in more detail
         avgRGB = (red + green + blue) / 3
         newImage.setPixel(col, row, image.Pixel(avgRGB, avgRGB, avgRGB))
-        
+
 newImage.draw(wn)
 wn.exitonclick()

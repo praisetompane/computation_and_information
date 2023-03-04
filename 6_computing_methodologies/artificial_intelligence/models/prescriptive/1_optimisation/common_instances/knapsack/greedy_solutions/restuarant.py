@@ -3,6 +3,7 @@
 """
 from greedy import greedy
 
+
 class Food:
     def __init__(self, name, value, calories):
         self.name = name
@@ -16,23 +17,24 @@ class Food:
         return self.calories
 
     def density(self):
-        return self.getValue()/self.getCost()
+        return self.getValue() / self.getCost()
 
     def __str__(self):
-        return f'{self.name} : {str(self.value)} : {str(self.calories)}'
+        return f"{self.name} : {str(self.value)} : {str(self.calories)}"
+
 
 def buildMenu(food_names, values, calories):
     """food_names,values, calories of same length
-       food_names a list of strings
-       values and calories list of numbers
-       returns list of Foods"""
+    food_names a list of strings
+    values and calories list of numbers
+    returns list of Foods"""
     menu = []
     for i in range(len(values)):
         menu.append(Food(food_names[i], values[i], calories[i]))
     return menu
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     food, totalValue = greedy()
     print(food)
     print(totalValue)

@@ -1,4 +1,4 @@
-'''
+"""
     Context:
         Given an M*N matrix
 
@@ -37,13 +37,17 @@
             000
             010
 
-'''
+"""
+
 
 def zero_matrix(source_matrix):
     number_of_rows = len(source_matrix)
     number_of_cols = len(source_matrix[0])
-    result = [[source_matrix[row][col] for col in range(number_of_cols)] for row in range(number_of_rows)]
-    
+    result = [
+        [source_matrix[row][col] for col in range(number_of_cols)]
+        for row in range(number_of_rows)
+    ]
+
     def set_row_to_zero(row):
         for col in range(number_of_cols):
             result[row][col] = 0
@@ -59,25 +63,16 @@ def zero_matrix(source_matrix):
                 set_col_to_zero(col)
 
     return result
-            
-source = [[1, 1, 0], 
-         [1, 1, 1], 
-         [0, 1, 1],
-         [1, 1, 1]]
 
-print(zero_matrix(source) == [[0,0,0],
-                            [0,1,0],
-                            [0,0,0],
-                            [0,1,0]]) #true
 
-source = [[1,1,0,1],
-          [1,1,1,1],
-          [0,1,1,1]]
+source = [[1, 1, 0], [1, 1, 1], [0, 1, 1], [1, 1, 1]]
 
-print(zero_matrix(source) == [[0,0,0,0],
-                              [0,1,0,1], 
-                              [0,0,0,0]]) #true
-''' 
+print(zero_matrix(source) == [[0, 0, 0], [0, 1, 0], [0, 0, 0], [0, 1, 0]])  # true
+
+source = [[1, 1, 0, 1], [1, 1, 1, 1], [0, 1, 1, 1]]
+
+print(zero_matrix(source) == [[0, 0, 0, 0], [0, 1, 0, 1], [0, 0, 0, 0]])  # true
+""" 
     Performance
         M = rows
         N = cols
@@ -86,4 +81,4 @@ print(zero_matrix(source) == [[0,0,0,0],
             We have to inspect every element in the matrix
         Space = O(M*N)    
             Storage for resulting matrix
-'''
+"""

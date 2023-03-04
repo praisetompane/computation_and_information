@@ -1,4 +1,4 @@
-'''
+"""
     Context:
         Given:
             array of integers
@@ -38,7 +38,7 @@
 
     Performance
 
-'''
+"""
 
 
 def lonelyinteger(a):
@@ -57,8 +57,9 @@ def lonelyinteger(a):
     max_array_value = 100
     max_index_bound_exclusive = max_array_value + 1
     occurances = [0] * max_index_bound_exclusive
-    
+
     for n in a:
         occurances[n] += 1
     for i in range(max_index_bound_exclusive):
-        if occurances[i] == 1: return i
+        if occurances[i] == 1:
+            return i

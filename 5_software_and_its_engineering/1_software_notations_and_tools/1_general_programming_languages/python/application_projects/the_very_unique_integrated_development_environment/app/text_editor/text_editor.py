@@ -1,6 +1,6 @@
 from app.model.stack import Stack
 
-'''
+"""
     general use case = undo operations
     Performance:
         N = length of item list
@@ -13,7 +13,7 @@ from app.model.stack import Stack
             Time= O(1)
         display:
             Time= O(1)
-'''
+"""
 
 
 class TextEditor:
@@ -34,7 +34,7 @@ class TextEditor:
     def undo(self):
         self.redo_stack.push(self.undo_stack.peek())
         last_word = self.undo_stack.pop()
-        self.document = self.document[:-len(last_word)]
+        self.document = self.document[: -len(last_word)]
         self.display()
 
     def redo(self):
@@ -65,5 +65,5 @@ def main():
     text_processor.undo()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

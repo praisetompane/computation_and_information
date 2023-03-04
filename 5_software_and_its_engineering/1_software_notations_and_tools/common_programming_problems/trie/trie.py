@@ -11,4 +11,3 @@ class Letter:
         self.is_final_letter_in_word = is_final_letter_in_word
 
 def main():
-    #populate language

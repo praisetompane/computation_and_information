@@ -14,7 +14,7 @@ import sys
 # The function is expected to return an INTEGER.
 # The function accepts 2D_INTEGER_ARRAY matrix as parameter.
 #
-'''
+"""
     Given: 
         2n * 2n integer matrix
         
@@ -44,10 +44,12 @@ import sys
                 if sum UL < UR
                     rotate row 0
         
-        '''
+        """
+
+
 def flippingMatrix(matrix):
     last_index = len(matrix[0]) - 1
-    n = len(matrix[0])//2
+    n = len(matrix[0]) // 2
     top_row_index = 0
     # rotate max value to top of cols
     # rotate max value left of rows
@@ -55,7 +57,9 @@ def flippingMatrix(matrix):
         if matrix[top_row_index][col] < matrix[last_index][col]:
             rotate_col(col)
     upper_left_quadarant = matrix[top_row_index][0] + matrix[top_row_index][1]
-    upper_right_quadarant = matrix[top_row_index][last_index - 1] + matrix[top_row_index][last_index]
+    upper_right_quadarant = (
+        matrix[top_row_index][last_index - 1] + matrix[top_row_index][last_index]
+    )
     if upper_left_quadarant < upper_right_quadarant:
         rotate_row(top_row_index)
 

@@ -3,24 +3,25 @@ def contain_all_unique_characters(s):
     string_length = len(s)
     last_index = string_length - 1
     for i in range(0, string_length):
-        if(i < last_index and sorted_version[i] == sorted_version[i + 1]):
+        if i < last_index and sorted_version[i] == sorted_version[i + 1]:
             return False
     return True
 
-s1 = 'gofreetech' #false
+
+s1 = "gofreetech"  # false
 print(contain_all_unique_characters(s1))
 
-s2 = 'python' #true
+s2 = "python"  # true
 print(contain_all_unique_characters(s2))
 
-s3 = 'p' #true
+s3 = "p"  # true
 print(contain_all_unique_characters(s3))
 
-s4 = '' #true
+s4 = ""  # true
 print(contain_all_unique_characters(s4))
 
 
-'''
+"""
     Performance
         N = length of string
 
@@ -28,4 +29,4 @@ print(contain_all_unique_characters(s4))
             sort takes = N log N
         Space = O(N)
             The space cost of the sorted array
-'''
+"""

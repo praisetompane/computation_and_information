@@ -1,4 +1,4 @@
-'''
+"""
     Context:
         Three edits on a string
             insert a character
@@ -41,17 +41,21 @@
         pale, bale -> true
             b different in string_2 => true
 
-'''
+"""
+
 
 def determine_if_only_one_change_exists(long_string, long_string_length, short_string):
     for i in range(long_string_length):
-        if long_string[:i] + long_string[i+1:] == short_string: return True
+        if long_string[:i] + long_string[i + 1 :] == short_string:
+            return True
     return False
+
 
 def one_away(string_1, string_2):
     string_1_length = len(string_1)
     string_2_length = len(string_2)
-    if abs(string_1_length - string_2_length) > 1: return False
+    if abs(string_1_length - string_2_length) > 1:
+        return False
     if string_1_length > string_2_length:
         return determine_if_only_one_change_exists(string_1, string_1_length, string_2)
     if string_2_length > string_1_length:
@@ -60,21 +64,22 @@ def one_away(string_1, string_2):
         found_mismatch = False
         for i in range(string_1_length):
             if string_1[i] != string_2[i]:
-                if found_mismatch: return False
+                if found_mismatch:
+                    return False
                 found_mismatch = True
         return True
 
 
-print(one_away('pale','ple')) #true 
-print(one_away('pale','bake')) #false
-print(one_away('pale','bale')) #true
-print(one_away('pales','pale')) #true
-print(one_away('pales','ple')) #false
+print(one_away("pale", "ple"))  # true
+print(one_away("pale", "bake"))  # false
+print(one_away("pale", "bale"))  # true
+print(one_away("pales", "pale"))  # true
+print(one_away("pales", "ple"))  # false
 
 
-'''
+"""
     Performance
         N, Where N is the length of the longest string
 
         Time = O(N)
-'''
+"""

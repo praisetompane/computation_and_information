@@ -5,7 +5,7 @@
 # The function accepts 2D_INTEGER_ARRAY arr as parameter.
 #
 
-'''
+"""
     Context:
         Given:
             sqaure matrix
@@ -38,7 +38,7 @@
     Performance:
         O(L). L is the dimension(either width or length of) of the matrix 
                              
-'''
+"""
 
 
 def diagonal_difference(arr):

@@ -1,4 +1,4 @@
-'''
+"""
     Context:
         Given:
             Singly Linkedlist
@@ -39,28 +39,28 @@
                 return current_element
             else 
                 move to next element
-'''
-'''
+"""
+"""
     Performance
 
         Time = (N^2)
             Foreach node we need to count all the elements until we reach the end 
         Space = O(1) for internal state
                 N for overall program to store N elements of linkedlist
-'''
+"""
 
 # ---Insert implementation here
 
 # applies runner technique
 
 
-
-
 from impl.linkedlist import LinkedList
+
+
 def count_elements_to_last_element(current_element, linkedlist):
     _current_element = current_element
     num_from_last = 0
-    while(_current_element.next is not None):
+    while _current_element.next is not None:
         num_from_last = num_from_last + 1
         _current_element = _current_element.next
     return num_from_last
@@ -68,10 +68,11 @@ def count_elements_to_last_element(current_element, linkedlist):
 
 def kth_element(kth_position, linkedlist):
     current_element = linkedlist.head
-    while(current_element.next is not None):
+    while current_element.next is not None:
         num_elements_to_last = count_elements_to_last_element(
-            current_element, linkedlist)
-        if(num_elements_to_last == kth_position):
+            current_element, linkedlist
+        )
+        if num_elements_to_last == kth_position:
             return current_element
         else:
             current_element = current_element.next
@@ -93,5 +94,6 @@ def main():
     k = 0
     element = kth_element(k, linkedlist)
     print_result(k, element)
+
 
 main()

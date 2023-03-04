@@ -1,4 +1,4 @@
-'''
+"""
 Context:
     Given:
         linkedlist
@@ -29,15 +29,17 @@ Performance:
     Space = O(N)
         Space to store linkedlist
 
-'''
+"""
 from impl.linkedlist import LinkedList, Node
+
 
 def delete_middle_node(target_node, linkedlist):
     current_node = linkedlist.head
-    while(current_node.next is not None):
-        if(current_node.next.data == target_node.data):
+    while current_node.next is not None:
+        if current_node.next.data == target_node.data:
             current_node.next = current_node.next.next
         current_node = current_node.next
+
 
 def main():
     linkedlist = LinkedList()
@@ -48,5 +50,6 @@ def main():
     delete_middle_node(Node(6), linkedlist)
     print("after delete")
     linkedlist.toString()
+
 
 main()

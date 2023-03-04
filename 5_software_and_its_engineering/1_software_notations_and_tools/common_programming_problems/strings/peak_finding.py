@@ -1,4 +1,4 @@
-'''
+"""
     reference: https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1
     Context:
         peak finder
@@ -37,11 +37,12 @@
             ...
 
 
-'''
+"""
+
 
 def generate_char_and_index():
     number_of_letters = 9
-    letters = [chr(c) for c in range(ord('a'), ord('a') + number_of_letters)]
-    indices = [n for n in range(1,number_of_letters+1)]
+    letters = [chr(c) for c in range(ord("a"), ord("a") + number_of_letters)]
+    indices = [n for n in range(1, number_of_letters + 1)]
     print(letters)
     print(indices)

@@ -1,11 +1,12 @@
 import turtle
 
+
 def drawPointedStar(turtle):
     for n in range(5):
         turtle.forward(100)
         turtle.left(216)
 
-        
+
 def main():
     tess = turtle.Turtle()
     tess.penup()
@@ -21,6 +22,6 @@ def moveToNextPosition(turtle):
     turtle.forward(350)
     turtle.right(144)
     turtle.pendown()
-    
+
+
 main()
-    
