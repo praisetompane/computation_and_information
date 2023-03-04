@@ -8,16 +8,17 @@ unpack what algorithms & data structures are and their role in the implementatio
         decisionss = if, else
         repeat = iteration constructs = loops, recursion
 
-    formal def: a recipe for solving a specific problem by manipulating symbols
+    formal def: a recipe for solving a specific problem by manipulating symbols (Wengrow, 2017:56).
 
 * datatructure => Data Structures are just how you store things
     to store something, you need:
         place to store it = array index, node in a list, leave in a tree etc
         a way to retrieve = access patterns = LIFO, FIFO etc
 
-# References:
+    formal def: how data is organised (Wengrow, 2017:27).
 
-* Jay Wengrow, A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills
+# References:
+    Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills
 
 # Usage:
 * example building the array datastructure is below
@@ -26,6 +27,3 @@ unpack what algorithms & data structures are and their role in the implementatio
     $ make test-program
     $ ./test-program
 ```
-
-## Testing
-* framework: https://github.com/jmmv/atf/

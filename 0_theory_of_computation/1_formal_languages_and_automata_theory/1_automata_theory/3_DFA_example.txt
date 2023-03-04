@@ -1,5 +1,5 @@
-L1 = set of all strings that start with '0'
-L1 = ∀ S | S start with '0'
+L1 = set of all strings that start with '0' (Neso Academy).
+L1 = ∀ S | S start with '0' (Neso Academy):
 
     Q = {0, 00, 01, 00, 001, ...}
     ⪠ = {0, 1}
@@ -13,24 +13,27 @@ L1 = ∀ S | S start with '0'
             C                   C                               C
 
 
-Test Case:
+Test Cases (Neso Academy):
 
-1. input = '001' 
-    DFA processing:
-        0    0    1
-      A -> B -> B -> B
-    result:
-        last state = B
-        B = final state in defintion
-        B = B
-        ∴ string is valid
+    1. input = '001' 
+        DFA processing:
+            0    0    1
+        A -> B -> B -> B
+        result:
+            last state = B
+            B = final state in definition
+            B = B
+            ∴ string is valid
 
-2. input = '101'
-    DFA processing:
-         1    0     1
-       A -> C -> C -> C
-    result:
-        last state = C
-        C ≠ final state in defintion
-        C ≠ B
-        ∴ string is invalid
+    2. input = '101'
+        DFA processing:
+            1    0     1
+        A -> C -> C -> C
+        result:
+            last state = C
+            C ≠ final state in definition
+            C ≠ B
+            ∴ string is invalid
+
+References:
+    Neso Academy. 2016. Finite State Machine (Finite Automata). https://www.youtube.com/watch?v=Qa6csfkK7_I&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&index=3

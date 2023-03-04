@@ -1,19 +1,18 @@
 AKA - Finite Automata (FA)
 
-Two broad categories
+Two broad categories (Neso Academy).
     2.1. FA with output 
     2.2. FA without output
 
     2.1. 
-        2.1.1. Mooley machine
-        2.1.2. Miley machine
+        2.1.1. Moore machine
+        2.1.2. Mealy machine
 
     2.2
         2.2.1. Deterministic Finite Automata - DFA
         2.2.2. NonDeterministic Finite Automata - NFA
-        2.2.3. Epsilion NonDeterministic Finite Automata - ε-NFA
 
-Formal defintion
+Formal definition (Neso Academy).
     Every DFA can be described using the below attributes/components
         (Q, Σ, q0, F, δ ) 
             
@@ -23,7 +22,7 @@ Formal defintion
         q0 = (q subscript zero) = start state/initial state
         F = Set of final states
             at least one
-        δ = del = transition function = Q X Σ => Q
+        δ = transition function = Q X Σ => Q
             transition function that maps (Q X Σ) to Q
                 given current Qᵢ
                 move to Qⱼ based on value of ⪠ₖ 
@@ -41,5 +40,5 @@ Diagrammatic representation of Components
         label = input = defined in Σ
         Transition function
 
-Reference:
-    Finite State Machine (Finite Automata). 2016. https://www.youtube.com/watch?v=Qa6csfkK7_I&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&index=3
+References:
+    Neso Academy. 2016. Finite State Machine (Finite Automata). https://www.youtube.com/watch?v=Qa6csfkK7_I&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&index=3

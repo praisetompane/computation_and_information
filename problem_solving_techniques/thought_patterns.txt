@@ -7,7 +7,8 @@ Problem Solving Techniques
     - generalisation
         - find solution to the simple problem first, then figure out how to make it general
     - simplification
-        - solve smaller problem related/similar to your more complex problem (drawing a square(triangle ... polygon) when the bigger prob is drawing a circle)
+        - solve smaller problem related/similar to your more complex problem (drawing a square(triangle ... polygon) 
+            when the bigger prob is drawing a circle)
         - identify patterns and relationships
         - use them to solve the more complex problem
 

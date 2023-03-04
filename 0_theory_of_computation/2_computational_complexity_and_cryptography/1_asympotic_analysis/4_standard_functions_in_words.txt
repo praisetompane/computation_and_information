@@ -10,7 +10,7 @@ N²      : For every item in a list,
                 Every item will be combined with the 9 other items to generate a result.
                 Combinations:
                     10^2 = 100
-                    10 * 9 item combinations = 90, since an item does get combinted with itself, hence the 90
+                    10 * 9 item combinations = 90, since an item does get combined with itself, hence the 90
 
 N³      :
 2ⁿ      :

@@ -1,11 +1,11 @@
 central question: ???
 
-def: deals with DEFINITIONS and PROPERTIES of MATHEMATICAL MODELS OF COMPUTATION.
+def: deals with DEFINITIONS and PROPERTIES of MATHEMATICAL MODELS OF COMPUTATION (Sipser, 2012:3).
 
 provides:
-    precise definitions of computers(required by computability and complexity theory)
+    precise definitions of computers(required by Computability and complexity theory) (Sipser, 2012:3).   
 
-Example models of computation:
+Example models of computation (Sipser. 2012:3):
     1. finite automaton
     2. context-free grammar
 
@@ -16,9 +16,9 @@ Example models of computation:
 
     2. used for:
         programming languages
-        artification intelligence
+        artificial intelligence
 
-DEFINITIONS:
+DEFINITIONS (Sipser, 2012:13-14):
     
     Symbol => characters such as a, 0, 1, ", ]
 
@@ -63,4 +63,6 @@ DEFINITIONS:
             Alphabet => Σ = {0, 1}
             Σ^* = {ε} U {0, 1} U {00, 01, 10, 11} U {000, 001, 010, 100, 111, 110, 101, 011} ...
             Σ^* = Set of strings of all lengths over the Alphabet {0,1}: Infinite        
-    
+
+References:
+    Sipser, M. 2012. Introduction to the Theory of Computation. Cengage Learning.

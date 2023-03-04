@@ -1,5 +1,7 @@
 
-Your key weapon: Hash table
+Your key weapon: Hash table (Mcdowell, 2015)
+
+Standard Asymptotic Complexities:
     * O(1)
     * O(logₙ)
     * O(N)
@@ -51,7 +53,7 @@ Your key weapon: Hash table
                                 4 -> 2
                                 7 -> 3 
                             }
-                    for indexI to length of nums 
+                    for indexI  to length of nums 
                         other addend = T - nums at indexI 
                         if other addend is in map
                             return other addend's value in map(i.e. index) and indexI

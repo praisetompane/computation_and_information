@@ -1,16 +1,16 @@
 A set of things(nodes/vertices)
     and the relationships(edges) between the nodes
-        there can also be no relationships between all or some of the nodes
+        there can also be no relationships between all or some of the nodes (Leighton, van Dijk, 2010).
 
-Formal(graph theory) definition:
+Formal(graph theory) definition (Leighton, van Dijk, 2010).:
     A pair of sets (V, E) where
         V is a set of vertices/nodes
         E is a set of 2-item subsets of V
 
-Edges:
-    (N -1)² = the number of edges in a graph with all vertices connected.
+Edges (Leighton, van Dijk, 2010).:
+    (N - 1)² = the number of edges in a graph with all vertices connected.
         
-Types:
+Types (Leighton, van Dijk, 2010):
     - undirected: edges have no direction
         example:
             y connected_to x = x connected_to y
@@ -23,7 +23,7 @@ Types:
                 y -> x != x -> y
                 therefore: unidirectional
 
-    - weighted: edges have weights(the weights can represent arbitary values(distance, cost, strength etc))
+    - weighted: edges have weights(the weights can represent arbitrary values(distance, cost, strength etc))
                 can be either directed or undirected
     
     - Special graphs (concepts represented as graphs)[many more exist]:
@@ -31,12 +31,12 @@ Types:
         - Rooted Tree
             In-Tree
             Out-Tree
-        - Directed Acylic Graph(DAG)
+        - Directed Acyclovir Graph(DAG)
         - Cyclic Graphs
         - Bipartite Graph
         - Complete Graph (i.e. connected graph)
 
-Representations:    
+Representations (Leighton, van Dijk, 2010):    
     - Adjacency list
         Node stores:
             name
@@ -61,3 +61,6 @@ Representations:
             01101
 
     - Edge list
+
+References: 
+    Leighton T., van Dijk M. Mathematics For Computer Science. 2010. https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/resources/lecture-6-graph-theory-and-coloring/.
