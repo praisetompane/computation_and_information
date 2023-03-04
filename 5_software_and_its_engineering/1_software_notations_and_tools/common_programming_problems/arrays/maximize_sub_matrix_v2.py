@@ -13,7 +13,7 @@ import sys
 # The function is expected to return an INTEGER.
 # The function accepts 2D_INTEGER_ARRAY matrix as parameter.
 #
-'''
+"""
     DRAFT
     Context:
         Given:
@@ -71,11 +71,12 @@ import sys
         
         O(MS * UQS)
     
-'''
+"""
+
 
 # TODO rest
 def flippingMatrix(matrix):
-    n = len(matrix[0])/2
+    n = len(matrix[0]) / 2
     upper_left_quadrant_size = n * n
     max_values = []
     for i in range(upper_left_quadrant_size):
@@ -90,9 +91,8 @@ def flippingMatrix(matrix):
     return sum(max_values)
 
 
-
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+if __name__ == "__main__":
+    fptr = open(os.environ["OUTPUT_PATH"], "w")
 
     q = int(input().strip())
 
@@ -106,6 +106,6 @@ if __name__ == '__main__':
 
         result = flippingMatrix(matrix)
 
-        fptr.write(str(result) + '\n')
+        fptr.write(str(result) + "\n")
 
     fptr.close()

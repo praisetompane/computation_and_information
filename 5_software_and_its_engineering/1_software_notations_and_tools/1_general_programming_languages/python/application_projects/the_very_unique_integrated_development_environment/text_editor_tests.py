@@ -1,5 +1,6 @@
 from app.text_editor.text_editor import TextEditor
 
+
 def main():
     print("Praise typing his body of knowldge")
     text_processor = TextEditor("")
@@ -20,5 +21,5 @@ def main():
     text_processor.undo()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

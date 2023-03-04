@@ -6,6 +6,7 @@ import random
 import re
 import sys
 
+
 # Complete the minimumBribes function below.
 def minimumBribes(q):
     length = len(q)
@@ -16,7 +17,7 @@ def minimumBribes(q):
         for j in range(0, length - i - 1):
             if q[j] - (j + 1) > MAX_BRIBES:
                 swaps = None
-                return swaps 
+                return swaps
             adjacent = j + 1
             if q[j] > q[adjacent]:
                 temp = q[j]
@@ -26,9 +27,11 @@ def minimumBribes(q):
                 swapped = True
         if swapped:
             swapped = False
-        else: return swaps   
+        else:
+            return swaps
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     t = int(input())
 
     for t_itr in range(t):
@@ -37,5 +40,7 @@ if __name__ == '__main__':
         q = list(map(int, input().rstrip().split()))
 
         bribes = minimumBribes(q)
-        if bribes is None: print("Too chaotic")
-        else : print(bribes)
+        if bribes is None:
+            print("Too chaotic")
+        else:
+            print(bribes)

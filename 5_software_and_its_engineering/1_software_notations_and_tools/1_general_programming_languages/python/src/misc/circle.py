@@ -1,4 +1,5 @@
 import turtle
+
 wn = turtle.Screen()
 jose = turtle.Turtle()
 jose.shape("turtle")

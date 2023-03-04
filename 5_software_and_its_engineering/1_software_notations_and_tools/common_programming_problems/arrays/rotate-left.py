@@ -1,9 +1,11 @@
-
 def new_index(index, rotations, arr_length):
     target_index = index - rotations
     abs_target_index = abs(target_index)
-    if target_index < 0: return arr_length - abs_target_index
-    else: return abs_target_index
+    if target_index < 0:
+        return arr_length - abs_target_index
+    else:
+        return abs_target_index
+
 
 def rotateLeft(d, arr):
     arr_length = len(arr)

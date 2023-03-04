@@ -1,4 +1,4 @@
-'''
+"""
     Context: 
         Given:
             five positive integers
@@ -37,11 +37,12 @@
         MAS = O(N - 1) = O(N) : maximum sum
 
         O(NlogN + N)
-'''
+"""
+
 
 def miniMaxSum(arr):
-        arr_sorted = sorted(arr)
-        array_size = 5
-        min_sum = sum(arr_sorted[:array_size - 1])
-        max_sum = sum(arr_sorted[1:])
-        print(f'{min_sum} {max_sum}')
+    arr_sorted = sorted(arr)
+    array_size = 5
+    min_sum = sum(arr_sorted[: array_size - 1])
+    max_sum = sum(arr_sorted[1:])
+    print(f"{min_sum} {max_sum}")

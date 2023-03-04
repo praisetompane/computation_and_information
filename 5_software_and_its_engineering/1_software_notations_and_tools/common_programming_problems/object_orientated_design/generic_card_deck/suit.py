@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class Suit(Enum):
     SPADES = 1
     HEARTS = 2
@@ -8,7 +9,7 @@ class Suit(Enum):
 
     def __str__(self):
         return self.name
-        
-    @classmethod  
+
+    @classmethod
     def has_value(cls, value):
-        return  value in cls._member_names_
+        return value in cls._member_names_

@@ -1,6 +1,6 @@
 from impl.stack import Stack
 
-'''
+"""
     general use case = undo operations
     Performance:
         N = length of item list
@@ -13,7 +13,7 @@ from impl.stack import Stack
             Time= O(1)
         display:
             Time= O(1)
-'''
+"""
 
 
 class OperationsUndoer:
@@ -27,8 +27,7 @@ class OperationsUndoer:
         self.current_state = current_state
 
     def add_operations_result(self, operation_result):
-        self.undo_stack.push(operation_result
-)
+        self.undo_stack.push(operation_result)
         self.current_state += operation_result
 
         self.display()
@@ -36,7 +35,7 @@ class OperationsUndoer:
     def undo(self):
         self.redo_stack.push(self.undo_stack.peek())
         last_word = self.undo_stack.pop()
-        self.current_state = self.current_state[:-len(last_word)]
+        self.current_state = self.current_state[: -len(last_word)]
         self.display()
 
     def redo(self):
@@ -45,6 +44,7 @@ class OperationsUndoer:
 
     def display(self):
         print(self.current_state)
+
 
 def main():
     print("Praise typing his body of knowldge")
@@ -66,5 +66,5 @@ def main():
     text_processor.undo()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

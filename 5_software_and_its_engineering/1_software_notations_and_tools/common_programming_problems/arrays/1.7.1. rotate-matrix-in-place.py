@@ -1,4 +1,4 @@
-'''
+"""
     Context:
         Given Image
             Represented by N*N matrix
@@ -55,22 +55,28 @@
             AEI
             BFJ
             CGK
-'''
-'''
+"""
+"""
     References:
     2D array = https://www.geeksforgeeks.org/python-using-2d-arrays-lists-the-right-way/
     List comprehensions: https://stackoverflow.com/questions/2397141/how-to-initialize-a-two-dimensional-array-in-python
-'''
+"""
+
+
 def rotate_90_degrees(image):
-    def rotate(point): return(point[1], point[0]) 
+    def rotate(point):
+        return (point[1], point[0])
+
     def swap(source_point, target_point):
-        temp = image[target_point[0]][target_point[1]] 
-        image[target_point[0]][target_point[1]] = image[source_point[0]][source_point[1]]
+        temp = image[target_point[0]][target_point[1]]
+        image[target_point[0]][target_point[1]] = image[source_point[0]][
+            source_point[1]
+        ]
         image[source_point[0]][source_point[1]] = temp
 
     swapped = {}
     size = len(image)
-    points = [(row, col) for row in range(size) for col in range(size) ]
+    points = [(row, col) for row in range(size) for col in range(size)]
 
     for p in points:
         if p not in swapped:
@@ -81,17 +87,15 @@ def rotate_90_degrees(image):
     return image
 
 
-image = [['A', 'B', 'C'], 
-         ['E', 'F', 'G'], 
-         ['I', 'J', 'K']]
+image = [["A", "B", "C"], ["E", "F", "G"], ["I", "J", "K"]]
 
-print('original image: ')
+print("original image: ")
 print(image)
 rotated_image = rotate_90_degrees(image)
-print('rotated image: ')
+print("rotated image: ")
 print(rotated_image)
 
-'''
+"""
     Performance
         N = number of rows/cols(Equal in this problem)
 
@@ -100,4 +104,4 @@ print(rotated_image)
                 and we need to touch each point in the matrix
         Space = O(N*N)  
             Space to store all the points in the matrix 
-'''
+"""

@@ -1,5 +1,4 @@
-
-'''
+"""
     Foreach value, currentIndex pair
         expectedIndexValue = index + 1
         if expectedIndexValue == value, continue
@@ -7,13 +6,15 @@
             currentValueCorrectIndex = value - 1
             swap(currentIndex, currentValueCorrectIndex)
 
-'''
+"""
+
+
 def minimumSwaps(arr):
     def swap(indexA, indexB):
         tempB = arr[indexB]
         arr[indexB] = arr[indexA]
         arr[indexA] = tempB
-    
+
     swaps = 0
     swapped = True
     zeroIndexOffset = 1
@@ -28,5 +29,6 @@ def minimumSwaps(arr):
                 currentValueCorrectIndex = value - zeroIndexOffset
                 swap(x, currentValueCorrectIndex)
     return swaps
+
 
 print(minimumSwaps([4, 3, 1, 2]))

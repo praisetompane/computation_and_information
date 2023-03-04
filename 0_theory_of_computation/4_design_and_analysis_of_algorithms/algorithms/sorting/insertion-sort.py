@@ -8,5 +8,6 @@ def sort(arr):
         arr[position] = current_value
     return arr
 
+
 data = [5, 4, 7, 2, 3, 1]
-print(sort(data)) 
+print(sort(data))

@@ -12,7 +12,7 @@ import sys
 # The function is expected to return an INTEGER.
 # The function accepts 2D_INTEGER_ARRAY arr as parameter.
 #
-'''
+"""
     Context: Given 2D array
     
     Objective: Find the highest hour glass sum
@@ -52,36 +52,47 @@ import sys
         Eligible centers are compose of:
             cols at least 1 index from boarder
             rows at least 1 index from boarder
-'''
+"""
+
 
 def hourglassSum(arr):
-    current_center = [1,1]
+    current_center = [1, 1]
     max_row_and_col = len(arr[0]) - 1
+
     def sum_row_nodes(center_row, center_col):
-        nodes_sum = arr[center_row][center_col - 1] + arr[center_row][center_col] + arr[center_row][center_col + 1]
+        nodes_sum = (
+            arr[center_row][center_col - 1]
+            + arr[center_row][center_col]
+            + arr[center_row][center_col + 1]
+        )
         return nodes_sum
 
     def sum_hour_glass(current_center):
         top_row_sum = sum_row_nodes(current_center[0] - 1, current_center[1])
-        bottom_row_sum = sum_row_nodes(current_center[0] + 1, current_center[1]) 
-        hour_glass_sum = arr[current_center[0]][current_center[1]] + top_row_sum + bottom_row_sum
+        bottom_row_sum = sum_row_nodes(current_center[0] + 1, current_center[1])
+        hour_glass_sum = (
+            arr[current_center[0]][current_center[1]] + top_row_sum + bottom_row_sum
+        )
         return hour_glass_sum
-    
-    hour_glass_max = sum_hour_glass(current_center) # or 7 * -9 = -63 : minimum taol hour glass sum
+
+    hour_glass_max = sum_hour_glass(
+        current_center
+    )  # or 7 * -9 = -63 : minimum taol hour glass sum
     current_center[1] += 1
-    
+
     while current_center[0] < max_row_and_col:
         hour_glass_sum = sum_hour_glass(current_center)
         current_center[1] += 1
         if hour_glass_sum > hour_glass_max:
-            hour_glass_max = hour_glass_sum 
-        
-        if  current_center[1] == max_row_and_col:
+            hour_glass_max = hour_glass_sum
+
+        if current_center[1] == max_row_and_col:
             current_center[0] += 1
             current_center[1] = 1
-    return hour_glass_max 
+    return hour_glass_max
 
-'''
+
+"""
  input example: 
         0 -4 -6 0 -7 -6
         -1 -2 -6 -8 -3 -1
@@ -89,8 +100,8 @@ def hourglassSum(arr):
         -3 -1 -2 -5 -7 -4
         -3 -5 -3 -6 -6 -6
         -3 -6 0 -8 -6 -7
-'''
-if __name__ == '__main__':
+"""
+if __name__ == "__main__":
     arr = []
     for _ in range(6):
         arr.append(list(map(int, input().rstrip().split())))

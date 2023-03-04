@@ -1,4 +1,4 @@
-'''
+"""
     Context:
         Given unsorted linked list
     Definitions:
@@ -21,20 +21,21 @@
                 add element and count = 1
             else
                 add element and count = 1
-'''
+"""
 
 from impl.linkedlist import LinkedList
+
 
 def remove_duplicates(linkedlist):
     element_frequency = {}
     current_node = linkedlist.head
-    while(current_node.next is not None):
+    while current_node.next is not None:
         element_frequency[current_node.data] = 1
-        if(current_node.next.data in element_frequency):
-            current_node.next = current_node.next.next  
-        else: 
+        if current_node.next.data in element_frequency:
+            current_node.next = current_node.next.next
+        else:
             current_node = current_node.next
-        
+
 
 def main():
     linkedlist = LinkedList()
@@ -46,9 +47,10 @@ def main():
     print("after delete")
     linkedlist.toString()
 
+
 main()
 
-'''
+"""
     Performance
 
         Time = 
@@ -57,5 +59,4 @@ main()
             => O(1 + N) => O(N)
         Space = 
             upto N element's count stored in hash => O(N)
-'''
-
+"""
