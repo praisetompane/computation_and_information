@@ -1,11 +1,12 @@
 from impl.stack import Stack
-'''
+
+"""
     general use case = reverse order
     Performance:
         N = length of item list
         Time = O(2 * N) = O(N)
         Space = O(2 * N) = O(N)
-'''
+"""
 
 
 def reverse_order(item_list):
@@ -13,16 +14,17 @@ def reverse_order(item_list):
     reversed = None
     for item in item_list:
         reverse_order.push(item)
-    if(type(item_list) == str):
-        reversed = ''
-        while(reverse_order.is_empty() is False):
+    if type(item_list) == str:
+        reversed = ""
+        while reverse_order.is_empty() is False:
             reversed += reverse_order.pop()
     else:
         reversed = []
-        while(reverse_order.is_empty() is False):
+        while reverse_order.is_empty() is False:
             reversed.append(reverse_order.pop())
 
     return reversed
+
 
 def main():
     s1 = "apple"
@@ -36,5 +38,6 @@ def main():
     s1 = []
     print(s1, "reversed:", reverse_order(s1))
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

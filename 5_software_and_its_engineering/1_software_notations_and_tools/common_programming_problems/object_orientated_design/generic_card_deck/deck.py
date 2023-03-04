@@ -6,7 +6,9 @@ class Deck:
         if len(cards) == 52:
             self.cards = cards
         else:
-            raise Exception(f"Incorrect number of cards supplied. Number supplied {len(cards)}")
+            raise Exception(
+                f"Incorrect number of cards supplied. Number supplied {len(cards)}"
+            )
 
     def shuffle(self):
         return self.cards.reverse()

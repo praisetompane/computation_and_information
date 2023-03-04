@@ -7,13 +7,15 @@ def seq3np1(n):
             n = n // 2
         else:
             n = n * 3 + 1
-    print(n) 
-    print(f'took {iterations} to converge to 1')
+    print(n)
+    print(f"took {iterations} to converge to 1")
+
 
 def main():
-    str_n = input('starting value of n: ')
+    str_n = input("starting value of n: ")
     n = int(str_n)
 
     seq3np1(n)
+
 
 main()

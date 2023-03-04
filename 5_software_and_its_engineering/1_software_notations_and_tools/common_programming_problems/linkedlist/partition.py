@@ -1,4 +1,4 @@
-'''
+"""
     Context:
         Given linkedlist
     Objective:
@@ -66,8 +66,9 @@
                     output = 3 -> 2 -> 5 -> 8 -> 5 -> 10 -> 1
                     output = 3 -> 2 -> 1 -> 5 -> 8 -> 5 -> 10
 
-'''   
+"""
 from impl.linkedlist import LinkedList
+
 
 def partition_list(partition, linkedlist):
     last_less_than_partition = None
@@ -84,24 +85,27 @@ def partition_list(partition, linkedlist):
                 current_node.next = last_less_than_partition.next
                 last_less_than_partition.next = current_node
                 last_less_than_partition = current_node
-        else: last_greater_than_partition = current_node
+        else:
+            last_greater_than_partition = current_node
         current_node = current_node_next
+
 
 def print_result(k, element):
     print("element %d from last element is %d" % (k, element.data))
+
 
 def main():
     print("normal case")
     linkedlist = LinkedList()
     k = 5
-    numbers = [3 , 5 , 8 , 5 , 10 , 2 , 1]
+    numbers = [3, 5, 8, 5, 10, 2, 1]
     linkedlist.initialise_from_array(numbers)
     print("before parition")
     linkedlist.toString()
     print("partitioning the list by %d" % k)
     partition_list(k, linkedlist)
     print("partitioned list")
-    linkedlist.toString() #3 -> 2 -> 1 -> 5 -> 8 -> 5 -> 10
+    linkedlist.toString()  # 3 -> 2 -> 1 -> 5 -> 8 -> 5 -> 10
 
     print("list of one")
     l2 = LinkedList()
@@ -113,6 +117,7 @@ def main():
     print("partitioning the list by %d" % k)
     partition_list(k, l2)
     print("partitioned list")
-    l2.toString() #3
+    l2.toString()  # 3
+
 
 main()

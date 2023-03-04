@@ -1,4 +1,4 @@
-'''
+"""
 
     replace space
         with "%20" character
@@ -8,23 +8,27 @@
             if character == " "
                 replace with "%20"
 
-'''
+"""
+
 
 def urlify(string):
     encoded = []
     for c in string:
-        if(c == ' '): encoded.append('%20')
-        else: encoded.append(c)
-    return ''.join(encoded)
+        if c == " ":
+            encoded.append("%20")
+        else:
+            encoded.append(c)
+    return "".join(encoded)
 
-print(urlify("Mr 3ohn Smith")) #"Mr%203ohn%20Smith"
+
+print(urlify("Mr 3ohn Smith"))  # "Mr%203ohn%20Smith"
 
 
-'''
+"""
     Performance
         N = length string
 
         Time = O(N) 
         Space = O(N)
             store list of characters from the orignal string, with spaces encoded
-'''
+"""

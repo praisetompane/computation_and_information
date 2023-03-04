@@ -1,8 +1,8 @@
-'''
+"""
     end value is excluded
-'''
+"""
 print("default start of 0")
-numbers = range(5) # start at 0[default] exlude 5
+numbers = range(5)  # start at 0[default] exlude 5
 for n in numbers:
     print(n)
 

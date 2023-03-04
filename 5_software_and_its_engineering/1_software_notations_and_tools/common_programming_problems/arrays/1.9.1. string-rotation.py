@@ -1,4 +1,4 @@
-'''
+"""
     Context:
         Given:
             method isSubstring
@@ -49,7 +49,9 @@
     Example(s):
 
 
-'''
+"""
+
+
 def string_rotation(s1, s2):
     def is_substring(search_string, source_string):
         return search_string in source_string
@@ -57,12 +59,12 @@ def string_rotation(s1, s2):
     return is_substring(s1, s2 + s2)
 
 
-print(string_rotation("waterbottle", "erbottlewat")) #True
-print(string_rotation("abcd", "cdab")) #True
-print(string_rotation("abcd", "cdaob")) #False
-print(string_rotation("abcd", "")) #False
+print(string_rotation("waterbottle", "erbottlewat"))  # True
+print(string_rotation("abcd", "cdab"))  # True
+print(string_rotation("abcd", "cdaob"))  # False
+print(string_rotation("abcd", ""))  # False
 
-'''
+"""
     Performance
         N = length of 1 (where s2 == s3 in length)
 
@@ -71,4 +73,4 @@ print(string_rotation("abcd", "")) #False
 
         Space = O(2N) => O(N)
             Storage for concatenation of s2 by itself
-'''
+"""

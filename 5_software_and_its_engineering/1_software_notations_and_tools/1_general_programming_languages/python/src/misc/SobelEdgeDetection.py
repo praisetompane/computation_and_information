@@ -1,4 +1,4 @@
-'''
+"""
 #Image filter
     Image => Image
     kernel convolution : technique at the heart of most filters(blurs, edge detection)
@@ -25,4 +25,4 @@ Algorithm overview
         #save results in new image Y
     #combine image X and Y into new image
         #=> This is the result with edges highlighted
-'''
+"""

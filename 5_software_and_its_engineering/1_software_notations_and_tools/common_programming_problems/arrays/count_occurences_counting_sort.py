@@ -1,4 +1,4 @@
-'''
+"""
     Given:
         array of integers
     Objective:
@@ -27,7 +27,7 @@
             O(N): we visit each array element
             O(100): initialise frequncy table of size 100
             O(N + 100) = O(N) : drop constants
-'''
+"""
 
 
 def counting_sort(arr):
@@ -48,11 +48,11 @@ def main():
     print(counting_sort([1, 8, 9, 22, 5, 89, 100]))
     print(counting_sort([]))
     print(counting_sort([1]))
-    #limitattion, does not handle negatives correctly, beause negatives are
-    #do not belong to the set of counting numbers = {1,2,3,4,5 ...}
+    # limitattion, does not handle negatives correctly, beause negatives are
+    # do not belong to the set of counting numbers = {1,2,3,4,5 ...}
     print(counting_sort([-1, 0, 9, 1]))
     print(counting_sort([9, -7, -1, 9]))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

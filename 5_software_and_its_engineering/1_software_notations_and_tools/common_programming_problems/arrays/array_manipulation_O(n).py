@@ -7,7 +7,7 @@ import re
 import sys
 
 # Complete the arrayManipulation function below.
-'''
+"""
     for all a, b, k:
         set instruction to increment by k:
             from index a to index n: HOW? 
@@ -22,16 +22,16 @@ import sys
             decrement by k
             is O(1)
     
-'''
+"""
 
-'''
+"""
     array = [n]
 
     queries = [
                 x,y,z
                 x,y,z
               ]
-'''
+"""
 
 
 def arrayManipulation(n, queries):
@@ -43,10 +43,10 @@ def arrayManipulation(n, queries):
         sums[zero_based_start] += k
         # set start index from where all indices are decremented by k
         sums[query[1]] += -k
-        #print(f'a = {query[0]} b = {query[1]} and sums = {sums}')
+        # print(f'a = {query[0]} b = {query[1]} and sums = {sums}')
 
     max_consective_increase = 0
-    #print(f'susm final {sums}')
+    # print(f'susm final {sums}')
     for i in range(len(sums)):
         if max_consective_increase < max_consective_increase + sums[i]:
             max_consective_increase = max_consective_increase + sums[i]
@@ -56,30 +56,29 @@ def arrayManipulation(n, queries):
     return max_consective_increase
 
 
-if __name__ == '__main__':
-
-    print('first problem')
+if __name__ == "__main__":
+    print("first problem")
     n = 5
     m = 3
     queries = [[1, 2, 100], [2, 5, 100], [3, 4, 100]]
     result = arrayManipulation(n, queries)
     print(result)
-    assert(result == 200)
+    assert result == 200
 
-    print('second problem')
+    print("second problem")
     n = 10
     m = 4
     queries = [[2, 6, 8], [3, 5, 7], [1, 8, 1], [5, 9, 15]]
     result = arrayManipulation(n, queries)
     print(result)
-    assert(result == 31)
+    assert result == 31
 
-    print('third problem')
-    n = 10000000 
+    print("third problem")
+    n = 10000000
     m = 100000
-    with open('data_10000000_100000.txt', 'r') as file:
+    with open("data_10000000_100000.txt", "r") as file:
         queries = [[int(x) for x in next(file).split()] for line in file]
 
     result = arrayManipulation(n, queries)
     print(result)
-    assert(result == 2490686975)
+    assert result == 2490686975

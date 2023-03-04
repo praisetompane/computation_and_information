@@ -14,11 +14,12 @@
             We create a copy of the list
 """
 
+
 def bigSorting(numbers):
     numbers_sorted = sorted(numbers, key=lambda x: int(x))
     return numbers_sorted
 
 
-unsorted = ['1', '200', '150', '3']
+unsorted = ["1", "200", "150", "3"]
 sorted = bigSorting(unsorted)
 print(sorted)

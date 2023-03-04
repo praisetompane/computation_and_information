@@ -1,9 +1,12 @@
 import random
-'''
+
+"""
     references:
         Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. 2nd ed. MIT Press, 2016. ISBN: 9780262529624.page 220
-'''
-class Drunk():
+"""
+
+
+class Drunk:
     def __init__(self, name=None):
         self.name = name
 

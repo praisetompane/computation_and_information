@@ -1,4 +1,4 @@
-'''
+"""
     Context:
         String compression
             using counts
@@ -46,29 +46,33 @@
         character_count = 3
         compressed_string = a2b1c5a3
             
-'''
+"""
+
 
 def compress(string_input):
     string_length = len(string_input)
     compressed_strings = []
     count_consecutive = 0
 
-    for i in range(string_length): 
+    for i in range(string_length):
         count_consecutive = count_consecutive + 1
-        if i + 1 >= string_length or string_input[i] != string_input[i + 1]: 
+        if i + 1 >= string_length or string_input[i] != string_input[i + 1]:
             compressed_strings.append(string_input[i] + str(count_consecutive))
             count_consecutive = 0
 
-    compressed_string =''.join(compressed_strings)
-    if len(compressed_string) >= string_length: return string_input
-    else: return compressed_string
-
-print(compress('') == '') #true 
-print(compress('aabcccccaaa') == 'a2b1c5a3') #true   
-print(compress('abcdef') == 'abcdef') #true  compressed same as original
+    compressed_string = "".join(compressed_strings)
+    if len(compressed_string) >= string_length:
+        return string_input
+    else:
+        return compressed_string
 
 
-'''
+print(compress("") == "")  # true
+print(compress("aabcccccaaa") == "a2b1c5a3")  # true
+print(compress("abcdef") == "abcdef")  # true  compressed same as original
+
+
+"""
     Reference: https://waymoot.org/home/python_string/
     Performance
         P = length of original string
@@ -76,5 +80,4 @@ print(compress('abcdef') == 'abcdef') #true  compressed same as original
         Time = O(P)
         Space = O(K) => O(N)
             
-'''
-
+"""

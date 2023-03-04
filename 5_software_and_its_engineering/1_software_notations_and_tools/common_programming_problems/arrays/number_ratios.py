@@ -1,4 +1,4 @@
-'''
+"""
     Context:
         Given:
             integer array
@@ -43,19 +43,23 @@
     Performance:
         N = number of elements in array
         O(N)
-'''
+"""
+
 
 def plusMinus(arr):
     array_size = len(arr)
     positive_count = 0
     negative_count = 0
     zero_count = 0
-    
+
     for value in arr:
-        if value > 0: positive_count += 1
-        elif value < 0: negative_count += 1 
-        else: zero_count += 1
-    
-    print('{:.6f}'.format(positive_count/array_size))
-    print('{:.6f}'.format(negative_count/array_size))
-    print('{:.6f}'.format(zero_count/array_size))
+        if value > 0:
+            positive_count += 1
+        elif value < 0:
+            negative_count += 1
+        else:
+            zero_count += 1
+
+    print("{:.6f}".format(positive_count / array_size))
+    print("{:.6f}".format(negative_count / array_size))
+    print("{:.6f}".format(zero_count / array_size))

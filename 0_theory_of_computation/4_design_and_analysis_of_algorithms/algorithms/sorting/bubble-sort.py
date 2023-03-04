@@ -4,19 +4,19 @@ def sort(arr):
     while not sorted:
         sorted = True
         for i in range(unsorted_until_index):
-            if arr[i] > arr[i+1]:
-                arr[i], arr[i+1] = arr[i+1], arr[i]
+            if arr[i] > arr[i + 1]:
+                arr[i], arr[i + 1] = arr[i + 1], arr[i]
                 sorted = False
     unsorted_until_index = unsorted_until_index - 1
     return arr
 
-data = [8,1,2,7,4,3,5]
-print(sort(data)) 
-#print(bubble_sort(data))  
+
+data = [8, 1, 2, 7, 4, 3, 5]
+print(sort(data))
+# print(bubble_sort(data))
 
 
-
-'''
+"""
     data = 5,4,3,2,1
 
     Comparisons
@@ -41,4 +41,4 @@ print(sort(data))
 
       Swaps = 9
       Formula: (N - 1) + (N - 2) + (N - 3)
-'''
+"""

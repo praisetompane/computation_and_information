@@ -1,4 +1,4 @@
-'''
+"""
     Context:
         Given:
             number in latin representation
@@ -26,18 +26,31 @@
 
         Space = O((N/LR * 2)) characters
             *2 because average roman number is 2 characters
-'''
+"""
 
 
 def latin_to_roman(number):
     i = 12
     latin_numbers = [1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000]
-    roman_numbers = ["I", "IV", "V", "IX", 'X',
-                     "XL", 'L', "XC", 'C', 'CD', 'D', 'CM', 'M']
-    roman = ''
-    while(number != 0):
+    roman_numbers = [
+        "I",
+        "IV",
+        "V",
+        "IX",
+        "X",
+        "XL",
+        "L",
+        "XC",
+        "C",
+        "CD",
+        "D",
+        "CM",
+        "M",
+    ]
+    roman = ""
+    while number != 0:
         # looking for a factor number's current value in set of latin_numbers
-        if(latin_numbers[i] <= number):
+        if latin_numbers[i] <= number:
             number = number - latin_numbers[i]
             roman += roman_numbers[i]
         i -= 1
