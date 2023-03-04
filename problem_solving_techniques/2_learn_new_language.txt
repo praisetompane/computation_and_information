@@ -1,0 +1,9 @@
+learning a new language
+		the syntax and semantics
+		the standard library
+		packaging
+		build tool 
+		common third-party libraries
+		the style of effective programs, with emphasis on idioms
+		
+		

@@ -1,14 +1,16 @@
 What is it?
-    A fixed length
-    contiguous allocation of memory cells
-        of the same size
-        that stores data of the same type
+
+    def¹: a lis of data elements(Wengrow, 2017:2)
+    def²: A fixed length
+            contiguous allocation of memory cells
+                of the same size
+                that stores data of the same typeᶜⁱᵗᵃᵗⁱᴼⁿ_ⁿᵉᵉᵈᵉᵈ.
 
 Concepts related to it:
-    index = a number which indetifies a memory cell in the array
+    index = a number which indetifies a memory cell in the array (Wengrow, 2017:30).
 
-Performance Analysis:
-    How fast is it to peform the operation?(i.e. Time Complexity)
+Performance Analysis (Wengrow, 2017:31-32):
+    How fast is it to perform the operation?(i.e. Time Complexity)
         => Measured in terms of the number of steps it takes to complete the operation
 
     Construction:
@@ -27,7 +29,7 @@ Performance Analysis:
                     starting_address + index
                     instead of starting_address + index - 1
 
-    Read: Looking up something from a particular spot in the datastructure
+    Read: Looking up something from a particular spot in the data-structure
           Accessing a value at a particular index (.e.g index 2) (particular spot)
 
         Steps = 1
@@ -46,19 +48,22 @@ Performance Analysis:
                     compute and read target address = starting_address + index = 1010 + 4 = 1014
 
 
-    Search: Looking for a particular value in te datastructure
+    Search: Looking for a particular value in the data-structure
             Looking to see if a value exists in the array, and if it does, returning its index in the array
 
         Steps = 
 
-    Insert: Adding a value to the datastructure 
+    Insert: Adding a value to the data-structure 
             Adding a new value to an additional index in the array
         
         Steps = 1
         How? :Refer to General Properties
         Big O = O(1) = Constant Time
         
-    Delete: Removing a value from the datastructure
-            Remvoing a value at a particular index in the array
+    Delete: Removing a value from the data-structure
+            Removing a value at a particular index in the array
         
         Steps = 
+
+References:
+    Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills
