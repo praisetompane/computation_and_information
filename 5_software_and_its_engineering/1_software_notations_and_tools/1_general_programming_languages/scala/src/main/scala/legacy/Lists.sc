@@ -1,5 +1,5 @@
-val oneTwo = List(1,2)
-val threeFour = List(2,3)
+val oneTwo = List(1, 2)
+val threeFour = List(2, 3)
 val oneTwoThreeFour = oneTwo ::: threeFour ///::: = Concatenate
 
 println(oneTwo + " and " + threeFour + " were not mutated")
@@ -8,9 +8,9 @@ println("Thus " + oneTwoThreeFour + " is a new list")
 //Lists are immutable
 //Behave much like java String,  a new list is created when you make changes to an existing one
 
-val twoThree = List(2,3)
+val twoThree = List(2, 3)
 val oneTwoThree = 1 :: twoThree //:: = Con {Prepends an element to the list}
-                                //:: belongs to the list twoThree
+//:: belongs to the list twoThree
 println(oneTwoThree)
 
 //Some rules on methods(operators)

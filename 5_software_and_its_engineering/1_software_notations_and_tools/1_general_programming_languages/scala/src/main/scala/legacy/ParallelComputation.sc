@@ -1,19 +1,22 @@
-case class Person (name: String, age: Integer)
+case class Person(name: String, age: Integer)
 
 //NON PARALLEL VERSION
 
-val People : Array[Person] = Array(Person("Triston", 12), Person("Lebo", 9), Person("KayB", 89)
-                                  ,Person("Phn",79))
+val People: Array[Person] = Array(
+  Person("Triston", 12),
+  Person("Lebo", 9),
+  Person("KayB", 89),
+  Person("Phn", 79)
+)
 val (minors, adults) = People partition (_.age < 18)
 
 println("Minors")
-for(x <- minors)
+for (x <- minors)
   println(x.name + " " + x.age)
 
 println("Adults")
-for(x <- adults)
+for (x <- adults)
   println(x.name + " " + x.age)
-
 
 //_ = the parameter: The Person object in this instance
 //Take it's age
@@ -26,11 +29,10 @@ println("Parallel Version")
 
 val (minorparallel, adultsparallel) = People.par partition (_.age < 18)
 
-
 println("Minors")
-for(x <- minorparallel)
+for (x <- minorparallel)
   println(x.name + " " + x.age)
 
 println("Adults")
-for(x <- adultsparallel)
+for (x <- adultsparallel)
   println(x.name + " " + x.age)

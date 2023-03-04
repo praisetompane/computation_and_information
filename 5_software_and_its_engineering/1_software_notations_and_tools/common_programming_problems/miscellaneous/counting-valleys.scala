@@ -9,18 +9,18 @@ import java.util.stream._
 
 object Solution {
 
-    /*
+  /*
         Analysis
 
         Mountain = consecutive steps above sea level
                 starting with a step up from sea level and ending with a step down to sea level.
 
         Valley = sequence
-                    consecutive steps 
+                    consecutive steps
                         below sea level
                     starting
-                        step down from sea level 
-                    ending 
+                        step down from sea level
+                    ending
                         with a step up to sea level.
 
         Given Gary's sequence of up and down steps during his last hike
@@ -42,9 +42,9 @@ object Solution {
         Representation?
             Stack: LIFO = No
             Queue: FIFO
-            
+
             UDDDUDUU
-            
+
             U
                 stepsBelowLevel = -1
             D
@@ -70,48 +70,52 @@ object Solution {
                 if step == U, stepsBelowLevel -=1
                 if step == D && stepsBelowLevel == 0, stepsBelowLevel +=1
                 if step == D, stepsBelowLevel +=1
-                    
 
-    */
-    // Complete the countingValleys function below.
-    def countingValleys(n: Int, s: String): Int = {
-        val stepsQueue = s.split("").toList
-        count(0, 0, stepsQueue, "")
-    }
 
-    private def count(valleys: Int, 
-                      stepsBelowSeaLevel: Int, 
-                      steps: List[String],
-                      previousMove: String): Int = steps match {
-        case head :: tail if head == "U" && previousMove == "U" && stepsBelowSeaLevel == 0 => 
-            count(valleys + 1, stepsBelowSeaLevel - 1, tail, head)
+   */
+  // Complete the countingValleys function below.
+  def countingValleys(n: Int, s: String): Int = {
+    val stepsQueue = s.split("").toList
+    count(0, 0, stepsQueue, "")
+  }
 
-        case head :: tail if head == "D" && previousMove == "U" && stepsBelowSeaLevel == 0 => 
-            count(valleys + 1, stepsBelowSeaLevel + 1, tail, head)
+  private def count(
+      valleys: Int,
+      stepsBelowSeaLevel: Int,
+      steps: List[String],
+      previousMove: String
+  ): Int = steps match {
+    case head :: tail
+        if head == "U" && previousMove == "U" && stepsBelowSeaLevel == 0 =>
+      count(valleys + 1, stepsBelowSeaLevel - 1, tail, head)
 
-        case head :: tail if head == "U" => 
-            count(valleys, stepsBelowSeaLevel - 1, tail, head)
+    case head :: tail
+        if head == "D" && previousMove == "U" && stepsBelowSeaLevel == 0 =>
+      count(valleys + 1, stepsBelowSeaLevel + 1, tail, head)
 
-        case head :: tail if head == "D" => 
-            count(valleys, stepsBelowSeaLevel + 1, tail, head)
+    case head :: tail if head == "U" =>
+      count(valleys, stepsBelowSeaLevel - 1, tail, head)
 
-        case Nil if previousMove == "U" && stepsBelowSeaLevel == 0 => valleys + 1
+    case head :: tail if head == "D" =>
+      count(valleys, stepsBelowSeaLevel + 1, tail, head)
 
-        case Nil => valleys 
-    }
+    case Nil if previousMove == "U" && stepsBelowSeaLevel == 0 => valleys + 1
 
-    def main(args: Array[String]) {
-        val stdin = scala.io.StdIn
+    case Nil => valleys
+  }
 
-        //val printWriter = new PrintWriter(sys.env("OUTPUT_PATH"))
+  def main(args: Array[String]) {
+    val stdin = scala.io.StdIn
 
-        val n = stdin.readLine.trim.toInt
+    // val printWriter = new PrintWriter(sys.env("OUTPUT_PATH"))
 
-        val s = stdin.readLine
+    val n = stdin.readLine.trim.toInt
 
-        val result = countingValleys(n, s)
+    val s = stdin.readLine
 
-        println(result)
+    val result = countingValleys(n, s)
 
-    }
+    println(result)
+
+  }
 }

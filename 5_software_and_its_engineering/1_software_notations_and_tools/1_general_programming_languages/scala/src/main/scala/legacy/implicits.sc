@@ -3,11 +3,11 @@ import javax.swing.JButton
 //Old school Java
 val button = new JButton
 button.addActionListener(
-    new ActionListener {
-        def actionPerformed(event: ActionEvent) {
-            println("pressed!!")
-        }
+  new ActionListener {
+    def actionPerformed(event: ActionEvent) {
+      println("pressed!!")
     }
+  }
 )
 
 //Scala version
@@ -15,7 +15,7 @@ button.addActionListener(
 //Solution is implicit convesion : function => ActionListener
 button.addActionListener((_: ActionEvent) => println("pressed"))
 
-implicit def functionToActionListener(f: ActionEvent => Unit): ActionListener = 
-    new ActionListener {
-        def actionPerformed(event: ActionEvent) = f(event)
-    }
+implicit def functionToActionListener(f: ActionEvent => Unit): ActionListener =
+  new ActionListener {
+    def actionPerformed(event: ActionEvent) = f(event)
+  }
