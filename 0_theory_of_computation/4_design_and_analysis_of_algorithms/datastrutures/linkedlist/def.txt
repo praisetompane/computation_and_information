@@ -1,12 +1,12 @@
 What is it?
     A variable length
         list of values 
-        with explicit links between the values
+        with explicit links between the values (Wengrow, 2017:141).
 
 Concepts related to it:
     Node = a container for the value and the explicit link
 
-Performance Analysis:
+Performance Analysis (Wengrow, 2017:144-150):
     How fast is it to peform the operation? (i.e. Time Complexity)
         => Measured in terms of the number of steps it takes to complete the operation
 
@@ -27,3 +27,6 @@ Performance Analysis:
         Steps = 
             Head of list = 2 steps to reappoint pointers = O(1)
             Rest of list = N steps to last value + 1 step to appoint last value's next = O(N) + O(1) = O(N)
+
+References:
+    Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.

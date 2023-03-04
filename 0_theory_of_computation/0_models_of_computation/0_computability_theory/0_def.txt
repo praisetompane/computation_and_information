@@ -1,7 +1,12 @@
-central question: what makes some problems SOLVABLE by computers and others NOT SOLVABLE?
+def: theory to classify problems into two categories (Sipser. 2012:3):
+    - SOLVABLE by computers 
+    - NOT SOLVABLE by computers
 
-Examples:
+Examples (Sipser. 2012:2):
     Proof that a mathematical statement is True or False: NOT SOLVABLE.
     Add two numbers 1 + 5: SOLVABLE.
 
-1. Perhaps we can define new models of computation that can compute the current incomputable(UNSOLVABLE) problems?
+Q: Can define new models of computation that can compute the current incomputable(UNSOLVABLE) problems?
+
+References:
+    Sipser, M. 2012. Introduction to the Theory of Computation. 3rd ed. Cengage Learning.
