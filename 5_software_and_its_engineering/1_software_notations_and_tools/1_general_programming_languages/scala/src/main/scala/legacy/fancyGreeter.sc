@@ -1,6 +1,6 @@
 //package com.praise.classesandsingletons
 
-class FancyGreeter(greeting: String){
+class FancyGreeter(greeting: String) {
   def greet() = println(greeting)
 }
 

@@ -1,7 +1,7 @@
 //package com.praise.classesandsingletons
 
-class greetCareFully(greeting: String){
-  if(greeting == null)
+class greetCareFully(greeting: String) {
+  if (greeting == null)
     throw NullPointerException
   def greet() = print(greeting)
 }

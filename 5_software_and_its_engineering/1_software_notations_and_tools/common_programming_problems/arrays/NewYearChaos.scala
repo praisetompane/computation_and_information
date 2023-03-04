@@ -1,4 +1,3 @@
-
 /*
     Objective:
         Return minimum bribes
@@ -24,9 +23,9 @@
         1,2,5,3,7,8,4,6
 
         1,2,5,3,7,8,6,4
-        
-        
-        2 2 2 
+
+
+        2 2 2
 
     Input:
         final state of the array
@@ -37,7 +36,7 @@
             bribesUsed = abs(value - currentIndex)
             if(bribesUsed > MaxBribes) println("too chaotic")
             else bribes += bribesUsed
-*/
+ */
 
 /*
     Ascending bubble sort
@@ -50,42 +49,42 @@
 
     Any person in the queue can bribe the person directly in front of them to swap positions.
     One person can bribe at most two others
-*/
+ */
 
 def minimumBribes(finalQueue: Array[Int]): Unit = {
-    val MaxBribes = 2
-    val finalIndex = finalQueue.length - 1
-    var bribes = 0
-    var swapped = true
-    val zeroIndexOffset = 1
+  val MaxBribes = 2
+  val finalIndex = finalQueue.length - 1
+  var bribes = 0
+  var swapped = true
+  val zeroIndexOffset = 1
 
-    def swap(indexA: Int, indexB: Int) = {
-        val tempB = finalQueue(indexB)
-        finalQueue(indexB) = finalQueue(indexA)
-        finalQueue(indexA) = tempB
+  def swap(indexA: Int, indexB: Int) = {
+    val tempB = finalQueue(indexB)
+    finalQueue(indexB) = finalQueue(indexA)
+    finalQueue(indexA) = tempB
+  }
+
+  while (swapped) {
+    swapped = false
+    finalQueue.zipWithIndex.foreach { case (value: Int, index: Int) =>
+      val nextIndex = index + 1
+      val distanceFromOriginalPosition =
+        math.abs(value - (index + zeroIndexOffset))
+
+      if (value > index && distanceFromOriginalPosition > MaxBribes) {
+        println("Too chaotic")
+        return
+      }
+
+      if (index != finalIndex && value > finalQueue(nextIndex)) {
+        swapped = true
+        bribes += 1
+        swap(index, nextIndex)
+      }
     }
+  }
 
-    while(swapped) {
-        swapped = false
-        finalQueue.zipWithIndex.foreach {
-            case(value: Int, index: Int) => 
-                val nextIndex = index + 1
-                val distanceFromOriginalPosition = math.abs(value - (index + zeroIndexOffset))
-
-                if(value > index && distanceFromOriginalPosition > MaxBribes) {
-                    println("Too chaotic")
-                    return
-                }
-
-                if(index != finalIndex && value > finalQueue(nextIndex)) {
-                    swapped = true
-                    bribes += 1
-                    swap(index, nextIndex)
-                }
-        }
-    }
-
-    println(bribes)
+  println(bribes)
 }
 
-minimumBribes(Array(1,2,5,3,7,8,6,4))
+minimumBribes(Array(1, 2, 5, 3, 7, 8, 6, 4))

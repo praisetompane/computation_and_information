@@ -31,10 +31,8 @@ def timeConversion(s: String): String = {
     )
     val convertedHour = hourConversionTable(s"$hour$dayTimeIndicator")
     s"$convertedHour:$minutes:$seconds"
-  }
-  else ""
+  } else ""
 }
-
 
 assert(timeConversion("07:05:45PM") == "19:05:45")
 assert(timeConversion("") == "")
@@ -64,7 +62,3 @@ assert(timeConversion("09:00:00AM") == "24:00:00")
 assert(timeConversion("10:00:00AM") == "24:00:00")
 assert(timeConversion("11:00:00AM") == "24:00:00")
 assert(timeConversion("12:00:00AM") == "24:00:00")
-
-
-
-

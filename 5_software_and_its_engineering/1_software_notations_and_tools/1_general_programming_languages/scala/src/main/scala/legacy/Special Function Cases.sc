@@ -1,6 +1,6 @@
 //1. Repeated argument
 
-def echo (param: String*) = println(param)
+def echo(param: String*) = println(param)
 
 echo("Hello", "Helllo", "Hellloo")
 
@@ -8,16 +8,17 @@ echo("Hello", "Helllo", "Hellloo")
 val greeting = Array("Hello", "How", "Are", "You", "?")
 
 //echo(greeting) : param is not an array, it a repeated parameter?
-echo(greeting: _*) //Solves the problem, your saying greeting is a repeated parameter
+echo(
+  greeting: _*
+) //Solves the problem, your saying greeting is a repeated parameter
 //so it matches the expected type for echo
 // It will then pass each individual element of the array
 
-
 //2. Named arguments
 
-def speed(distance: Int, time: Int) = distance/time
+def speed(distance: Int, time: Int) = distance / time
 //positional arguments require the order to be correct
-speed(100,10)
+speed(100, 10)
 
 speed(time = 10, distance = 100) // named arguemnts can be passed in any order
 
@@ -29,8 +30,8 @@ printTime()
 
 printTime(Console.err)
 
-def printTime2 (out: java.io.PrintStream = Console.out, divisor: Int = 1) =
-  out.println("Time = " + System.currentTimeMillis()/divisor)
+def printTime2(out: java.io.PrintStream = Console.out, divisor: Int = 1) =
+  out.println("Time = " + System.currentTimeMillis() / divisor)
 
 printTime2(divisor = 2)
 printTime2(out = Console.err)
