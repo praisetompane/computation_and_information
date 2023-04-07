@@ -27,12 +27,24 @@ import scala.annotation.tailrec
                                  n - 2
  */
 def fibonacci(n: Int): Int = {
-  def _fibonacci(n: Int): Int = {
+  def _fibonacci(n: Int, computed_values: Map): Int = {
     if (n == 0) n
     else if (n == 1) n
-    else _fibonacci(n - 1) + _fibonacci(n - 2)
+    else {
+        val n_minus_one_index = n - 1
+        val n_minus_two_index = n - 2
+        val n_minus_one_value = if computed_values.contains(n_minus_one_index) computed_values(n_minus_one_index) else _fibonacci(n_minus_one_index)
+                                
+        val n_minus_two_value = if computed_values.contains(n_minus_two_index) 
+                                computed_values(n_minus_two_index) 
+                                else {
+                                    val fib_value = _fibonacci(n_minus_two_index)
+                                    computed_values
+                                }
+        n_minus_one_value + n_minus_two_value
+    }
   }
-  _fibonacci(n)
+  _fibonacci(n, Map())
 }
 
 @main def main(): Unit = {
