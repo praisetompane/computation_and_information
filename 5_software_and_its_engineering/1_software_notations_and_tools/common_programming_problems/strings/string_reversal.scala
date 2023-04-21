@@ -1,4 +1,5 @@
 import io.Source.stdin
+import scala.annotation.tailrec
 
 /*
     Constraints:
@@ -13,17 +14,18 @@ import io.Source.stdin
  */
 object Solution {
   def main(args: Array[String]): Unit = {
+    @tailrec
+    def rotate(rotations: Int, rotated: String, output: String): String = {
+      if (rotations <= 0) output
+      else {
+        val _rotated = rotated.appended(rotated(0)).drop(1)
+        rotate(rotations - 1, _rotated, output ++ _rotated ++ " ")
+      }
+    }
+
     val incomingStrings = stdin.getLines().takeWhile(_.nonEmpty).toList
     incomingStrings.drop(1).foreach { input =>
-      val output = new StringBuilder()
-      var rotated = input 
-      val totalRotations = input.length()
-      (0 until totalRotations).foreach { _ =>
-        rotated = rotated.appended(rotated(0)).drop(1)
-        output.append(rotated)
-        output.append(" ")
-      }
-      println(output)
+      println(rotate(input.length(), input, ""))
     }
   }
 }
