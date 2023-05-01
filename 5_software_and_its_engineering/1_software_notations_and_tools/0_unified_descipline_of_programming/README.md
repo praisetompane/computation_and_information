@@ -1,6 +1,19 @@
 approach to a unified  discipline of programming
 
-def: programming: encoding a sequence of instructions for a machine to executeᶜⁱᵗᵃᵗⁱᴼⁿ_ⁿᵉᵉᵈᵉᵈ
+def: programming: the act of extending or
+                    changing a system's functionality (Van Roy, Haridi S. 2004:xv).
+
+                    performed by general users and experts
+                        general users by changing the setting of an alarm
+                        expert users by writing new features for the system or updating existing
+
+                example: extending a system's functionality:
+                            - writing a new application for iOS
+
+                         changing a system's functionality:
+                            - moving iOS from using 4 digit to 7 digits passwords
+
+                        
 
 def: programming concepts: {}
 
@@ -12,5 +25,4 @@ def: programming model := programming techniques AND design principles,
 
 # References:
 * Van Roy P, Haridi S. Concepts, Techniques and Models of Computer Programming.
-            
-   
+
