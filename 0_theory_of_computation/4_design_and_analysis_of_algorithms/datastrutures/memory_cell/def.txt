@@ -5,21 +5,21 @@ What is it?
     Fundamental data structure that all the data structures are built on top of.
 
 Performance Analysis:
-    How fast is it to peform the operation? (i.e. Time Complexity)
+    How fast is it to perform the operation? (i.e. Time Complexity)
         => Measured in terms of the number of steps it takes to complete the operation
 
-    Read: Looking up something from a particular spot in the datastructure
+    Read: Looking up something from a particular spot in the data structure
         Steps = 1
         O(1)
     
-    Search: Looking for a particular value in te datastructure
+    Search: Looking for a particular value in the data structure
         Steps = 1
         O(1)
 
-    Insert: Adding a value to the datastructure 
+    Insert: Adding a value to the data structure 
         Steps = 1
         O(1)
 
-    Delete: Removing a value from the datastructure
+    Delete: Removing a value from the data structure
         Steps = 1
         O(1)

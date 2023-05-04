@@ -18,7 +18,7 @@ What is a functor?
     Bit of Category Theory
         Functor is a "mapping" between categories
             hence the map function on all Functors
-            The map function maps morphims
+            The map function maps morphisms
             identity maps the objects
     example
     Functor {
@@ -104,7 +104,7 @@ What are the monad axioms?
 
     1. left identity law
     2. right identity law
-    3. associativty law
+    3. associativity law
 
     1. unit(x).flatMap(f) == f(x)
     2. m.flatMap(unit) == m
@@ -129,7 +129,7 @@ What is gained from using immutable objects?
     code is predictable and reliably deterministic
 
     copy data structures when "chaining"
-        slow? No => persistent/partially persistent immutable datastructure
+        slow? No => persistent/partially persistent immutable data structure
             structural sharing
 
     control state
@@ -152,7 +152,7 @@ What is tail recursion?
                 We can discard the current function call's stack allocation
 
 How does it differentiate from common recursion?
-    common recusrion creates a new stack frame for each function invocation
+    common recursion creates a new stack frame for each function invocation
 
     while tail recursion, does not. It runs in constant stack space
     compilers do this by using a technique called tail call optimization
@@ -162,7 +162,7 @@ How does it differentiate from common recursion?
         execute a goto start
 
 What issues are there with tail recursive functions in the JVM?
-    The instruction set available on the JVM makes implementing more advanced tail recusrion very difficult
+    The instruction set available on the JVM makes implementing more advanced tail recursion very difficult
     
     Only direct tail recursive calls to the same function can be optimized
 
@@ -190,29 +190,26 @@ What is function currying?
     h(10) returns 16 // 1 + 5 + 10
 
 What are implicit parameters?
-    parameters passed in implicitiy
-    thye're marked with implicit on definition
+    parameters passed in implicitly
+    they're marked with implicit on definition
 
-What are typeclasses?
+What are type classes?
     Resource: https://blog.scalac.io/2017/04/19/typeclasses-in-scala.html
     Read this AS WELL!!: https://medium.com/@sinisalouc/ad-hoc-polymorphism-and-type-classes-442ae22e5342
     A Type class is a class(group) of types
         Which satisfy some contract (They're not necessarily in the same class hierarchy)
             defined somewhere(maybe in a trait in Scala)
-            with condition that such functionality(trait and implementation) can be added wihtout changing the original code
+            with condition that such functionality(trait and implementation) can be added without changing the original code
     Note: You can do this with a trait, how are type classes better?
         You do not need to change the declaration of the existing type
-        With a trait mixin you have to go and mix the trait into the type you want to add this behaviour to
+        With a trait mixin you have to go and mix the trait into the type you want to add this behavior to
             effectively changing and code and need to recompile...
 
 
 
-    Usecase: Want to add some behavior to classes that are not in some natural class hierarchy
+    Use case: Want to add some behavior to classes that are not in some natural class hierarchy
             Construct to add adhoc polymorphism by creating a grouping of objects?
         What is polymorphism? => refer to OOP file
-
-
-
 
 What are lenses?
 

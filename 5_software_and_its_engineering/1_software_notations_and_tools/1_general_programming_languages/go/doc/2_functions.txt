@@ -4,7 +4,7 @@ Functions
 
         func add(a int, b int) int => function that add 2 numbers and returns an int
 
-        func add2(a, b int) int => can ommit type if same for consecutive NAMED parameters
+        func add2(a, b int) int => can omit type if same for consecutive NAMED parameters
 
     Multiple results:   
 

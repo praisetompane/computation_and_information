@@ -1,0 +1,14 @@
+We are just changing the 'code' here (Scott, 2009:20).
+    on = 1
+    off = 0
+
+The NAND gate redefined with this
+
+  a   b  c
+| 0 | 0 | 1 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
+References:
+    Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.

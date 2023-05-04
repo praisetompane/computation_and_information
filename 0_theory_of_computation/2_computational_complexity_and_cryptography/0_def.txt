@@ -1,4 +1,4 @@
-central question: What makes some problems COMPUTATIONALLY HARD and others EASY? (Sipser. 2012:2).    
+def: deals with what makes some problems COMPUTATIONALLY HARD and others EASY? (Sipser. 2012:2).    
     NB: we don't have an answer yet(40+ years of research) (Sipser. 2012:2).
 
 provides:

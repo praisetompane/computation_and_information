@@ -2,4 +2,4 @@ Program:
     consists of packages
 
 Program execution starts
-    packege "main"
+    package "main"
