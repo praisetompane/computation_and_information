@@ -14,7 +14,7 @@ core python syntax and applications using the language
 * extending and embedding: https://docs.python.org/3.9/extending/index.html
 
 
-# package mananger:
+# package manager:
 pipenv
 
 

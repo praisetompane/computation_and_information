@@ -1,5 +1,3 @@
-central question: ???
-
 def: deals with DEFINITIONS and PROPERTIES of MATHEMATICAL MODELS OF COMPUTATION (Sipser, 2012:3).
 
 provides:

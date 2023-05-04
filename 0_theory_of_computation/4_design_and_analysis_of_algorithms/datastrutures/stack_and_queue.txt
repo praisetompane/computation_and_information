@@ -7,7 +7,7 @@ LI |  FI = Last In | First In
 
     The qualifier for FO
         i.e. who is FO applied to.
-            who is the Firt One Out
+            who is the First One Out
 
 
 Queue: FIFO : First In First Out
