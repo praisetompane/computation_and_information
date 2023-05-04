@@ -1,3 +1,18 @@
+Process = magical spirit that lives in a computer (Grimson, Szolovits, Darrell, 2005).
+Procedure = pattern of rules => they direct the pattern
+    They're the spells that control the process (Grimson, Szolovits, Darrell, 2005).
+
+Programming language = magical language to conjure the spirits(Process)
+                      AND cast spells to direct the process (Grimson, Szolovits, Darrell, 2005).
+
+Tools for controlling complexity (Grimson, Szolovits, Darrell, 2005):
+    1.1. Black box abstraction
+        Utility:
+            -> Hide details to allow one to build bigger boxes
+            -> 
+    1.2. Conventional Interfaces
+    1.3. Metalinguistic abstraction
+
 Session 1:
   Intuition about Process(How to knowledge)
   Procedure: Pattern of rules that direct the Process
@@ -35,10 +50,10 @@ Session 1:
 
 Session 2:
   Questions at the beginning of assessing a language
-
-    Primitive elements
-    Means of combination
-    Means of abstractions
+  Fundamentals of a language (Grimson, Szolovits, Darrell, 2005):
+    1. Primitive elements
+    2. Means of combination
+    3. Means of abstractions
 
     LISP
       Primitive elements = 1, 3 etc
@@ -50,3 +65,7 @@ Session 2:
      Means of abstractions
         (define A (* 5 4))
         (* A A)
+
+References:
+    Grimson E, Szolovits P, Darrell T. 2005. Structure And Interpretation Of Computer Programs. https://ocw.mit.edu/courses/6-001-structure-and-interpretation-of-computer-programs-spring-2005/
+    

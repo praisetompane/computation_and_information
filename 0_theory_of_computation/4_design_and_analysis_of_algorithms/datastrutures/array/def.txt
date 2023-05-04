@@ -1,13 +1,13 @@
 What is it?
 
-    def¹: a lis of data elements(Wengrow, 2017:2)
+    def¹: a list of data elements(Wengrow, 2017:2)
     def²: A fixed length
             contiguous allocation of memory cells
                 of the same size
                 that stores data of the same typeᶜⁱᵗᵃᵗⁱᴼⁿ_ⁿᵉᵉᵈᵉᵈ.
 
 Concepts related to it:
-    index = a number which indetifies a memory cell in the array (Wengrow, 2017:30).
+    index = a number which identifies a memory cell in the array (Wengrow, 2017:30).
 
 Performance Analysis (Wengrow, 2017:31-32):
     How fast is it to perform the operation?(i.e. Time Complexity)

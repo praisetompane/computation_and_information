@@ -3,17 +3,17 @@ What is it?
 Concepts related to it:
 
 Performance Analysis:
-    How fast is it to peform the operation? (i.e. Time Complexity)
+    How fast is it to perform the operation? (i.e. Time Complexity)
         => Measured in terms of the number of steps it takes to complete the operation
 
-    Read: Looking up something from a particular spot in the datastructure
+    Read: Looking up something from a particular spot in the data structure
         Steps = 
     
-    Search: Looking for a particular value in te datastructure
+    Search: Looking for a particular value in the data structure
         Steps = 
 
-    Insert: Adding a value to the datastructure 
+    Insert: Adding a value to the data structure 
         Steps = 
 
-    Delete: Removing a value from the datastructure
+    Delete: Removing a value from the data structure
         Steps = 

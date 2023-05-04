@@ -1,0 +1,10 @@
+Chapter: Codes (Scott, 2009:22).
+
+def Computer Code (Not programming language code) (Scott, 2009:22):
+    Something that allows you to associate the 256 states a byte can be in
+    with something else,
+
+    e.g ASCII for associating the byte states with letters of the alphabet.
+
+References:
+    Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.

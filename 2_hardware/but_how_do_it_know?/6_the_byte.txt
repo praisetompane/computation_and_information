@@ -1,0 +1,14 @@
+Chapter: Eight is enough (Scott, 2009:21).
+
+def Byte: a thing that has a 8 separate LOCATIONS in SPACE
+          each of which can be either on or off, that a re kept in same order (Scott, 2009:21).
+
+          The byte as a whole is a thing that has a LOCATION in SPACE
+          has the quality that any given time it is in ONE of 256 possible states
+          It can be changed back and forth between these states
+
+We now have a tool that can help us overcome the limitation stated in '4' (Scott, 2009:21).
+We can begin to represent matters more complex than yes/no (Scott, 2009:21).
+
+References:
+    Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
