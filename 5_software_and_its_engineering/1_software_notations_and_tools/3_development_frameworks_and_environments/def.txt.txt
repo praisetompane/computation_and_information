@@ -1,0 +1,16 @@
+def framework: a structure to build software on/in 
+                often the structure is for a specific type of task(i.e. software/application)
+                    e.g.    web application frameworks
+                            mobile appliaction frameworks
+                            desktop application frameworks
+                            ...
+                            taskₙ appliaction frameworks.
+                        
+                often the structure provides base functionality required
+                    for the specific type of task (Code Academy, 2021).
+                    e.g.    web application frameworks => HTTP server
+
+def environment: 
+
+References:
+    Code Academy. 2021. https://www.codecademy.com/resources/blog/what-is-a-framework/.
