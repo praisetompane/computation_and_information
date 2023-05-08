@@ -1,5 +1,5 @@
 def: algorithm is given training data 
-    with labelled instances
+    with labeled instances
         (i.e. labels say what the instance is)
         Example: Spam or Ham email, Cat or Dog, Number or Letter, etc
 
@@ -10,7 +10,7 @@ def class: a category
 
 Typical use cases:
     classification:
-        training data instances are labelled with a "class"
+        training data instances are labeled with a "class"
 
     regression: 
         using a set of features(predictors) to predict a TARGET NUMERIC value.

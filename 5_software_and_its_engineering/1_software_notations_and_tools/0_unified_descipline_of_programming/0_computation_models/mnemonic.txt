@@ -6,4 +6,4 @@ O = Object Orientated
 S = Shared State Concurrent
 M = Message Passing Concurrent
 R = Relational
-S = Specialised
+S = Specialized

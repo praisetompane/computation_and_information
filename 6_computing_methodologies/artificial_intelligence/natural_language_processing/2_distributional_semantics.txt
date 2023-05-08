@@ -4,7 +4,7 @@ def 1: a word's meaning is given⁵
     i.e. the meaning is given/derived from other words.
         Q: How?
 
-def 2: meanining of a word is represented by the context⁶
+def 2: meaning of a word is represented by the context⁶
     within which a word occurs.
     def context = the words close by/words around it
                     within a 
@@ -47,7 +47,7 @@ Example:
         Q: What does this mean?
     
     vectors plotted in n dimension vector space
-        n = vector dimension choosen
+        n = vector dimension chosen
 
 
 references: 

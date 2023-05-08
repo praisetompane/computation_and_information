@@ -1,0 +1,4 @@
+def: a binary relation between a set of inputs and outputs.
+
+References: 
+    Demaine E., Ku J., Solomon J. Introduction To Algorithms. 2020. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/

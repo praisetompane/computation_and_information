@@ -1,14 +1,14 @@
         Sensors(iOT, Cellphones, ...)¹                                                                         Users(Missions)
                 --Structured Data  --->                information      knowledge                           Autonomous vehicles(cars, planes)
-                                        Data Conditioning ---> Algorithms ---> Human-Machine CoTeam --->   Medical Practioners                                
-                --UnStructured Data--->                                                                            |
-        Sources(Youtube, FaceBook, ...)                                                                            |
+                                        Data Conditioning ---> Algorithms ---> Human-Machine Co-Team --->   Medical Practitioners                                
+                --Unstructured Data--->                                                                            |
+        Sources(YouTube, Facebook, ...)                                                                            |
             ^                                                                                                      |
             |------------------------------------------------------------------------------------------------------|
                                                             ^
                                                             |
                                                     Modern Computing
-                                CPUs    GPUs    TPUs    Neuromphic    Custom    Quantum
+                                CPU's    GPUs    TPUs    Neuromphic    Custom    Quantum
 -------------------------------------------------------------------------------------------------------------------------
                                                 Robust AI
 Explainable AI      Accuracy and Bias Measurements      Verification and Validation     Security     Ethics, Policies, Safety and Training
@@ -17,15 +17,15 @@ Explainable AI      Accuracy and Bias Measurements      Verification and Validat
 Data Conditioning³:
     Data Conditioning and Storage
     Structured Data
-    UnStructured Data
+    Unstructured Data
 
-    Database Technolgies/Infrastructure
+    Database Technologies/Infrastructure
             |
             v
     Data Curation
             |
             v
-    Data Labelling
+    Data Labeling
     
 
 Algorithms:
@@ -40,7 +40,7 @@ Algorithms:
 
         Evolutionaries(e.g. Genetic Programming)
 
- Human-Machine CoTeam⁴:
+ Human-Machine Co-Team⁴:
     y = Scale vs x = Complexity:
         High Scale with Low Complexity => Machine
         Low Scale with High Complexity => Human

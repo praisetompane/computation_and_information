@@ -1,0 +1,22 @@
+flow: (Mcdowell, 2015:62)
+    1. Read/Listen 
+    2. Create example
+    3. Brute force flow
+    4. Test
+        base cases
+        general cases
+        error cases
+        etc
+    5. Optimize
+        BUD system
+            Bottlenecks
+            Unnecessary Work
+            Duplicated Work
+    6. Test
+    7. Implement
+        7.1 Optimize [language/tools specific advantages]
+    8. Walk through
+
+References:
+    McDowell GL. 2015. Cracking The Coding Interview. 6th ed. CareerCup.
+

@@ -1,6 +1,0 @@
-repository examples:
-    - Scaladex: Scala
-    - pypi: Python
-    - maven central: Java
-    - npm: JavaScript
-    - docker hub: Docker

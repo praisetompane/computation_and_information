@@ -1,11 +1,11 @@
-osolving and ptimization techniques: (Mcdowell, 2015:67-72)
+solving and optimization techniques: (Mcdowell, 2015:67-72)
     Look for BUD
     DIY (Do It Yourself )  
     Simplify and Generalize 
     Base Case and Build
     Data Structure Brainstorm
 
-DATA RE/ORGANISATION:
+DATA RE/ORGANIZATION:
     0. Can the incoming data structure be used to solve the problem?
         Is there a solution inherent in the structure itself already?
 
