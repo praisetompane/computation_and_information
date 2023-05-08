@@ -10,7 +10,7 @@ Standard Asymptotic Complexities:
     * O(N³)
     * (2ⁿ)
 
-    * O(1): no optimisation needed
+    * O(1): no optimization needed
     
     * O(N²):
         How do you explore n² combinations in N time(i.e. in one iteration = O(N))?
@@ -23,10 +23,10 @@ Standard Asymptotic Complexities:
                 TO
                     iterating(exploring) with a value
                         using the value to do the work
-                            if it is a valid value in your universe(i.e. datastructure)
+                            if it is a valid value in your universe(i.e. data structure)
                 SO
                     once you have a value
-                    you can ask your iterale => Do you have thsi value?
+                    you can ask your iterable => Do you have this value?
 
             Example
                 Given 
@@ -45,7 +45,7 @@ Standard Asymptotic Complexities:
                     for indexI to length of nums   
                         create a map where
                             the key is the value
-                            {key -> value} : key = value, value = arbitary data(maybe the index)
+                            {key -> value} : key = value, value = arbitrary data(maybe the index)
 
                             {
                                 2 -> 0

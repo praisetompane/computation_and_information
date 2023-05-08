@@ -1,0 +1,27 @@
+def library: collection of previously written code (Code Academy, 2021).
+
+def repository: a storage location for software packages
+        stored table of contents and metadata
+        managed via source/version control or repository managers (Wikipedia).
+        package managers are used for installing packages from repositories (Wikipedia).
+
+    
+    def package manager: collection of programs for automating
+                        installation
+                        upgrading
+                        and configuration
+                    of computer programs (i.e. software packages)(Debian).
+
+    repository examples:
+        - Scaladex: Scala
+        - pypi: Python
+        - maven central: Java
+        - npm: JavaScript
+        - Conan: C and C++
+        - docker hub: Docker
+        - JFrog Artifactory
+
+References:
+    Code Academy. What Is a Framework?. 2021. https://www.codecademy.com/resources/blog/what-is-a-framework/.
+    Software repository. https://en.wikipedia.org/wiki/Software_repository.
+    Debian. What is a package manager?. https://www.debian.org/doc/manuals/aptitude/pr01s02.en.html.

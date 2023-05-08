@@ -1,1 +1,0 @@
-see: https://github.com/praisetompane/mathematics/blob/3b46c622a4c83a83973ac1463f9ae3b8a81172b1/discrete_mathematics/0_proofs/4_logical_deduction.txt

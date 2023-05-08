@@ -18,13 +18,13 @@
 - definitions:
   - ModelA = AlphabetName Score
     - AlphabetName can incldue spaces
-  - Delimeter = ", " => comma and one space
+  - Delimiter = ", " => comma and one space
 - The content of modelA line is:
-  - pattern: ModelADelimeter ModelA
+  - pattern: ModelADelimiter ModelA
   - Example:
     - ObjectA 1, ObjectB 0
       - ModelA_A = ObjectA 1
-      - Delimeter = ", "
+      - Delimiter = ", "
       - ModelA_B = FC ObjectB 0
 
 # dependencies

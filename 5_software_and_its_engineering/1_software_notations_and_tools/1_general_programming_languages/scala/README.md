@@ -9,3 +9,4 @@
 # community
 * scala center: https://scala.epfl.ch/
 * scala cli: https://index.scala-lang.org/virtuslab/scala-cli
+* https://alvinalexander.com/scala/learn-scala-3-the-fast-way-book/

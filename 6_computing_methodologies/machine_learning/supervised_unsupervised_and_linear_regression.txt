@@ -7,7 +7,7 @@ Two major types of Machine Learning Algorithms
         given to the machine
 
         Two subtypes
-            - Regression algorithms: Predict a continous value output(example of the price of a house)
+            - Regression algorithms: Predict a continuous value output(example of the price of a house)
             - Classification algorithms: Predict a discrete value output(1 or 0; Yes,No,Maybe)
 
     - The task of the machine is to keep finding more of these "right answers"
@@ -43,7 +43,7 @@ Two major types of Machine Learning Algorithms
     1.2.3. How do you choose these parameters?
 
         Given {
-          Given a dataset plotted(scatter plot) on cartesian plane
+          Given a dataset plotted(scatter plot) on Cartesian plane
           Best straight line for the data identified
         }
 
@@ -76,7 +76,7 @@ LINEAR REGRESSION WITH ONE VARIABLE (UNIVARIATE LINEAR REGRESSION)
   1. Regression problems:
     - take input variables
     - map output onto
-        "continous" expected result function
+        "continuous" expected result function
 
   2. Univariate regression: Used to determine a
     - single output
