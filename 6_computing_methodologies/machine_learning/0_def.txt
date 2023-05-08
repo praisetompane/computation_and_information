@@ -4,7 +4,7 @@ def 1: The field of study that gives computers
 
 def 2: The science(and art) of programming computers to learn from data.² 
         Q: How do we program computers to LEARN from DATA?
-            => mathematical algoriths
+            => mathematical algorithms
 
 def 3:³ A machine is said to learn from experience E
         with respect to task T
@@ -36,9 +36,9 @@ Example⁵:
             i.e. accuracy measure
             i.e. ratio of correctly flagged new email to total new email
 
-Traditional Progrgamming vs Machine learning⁶
+Traditional Programming vs Machine learning⁶
 
-    Traditional Progrgamming:
+    Traditional Programming:
         Data ---->
                     Computer ----> Output
         Program ->

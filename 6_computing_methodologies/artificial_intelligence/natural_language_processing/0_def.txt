@@ -13,7 +13,7 @@ representation of meaning words³:
         - one-hot vectors
         - distributional semantics
 
-Useable meaning in computation:
+Usable meaning in computation:
     1. nltk => old tool
     
 traditional nlp(until ~2012):² 

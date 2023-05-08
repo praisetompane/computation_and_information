@@ -10,7 +10,7 @@ Main Regions and Notable landmarks of the Continent of Machine Learning¹:
         I1: Batch Learning
         I2: Online Learning 
 
-    Do they wpok by just matching new points to known points or identify patterns in training data to build a predicitive model(like scientists)?
+    Do they work by just matching new points to known points or identify patterns in training data to build a predictive model(like scientists)?
         P1: Instance Based Learning
         P2:  Model Based Learning 
 
