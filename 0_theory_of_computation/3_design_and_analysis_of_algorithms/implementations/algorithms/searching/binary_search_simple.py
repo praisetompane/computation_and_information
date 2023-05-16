@@ -1,12 +1,15 @@
-def linear_search(value, arr):
-    i = 0
-    upperBound = len(arr) - 1
-    while i <= upperBound:
-        if value == arr[i]:
-            return i
-        i = i + 1
+def search(list, value):
+    midpoint = 1
+    while midpoint > 0:
+        midpoint = int(len(list) / 2)
+        midpoint_value = list[midpoint]
+        if midpoint_value == value:
+            return midpoint_value
+        elif value <= midpoint_value:
+            list = list[0:midpoint]
+        else:
+            list = list[midpoint:]
     return None
-
 
 def binary_search(value, arr):
     lowerBound = 0
@@ -37,9 +40,12 @@ def binary_search_recursive(value, arr):
 
     return recurse(0, len(arr) - 1)
 
+list = [1, 2, 4, 5, 6, 8, 8, 9]
+print(search(list, 9))  # 9
+print(search(list, 4))  # 4
+print(search(list, 0))  # 4
 
-###Test
 data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(search(data, 8))
 print(binary_search(8, data))
 print(binary_search_recursive(8, data))
-print(linear_search(8, data))

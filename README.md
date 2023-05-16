@@ -1,4 +1,5 @@
 # What is Computing?
+This repo is an attempt at unpacking in layman's terms what computation is, and humanity's current implementation of computation.
 
 ## What is Computation?
 
@@ -21,8 +22,6 @@ def²: The **evolution process** of some environment, by a **sequence of "simple
 
 * def compute: to do/run a computation.
 
-
-
 # a formal classification scheme is maintained here: 
 * https://dl.acm.org/ccs
 * https://zbmath.org/classification/?q=cc%3A68
@@ -32,4 +31,3 @@ def²: The **evolution process** of some environment, by a **sequence of "simple
 * Stanford Encyclopedia of Philosophy. The Church-Turing Thesis. https://plato.stanford.edu/entries/church-turing/.
 
 **Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serve as distributed memory.
-
