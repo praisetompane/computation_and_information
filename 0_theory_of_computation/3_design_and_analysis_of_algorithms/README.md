@@ -1,7 +1,7 @@
 # 3_design_and_analysis_of_algorithms
 
 objective:
-    - unpack what algorithms & data structures are and their role in the implementation of computation.
+    - unpack in layman's terms what algorithms & data structures are and their role in the humanity's current implementation of computation.
     - solve computational problems.
     - prove correctness of solutions.
     - argue efficiency.

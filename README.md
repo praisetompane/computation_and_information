@@ -1,10 +1,6 @@
-# What is Computing?
-This repo is an attempt at unpacking in layman's terms what computation is, and humanity's current implementation of computation.
+# What is Computation?
 
-## What is Computation?
-
-## In plain English:
-* def: the study of computation.
+objective: an attempt at unpacking in layman's terms what computation is, and humanity's current implementation of computation.
 
 def¹: the **transformation** of **sequences of symbols** by **precise rules**(Konrad, 2015:6)
 
