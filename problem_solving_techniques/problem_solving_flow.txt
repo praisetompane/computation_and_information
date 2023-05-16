@@ -13,9 +13,11 @@ flow: (Mcdowell, 2015:62)
             Unnecessary Work
             Duplicated Work
     6. Test
-    7. Implement
+        same cases as step 4
+    7. Walk through
+    8. Implement
         7.1 Optimize [language/tools specific advantages]
-    8. Walk through
+    9. Test
 
 References:
     McDowell GL. 2015. Cracking The Coding Interview. 6th ed. CareerCup.
