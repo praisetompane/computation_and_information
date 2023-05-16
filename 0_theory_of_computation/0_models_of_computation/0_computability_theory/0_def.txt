@@ -1,4 +1,4 @@
-def: theory to classify problems into two categories (Sipser. 2012:3):
+def: theory to classify problems into two categories (Sipser, 2012:3):
     - SOLVABLE by computers 
     - NOT SOLVABLE by computers
 
