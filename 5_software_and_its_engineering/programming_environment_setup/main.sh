@@ -1,3 +1,5 @@
+sh ./package_management.sh
+
 sh ./terminal.sh
 
 sh ./text_editing.sh
