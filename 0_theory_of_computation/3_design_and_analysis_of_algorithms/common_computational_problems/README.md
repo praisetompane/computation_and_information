@@ -1,5 +1,5 @@
-common problems and their solutions in varying computation models.
+common computational problems and their solutions in various computation models.
 
 # sources  
-Hackerrank: https://www.hackerrank.com/dashboard
-CodeinGame: https://www.codingame.com/home
+HackerRank: https://www.hackerrank.com/dashboard
+CodinGame: https://www.codingame.com/home

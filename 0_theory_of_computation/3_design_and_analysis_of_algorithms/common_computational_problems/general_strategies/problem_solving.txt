@@ -1,11 +1,4 @@
-solving and optimization techniques: (Mcdowell, 2015:67-72)
-    Look for BUD
-    DIY (Do It Yourself )  
-    Simplify and Generalize 
-    Base Case and Build
-    Data Structure Brainstorm
-
-DATA RE/ORGANIZATION:
+Data Re/Organization:
     0. Can the incoming data structure be used to solve the problem?
         Is there a solution inherent in the structure itself already?
 
@@ -17,7 +10,7 @@ DATA RE/ORGANIZATION:
         e.g. SockMerchant.txt
         https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
 
-PATH PROBLEMS:
+Path Problems:
     Path finding
     Counting "events/things" in a path
 
@@ -54,6 +47,24 @@ PATH PROBLEMS:
     6. determining if object A is in group B (Mcdowell, 2015):
         We do NOT always need to generate the entire group B (This could be a big list)
         Can also determine if the rules that generate object A are a subset of the rules that generate group B
+
+Unique Data Structure Members:
+    objective: define generic algorithm to determine if members of a data structure are ALL unique.
+
+    1. create empty seen_hashtable
+    2. for member in collection #this traversal depends on the data structure, i.e. array, tree etc
+            if member in seen_hashtable: False
+            else: add member to seen_hashtable
+
+
+    """
+        Performance
+        def:
+            N = number of elements in data structure
+            
+            time = O(N)
+            memory = O(N)
+    """
 
 References:
     Mcdowell GL. 2015. Cracking The Coding Interview. 6th ed. CareerCup.
