@@ -1,6 +1,13 @@
 # 3_design_and_analysis_of_algorithms
 
-unpack what algorithms & data structures are and their role in the implementation of computation
+objective:
+    - unpack what algorithms & data structures are and their role in the implementation of computation.
+    - solve computational problems.
+    - prove correctness of solutions.
+    - argue efficiency.
+
+## What is a Computational Problem?
+def: a binary relation between a set of inputs and outputs (Demaine, Ku, Solomon, 2020).
 
 # What is an Algorithm?
 def algorithm: algorithms are just a sequence of steps "to do something"
@@ -20,4 +27,5 @@ def data structure: data structures are just how you store things
 formal def: how data is organised (Wengrow, 2017:27).
 
 # References:
-* Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills
+* Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.
+* Demaine E., Ku J., Solomon J. Introduction To Algorithms. 2020. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/
