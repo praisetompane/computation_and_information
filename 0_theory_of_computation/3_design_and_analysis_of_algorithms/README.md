@@ -10,21 +10,26 @@ objective:
 def: a binary relation between a set of inputs and outputs (Demaine, Ku, Solomon, 2020).
 
 # What is an Algorithm?
-def algorithm: algorithms are just a sequence of steps "to do something"
+def¹: a recipe for solving a specific problem by manipulating symbols (Wengrow, 2017:56).
+def²: f: I -> O
+        I = input domain
+        O = output codomain 
+        a function from a a set of inputs to a set of valid outputs(Demaine, Ku, Solomon, 2020).
+
+defᵖˡᵃⁱⁿ_ᵉⁿᵍˡⁱˢʰ: algorithms are just a sequence of steps "to do something"
     "to do something", you need:
         store and name things = variables/values(see point 2)
         decisions = if, else
         repeat = iteration constructs = loops, recursion
 
-formal def: a recipe for solving a specific problem by manipulating symbols (Wengrow, 2017:56).
-
 # What is a Data Structure?
-def data structure: data structures are just how you store things
+def¹: how data is organised (Wengrow, 2017:27).
+
+defᵖˡᵃⁱⁿ_ᵉⁿᵍˡⁱˢʰ: data structures are just how you store things
     to store something, you need:
         place to store it = array index, node in a list, leave in a tree etc
         a way to retrieve = access patterns = LIFO, FIFO etc
 
-formal def: how data is organised (Wengrow, 2017:27).
 
 # References:
 * Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.
