@@ -3,21 +3,21 @@
 
     Properties:
         Allocated in program's heap
-        Can nly be acccessed through pointers
+        Can nly be accessed through pointers
 
         C program memory layout
         |____________________|
         |       Stack        |
         |____________________|
         |         ↓          |  Stack size trends downwards in size over the course of program execution
-        |                    |  Increases as we call functions, add variables, etc and decreaeses when they complete and their strack frames are removed(i.e. popped)
+        |                    |  Increases as we call functions, add variables, etc and decreases when they complete and their stack frames are removed(i.e. popped)
         |         ↑          |  Heap is trending upwards in size as we dynamically allocate memory for objects etc
         |____________________|
-        |        Heap        |<-- Dynamic memory allocated here. Memory allocated wihout any order/randomly
+        |        Heap        |<-- Dynamic memory allocated here. Memory allocated without any order/randomly
         |____________________|
-        | Uninitiliased data |
+        | Uninitialized data |
         |____________________|
-        | Initiliased data   |
+        | Initialized data   |
         |____________________|
         | Text/Code Segment  |
         |____________________|
