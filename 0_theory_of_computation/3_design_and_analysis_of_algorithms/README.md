@@ -7,16 +7,21 @@ objective:
     - argue efficiency.
 
 ## What is a Computational Problem?
-def: a binary relation between a set of inputs and outputs (Demaine, Ku, Solomon, 2020).
+def: a binary relation from problem inputs to correct outputs (Demaine, Ku, Solomon, 2020).
+    for binary relation definition:
+        see: https://github.com/praisetompane/mathematics/blob/master/0_foundations/relation.txt
 
 # What is an Algorithm?
-def¹: a recipe for solving a specific problem by manipulating symbols (Wengrow, 2017:56).
-def²: f: I -> O
-        I = input domain
-        O = output codomain 
-        a function from a a set of inputs to a set of valid outputs(Demaine, Ku, Solomon, 2020).
+def¹: a finite procedure
+        that maps
+            an input
+            to a **single** output.
+        i.e.a function f: Input -> Output.
+            a solution to a computational problem.
 
-defᵖˡᵃⁱⁿ_ᵉⁿᵍˡⁱˢʰ: algorithms are just a sequence of steps "to do something"
+def²: a recipe for solving a specific problem by manipulating symbols (Wengrow, 2017:56).
+
+def³ʳᵈ_ᵍʳᵃᵈᵉʳ: algorithms are just a sequence of steps "to do something"
     "to do something", you need:
         store and name things = variables/values(see point 2)
         decisions = if, else
