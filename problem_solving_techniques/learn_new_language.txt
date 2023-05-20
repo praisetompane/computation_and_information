@@ -1,10 +1,20 @@
-learning a new language
-	see 
-	the syntax and semantics
-	the standard library
-	packaging
-	build tool 
-	common third-party libraries
-	the style of effective programs, with emphasis on idioms
+* language reference:  
+	the syntax and semantics description
+	
+* base modules index:
+	the implementation of the language
+
+* standard library reference::
+	commonly used and required features of a language
+		e.g. collections
+
+* packaging and package management:
+	* guide:
+	* tools:
+		* 
+	* third party modules/packages index:
+		repository of community modules/packages
+	
+* the style of effective programs, with emphasis on idioms
 		
 		
