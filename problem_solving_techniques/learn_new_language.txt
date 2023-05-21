@@ -1,5 +1,11 @@
 * language reference:  
 	the syntax and semantics description
+
+	- implementations
+	- lexical analysis
+	- data model
+		- standard type hierarchy
+	- execution model
 	
 * base modules index:
 	the implementation of the language
