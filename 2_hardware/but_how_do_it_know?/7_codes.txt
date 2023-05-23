@@ -1,10 +1,25 @@
-Chapter: Codes (Scott, 2009:22).
+def computer codes (Not programming language code):
+    a mapping that 
+        associates the 256 states a byte can be in
+        with something else (Scott, 2009:22).
 
-def Computer Code (Not programming language code) (Scott, 2009:22):
-    Something that allows you to associate the 256 states a byte can be in
-    with something else,
+        example: 
+            ASCII for associating the byte states with letters of the English alphabet:
 
-    e.g ASCII for associating the byte states with letters of the alphabet.
+                Character   Binary(Byte State)    
+                    A           01000001                   
+                    a           01100001                
+                    .           .                       
+                    .           .                       
+                    .           .                       
+
+    the byte states mean nothing to a computer,
+        we assign meaning/semantics using these codes (Scott, 2009:22).
+            - the meaning is based on context:
+            
+                Binary(Byte State)      Context             Meaning
+                    01000001            Written Language    'A'
+                    01000001            Arithmetic          65
 
 References:
     Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
