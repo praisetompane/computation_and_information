@@ -1,0 +1,24 @@
+Lexical analyzer: generates stream of tokens from Python program text.
+
+def lexical analysis/scanning(Aho, Lam, Sethi, Ullman, 2006:5-6):   first phase of a compiler
+                                                                    reads a stream of characters(i.e. program text)
+                                                                    and groups them into
+                                                                        meaningful sequences
+                                                                            called lexemes.
+
+                                                                    for each lexeme
+                                                                        it generates a token of the form:
+                                                                            <token_name, attribute_value>
+
+                                                                            token_name = abstract symbol used 
+                                                                                            during syntax analysis phase.
+                                                                            attribute_value = entry in symbol table
+                                                                                                for token.
+    def lexeme: basic lexical unit
+                    of a language (Oxford American Dictionary).
+        define lexical: relating to words or vocabulary
+                    of language (Oxford American Dictionary).
+
+References:
+    Aho, AV. Lam, MS. Sethi, R. Ullman, JD. 2006. Compilers - Principles, Techniques, and Tools. 2e.
+
