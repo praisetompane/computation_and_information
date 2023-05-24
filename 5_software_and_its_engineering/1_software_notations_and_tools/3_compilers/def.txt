@@ -1,6 +1,6 @@
 software system that translate programming languages
     to a form
-        that can be executed by a computer (Aho et al, 2006:1)
+        that can be executed by a computer (Aho, Lam, Sethi, Ullman, 2006:1)
 
 References:
     Aho A., Lam M, Sethi R., Ullman J. Compilers - Principles, Techniques, and Tools. 2nd edn. Addison-Wesley.
