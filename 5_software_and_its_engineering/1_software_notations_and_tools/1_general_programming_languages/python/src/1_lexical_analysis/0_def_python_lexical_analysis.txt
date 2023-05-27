@@ -1,0 +1,38 @@
+Python programs are read by a parser
+    the parsers accepts a stream of tokens as input (Python Software Foundation, 2023).
+
+Python Lexical Analysis (Python Software Foundation, 2023):
+    Line structure:
+        Python programs are divided into logical lines.
+            defs:
+                - logical line:
+                    denoted by NEWLINE(\n) token.
+                    constructed from one or more physical lines
+                        following explicit and implicit line joining rules.
+                    statements do not cross logical lines.
+                        exceptions = {if the statement's syntax allows NEWLINEs}
+                            e.g. compound statement: if..else
+
+                - physical line:
+                    -denoted by end-of-line sequence.
+                        - supported sequences:
+                            LF = Line Feed
+                            CR = Carriage Return
+                            CRLF = Carriage Return Line Feed
+                    implicitly denoted by end of input.
+                - blank lines:
+                - explicit line joining:
+                - implicit line joining:
+                - indentation:
+                - comments:
+                    - starts at beginning of logical line with a hash character(#).
+                        the # must NOT be part of string literal.
+                    - finishes at the end of physical.
+                    - signify end of logical line
+                        unless implicit line joining rules are invoked.
+                    - ignored by the syntax.
+                - encoding declarations:
+                - white spaces between tokens:
+
+References:
+    Python Software Foundation. 2023. Lexical analysis. https://docs.python.org/3.11/reference/lexical_analysis.html#.
