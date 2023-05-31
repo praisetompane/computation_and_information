@@ -45,11 +45,11 @@ Python Lexical Analysis (Python Software Foundation, 2023):
                         - can only be used to split string literals
                             across physical lines.
                             example:
-                            if I wanted to set 'number' with value 342452423442245323234234342343432342
-                                but its too long in the editor:
-                                NB: This is illegal
-                            number = 342452423442245323234234 \
-                                        342343432342 
+                                if I wanted to set 'number' with value 342452423442245323234234342343432342
+                                    but its too long in the editor:
+                                    NB: I cannot split it, the statement below is illegal:
+                                        number = 342452423442245323234234 \
+                                                    342343432342 
                                     
                         - illegal elsewhere on logical lines
                             except string literals. 
@@ -68,6 +68,29 @@ Python Lexical Analysis (Python Software Foundation, 2023):
                         - does not generate NEWLINE token.
 
                 - indentation:
+                    - leading white space(tabs or spaces)
+                        at beginning of a logical line
+                            is used to calculate indentation level
+                                of the line.
+
+                        - the indentation level is used to calculate grouping of statements.
+                    
+                        example:
+                            valid code:
+                                def test():
+                                            print("1")
+                                NB: notice print is 3 tabs indented.
+                                        you can indent the first statement arbitarily deep.
+
+                            invalid code:
+                                def test():
+                                            print("1")
+                                        print("2)
+                                NB: The first line "print("1")" is used to calculate indentation level at 3 tabs.
+                                        print("2") is less than that, hence it fails with IndentationError.
+                    - properties:
+                        - TBD
+
                 - comments:
                     - starts at beginning of logical line with a hash character(#).
                         the # must NOT be part of string literal.
@@ -77,6 +100,12 @@ Python Lexical Analysis (Python Software Foundation, 2023):
                     - ignored by the syntax.
                 - encoding declarations:
                 - white spaces between tokens:
+                    tab, space, formfeeds are interchangeable for separating tokens
+                        exceptions: 
+                            - beginning of logical line
+                            - string literal
+                                i.e. value \tab value ≠ value \space value
+                                    praise  is coming   ≠ praise is coming
 
 References:
     Python Software Foundation. 2023. Lexical analysis. https://docs.python.org/3.11/reference/lexical_analysis.html#.
