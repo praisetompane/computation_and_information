@@ -23,6 +23,13 @@ Python Lexical Analysis (Python Software Foundation, 2023):
                             CRLF = Carriage Return Line Feed
                     implicitly denoted by end of input.
                 - blank lines:
+                    logical
+                        contains spaces, tabs, formfeeds and possibly a comment:
+                            is ignored (i.e. does not generate NEWLINE token).
+
+                        in read-eval-print loop (REPL): 
+                            entirely blank logical line(i.e. contains nothing) 
+                                terminates a multi-line statement [in CPython].
                 - explicit line joining:
                 - implicit line joining:
                 - indentation:
