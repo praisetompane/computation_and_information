@@ -22,6 +22,7 @@ Python Lexical Analysis (Python Software Foundation, 2023):
                             CR = Carriage Return
                             CRLF = Carriage Return Line Feed
                     implicitly denoted by end of input.
+
                 - blank lines:
                     logical
                         contains spaces, tabs, formfeeds and possibly a comment:
@@ -30,6 +31,7 @@ Python Lexical Analysis (Python Software Foundation, 2023):
                         in read-eval-print loop (REPL): 
                             entirely blank logical line(i.e. contains nothing) 
                                 terminates a multi-line statement [in CPython].
+
                 - explicit line joining:
                     join two or more physical lines
                         into one logical line
@@ -50,8 +52,21 @@ Python Lexical Analysis (Python Software Foundation, 2023):
                                         342343432342 
                                     
                         - illegal elsewhere on logical lines
-                            except string literals.
+                            except string literals. 
+                            
                 - implicit line joining:
+                    join row or more physical lines
+                        into one logical line
+                        with '[]', '{}', '()' or '""" """'
+
+                    properties:
+                        - comments allowed at the end
+                            - comment disallowed for '""" """'
+                        - does not require explicit '\'
+                        - blank line continuations are allowed
+                        - indentation between continuation lines is not enforced
+                        - does not generate NEWLINE token.
+
                 - indentation:
                 - comments:
                     - starts at beginning of logical line with a hash character(#).
