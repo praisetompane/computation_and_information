@@ -1,6 +1,8 @@
 Python programs are read by a parser
     the parsers accepts a stream of tokens as input (Python Software Foundation, 2023).
 
+Lexical analyzer: generates stream of tokens from Python program text (Python Software Foundation, 2023).
+
 Python Lexical Analysis (Python Software Foundation, 2023):
     Line structure:
         Python programs are divided into logical lines.
