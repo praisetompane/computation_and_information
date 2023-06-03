@@ -1,0 +1,41 @@
+implementation of operations (Scott, 2009:91):
+    subtraction:
+        components:
+                - Adder.
+                - NOT gates.
+        given:
+            registers:
+                - R0
+                - R1
+        objective: 
+            subtract R1 from R0
+            i.e. R0 - R1
+        then:
+            NOT R1 into R1
+            Add 1 to R1
+            Add R0 to R1
+
+
+        Q:  Why does NOTting and ADDing result in subtraction? 
+            Why do you have to add 1 after NOTting? 
+            Why do you ignore the carry bit?
+    
+    multiplication:
+        given:
+            registers:
+                - R0
+                - R1
+            then:
+                multiply every bit
+                    of the one factor
+                    with every bit of the other factor.
+                rules for the bit multiplication:
+                    1 × 1 = 1
+                    0 × 1 = 0
+                    1 × 1 = 0
+                    0 × 0 = 0
+        NB: This is an O(N²) operations
+        Q: Verify this.
+
+References:
+    Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
