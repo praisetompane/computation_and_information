@@ -2,10 +2,9 @@ Python programs are read by a parser
     the parsers accepts a stream of tokens as input (Python Software Foundation, 2023).
 
 Lexical analyzer: generates stream of tokens from Python program text (Python Software Foundation, 2023).
-
 Python Lexical Analysis (Python Software Foundation, 2023):
     Line structure:
-        Python programs are divided into logical lines.
+        Python programs are divided into logical lines.    
             defs:
                 - logical line:
                     denoted by NEWLINE(\n) token.
@@ -66,7 +65,6 @@ Python Lexical Analysis (Python Software Foundation, 2023):
                         - blank line continuations are allowed
                         - indentation between continuation lines is not enforced
                         - does not generate NEWLINE token.
-
                 - indentation:
                     - leading white space(tabs or spaces)
                         at beginning of a logical line
@@ -80,7 +78,7 @@ Python Lexical Analysis (Python Software Foundation, 2023):
                                 def test():
                                             print("1")
                                 NB: notice print is 3 tabs indented.
-                                        you can indent the first statement arbitarily deep.
+                                        you can indent the first statement arbitrarily deep.
 
                             invalid code:
                                 def test():
@@ -89,8 +87,46 @@ Python Lexical Analysis (Python Software Foundation, 2023):
                                 NB: The first line "print("1")" is used to calculate indentation level at 3 tabs.
                                         print("2") is less than that, hence it fails with IndentationError.
                     - properties:
-                        - TBD
+                        - total spaces preceding
+                            first non-blank character determine's the line indentation.
+                        - cannot be split across physical lines with '\'.
+                        - white space preceding first '\' terminates indentation
+                        - invalid if contains inconsistent use of tabs and spaces.
+                            raises TabError
+                            def TabError: https://docs.python.org/3.11/library/exceptions.html#TabError
+                    - formfeed character
+                        - if first character in the line:
+                            - ignored for indentation calculations
+                        - if found else where in the leading whitespace
+                            - has undefined effect
+                                - may reset space count to zero.
+                    - algorithm:
+                        def: indentation levels
+                            of consecutive lines
+                            are used to generate
+                                INDENT and DETENT tokens
 
+                        data structure: stack
+                            - stack invariant = numbers in increasing order.
+                        flow:
+                            - push zero onto stack.
+                            - for all lines:
+                                calculate line_indentation_level
+                                if line_indentation_level == stack_top_value, then
+                                    do nothing
+                                if line_indentation_level > stack_top_value, then
+                                    add line_indentation_level to stack
+                                    generate INDENT token
+                                else #line_indentation_level < stack_top_value, then
+                                    line_indentation_level MUST be on stack
+                                    for all stack_values 
+                                        if stack_value > line_indentation_level, then
+                                            pop off
+                                            generate DETENT token
+                                    for all stack values #remaining ones
+                                        if stack_value > 0
+                                            generate DETENT token
+                
                 - comments:
                     - starts at beginning of logical line with a hash character(#).
                         the # must NOT be part of string literal.
@@ -98,7 +134,9 @@ Python Lexical Analysis (Python Software Foundation, 2023):
                     - signify end of logical line
                         unless implicit line joining rules are invoked.
                     - ignored by the syntax.
+                
                 - encoding declarations:
+                
                 - white spaces between tokens:
                     tab, space, formfeeds are interchangeable for separating tokens
                         exceptions: 
