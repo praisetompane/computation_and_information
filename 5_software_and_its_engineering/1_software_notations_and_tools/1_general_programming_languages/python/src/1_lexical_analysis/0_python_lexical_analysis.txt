@@ -32,6 +32,31 @@ def tokens(Python Software Foundation, 2023):
         - operators
         - delimiters
 
+        - identifiers (names):
+            - properties
+                - Python 2.x:
+                    valid characters to use in identifier: 
+                        ASCII range
+                            - A to Z 
+                            - a to z
+                            - _ (underscore)
+                            - 0 to 9, but NOT as the first character of the identifier.
+                - Python 3.x
+                    - all Python 2.x valid characters
+                    - non-ASCII characters as defined here:
+                        https://peps.python.org/pep-3131/
+            
+                - unlimited length
+                - case is significant
+                - ALL characters are converted to Unicode Normalization form NFKC during parsing:
+                    - this form is used for comparisons.
+
+
+        - keywords:
+        - literals:
+        - operators:
+        - delimiters:
+
     whitespace characters are NOT tokens:
         - exceptions
             - NEWLINE (\n)
