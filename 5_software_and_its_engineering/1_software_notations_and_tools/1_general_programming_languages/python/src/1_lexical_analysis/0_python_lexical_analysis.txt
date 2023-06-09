@@ -53,6 +53,16 @@ def tokens(Python Software Foundation, 2023):
 
 
         - keywords:
+            defined in: https://github.com/python/cpython/blob/a5f244d627a6815cf2d8ccec836b9b52eb3e8de2/Grammar/python.gram
+
+            types:
+                - 'hard'
+                - soft
+            
+                - 'hard':    
+                    - reserved wors of the language.
+                    - CANNOT be used as identifiers.
+                
         - literals:
         - operators:
         - delimiters:
