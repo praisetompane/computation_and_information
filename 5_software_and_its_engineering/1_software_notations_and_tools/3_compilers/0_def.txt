@@ -1,4 +1,4 @@
-software system that translate programming languages
+software system that translates programming languages
     to a form
         that can be executed by a computer (Aho, Lam, Sethi, Ullman, 2006:1)
 
