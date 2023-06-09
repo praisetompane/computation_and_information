@@ -16,6 +16,6 @@ core python syntax and applications using the language
         * pip
     * third party modules/packages index: https://pypi.org
 * extending and embedding: https://docs.python.org/3.9/extending/index.html
-
+* developer contribution guide: https://devguide.python.org/
 
 # community:
