@@ -7,4 +7,4 @@ def comments (Python Software Foundation, 2023):
     - ignored by the syntax.
 
 References:
-    Python Software Foundation. 2023. Lexical analysis. https://docs.python.org/3.11/reference/lexical_analysis.html#.
+    Python Software Foundation. 2023. Comments. https://docs.python.org/3.11/reference/lexical_analysis.html#comments.
