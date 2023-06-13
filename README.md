@@ -26,4 +26,9 @@ def²: The **evolution process** of some environment, by a **sequence of "simple
 * Konrad H. 2015. Computation in Science. Morgan & Claypool Publishers.
 * Stanford Encyclopedia of Philosophy. The Church-Turing Thesis. https://plato.stanford.edu/entries/church-turing/.
 
+# Legend
+Q: Question for later research
+MYINC: My Insight/Conjecture [Could Be Unoriginal and Likely Is]
+
+
 **Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serve as distributed memory.
