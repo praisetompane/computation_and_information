@@ -1,0 +1,58 @@
+def literals (Python Software Foundation, 2023):
+    notation
+        for constant values
+    of some builtin types.
+
+categories:
+    - string and byte literals:
+        - string:
+            - formatted string literal
+        - bytes
+    - numeric literals:
+        - integer literals
+        - floating-point literals
+        - imaginary literals
+
+        NB: complex literals DO NOT exist:
+            - you manually combine real and imaginary literals to build them.
+
+    - string and byte literals:
+        - string:
+            properties:
+                - valid characters (AKA source characters) are defined from encoding declaration(UTF-8 default).
+                - produces instance of 𝑠𝑡𝑟 type.
+                    𝑠𝑡𝑟 details: https://docs.python.org/3.11/library/stdtypes.html#str
+
+            - formatted string literal:
+        - bytes:
+            properties:
+                - valid characters (AKA source characters) can ONLY be ASCII
+                    - NB: This overrules any encoding declaration.
+                - must ALWAYS be prefixed with 'b' or 'B'.
+                - produces instance of 𝑏𝑦𝑡𝑒𝑠 type.
+                    𝑏𝑦𝑡𝑒𝑠 details: https://docs.python.org/3.11/library/stdtypes.html#bytes
+                - bytes with numeric value greater than 127
+                    MUST be expressed with escapes.
+                    Q: Why?
+                - Python 3.3 supports 'rb' prefix for raw bytes
+                    synonym to 'br' prefix
+
+        - both string and bytes properties:
+            - 'r' or 'R' prefix allowed
+                means raw strings => they treat '\' as literal character
+
+
+        NB: BNF lexical definition can be found here: https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
+            see: to understand notation used: src/0_implementations/1_lexical_and_syntatical_BNF_notation.txt
+
+
+    - numeric literals:
+        - integer literals
+        - floating-point literals
+        - imaginary literals
+
+        NB: complex literals DO NOT exist:
+            - you manually combine real and imaginary literals to build them.
+
+References:
+    Python Software Foundation. 2023. Literals. https://docs.python.org/3.11/reference/lexical_analysis.html#literals.
