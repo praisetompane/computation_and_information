@@ -7,4 +7,4 @@ def logical line (Python Software Foundation, 2023):
             e.g. compound statement: if..else
 
 References:
-    Python Software Foundation. 2023. Lexical analysis. https://docs.python.org/3.11/reference/lexical_analysis.html#.
+    Python Software Foundation. 2023. Logical lines. https://docs.python.org/3.11/reference/lexical_analysis.html#logical-lines

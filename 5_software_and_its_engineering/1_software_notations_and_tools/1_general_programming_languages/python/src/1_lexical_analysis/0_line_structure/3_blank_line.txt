@@ -8,4 +8,4 @@ def blank lines (Python Software Foundation, 2023):
                 terminates a multi-line statement [in CPython].
 
 References:
-    Python Software Foundation. 2023. Lexical analysis. https://docs.python.org/3.11/reference/lexical_analysis.html#.
+    Python Software Foundation. 2023. Blank lines. https://docs.python.org/3.11/reference/lexical_analysis.html#blank-lines.
