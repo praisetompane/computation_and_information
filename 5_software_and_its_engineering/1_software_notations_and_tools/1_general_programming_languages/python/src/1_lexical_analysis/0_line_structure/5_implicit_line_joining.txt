@@ -12,4 +12,4 @@ def implicit line joining (Python Software Foundation, 2023):
         - does not generate NEWLINE token.
 
 References:
-    Python Software Foundation. 2023. Lexical analysis. https://docs.python.org/3.11/reference/lexical_analysis.html#.
+    Python Software Foundation. 2023. Implicit line joining. https://docs.python.org/3.11/reference/lexical_analysis.html#implicit-line-joining.

@@ -21,4 +21,4 @@ def explicit line joining (Python Software Foundation, 2023):
             except string literals. 
     
 References:
-    Python Software Foundation. 2023. Lexical analysis. https://docs.python.org/3.11/reference/lexical_analysis.html#.
+    Python Software Foundation. 2023. Explicit line joining. https://docs.python.org/3.11/reference/lexical_analysis.html#explicit-line-joining.

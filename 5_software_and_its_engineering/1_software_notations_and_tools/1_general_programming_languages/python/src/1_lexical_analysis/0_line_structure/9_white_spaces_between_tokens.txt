@@ -7,4 +7,4 @@ def white spaces between tokens (Python Software Foundation, 2023):
                     praise  is coming   ≠ praise is coming
 
 References:
-    Python Software Foundation. 2023. Lexical analysis. https://docs.python.org/3.11/reference/lexical_analysis.html#.
+    Python Software Foundation. 2023. Whitespace between tokens. https://docs.python.org/3.11/reference/lexical_analysis.html#whitespace-between-tokens.

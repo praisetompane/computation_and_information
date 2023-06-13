@@ -61,4 +61,4 @@ def indentation (Python Software Foundation, 2023):
                             generate DETENT token
 
 References:
-    Python Software Foundation. 2023. Lexical analysis. https://docs.python.org/3.11/reference/lexical_analysis.html#.
+    Python Software Foundation. 2023. Indentation. https://docs.python.org/3.11/reference/lexical_analysis.html#indentation.
