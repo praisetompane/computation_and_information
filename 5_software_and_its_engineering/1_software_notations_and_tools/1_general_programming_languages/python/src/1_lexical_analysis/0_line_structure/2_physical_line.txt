@@ -7,4 +7,4 @@ def physical line (Python Software Foundation, 2023):
     implicitly denoted by end of input.
 
 References:
-    Python Software Foundation. 2023. Lexical analysis. https://docs.python.org/3.11/reference/lexical_analysis.html#.
+    Python Software Foundation. 2023. Physical lines. https://docs.python.org/3.11/reference/lexical_analysis.html#physical-lines.
