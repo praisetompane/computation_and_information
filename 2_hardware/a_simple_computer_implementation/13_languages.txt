@@ -1,0 +1,38 @@
+def computer languages(programming languages):
+    a shorthand for Instruction Code (Scott, 2009:113).
+        NB: this shorthand is itself a code.
+            MYINC: I think the use of phrases below, even though most high level are English-like is a result of this:
+                    - code repository
+                    - coding a program
+                    - ...
+
+    a way to represent Instruction Code in close to human natural language.
+
+    purpose: make it easier to write computer programs (Scott, 2009:113).
+
+    usage flow (Scott, 2009:113):
+        - write program in computer language in ASCII/UT-* and save to file.                         => code.txt
+        - load compiler (a separate program) into RAM.
+        - load code.txt into RAM.
+        - point compiler to code.txt in RAM.
+        - JUMP to compiler first instruction:
+            - compiler loads code.txt
+            - translates each line in code.txt
+                to corresponding Instruction Code bytes (i.e. 8 bits for the Instruction Register).    
+                MYINC:  All files in a computer are really computer programs(sequence of Instruction Code bytes)
+                            including your word files, text, etc; 
+                                they are ASCII/UT-* programs for LibreWord or Microsoft Office or Notepad compilers (so to speak).
+                                
+        - saves translation to a separate file.                                                      => program
+
+        at arbitrary later time you can:
+            - load program file into RAM.
+            - CPU will JUMP to its first instruction
+                and execute the rest.
+            - if correctly written (i.e. in code.txt) AND correctly compiled (i.e. into program) then
+                it will do what you intended.
+
+        NB: the file names code.txt and program can be anything you want.
+
+References:
+    Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
