@@ -15,7 +15,7 @@ example:
    * writing a new application for iOS
 
 * changing a system's functionality:
-   * moving iOS from using 4 digit to 7 digits passwords
+   * moving iOS from using 4 digits to 7 digits passwords
 
 def computation model: formal system, that defines how computations are done.
                             computation model provides a programming model.
