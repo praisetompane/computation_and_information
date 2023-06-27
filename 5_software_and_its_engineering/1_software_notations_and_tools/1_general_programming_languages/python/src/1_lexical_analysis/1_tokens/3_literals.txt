@@ -19,15 +19,23 @@ categories:
     - string and byte literals:
         - string:
             properties:
+                - prefix: "r" | "u" | "R" | "U" | "f" | "F"
+                    | "fr" | "Fr" | "fR" | "FR" | "rf" | "rF" | "Rf" | "RF"
+
                 - valid characters (AKA source characters) are defined from encoding declaration(UTF-8 default).
                 - produces instance of 𝑠𝑡𝑟 type.
                     𝑠𝑡𝑟 details: https://docs.python.org/3.11/library/stdtypes.html#str
 
             - formatted string literal:
         - bytes:
+                - prefix: "b" | "B" | "br" | "Br" | "bR" | "BR" | "rb" | "rB" | "Rb" | "RB"
+
             properties:
-                - valid characters (AKA source characters) can ONLY be ASCII
-                    - NB: This overrules any encoding declaration.
+                character set:
+                    - only ASCII
+                        - overrules encoding declarations and Python UTF-8 default
+                    - valid characters (AKA source characters) can ONLY be ASCII
+                        - NB: This overrules any encoding declaration.
                 - must ALWAYS be prefixed with 'b' or 'B'.
                 - produces instance of 𝑏𝑦𝑡𝑒𝑠 type.
                     𝑏𝑦𝑡𝑒𝑠 details: https://docs.python.org/3.11/library/stdtypes.html#bytes
@@ -37,7 +45,12 @@ categories:
                 - Python 3.3 supports 'rb' prefix for raw bytes
                     synonym to 'br' prefix
 
-        - both string and bytes properties:
+        - universal properties:
+            - no space allowed between prefix and the rest of the literal
+            - '\' used to escape special characters
+                example: 
+                    "\\" = \
+                    "\\n" = \n
             - 'r' or 'R' prefix allowed
                 means raw strings => they treat '\' as literal character
 
