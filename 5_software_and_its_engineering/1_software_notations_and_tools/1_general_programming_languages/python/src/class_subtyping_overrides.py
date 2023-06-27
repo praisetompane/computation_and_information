@@ -16,7 +16,7 @@ class Parent:
     """
         - copy the update definition to allow subclasses overriding the update method
             without breaking __init__ method.
-        - would be renamed to _Parent__update.
+        - would be mangled to _Parent__update.
     """
     __update = update
 
