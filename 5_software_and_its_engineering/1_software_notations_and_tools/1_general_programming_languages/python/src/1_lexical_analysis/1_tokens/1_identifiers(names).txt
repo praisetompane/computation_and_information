@@ -36,27 +36,8 @@ reserved classes of identifiers (Python Software Foundation, 2023):
 
         - __* : private class members
                     - through name mangling are renamed to using patter : classname__*
-                        example:
-                            class Parent:
-                                def __init__(self, values):
-                                    self.items = values
-                                    self.__update(values) # notice this uses the __update copy
-                            
-                                def update(self, values):
-                                    for v in values
-                                        self.items.append(v)
-                                
-                                def __update = update # copy the update definition to allow subclass overriding
-                                                        # but retain Parent definition
-
-                            class Child(Parent):
-                                # This override is renamed to Child__update
-                                # ∴ does not break Parent.__init__ which requires this "def update(self, values):"
-
-                                def update(self, values, some_modifier):
-                                    for v in values:
-                                        self.items.append(v + some_modifier)
-                                        
+                        example: 
+                            see: src/1_lexical_analysis/1_tokens/1_identifiers(names).py                                        
 
                     - this is to help prevent name overriding in class hierarchies
 

@@ -1,0 +1,33 @@
+def literal:
+
+
+types (Python Software Foundation, 2023):
+    - string
+    - bytes
+
+    - string
+        prefix: "r" | "u" | "R" | "U" | "f" | "F"
+                    | "fr" | "Fr" | "fR" | "FR" | "rf" | "rF" | "Rf" | "RF"
+
+        properties:
+            character set: 
+                - uses encoding declarations
+                - defaults to UTF-8
+
+    - bytes
+        prefix: "b" | "B" | "br" | "Br" | "bR" | "BR" | "rb" | "rB" | "Rb" | "RB"
+        
+        properties:
+            character set:
+                - only ASCII
+                    - overrules encoding declarations and Python UTF-8 default
+    
+    universal properties:
+            - no space allowed between prefix and the rest of the literal
+            - '\' used to escape special characters
+                example: 
+                    "\\" = \
+                    "\\n" = \n
+
+References:
+    Python Software Foundation. 2023. String and Bytes literals. https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals.
