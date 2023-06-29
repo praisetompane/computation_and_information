@@ -1,0 +1,11 @@
+def x:
+    formal:
+
+        in words:
+
+    plain english:
+
+    intuition:
+
+    examples:
+        
