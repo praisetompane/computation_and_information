@@ -1,0 +1,28 @@
+def file (Scott, 2009:115):
+    formal:
+
+        in words:
+            a string of bytes of any length
+                with a name.
+    plain english:
+
+
+def file system:
+
+    formal (Linux System Administrators Guide): a datastructure and method
+                that provides a way
+                    to manage how
+                        data is stored and retrieved from disk.
+    plain english (Scott, 2009:115):
+
+        a collection of programs
+            provided by the Operating System
+        that make the disk (heads, tracks, sectors and block of bytes)
+            look like folders and files
+                in a file cabinet.  
+
+    Linux filesystems:
+        https://tldp.org/LDP/sag/html/filesystems.html
+
+References:
+    Linux System Administrators Guide. Chapter 5. Using Disks and Other Storage Media. https://tldp.org/LDP/sag/html/filesystems.html
