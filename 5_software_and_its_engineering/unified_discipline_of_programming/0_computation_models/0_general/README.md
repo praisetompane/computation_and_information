@@ -1,4 +1,4 @@
-# imprecise but fun way to think about these
+# an imprecise but fun way to think about these models and how they relate.
 
 What can you offer me, what's your solution?:
 * We can do things => Declarative

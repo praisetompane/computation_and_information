@@ -23,6 +23,12 @@ def computation model: formal system, that defines how computations are done.
 def programming model: programming techniques AND design principles,
                             made possible AND used by a computation model
 
+
+def creative extension principle:
+
+def kernel language:
+
+
 # References:
 * Van Roy P, Haridi S. 2004. Concepts, Techniques and Models of Computer Programming. The MIT Press.
 
