@@ -17,7 +17,7 @@ def² software (Scott, 2009:109): a package
 
                                 see: 2_hardware/a_simple_computer_implementation/7_codes.txt
                                 see: 2_hardware/a_simple_computer_implementation/13_languages.txt
-   
+                                   
 def computer programming: see: ./unified_discipline_of_programming/README.md
 
 # References:
