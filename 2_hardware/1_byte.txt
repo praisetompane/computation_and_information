@@ -1,17 +1,18 @@
 def byte: 
-        formal:
+    formal:
 
-        plain english: a thing that has 8 separate LOCATIONS in SPACE
+    plain english: a thing that has 8 separate LOCATIONS in SPACE
                         each location can be either on or off
                         and are kept in same order (Scott, 2009:21).
-        
-                        i.e. 8 bits.
+    
+                    i.e. 8 bits.
 
-        properties:
-            - is always in one of 256 possible states
-                possible states = 2⁸
-                    8 bits each of which have 2 possible states
-            - can be changed arbitrarily between states
+    properties:
+        - is always in one of 256 possible states
+            possible states = 2⁸
+                8 bits each of which have 2 possible states
+        - can be changed arbitrarily between states
+
 
 multiple-byte unit names (IEC 80000-13 ):        
 
@@ -24,6 +25,47 @@ multiple-byte unit names (IEC 80000-13 ):
     .
     .
     xₙbibyte = 1024ⁿ byte
+
+
+def memory byte (Scott, 2009:21):
+    formal:
+
+    plain english: 
+        byte made from 
+            eight memory bits
+            
+Q: Are there any usages of bytes NOT made from memory bits?
+
+def enabler (enable byte) (Scott, 2009:24):
+    formal:
+
+    plain english: 
+        eight AND gates
+            with second input of each gate
+            all connected into one input 'e'(enable)
+
+        NB: used almost every time we want to remember the state of a byte. 
+    
+    flow:
+        e is 'off/0':
+            inputs into enabler do reach output 'o'
+        e is 'on/1':
+            inputs into enabler reach output 'o' unchanged
+
+
+def register (Scott, 2009:24):
+    formal:
+
+    plain english: 
+        memory byte connected to an enabler.
+        it stores/records (i.e. "registers") the state of the byte
+            for use by other things/processes.
+
+        NB: It can only store one state of the byte at a time.
+            If a new byte state is set (i.e. "enabled")
+                the previous state is overridden. 
+
+
 
 References:
     Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
