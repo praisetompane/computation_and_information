@@ -1,9 +1,9 @@
 def literals (Python Software Foundation, 2023):
     notation
         for constant values
-    of some builtin types.
+    of some built-in types.
 
-categories:
+categories (Python Software Foundation, 2023):
     - string and byte literals:
         - string:
             - formatted string literal
@@ -23,10 +23,11 @@ categories:
                     | "fr" | "Fr" | "fR" | "FR" | "rf" | "rF" | "Rf" | "RF"
 
                 - valid characters (AKA source characters) are defined from encoding declaration(UTF-8 default).
-                - produces instance of 𝑠𝑡𝑟 type.
+                - produces an instance of 𝑠𝑡𝑟 type.
                     𝑠𝑡𝑟 details: https://docs.python.org/3.11/library/stdtypes.html#str
 
             - formatted string literal:
+
         - bytes:
                 - prefix: "b" | "B" | "br" | "Br" | "bR" | "BR" | "rb" | "rB" | "Rb" | "RB"
 
@@ -37,17 +38,19 @@ categories:
                     - valid characters (AKA source characters) can ONLY be ASCII
                         - NB: This overrules any encoding declaration.
                 - must ALWAYS be prefixed with 'b' or 'B'.
-                - produces instance of 𝑏𝑦𝑡𝑒𝑠 type.
+                - produces an instance of 𝑏𝑦𝑡𝑒𝑠 type.
                     𝑏𝑦𝑡𝑒𝑠 details: https://docs.python.org/3.11/library/stdtypes.html#bytes
-                - bytes with numeric value greater than 127
+                - bytes with a numeric value greater than 127
                     MUST be expressed with escapes.
                     Q: Why?
-                - Python 3.3 supports 'rb' prefix for raw bytes
+                - Python 3.3 supports the 'rb' prefix for raw bytes
                     synonym to 'br' prefix
 
         - universal properties:
-            - no space allowed between prefix and the rest of the literal
+            - no space allowed between the prefix and the rest of the literal
             - '\' used to escape special characters
+                - follows rules similar to Standard C:
+                    - complete set can be found here: https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
                 example: 
                     "\\" = \
                     "\\n" = \n
@@ -56,7 +59,7 @@ categories:
 
 
         NB: BNF lexical definition can be found here: https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
-            see: to understand notation used: src/0_implementations/1_lexical_and_syntatical_BNF_notation.txt
+            see: to understand notation used: src/0_implementations/1_lexical_and_syntactical_BNF_notation.txt
 
 
     - numeric literals:
