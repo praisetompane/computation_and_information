@@ -18,9 +18,3 @@ print(f"uxxxx: {an_escaped_16_bit_hex_value_only_for_string_literals}")
 
 an_escaped_32_bit_hex_value_only_for_string_literals = "\fu032f"
 print(f"Uxxxxxxxx: {an_escaped_32_bit_hex_value_only_for_string_literals}")
-
-
-
-
-
-
