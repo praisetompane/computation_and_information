@@ -25,8 +25,48 @@ categories (Python Software Foundation, 2023):
                 - valid characters (AKA source characters) are defined from encoding declaration(UTF-8 default).
                 - produces an instance of 𝑠𝑡𝑟 type.
                     𝑠𝑡𝑟 details: https://docs.python.org/3.11/library/stdtypes.html#str
-
+            examples:
+                see: 5_software_and_its_engineering/1_software_notations_and_tools/1_general_programming_languages/python/src/5_types_literals_strings.py
+            
+            
             - formatted string literal:
+                properties:
+                    - prefix: "f" | "F".
+                    - may contain replacement fields marked by {}.  
+                        - these can contain variables and expressions
+                        - are treated as expressions evaluated at runtime.
+                            - evaluated left to right
+                            limitations:
+                                - cannot be empty.
+                                - lambda and assignment require explicit parenthesis.
+                                - triple-quote literals cannot have comments.
+
+                    - cannot be used as doc strings.
+                    - '\' are illegal in format expressions.
+                        workaround: create a separate variable with the '\'.
+
+                    - can be combined with r but NOT 'b' or 'u'
+                        i.e. formatted strings literals are possible
+                             formatted bytes literals are not possible
+                modifiers:
+                    - conversion
+                    - format spec
+
+                    - conversion:
+                        - allows selecting which built-in to use for formatting
+                            - representation allowed:
+                                  function          syntax
+                                - str():            !s
+                                - repr():           !r
+                                - ascii():          !a
+                    - format spec
+                        - allows manipulating more precisely how values are rendered.
+                        - syntax: literal : format_spec
+
+                        format specifier mini language: https://docs.python.org/3.11/library/string.html#formatspec
+
+                examples:
+                    see: 5_software_and_its_engineering/1_software_notations_and_tools/1_general_programming_languages/python/src/5_types_literals_formatted_strings.py
 
         - bytes:
                 - prefix: "b" | "B" | "br" | "Br" | "bR" | "BR" | "rb" | "rB" | "Rb" | "RB"
@@ -45,6 +85,9 @@ categories (Python Software Foundation, 2023):
                     Q: Why?
                 - Python 3.3 supports the 'rb' prefix for raw bytes
                     synonym to 'br' prefix
+            
+            examples:
+                see:5_software_and_its_engineering/1_software_notations_and_tools/1_general_programming_languages/python/src/5_types_literals_escape_sequences.py
 
         - universal properties:
             - no space allowed between the prefix and the rest of the literal
