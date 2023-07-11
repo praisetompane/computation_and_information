@@ -51,6 +51,7 @@ categories (Python Software Foundation, 2023):
                 modifiers:
                     - conversion
                     - format spec
+                    - =
 
                     - conversion:
                         - allows selecting which built-in to use for formatting
@@ -64,6 +65,20 @@ categories (Python Software Foundation, 2023):
                         - syntax: literal : format_spec
 
                         format specifier mini language: https://docs.python.org/3.11/library/string.html#formatspec
+                    
+                    - = :
+                        - allows including the expression in the output
+                        - properties:
+                            - includes spaces with the {}.
+                            - by default invokes repr() for the expression. can be overriden.
+
+                    - precedence:
+                        1. expression evaluation
+                        2. conversion
+                        2. format spec
+                        in code:
+                            value = conversion(expression evaluation)
+                            type(value).__format__(value, format_spec)
 
                 examples:
                     see: 5_software_and_its_engineering/1_software_notations_and_tools/1_general_programming_languages/python/src/5_types_literals_formatted_strings.py
