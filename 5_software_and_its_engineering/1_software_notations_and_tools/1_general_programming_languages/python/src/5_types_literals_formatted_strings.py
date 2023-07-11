@@ -26,5 +26,12 @@ a_formatted_string_with_format_modifier = f"today's date is {today:%Y %B %d}"
 print(a_formatted_string_with_format_modifier)
 print('\n')
 
+print("example using = . notice the expression 'today ='  is in the printed output.")
+a_formatted_string_with_variable_included = f"{today =: %Y %B %d}"
+print(a_formatted_string_with_variable_included)
+print('\n')
 
-
+print("example using a '\' in format expression")
+backlash_literal = '\t'
+print(f"{ord(backlash_literal)}")
+print('\n')
