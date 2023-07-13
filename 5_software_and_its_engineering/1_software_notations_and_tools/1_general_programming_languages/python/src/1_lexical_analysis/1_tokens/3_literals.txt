@@ -134,6 +134,12 @@ categories (Python Software Foundation, 2023):
         - floating-point literals
         - imaginary literals
 
+        properties:
+            - they are unsigned
+            - unlimited length [only bound by computer's memory]
+            - underscores are excluded when determining literal's value
+            - leading zeros for nonzero literals are illegal
+
         NB: complex literals DO NOT exist:
             - you manually combine real and imaginary literals to build them.
 
