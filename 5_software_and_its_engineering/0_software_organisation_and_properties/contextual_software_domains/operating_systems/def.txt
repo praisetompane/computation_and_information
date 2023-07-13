@@ -1,5 +1,0 @@
-a program that manages computer hardware
-    Provides for Application programs
-        Acts as an intermediary between computer user and computer hardwareᶜⁱᵗᵃᵗⁱᴼⁿ_ⁿᵉᵉᵈᵉᵈ
-
-References:
