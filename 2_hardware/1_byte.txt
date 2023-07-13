@@ -10,7 +10,7 @@ def byte:
     properties:
         - is always in one of 256 possible states
             possible states = 2⁸
-                8 bits each of which have 2 possible states
+                8 bits each of which has 2 possible states
         - can be changed arbitrarily between states
 
 
