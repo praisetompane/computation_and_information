@@ -3,7 +3,7 @@
 
     Properties:
         Allocated in program's heap
-        Can nly be accessed through pointers
+        Can only be accessed through pointers
 
         C program memory layout
         |____________________|
