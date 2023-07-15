@@ -11,6 +11,7 @@ def search(list, value):
             list = list[midpoint:]
     return None
 
+
 def binary_search(value, arr):
     lowerBound = 0
     length = len(arr)
@@ -39,6 +40,7 @@ def binary_search_recursive(value, arr):
         return None
 
     return recurse(0, len(arr) - 1)
+
 
 list = [1, 2, 4, 5, 6, 8, 8, 9]
 print(search(list, 9))  # 9

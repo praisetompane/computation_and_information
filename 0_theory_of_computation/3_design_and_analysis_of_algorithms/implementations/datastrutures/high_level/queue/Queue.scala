@@ -35,7 +35,7 @@ object Solution {
       val query = queryString(0)
       val enqueueValue =
         if (queryString.length > 1) queryString(1).toInt
-        else 0 // e carefull here
+        else 0 // be careful here
 
       if (query == QueryType.Enqueue) queue.put(enqueueValue)
       else if (query == QueryType.Dequeue) queue.pop()
