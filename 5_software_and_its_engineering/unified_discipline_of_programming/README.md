@@ -3,12 +3,16 @@ objectives:
 * attempts to define computer programming as a unified discipline.
 * a study of computer programming independent of programming languages.
 
-def computer programming: the act of extending or
+def programming: the act of extending or
                     changing a system's functionality (Van Roy, Haridi S. 2004:xv).
 
 performed by general users and experts
    general users by changing the setting of an alarm
    expert users by writing new features for the system or updating existing
+
+   def theory of programming???
+
+   def programming as a branch of mathematical logic: TBD
 
 example:
 * extending a system's functionality:
@@ -22,6 +26,19 @@ def computation model: formal system, that defines how computations are done.
 
 def programming model: programming techniques AND design principles,
                             made possible AND used by a computation model
+
+
+def creative extension principle:
+
+def technology:
+
+def kernel language: ocre language a computation model is based on (Van Roy, Haridi S. 2004:xiv)
+
+def λ calculus:
+
+def abstractions:
+
+
 
 # References:
 * Van Roy P, Haridi S. 2004. Concepts, Techniques and Models of Computer Programming. The MIT Press.
