@@ -1,9 +1,7 @@
-
-0 0 1 0 0 1 0
-
-7
-
 /*
+    0 0 1 0 0 1 0
+
+    7
     starts with consecutively numbered clouds.
 
         clouds are thunderheads and others are cumulus
