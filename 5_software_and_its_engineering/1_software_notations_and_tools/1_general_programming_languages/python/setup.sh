@@ -2,6 +2,13 @@ echo "adding asdf python plugin"
 asdf plugin add python
 echo "done"
 
+ostype="$(uname -s)"
+if [ "$ostype" = "Linux" ]; then 
+    echo "install openssl dependecy"
+    sudo apt install libedit-dev
+    echo "done"
+fi
+
 echo "installing python"
 asdf install python latest
 echo "done"
