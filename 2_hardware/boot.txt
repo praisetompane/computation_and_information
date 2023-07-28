@@ -1,0 +1,20 @@
+how do we start a computer from nothing?
+    1. preset the IAR to be a specific value when the computer power is turned on.
+        e.g. 11111110
+             ∴ the next instruction to be executed will be at address 11111110.
+
+        see: 4_computation/2_hardware/a_simple_computer_implementation/12_instructions.txt
+
+    2. use first ~32 bytes of RAM as ROM(Read Only Memory) starting at address preloaded into IAR.
+       preload the ~32 bytes with a program that:
+            - reads head 0, track 0 sector 0 of hard drive/storage medium.
+            - write the sector into RAM.
+            - jump to first byte of RAM to which the sector was written.
+        
+    3. execute the bytes written by step 2.
+        NB: we expect the sector 0 to contain a program to run the computer(i.e. Q: the OS or kernel?).
+            this sector is named the 'boot record'
+
+def bootstrap loader: TBD
+
+
