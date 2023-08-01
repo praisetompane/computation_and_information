@@ -24,3 +24,7 @@ echo "done"
 echo "installing system level Black in python"
 pip3 install black
 echo "done"
+
+echo "installig Tk interface"
+brew install python-tk
+echo "done"
