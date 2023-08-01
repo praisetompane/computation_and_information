@@ -1,4 +1,4 @@
-- numeric literals:
+- numeric literals (Python Software Foundation, 2023):
     - integer literals
     - floating-point literals
     - imaginary literals

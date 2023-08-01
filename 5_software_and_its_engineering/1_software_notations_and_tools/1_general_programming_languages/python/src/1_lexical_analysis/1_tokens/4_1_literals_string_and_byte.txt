@@ -1,4 +1,4 @@
-string and byte literals:
+string and byte literals (Python Software Foundation, 2023):
     - string:
         properties:
             - prefix: "r" | "u" | "R" | "U" | "f" | "F"
