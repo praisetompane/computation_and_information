@@ -13,36 +13,16 @@ def¹: the **transformation** of **sequences of symbols** by **precise rules**(K
 
 def²: The **evolution process** of some environment, by a **sequence of "simple, local" steps** (Stanford Encyclopedia of Philosophy).
 
-## In plain English:
-* def computation: a list of steps to do something.
-
+plain english:
+* def computation: a list of steps to do something
 * def compute: to do/run a computation.
 
-# a formal classification scheme is maintained here: 
+a formal classification scheme is maintained here: 
 * https://dl.acm.org/ccs
 * https://zbmath.org/classification/?q=cc%3A68
 
-## conceptual overview of computation, humanity's current implementation and applications of it.
-* theory_of_computation
-  * models_of_computation
-    * know what you can and can't compute.
-  * formal_language_and_automata_theory
-    * define a language to express computations.
-  * computational_complexity_and_cryptography
-    * know how fast you can compute.
-  * algorithms_and_data_structures
-    * know how to compute.
-* hardware
-    * implement machines that can compute.
-      * create physical implementations of Turing Machines.  
-  * systems_software
-    * use programming language theory to create computations that run and manage the machines.
-* networks
-  * connect machines.
-* software and its engineering
-  * use machines to build systems that solve problems and opportunities.
-
-
+## History:
+* https://plato.stanford.edu/entries/computing-history/
 
 # References:
 * Konrad H. 2015. Computation in Science. Morgan & Claypool Publishers.
