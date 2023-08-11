@@ -1,4 +1,4 @@
-string and byte literals (Python Software Foundation, 2023):
+string literals (Python Software Foundation, 2023):
     - string:
         properties:
             - prefix: "r" | "u" | "R" | "U" | "f" | "F"
@@ -7,12 +7,12 @@ string and byte literals (Python Software Foundation, 2023):
             - valid characters (AKA source characters) are defined from encoding declaration(UTF-8 default).
             - produces an instance of 𝑠𝑡𝑟 type.
                 𝑠𝑡𝑟 details: https://docs.python.org/3.11/library/stdtypes.html#str
-        examples:
+        - examples:
             see: src/5_types_literals_strings.py
         
         
         - formatted string literal:
-            properties:
+            - properties:
                 - prefix: "f" | "F".
                 - may contain replacement fields marked by {}.  
                     - these can contain variables and expressions
@@ -30,7 +30,7 @@ string and byte literals (Python Software Foundation, 2023):
                 - can be combined with r but NOT 'b' or 'u'
                     i.e. formatted strings literals are possible
                             formatted bytes literals are not possible
-            modifiers:
+            - modifiers:
                 - conversion
                 - format spec
                 - =
@@ -62,50 +62,9 @@ string and byte literals (Python Software Foundation, 2023):
                         value = conversion(expression evaluation)
                         type(value).__format__(value, format_spec)
 
-            examples:
-                see: 5_software_and_its_engineering/1_software_notations_and_tools/1_general_programming_languages/python/src/5_types_literals_formatted_strings.py
-
-    - bytes:
-            - prefix: "b" | "B" | "br" | "Br" | "bR" | "BR" | "rb" | "rB" | "Rb" | "RB"
-
-        properties:
-            character set:
-                - only ASCII
-                    - overrules encoding declarations and Python UTF-8 default
-                - valid characters (AKA source characters) can ONLY be ASCII
-                    - NB: This overrules any encoding declaration.
-            - must ALWAYS be prefixed with 'b' or 'B'.
-            - produces an instance of 𝑏𝑦𝑡𝑒𝑠 type.
-                𝑏𝑦𝑡𝑒𝑠 details: https://docs.python.org/3.11/library/stdtypes.html#bytes
-            - bytes with a numeric value greater than 127
-                MUST be expressed with escapes.
-                Q: Why?
-            - Python 3.3 supports the 'rb' prefix for raw bytes
-                synonym to 'br' prefix
-        
-        examples:
-            see:5_software_and_its_engineering/1_software_notations_and_tools/1_general_programming_languages/python/src/5_types_literals_escape_sequences.py
-
-    - universal properties:
-        - no space allowed between the prefix and the rest of the literal
-        - '\' used to escape special characters
-            - follows rules similar to Standard C:
-                - complete set can be found here: https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
-            example: 
-                "\\" = \
-                "\\n" = \n
-        - 'r' or 'R' prefix allowed
-            means raw strings => they treat '\' as literal character
-
-    - concatenation:
-        - adjacent strings in different quotes are concatenated.
-        properties:
-            - split long strings across physical lines without using '\'
-            - defined at syntactic level, implemented at compile time. 
-                NB: runtime concatenation still requires '+'
-
-        examples:
-            see: src/5_types_literals_string_concatenation.py
+            - examples:
+                see: /src/5_types_literals_strings_formatted_strings.py
+                
 
     NB: BNF lexical definition can be found here: https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
         see: to understand notation used: src/0_implementations/1_lexical_and_syntactical_BNF_notation.txt
