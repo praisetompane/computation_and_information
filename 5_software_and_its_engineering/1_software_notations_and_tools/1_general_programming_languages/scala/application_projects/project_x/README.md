@@ -36,14 +36,14 @@
 - clone repository to machine
 - run commands below to see output with sample file
 
-```bash
-   # from root directory
-   $ cd ./release
-   $ ./project_x.jar sample_input.txt
+```shell
+# from root directory
+cd ./release
+./project_x.jar sample_input.txt
 ```
 
 - for your own file, run from the release folder with command format below
 
 ```
-    $ ./project_x.jar <your_file_name>
+    ./project_x.jar <your_file_name>
 ```

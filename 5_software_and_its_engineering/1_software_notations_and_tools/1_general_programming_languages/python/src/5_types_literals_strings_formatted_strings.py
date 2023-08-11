@@ -3,6 +3,8 @@ from datetime import date
 string_variable = "i am a variable"
 numeric_variable = 1
 
+print("\n")
+print("example of basic format string substitution")
 a_formatted_string_literal = f"a formatted with a {string_variable}"
 print(a_formatted_string_literal)
 print("\n")

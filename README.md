@@ -24,6 +24,9 @@ a formal classification scheme is maintained here:
 ## History:
 * https://plato.stanford.edu/entries/computing-history/
 
+## Community:
+
+
 # References:
 * Konrad H. 2015. Computation in Science. Morgan & Claypool Publishers.
 * Stanford Encyclopedia of Philosophy. The Church-Turing Thesis. https://plato.stanford.edu/entries/church-turing/.
