@@ -40,3 +40,8 @@ print("example using a '' in format expression")
 backlash_literal = "\t"
 print(f"{ord(backlash_literal)}")
 print("\n")
+
+print("example using a decimal/float number")
+decimal_number = 100/3
+print(f"{decimal_number:.2f}")
+print("\n")
