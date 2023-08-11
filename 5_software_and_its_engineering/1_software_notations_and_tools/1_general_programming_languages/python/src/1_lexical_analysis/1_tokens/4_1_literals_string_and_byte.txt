@@ -42,9 +42,9 @@ string and byte literals (Python Software Foundation, 2023):
                             - str():            !s
                             - repr():           !r
                             - ascii():          !a
-                - format spec
+                - format spec:
                     - allows manipulating more precisely how values are rendered.
-                    - syntax: literal: format_spec
+                    - syntax: { literal: format_spec } NB: must both be inside the  '{}'
 
                     format specifier mini language: https://docs.python.org/3.11/library/string.html#formatspec
                 
