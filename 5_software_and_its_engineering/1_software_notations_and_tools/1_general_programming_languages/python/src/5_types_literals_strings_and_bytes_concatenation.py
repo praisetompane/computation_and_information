@@ -20,3 +20,7 @@ for i in range(0, 10):
     #foo str(i) # this is illegal, we must use + at runtime
     foo += str(i)
 print(foo)
+
+print("example byte concatenation")
+byte_example = b"00000001" + b"00000000"
+print(byte_example)
