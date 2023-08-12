@@ -1,2 +1,0 @@
-# Larger implementationst to test the language
-see: 0_theory_of_computation/4_design_and_analysis_of_algorithms/datastrutures

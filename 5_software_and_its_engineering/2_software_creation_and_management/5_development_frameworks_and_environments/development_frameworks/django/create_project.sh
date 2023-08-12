@@ -1,31 +1,20 @@
 #!/bin/zsh
-'''
-    quick utility to create Django project.
-    accepts project name as parameter
-    Example:
-    $ ./create_project.sh my_app
-'''
+#
+#    quick utility to create Django project.
+#    accepts project name as parameter
+#    Example:
+#    $ ./create_project.sh my_project
+#
 
 project=$1
-mkdir $project
-cp run_project.sh ./$project
 
-cd $project
-
-
-"laying out root folder"
-touch app.py
-
-touch README.md
-echo "#" $project >> ./README.md
-
-touch setup.sh
-"done"
-
-echo "creating app folder"
-mkdir app
-cd ./app
-touch __init__.py
+echo "creating project"
+    django-admin startproject $project
 echo "done"
+
+cp run_project.sh ./$project
+cp create_app.sh ./$project
+
+
 
 
