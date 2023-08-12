@@ -1,4 +1,4 @@
-# What is Computer Programming
+# What is Programming?
 objectives:  
 * attempts to define computer programming as a unified discipline.
 * a study of computer programming independent of programming languages.
