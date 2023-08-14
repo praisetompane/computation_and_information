@@ -43,7 +43,7 @@ python delimiters (Python Software Foundation, 2023):
         ,
         .
         ... : ellipsis literal 
-            see: 4_computation/5_software_and_its_engineering/1_software_notations_and_tools/1_general_programming_languages/python/src/5_types_literals_delimiters.py
+            see: ./src/6_delimiters.py
         ;
         @
         =
