@@ -10,10 +10,10 @@ Lexical analyzer: generates stream of tokens from Python program text (Python So
 
     def: python lexical analysis (Python Software Foundation, 2023):
         - line structure:
-            see for details: src/1_lexical_analysis/0_line_structure 
+            see for details: ./1_lexical_analysis/0_line_structure 
         
         - tokens
-            see for details: src/1_lexical_analysis/1_tokens
+            see for details: ./1_lexical_analysis/1_tokens
 
 References:
     Python Software Foundation. 2023. Lexical analysis. https://docs.python.org/3.11/reference/lexical_analysis.html#.
