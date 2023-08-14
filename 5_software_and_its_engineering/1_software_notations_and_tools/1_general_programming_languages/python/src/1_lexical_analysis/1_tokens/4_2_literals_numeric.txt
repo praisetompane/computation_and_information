@@ -27,7 +27,7 @@
                 3_mathematics/1_algebra/3_complex_numbers/0_def.txt
 
         examples:
-            see: 4_computation/5_software_and_its_engineering/1_software_notations_and_tools/1_general_programming_languages/python/src/5_types_literals_numeric_imaginary_and_complex.py
+            see: ./src/4_2_literals_numeric_imaginary_and_complex.py
 
         NB: complex literals DO NOT exist:
             - you manually combine real and imaginary literals to build them.
@@ -35,7 +35,7 @@
     universal properties:
         - they are unsigned
     
-        - underscores are excluded when determining literal's value
+        - underscores are excluded when determining the literal's value
 
 References:
     Python Software Foundation. 2023. Literals. https://docs.python.org/3.11/reference/lexical_analysis.html#literals.
