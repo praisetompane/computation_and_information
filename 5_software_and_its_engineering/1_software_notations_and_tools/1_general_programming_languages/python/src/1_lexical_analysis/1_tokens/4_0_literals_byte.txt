@@ -17,10 +17,10 @@ byte literals (Python Software Foundation, 2023):
                 synonym to 'br' prefix
         
        - examples:
-            see:5_software_and_its_engineering/1_software_notations_and_tools/1_general_programming_languages/python/src/5_types_literals_escape_sequences.py
+            see: ./src/4_0_literals_strings_escape_sequences.py
 
     NB: BNF lexical definition can be found here: https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
-        see: to understand notation used: src/0_implementations/1_lexical_and_syntactical_BNF_notation.txt
+        see: to understand notation used: ./src/0_implementations/1_lexical_and_syntactical_BNF_notation.txt
 
 References:
     Python Software Foundation. 2023. Literals. https://docs.python.org/3.11/reference/lexical_analysis.html#literals.

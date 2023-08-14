@@ -24,6 +24,11 @@ operators (Python Software Foundation, 2023):
         ^   : bitwise shift XOR
         ~   : bitwise shift NOT
 
+    logical operator: Q: Where are these defined in the language reference?
+        and
+        or
+        not
+
     other:
         :=  : variable assignment in expression
         @: annotation

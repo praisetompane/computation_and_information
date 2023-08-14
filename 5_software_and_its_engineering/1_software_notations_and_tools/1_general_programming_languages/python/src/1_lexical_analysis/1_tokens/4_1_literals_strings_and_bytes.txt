@@ -18,7 +18,7 @@ string and byte literals (Python Software Foundation, 2023):
                 NB: runtime concatenation still requires '+'
 
         examples:
-            see: src/5_types_literals_strings_and_bytes_concatenation.py
+            see: ./src/4_0_literals_strings_and_bytes_concatenation.py
 
     NB: BNF lexical definition can be found here: https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
         see: to understand notation used: src/0_implementations/1_lexical_and_syntactical_BNF_notation.txt

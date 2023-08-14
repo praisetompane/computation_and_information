@@ -8,7 +8,7 @@ string literals (Python Software Foundation, 2023):
             - produces an instance of 𝑠𝑡𝑟 type.
                 𝑠𝑡𝑟 details: https://docs.python.org/3.11/library/stdtypes.html#str
         - examples:
-            see: src/5_types_literals_strings.py
+            see: ./src/5_types_literals_strings.py
         
         
         - formatted string literal:
@@ -63,11 +63,11 @@ string literals (Python Software Foundation, 2023):
                         type(value).__format__(value, format_spec)
 
             - examples:
-                see: /src/5_types_literals_strings_formatted_strings.py
+                see: ./src/4_0_literals_strings_formatted_strings.py
                 
 
     NB: BNF lexical definition can be found here: https://docs.python.org/3.11/reference/lexical_analysis.html#string-and-bytes-literals
-        see: to understand notation used: src/0_implementations/1_lexical_and_syntactical_BNF_notation.txt
+        see: to understand notation used: ./src/0_implementations/1_lexical_and_syntactical_BNF_notation.txt
 
 References:
     Python Software Foundation. 2023. Literals. https://docs.python.org/3.11/reference/lexical_analysis.html#literals.
