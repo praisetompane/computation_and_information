@@ -11,9 +11,12 @@ import io.StdIn
     Constraints
         1 <= N <= 30000
 */
-object Solution {
-    def main(args: Array[String]) = {
-        val input = StdIn.readLine()
-        println(input.distinct)
-    }
-}
+def remove_duplicates(items: List[String]): List[String] = items.distinct
+
+@main def main(): Unit = 
+    val str_a = List("aa", "aa")
+    assert(str_a.distinct == List("aa")) 
+
+    val numbers = List(1, 1, 5, 6, 6, 1, 9, 6, 10)
+    assert(remove_duplicates(numbers) == List(1,5,6,9))
+    println("completed successfully")
