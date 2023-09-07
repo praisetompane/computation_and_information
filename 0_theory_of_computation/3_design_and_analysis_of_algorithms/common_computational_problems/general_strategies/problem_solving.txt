@@ -27,7 +27,7 @@ Path Problems:
         i.e. Avoid O(N) implementation
         If the final state factor is defined(e.g. number of rotations)
 
-        e.g. ArrayLeftRotation.txt
+        e.g. rotate_left.scala 
         
         https://www.hackerrank.com/challenges/ctci-array-left-rotation/copy-from/75481377?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=arrays&isFullScreen=true
 
