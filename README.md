@@ -5,11 +5,12 @@ objective: an attempt at unpacking in layman's terms what computation is, and hu
 def¹: the **transformation** of **sequences of symbols** by **precise rules**(Konrad, 2015:6)
 
 * symbols = {1,0,\*,{,;,<,>,...}
-* to be refined: precise rules
   * example sequences:
     * 11010
     * ;\*>{11}  
       i.e. any sequence of the valid symbols
+* precise rules = steps to follow
+
 
 def²: The **evolution process** of some environment, by a **sequence of "simple, local" steps** (Stanford Encyclopedia of Philosophy).
 
@@ -22,30 +23,26 @@ def²: The **evolution process** of some environment, by a **sequence of "simple
 * https://dl.acm.org/ccs
 * https://zbmath.org/classification/?q=cc%3A68
 
-## conceptual overview of computation, humanity's current implementation and applications of it.
-* theory_of_computation
-  * models_of_computation
-    * know what you can and can't compute.
-  * formal_language_and_automata_theory
-    * define a language to express computations.
-  * computational_complexity_and_cryptography
-    * know how fast you can compute.
-  * algorithms_and_data_structures
-    * know how to compute.
-* hardware
-    * implement machines that can compute.
-      * create physical implementations of Turing Machines.  
-  * systems_software
-    * use programming language theory to create computations that run and manage the machines.
-* networks
-  * connect machines.
-* software and its engineering
-  * use machines to build systems that solve problems and opportunities.
+    
+## History:
+* https://plato.stanford.edu/entries/computing-history/
 
-
+## State of the art:
+* Quanta Magazine: https://www.quantamagazine.org/computer-science/
+* ACM: https://dl.acm.org/
+* Development: https://www.infoq.com/development/
+* Architecture & Design: https://www.infoq.com/architecture-design/
+* AI, ML & Data Engineering: 
+    https://www.infoq.com/ai-ml-data-eng/
+    https://read.deeplearning.ai/the-batch/
+* Culture & Methods: 
+    https://www.infoq.com/culture-methods/
+* DevOps: https://www.infoq.com/devops/
 
 ## Community:
 
+## Computational Scientists:
+* ACM Turing Interviews: https://www.youtube.com/watch?v=vUJ01nRE7r0&list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&index=16
 
 # References:
 * Konrad H. 2015. Computation in Science. Morgan & Claypool Publishers.
