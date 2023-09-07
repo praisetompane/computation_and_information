@@ -19,3 +19,4 @@ core python syntax and applications using the language
 * developer contribution guide: https://devguide.python.org/
 
 # community:
+In python what does it mean by everything is an object?: https://stackoverflow.com/questions/40478536/in-python-what-does-it-mean-by-everything-is-an-object
