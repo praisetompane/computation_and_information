@@ -1,16 +1,28 @@
-log₂N   :
-N       : Visit every item once
-Nlog₂N  :
-N²      : For every item in a list, 
-            combine it individually
-                with every item in the list
-                    to produce the/a result
-            
-            Given 10 items:
-                Every item will be combined with the 9 other items to generate a result.
-                Combinations:
-                    10^2 = 100
-                    10 * 9 item combinations = 90, since an item does get combined with itself, hence the 90
+def n: = number of elements
+    
+log₂n       :
 
-N³      :
-2ⁿ      :
+n           : for every item in a list
+                visit it once
+                    to solve the problem
+nlog₂n      :
+
+    N²      : for every item in a list, 
+                combine it individually
+                    with every item in the list
+                        to solve the problem.
+                
+                given 10 items:
+                    every item will be combined with the 9 other items to generate a result.
+                    Combinations:
+                        10^2 = 100
+                        10 * 9 item combinations = 90, since an item does get combined with itself, hence the 90
+
+nᶜ, c > 1   : for every item in a list, 
+                combine c times it individually
+                    with every item in the list
+                        to solve the problem.
+
+2ⁿ          : addition of one element to the input
+                doubles the number of steps
+                    to solve the problem.
