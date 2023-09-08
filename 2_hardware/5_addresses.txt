@@ -1,0 +1,2 @@
+Q : how does it produce an output with input?
+Q: Why do we need it?
