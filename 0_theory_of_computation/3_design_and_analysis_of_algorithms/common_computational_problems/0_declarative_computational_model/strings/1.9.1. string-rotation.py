@@ -59,10 +59,11 @@ def string_rotation(s1, s2):
     return is_substring(s1, s2 + s2)
 
 
-print(string_rotation("waterbottle", "erbottlewat"))  # True
-print(string_rotation("abcd", "cdab"))  # True
-print(string_rotation("abcd", "cdaob"))  # False
-print(string_rotation("abcd", ""))  # False
+assert(string_rotation("waterbottle", "erbottlewat"))  # True
+assert(string_rotation("abcd", "cdab"))  # True
+assert(not string_rotation("abcd", "cdaob"))  # False
+assert(not string_rotation("abcd", ""))  # False
+print("completed successfully")
 
 """
     Performance

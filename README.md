@@ -40,7 +40,7 @@ a formal classification scheme is maintained here:
 
 ## Community:
 
-## Computational Scientists:
+## Computer Scientists:
 * ACM Turing Interviews: https://www.youtube.com/watch?v=vUJ01nRE7r0&list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&index=16
 
 # References:
