@@ -41,7 +41,7 @@ def²: The **evolution process** of some environment, by a **sequence of "simple
 
 ## Community:
 
-## Computational Scientists:
+## Computer Scientists:
 * ACM Turing Interviews: https://www.youtube.com/watch?v=vUJ01nRE7r0&list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO&index=16
 
 # References:
