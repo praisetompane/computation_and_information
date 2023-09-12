@@ -67,11 +67,13 @@ def zero_matrix(source_matrix):
 
 source = [[1, 1, 0], [1, 1, 1], [0, 1, 1], [1, 1, 1]]
 
-print(zero_matrix(source) == [[0, 0, 0], [0, 1, 0], [0, 0, 0], [0, 1, 0]])  # true
+assert(zero_matrix(source) == [[0, 0, 0], [0, 1, 0], [0, 0, 0], [0, 1, 0]])
 
 source = [[1, 1, 0, 1], [1, 1, 1, 1], [0, 1, 1, 1]]
 
-print(zero_matrix(source) == [[0, 0, 0, 0], [0, 1, 0, 1], [0, 0, 0, 0]])  # true
+assert(zero_matrix(source) == [[0, 0, 0, 0], [0, 1, 0, 1], [0, 0, 0, 0]])
+
+print("completed successfully")
 """ 
     Performance
         M = rows
