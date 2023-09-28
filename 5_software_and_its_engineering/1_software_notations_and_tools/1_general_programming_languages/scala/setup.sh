@@ -10,7 +10,6 @@ asdf install sbt latest
 asdf global sbt latest
 echo "done"
 
-
 echo "installing coursier"
 asdf plugin add coursier
 asdf install coursier latest
