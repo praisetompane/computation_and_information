@@ -21,20 +21,24 @@ models of computation (Sipser, 2012:3) (Sipser, 2020):
             programming languages
             artificial intelligence
 
-def symbol (Sipser, 2012:13-14): characters such as a, 0, 1, ", ]
+def symbol (Sipser, 2012:13-14): characters such as a, 0, 1, ", ].
 
-def alphabet (Sipser, 2012:13-14): Σ => Collection of symbols
+def alphabet (Sipser, 2012:13-14): Σ => Collection of symbols.
     Notation: Σ (Sigma)
     e.g. Sigma {0, 1}, {a, b, c, f}
 
-def string (Sipser, 2012:13-14): A sequence of symbols
+def string (Sipser, 2012:13-14): a sequence of symbols.
     e.g. wealth, open
 
-def language (Sipser, 2012:13-14): Set of strings
+def language (Sipser, 2012:13-14): set of strings.
     e.g. Σ = {0, 1}
         Language 1: Set of strings of length 2 => {00, 01, 11, 10}: Finite
         Language 2: Set of strings of length 3 => {000, 001, 010, 100, 111, 110, 101, 011}: Finite
         Language 3: Set of strings starting with 0 => {0, 00, 000, 010, 001}: Infinite
+
+def ϵ: empty string  (Sipser, 2020): string of length 0.
+
+def ∅: empty language: set with no strings.
 
 def Powers of Sigma (Sipser, 2012:13-14): 
     e.g.
@@ -67,3 +71,4 @@ def Σ^* (Sipser, 2012:13-14):
 
 References:
     Sipser, M. 2012. Introduction to the Theory of Computation. Cengage Learning.
+    Sipser, M. 2020. Introduction to the Theory of Computation. https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/resources/introduction-finite-automata-regular-expressions/.
