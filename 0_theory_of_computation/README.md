@@ -10,7 +10,7 @@ def: attempts to answer the question: "What are the fundamental capabilities and
                         |
                         V
     0_models_of_computation = defines ways to compute and what our computers can/cannot compute.
-                        |     defines how do do/run a list of steps AND
+                        |     defines how to do/run a list of steps AND
                         |       which lists of steps we can/can't do/run.
                         V
     2_computational_complexity_and_cryptography = defines the time and space/memory required to compute.
