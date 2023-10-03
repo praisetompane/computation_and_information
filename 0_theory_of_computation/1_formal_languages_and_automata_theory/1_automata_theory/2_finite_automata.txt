@@ -1,6 +1,45 @@
-AKA - Finite Automata (FA)
+def finite automata:
+    formal:
+        a finite automata M is a 5-tuple(Q, Σ, δ, q₀, F,) (Sipser, 2020):
 
-Two broad categories (Neso Academy).
+        Q  = finite set of all states
+        Σ  = finite set of alphabet symbols
+        q₀ = start state/initial state
+        F  = finite set of final states = set of accept states
+        δ  = transition function
+            δ: Q × Σ => Q : this is function definition
+                    δ       : function name
+                    Q × Σ   : parameter types
+                    Q       : function output/return type
+            example:
+                δ(q, a) = r
+                
+                diagrammatic version:
+                         a
+                    q -------> r
+            in words:
+
+    plain english:
+
+    intuition:
+
+    examples:
+
+                    
+    diagrammatic representation of components
+        states
+            initial - required
+                arrow coming in from nowhere pointing to state
+            final - required
+                two circles
+            rest of states = circle
+        edges
+            pointed arrow
+                label = input = defined in Σ
+                         a
+                    q -------> r
+    
+two broad categories (Neso Academy).
     2.1. FA with output 
     2.2. FA without output
 
@@ -12,33 +51,6 @@ Two broad categories (Neso Academy).
         2.2.1. Deterministic Finite Automata - DFA
         2.2.2. NonDeterministic Finite Automata - NFA
 
-Formal definition (Neso Academy).
-    Every DFA can be described using the below attributes/components
-        (Q, Σ, q0, F, δ ) 
-            
-        
-        Q = Set of all states
-        Σ = inputs
-        q0 = (q subscript zero) = start state/initial state
-        F = Set of final states
-            at least one
-        δ = transition function = Q X Σ => Q
-            transition function that maps (Q X Σ) to Q
-                given current Qᵢ
-                move to Qⱼ based on value of ⪠ₖ 
-                
-----------------------------------------------------------
-Diagrammatic representation of Components
-    States
-        Initial - required
-            arrow coming in from nowhere pointing to state
-        Final - required
-            two circles
-        Rest of states = circle
-    Edges
-        pointed arrow
-        label = input = defined in Σ
-        Transition function
-
 References:
     Neso Academy. 2016. Finite State Machine (Finite Automata). https://www.youtube.com/watch?v=Qa6csfkK7_I&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&index=3
+    Sipser, M. 2012. Introduction to the Theory of Computation. https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/resources/introduction-finite-automata-regular-expressions/.
