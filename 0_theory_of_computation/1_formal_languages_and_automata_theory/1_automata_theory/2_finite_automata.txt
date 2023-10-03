@@ -53,4 +53,4 @@ two broad categories (Neso Academy).
 
 References:
     Neso Academy. 2016. Finite State Machine (Finite Automata). https://www.youtube.com/watch?v=Qa6csfkK7_I&list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev&index=3
-    Sipser, M. 2012. Introduction to the Theory of Computation. https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/resources/introduction-finite-automata-regular-expressions/.
+    Sipser, M. 2020. Introduction to the Theory of Computation. https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/resources/introduction-finite-automata-regular-expressions/.
