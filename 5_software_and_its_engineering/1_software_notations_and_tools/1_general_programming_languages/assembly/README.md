@@ -1,5 +1,5 @@
-# Playground to experiment with assembly
-# sources
+# an in-depth study of assembly
+
 * library reference:
 * language reference: 
 * extending and embedding:
