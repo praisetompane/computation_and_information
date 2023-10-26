@@ -20,6 +20,19 @@ echo "installing mactex"
     brew install mactex
 echo "done" 
 
+echo "installing dbeaver-community"
+    brew install dbeaver-community
+echo "done" 
+
+echo "installing postman"
+    brew install postman
+echo "done" 
+
+echo "installing pyspelling"
+    pip install pyspelling
+echo "done" 
+
+
 #echo "installing scarlet 2i2 studio 3rd generation"
 #filename="focusrite.dmg" 
 #curl -o focusrite.dmg https://fael-downloads-prod.focusrite.com/customer/prod/downloads/Focusrite%20Control%20-%203.11.0.1983.dmg

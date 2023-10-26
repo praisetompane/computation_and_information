@@ -1,6 +1,5 @@
-# Playground to experiment with TSQL
+# an in-depth study of TSQL
 
-# sources
 * library reference:
 * language reference: 
 * extending and embedding:

@@ -1,7 +1,5 @@
-# playground to experiment with Java
+# an in-depth study of Java
 
-
-# sources
 * module/package index: https://central.sonatype.com/?smo=true
 
 # OpenJDK
