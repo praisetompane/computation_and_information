@@ -1,6 +1,5 @@
-# Playground to experiment with JavaScript
+# an in-depth study of JavaScript
 
-# sources
 * library reference:
 * language reference: 
 * extending and embedding:

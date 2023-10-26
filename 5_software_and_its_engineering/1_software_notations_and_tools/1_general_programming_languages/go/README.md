@@ -1,6 +1,5 @@
-# Playground to experiment with Go
+# an in-depth study of Go
 
-# sources
 * library reference:
 * language reference: 
 * extending and embedding:

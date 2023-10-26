@@ -1,6 +1,5 @@
-# Playground to experiment with C#
+# an in-depth study of C#
 
-# sources
 * library reference:
 * language reference: 
 * extending and embedding:

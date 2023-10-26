@@ -1,4 +1,4 @@
-# an in-depth study of
+# an in-depth study of TypeScript
 
 * language reference:
 * base modules index: 
@@ -6,9 +6,11 @@
 * packaging and package management:
 	* guide: 
 	* tools:
+		* embedded in language, see the guide above.
+        * pip
     * third party modules/packages index: 
 	* structuring projects: 
 	* testing: 
 * extending and embedding:
-* compiler/interpreter:
 * developer contribution guide:
+* compiler/interpreter:
