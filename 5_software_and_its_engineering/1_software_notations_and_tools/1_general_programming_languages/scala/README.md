@@ -1,5 +1,5 @@
-# Playground to experiment with Scala
-# key resources
+# an in-depth study of Scala
+
 * language reference: https://docs.scala-lang.org/scala3/reference/
 * base modules index: https://scala-lang.org/api/3.x/e
 * standard library reference: https://www.scala-lang.org/api/current/index.html 
@@ -9,7 +9,10 @@
         * sbt
 	* third party modules/packages index: https://index.scala-lang.org/
 * extending and embedding:
-
+* developer contribution guide:
+* compiler/interpreter:
+    2.13.*: https://github.com/scala/scala
+    3.*.*: https://github.com/lampepfl/dotty
 # community:
 * scala center: https://scala.epfl.ch/
 * scala cli: https://index.scala-lang.org/virtuslab/scala-cli
