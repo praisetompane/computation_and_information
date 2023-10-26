@@ -1,0 +1,117 @@
+purpose: understand computation
+
+priority:
+    - field update
+    - study
+
+- field update:
+    Quanta Magazine: https://www.quantamagazine.org/computer-science/
+    ACM DL: https://dl.acm.org : browse what is happening in computing.
+
+Development: https://www.infoq.com/development/
+
+Architecture & Design: https://www.infoq.com/architecture-design/
+
+AI, ML & Data Engineering: 
+    https://www.infoq.com/ai-ml-data-eng/
+    https://read.deeplearning.ai/the-batch/
+
+Culture & Methods: 
+    https://www.infoq.com/culture-methods/
+
+DevOps: https://www.infoq.com/devops/
+
+General:
+    https://www.ischools.org/news/categories/news
+    https://www.media.mit.edu
+    HackerNews:  https://news.ycombinator.com/news
+
+- study:
+    - origins and history: why was computer science created? what is computer science? how is computer science done?: 1 hour
+        degree module: n/a
+        videos: 
+        readings:
+            - https://en.wikipedia.org/wiki/History_of_computer_science
+        recitations:
+        assignments:
+        exams:
+
+    - 0_foundations: what are the fundamental building blocks of computer science and how are they used to build all of computer science?
+        0_theory_of_computation: 1 hour
+            degree module: UNISA COS1511 | UNISA COS1512 
+            videos:
+            readings: 
+                - introduction_to_the_theory_of_computation_third_edition._michael_sipser.cengage_learning.pdf
+                    - current position: Not Started
+            recitations:
+            assignments:
+            exams:
+    - 1_mathematics_of_computing: 1 hour
+        degree module: MIT { 6.1200[J] | 6.042J } | UNISA MAT2612 | UNISA MAT3707
+        current position: 
+        videos: 
+             Mathematics of Computer Science: https://m.youtube.com/playlist?list=PLB7540DEDD482705B
+
+            Dr N J Wildberger. Wild Egg Maths. Algebra of Boole: https://www.youtube.com/playlist?list=PLzdiPTrEWyz7dAFDVOhscRPqK3M6FNauN
+
+        readings: 
+            - Epp, S.S. 2010. Discrete mathematics with applications. 4th ed. Cengage Learning. Boston, MA.
+                current position: pg. 6, exercise 1.1, question 4
+            - 6.1200[J]	Mathematics for Computer Science
+                - current position: Lecture 1: Introduction and Proofs/Readings
+        recitations:
+        assignments:
+        exams:
+    - 2_hardware: 1 hour
+        degree module: UNISA COS1521
+        videos: 
+        readings: 
+            - but_how_do_it_know?_the_basic_principles_of_computers_for_everyone.john_clark_scott.pdf
+                current position: pg. 181
+                next:
+                    Addresses
+                    ERRORS
+                    THE DISK
+                    LOGIC
+                    THE CLOCK
+                    THE FIRST GREAT INVENTION
+                    THE SECOND GREAT INVENTION
+                    THE OUTSIDE WORLD
+                    THE KEYBOARD
+                    THE DISPLAY SCREEN
+                    FIRMWARE
+                    Start from the Top to read the whole book completely.
+        recitations:
+        assignments:
+        exams:
+    - 4_networks: 1 hour
+        degree module:
+        videos:
+        readings: 
+        assignments:
+        exams:
+    - 5_software_and_its_engineering: 1 hour
+        degree module: UNISA COS1511 | UNISA COS1512 
+        videos:
+        readings: 
+            - concepts_techniques_and_models_of_computer_programming.van_roy_p.haridi_s.pdf
+                - current position: pg. xiv: When should we add a concept ...: R2
+            - https://github.com/aosabook/500lines
+                - current position: Not Started
+            - https://github.com/aosabook/aosabook
+                - current position: Not Started
+        recitations:
+        assignments:
+        exams:
+
+==============================================================================================
+next:
+
+
+timeline:
+    see program.txt
+
+legend:
+    *: visited today/last session
+        NB: All subjects must be visited before a repeat visit.
+

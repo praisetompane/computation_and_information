@@ -1,4 +1,4 @@
-# Playground to experiment with C#
+# an in-depth study of C#
 
 # Tool chain
 * C#
