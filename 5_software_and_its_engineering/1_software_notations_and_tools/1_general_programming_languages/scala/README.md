@@ -7,6 +7,7 @@
     * guide: https://www.baeldung.com/scala/package-app
     * tools:
         * sbt
+            * create new project: sbt new scala/scala-seed.g8
 	* third party modules/packages index: https://index.scala-lang.org/
 * extending and embedding:
 * developer contribution guide:
