@@ -1,4 +1,4 @@
-# larger implementations to test understanding of the language
+# larger implementations to test understanding of the language and its strengths/weaknesses
 
 1. app_poker: https://github.com/praisetompane/app_poker
 
