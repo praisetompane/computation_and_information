@@ -1,4 +1,4 @@
-purpose: understand computation
+purpose: understand computation and try to create/find new models of computation.
 
 priority:
     - field update
@@ -27,14 +27,7 @@ General:
     HackerNews:  https://news.ycombinator.com/news
 
 - study:
-    - origins and history: why was computer science created? what is computer science? how is computer science done?: 1 hour
-        degree module: n/a
-        videos: 
-        readings:
-            - https://en.wikipedia.org/wiki/History_of_computer_science
-        recitations:
-        assignments:
-        exams:
+    - adhoc: origins and history: https://en.wikipedia.org/wiki/History_of_computer_science
 
     - 0_foundations: what are the fundamental building blocks of computer science and how are they used to build all of computer science?
         0_theory_of_computation: 1 hour
@@ -84,12 +77,6 @@ General:
         recitations:
         assignments:
         exams:
-    - 4_networks: 1 hour
-        degree module:
-        videos:
-        readings: 
-        assignments:
-        exams:
     - 5_software_and_its_engineering: 1 hour
         degree module: UNISA COS1511 | UNISA COS1512 
         videos:
@@ -103,9 +90,14 @@ General:
         recitations:
         assignments:
         exams:
-
 ==============================================================================================
 next:
+    - 3_computer_systems_organisation: 1 hour
+        degree module:
+        videos:
+        readings: 
+        assignments:
+        exams:
 
 timeline:
     see .plan.txt
