@@ -1,0 +1,444 @@
+.
+├── 1_mathematics_of_computing
+│   ├── README.md
+│   └── mathematics_and_computing.svg
+├── 2_hardware
+│   ├── 0_bit.txt
+│   ├── 1_byte.txt
+│   ├── 2_memory_byte.txt
+│   ├── 3_enabler.txt
+│   ├── 4_register.txt
+│   ├── 5_addresses.txt
+│   ├── README.md
+│   ├── a_simple_computer_implementation
+│   │   ├── 0_premise.txt
+│   │   ├── 10_more_gate_combinations.txt
+│   │   ├── 11_arithmetic.txt
+│   │   ├── 12_instructions.txt
+│   │   ├── 13_languages.txt
+│   │   ├── 13_test_file
+│   │   ├── 14_programs.txt
+│   │   ├── 15_input_output.txt
+│   │   ├── 16_file_system.txt
+│   │   ├── 2_gate_basic_device_in_a_computer.txt
+│   │   ├── 3_computer_memory.txt
+│   │   ├── 4_what_can_we_do_with_a_bit?.txt
+│   │   ├── 5_a_rose_by_another_name.txt
+│   │   ├── 7_codes.txt
+│   │   ├── 9_the_magic_bus.txt
+│   │   ├── README.md
+│   │   └── empty
+│   └── boot.txt
+├── 3_computer_systems_organisation
+│   └── README.md
+├── 4_networks
+│   ├── README.md
+│   ├── basic_web_browsing.drawio
+│   └── basic_web_browsing.jpg
+├── 5_software_and_its_engineering
+│   ├── 0_software_organisation_and_properties
+│   │   └── contextual_software_domains
+│   │       └── operating_systems
+│   │           ├── 0_def.txt
+│   │           └── linux
+│   │               └── pipes.sh
+│   ├── 1_software_notations_and_tools
+│   │   ├── 2_context_specific_languages
+│   │   │   └── tsql
+│   │   │       ├── application_projects
+│   │   │       │   └── empty_file
+│   │   │       ├── doc
+│   │   │       │   ├── 10_Programmable_Objects.txt
+│   │   │       │   ├── 1_Normalisation.txt
+│   │   │       │   ├── 2_SELECT_Statement.txt
+│   │   │       │   ├── 2_SELECT_Statement.txt.txt
+│   │   │       │   ├── 3_JOINS.txt
+│   │   │       │   ├── 4_Subqueries.txt
+│   │   │       │   ├── 5_Table_Expressions.txt
+│   │   │       │   ├── 7_WINDOWS.txt
+│   │   │       │   ├── 8_PIVOTING.TXT
+│   │   │       │   ├── 9_Data_Modification.txt
+│   │   │       │   ├── Operators.txt
+│   │   │       │   └── Syntax Notes.txt
+│   │   │       └── src
+│   │   │           └── legacy
+│   │   │               ├── 10_Programmable_Objects.sql
+│   │   │               ├── 11_Exceptions_TRY_CATCH_TEST.sql
+│   │   │               ├── 2_SELECT_Statement.sql
+│   │   │               ├── 3_JOINS.sql
+│   │   │               ├── 4_Subqueries.sql
+│   │   │               ├── 5_Table_Expressions.sql
+│   │   │               ├── 7_WINDOWS.sql
+│   │   │               ├── 9_Data_Modification_1.sql
+│   │   │               ├── 9_Data_Modification_2.sql
+│   │   │               └── Excercises.sql
+│   │   ├── 3_compilers
+│   │   │   ├── 0_def.txt
+│   │   │   └── 1_lexical_analysis.txt
+│   │   ├── 4_software_libraries_and_repositories
+│   │   │   ├── def.txt
+│   │   │   ├── rabbitmq
+│   │   │   │   └── src
+│   │   │   │       └── RPC
+│   │   │   │           ├── RPCClient.java
+│   │   │   │           └── RPCServer.java
+│   │   │   └── react
+│   │   │       ├── application_projects
+│   │   │       └── tutorials
+│   │   │           └── github-battle
+│   │   │               ├── README.md
+│   │   │               ├── app
+│   │   │               │   ├── components
+│   │   │               │   │   ├── App.js
+│   │   │               │   │   ├── Battle.js
+│   │   │               │   │   ├── Home.js
+│   │   │               │   │   ├── Loading.js
+│   │   │               │   │   ├── Nav.js
+│   │   │               │   │   ├── PlayerPreview.js
+│   │   │               │   │   ├── Popular.js
+│   │   │               │   │   └── Results.js
+│   │   │               │   ├── index.css
+│   │   │               │   ├── index.html
+│   │   │               │   ├── index.js
+│   │   │               │   └── utils
+│   │   │               │       └── api.js
+│   │   │               ├── firebase.json
+│   │   │               ├── package.json
+│   │   │               ├── practice
+│   │   │               │   ├── mapandfilerpractice.js
+│   │   │               │   ├── mappractice.js
+│   │   │               │   ├── propspractice1.js
+│   │   │               │   ├── propspractice2.js
+│   │   │               │   └── propspractice3.js
+│   │   │               └── webpack.config.js
+│   │   ├── 5_development_frameworks_and_environments
+│   │   │   └── def.txt
+│   │   ├── 6_software_configuration_management_and_version_control_systems
+│   │   │   ├── docker
+│   │   │   │   └── def.txt
+│   │   │   └── git
+│   │   │       ├── def.txt
+│   │   │       └── setup.sh
+│   │   └── 7_software_maintenance_tools
+│   │       └── build_tools
+│   │           ├── def.txt
+│   │           └── sbt
+│   │               ├── README.md
+│   │               └── creating_a_new_project.txt
+│   ├── 2_software_creation_and_management
+│   │   ├── 0_designing_software
+│   │   │   └── 1_software_design_engineering
+│   │   │       ├── SOLID.txt
+│   │   │       ├── dependencies.txt
+│   │   │       ├── design_patterns
+│   │   │       │   ├── abstractfactory
+│   │   │       │   │   └── Objective.txt
+│   │   │       │   ├── def.txt
+│   │   │       │   ├── factory
+│   │   │       │   │   ├── def.txt
+│   │   │       │   │   └── src
+│   │   │       │   │       └── Chapter_3
+│   │   │       │   │           └── SwitchStatements
+│   │   │       │   │               ├── CommonModel
+│   │   │       │   │               │   ├── EmployeeType.java
+│   │   │       │   │               │   ├── InvalidEmployeeException.java
+│   │   │       │   │               │   └── Money.java
+│   │   │       │   │               ├── ProblemCase
+│   │   │       │   │               │   ├── Employee.java
+│   │   │       │   │               │   └── PayRoll.java
+│   │   │       │   │               ├── Solution
+│   │   │       │   │               │   ├── EmployeeFactory.java
+│   │   │       │   │               │   ├── EmployeeFactoryImpl.java
+│   │   │       │   │               │   └── Model
+│   │   │       │   │               │       ├── CommissionedEmployee.java
+│   │   │       │   │               │       ├── Employee.java
+│   │   │       │   │               │       ├── EmployeeRecord.java
+│   │   │       │   │               │       ├── HourlyEmployee.java
+│   │   │       │   │               │       └── SalariedEmployee.java
+│   │   │       │   │               └── notes.txt
+│   │   │       │   ├── observer
+│   │   │       │   │   ├── GetTheStock.java
+│   │   │       │   │   ├── GrabStocks.java
+│   │   │       │   │   ├── Observer.java
+│   │   │       │   │   ├── StockGrabber.java
+│   │   │       │   │   ├── StockObserver.java
+│   │   │       │   │   ├── Subject.java
+│   │   │       │   │   └── def.txt
+│   │   │       │   └── strategy
+│   │   │       │       ├── Animal.java
+│   │   │       │       └── def.txt
+│   │   │       ├── error_handling.txt
+│   │   │       ├── scaling
+│   │   │       │   ├── 0_scaling.txt
+│   │   │       │   ├── 10_read_heavy_and_write_heavy.txt
+│   │   │       │   ├── 11_security.txt
+│   │   │       │   ├── 12_content_delivery_networks.txt
+│   │   │       │   ├── 13_database_indices.txt
+│   │   │       │   ├── 1_load_balancer.txt
+│   │   │       │   ├── 2_database_normalisation_and_no_sql.txt
+│   │   │       │   ├── 3_database_partitioning(sharding).txt
+│   │   │       │   ├── 4_caching.txt
+│   │   │       │   ├── 5_asynchronous_processing_and_queues.txt
+│   │   │       │   ├── 6_network_metrices.txt
+│   │   │       │   ├── 7_map_reduce.txt
+│   │   │       │   ├── 8_failure.txt
+│   │   │       │   ├── 9_availability_and_reliability.txt
+│   │   │       │   └── practice_problems
+│   │   │       │       └── text_processing.txt
+│   │   │       └── security
+│   │   │           ├── OS-Shell -injection.txt
+│   │   │           ├── XML-and-XPATH-injection.txt
+│   │   │           ├── insecure- deserialisation.txt
+│   │   │           ├── insecure-direct-object-reference.txt
+│   │   │           ├── insufficient-logging-and-monitoring.txt
+│   │   │           ├── missing-functional-level-access-control.txt
+│   │   │           ├── no-SQL-injection.txt
+│   │   │           ├── plain-text-data-storage.txt
+│   │   │           ├── security-misconfigurations.txt
+│   │   │           ├── sensitive-data-exposure.txt
+│   │   │           ├── stored-cross-site-scripting.txt
+│   │   │           ├── template.txt
+│   │   │           ├── using-components-from-untrusted-source.txt
+│   │   │           └── using-vulnerable-components.txt
+│   │   ├── 5_development_frameworks_and_environments
+│   │   │   ├── def.txt
+│   │   │   └── development_frameworks
+│   │   │       ├── django
+│   │   │       │   ├── Pipfile
+│   │   │       │   ├── Pipfile.lock
+│   │   │       │   ├── README.md
+│   │   │       │   ├── application_projects
+│   │   │       │   │   ├── README.md
+│   │   │       │   │   └── empty_file
+│   │   │       │   ├── create_app.sh
+│   │   │       │   ├── create_project.sh
+│   │   │       │   ├── django_api.txt
+│   │   │       │   ├── run_project.sh
+│   │   │       │   ├── setup.sh
+│   │   │       │   └── store_front
+│   │   │       │       ├── Pipfile
+│   │   │       │       ├── Pipfile.lock
+│   │   │       │       ├── create_app.sh
+│   │   │       │       ├── manage.py
+│   │   │       │       ├── notes
+│   │   │       │       │   ├── REAMDE.md
+│   │   │       │       │   ├── __init__.py
+│   │   │       │       │   ├── admin.py
+│   │   │       │       │   ├── apps.py
+│   │   │       │       │   ├── migrations
+│   │   │       │       │   │   └── __init__.py
+│   │   │       │       │   ├── models.py
+│   │   │       │       │   ├── templates
+│   │   │       │       │   │   └── hello.html
+│   │   │       │       │   ├── tests.py
+│   │   │       │       │   ├── urls.py
+│   │   │       │       │   └── views.py
+│   │   │       │       ├── run_project.sh
+│   │   │       │       └── store_front
+│   │   │       │           ├── __init__.py
+│   │   │       │           ├── asgi.py
+│   │   │       │           ├── settings.py
+│   │   │       │           ├── urls.py
+│   │   │       │           └── wsgi.py
+│   │   │       └── node
+│   │   │           ├── Events
+│   │   │           │   ├── app.js
+│   │   │           │   ├── config.js
+│   │   │           │   └── emitter.js
+│   │   │           ├── Modules
+│   │   │           │   ├── app_folder_module.js
+│   │   │           │   ├── app_module_patterns.js
+│   │   │           │   ├── greet
+│   │   │           │   │   ├── english.js
+│   │   │           │   │   ├── greetings.json
+│   │   │           │   │   ├── greetingsloader.js
+│   │   │           │   │   ├── index.js
+│   │   │           │   │   └── spanish.js
+│   │   │           │   └── patterns
+│   │   │           │       ├── greet1.js
+│   │   │           │       ├── greet2.js
+│   │   │           │       ├── greet3.js
+│   │   │           │       ├── greet4.js
+│   │   │           │       └── greet5.js
+│   │   │           ├── Prototypes.js
+│   │   │           └── application_projects
+│   │   │               ├── README.md
+│   │   │               └── empty_file
+│   │   ├── docker
+│   │   │   ├── def.txt
+│   │   │   └── useful_commands.txt
+│   │   ├── enterprise_applications.txt
+│   │   └── patterns_of_enterprise_application_architecture.txt
+│   ├── README.md
+│   ├── programming_environment_setup
+│   │   ├── asdf.sh
+│   │   ├── docker_dev_env.txt
+│   │   ├── git.sh
+│   │   ├── main.sh
+│   │   ├── package_management.sh
+│   │   ├── terminal.sh
+│   │   ├── text_editing.sh
+│   │   └── tree.sh
+│   └── unified_discipline_of_programming
+│       ├── 0_computation_models
+│       │   ├── 0_general
+│       │   │   ├── 0_declarative
+│       │   │   │   ├── 0_def.txt
+│       │   │   │   └── functional_programming
+│       │   │   │       └── 0.concepts.txt
+│       │   │   ├── 1_concurrent_declarative
+│       │   │   │   └── 0_def.txt
+│       │   │   ├── 2_lazy_declarative
+│       │   │   │   └── 0_def.txt
+│       │   │   ├── 3_stateful
+│       │   │   │   └── 0_def.txt
+│       │   │   ├── 4_object_orientated
+│       │   │   │   ├── 0_def.txt
+│       │   │   │   └── legacy_notes
+│       │   │   │       ├── 0.concepts.txt
+│       │   │   │       ├── Access modifiers.txt
+│       │   │   │       ├── Control Strcutures  Pointers.txt
+│       │   │   │       ├── OOP Psuedocode.txt
+│       │   │   │       ├── OOP preparation Crtitical Understanding.txt
+│       │   │   │       ├── OOP preparation.txt
+│       │   │   │       ├── Psuedocode.txt
+│       │   │   │       ├── The WHY of OOP concepts.txt
+│       │   │   │       ├── oop.txt
+│       │   │   │       └── problem_solving_flow.txt
+│       │   │   ├── 5_shared_state_concurrent
+│       │   │   │   └── 0_def.txt
+│       │   │   ├── 6_message_passing_concurrent
+│       │   │   │   └── 0_def.txt
+│       │   │   ├── 7_relational
+│       │   │   │   └── 0_def.txt
+│       │   │   └── 8_specialised_models
+│       │   │       └── 0_def.txt
+│       │   ├── 1_specialized
+│       │   │   └── 0_distributed
+│       │   │       └── 0_def.txt
+│       │   ├── README.md
+│       │   └── mnemonic.txt
+│       ├── 1_programming_concepts
+│       │   ├── 0_calcution.oz
+│       │   ├── 1_variables.oz
+│       │   └── 2_functions_and_recursion.oz
+│       ├── README.md
+│       └── setup.sh
+├── 6_computing_methodologies
+│   ├── artificial_intelligence
+│   │   ├── canonical_architecture.txt
+│   │   ├── def.txt
+│   │   └── natural_language_processing
+│   │       ├── 0_def.txt
+│   │       ├── 1_one_hot_vectors.txt
+│   │       ├── 2_distributional_semantics.txt
+│   │       ├── 3_word2vec.txt
+│   │       ├── analogy_representation.jpg
+│   │       ├── nltk.py
+│   │       └── requirements.txt
+│   ├── machine_learning
+│   │   ├── 0_def.txt
+│   │   ├── 1_uses_cases.txt
+│   │   ├── 2_machine_learning_systems.txt
+│   │   ├── 2_z_machine_learning_systems_supervised.txt
+│   │   ├── 2_z_machine_learning_systems_unsupervised.txt
+│   │   ├── 3_challenges.txt
+│   │   ├── 4_testing_and_validation.txt
+│   │   ├── 5_Implementing_ML_project.txt
+│   │   ├── mathematics_of_machine_learning.txt
+│   │   ├── models
+│   │   │   ├── def.txt
+│   │   │   ├── descriptive
+│   │   │   │   ├── def.txt
+│   │   │   │   └── simulation
+│   │   │   │       ├── 5_random_walks
+│   │   │   │       │   ├── __pycache__
+│   │   │   │       │   │   ├── drunk.cpython-39.pyc
+│   │   │   │       │   │   ├── field.cpython-39.pyc
+│   │   │   │       │   │   └── location.cpython-39.pyc
+│   │   │   │       │   ├── chapter_breakdown.txt
+│   │   │   │       │   ├── def.txt
+│   │   │   │       │   └── tutorials
+│   │   │   │       │       ├── drunk.py
+│   │   │   │       │       ├── field.py
+│   │   │   │       │       ├── location.py
+│   │   │   │       │       └── simulation.py
+│   │   │   │       └── def.txt
+│   │   │   ├── linear_regression
+│   │   │   │   └── tutorials
+│   │   │   │       ├── house_market
+│   │   │   │       │   ├── areas.csv
+│   │   │   │       │   ├── homeprices.csv
+│   │   │   │       │   ├── house_prices.py
+│   │   │   │       │   ├── predicted_prices.csv
+│   │   │   │       │   ├── price_prediction.ipynb
+│   │   │   │       │   ├── requirements.txt
+│   │   │   │       │   └── y_equal_x.py
+│   │   │   │       └── per_capita_prediction
+│   │   │   │           ├── canada_per_capita_income.csv
+│   │   │   │           ├── model.ipynb
+│   │   │   │           └── requirements.txt
+│   │   │   ├── predictive
+│   │   │   │   ├── 6_monte_carlo
+│   │   │   │   │   ├── 0_def.txt
+│   │   │   │   │   ├── 1_estimation_confidence.txt
+│   │   │   │   │   ├── 2_sampling.txt
+│   │   │   │   │   ├── 3_confidence_intervals_and_levels.txt
+│   │   │   │   │   └── 4_distributions.txt
+│   │   │   │   ├── 7_confidence_intervals_and_levels
+│   │   │   │   │   └── def.txt
+│   │   │   │   └── def.txt
+│   │   │   ├── prescriptive
+│   │   │   │   ├── 1_optimisation
+│   │   │   │   │   ├── 0_def.txt
+│   │   │   │   │   ├── 1_solutions.txt
+│   │   │   │   │   ├── 2_summary.txt
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── greedy.cpython-39.pyc
+│   │   │   │   │   │   └── restuarant.cpython-39.pyc
+│   │   │   │   │   └── common_instances
+│   │   │   │   │       └── knapsack
+│   │   │   │   │           ├── def.txt
+│   │   │   │   │           └── greedy_solutions
+│   │   │   │   │               ├── __pycache__
+│   │   │   │   │               │   ├── greedy.cpython-39.pyc
+│   │   │   │   │               │   └── restuarant.cpython-39.pyc
+│   │   │   │   │               ├── greedy.py
+│   │   │   │   │               ├── restuarant.py
+│   │   │   │   │               ├── restuarant_test.py
+│   │   │   │   │               ├── search_tree_1.jpg
+│   │   │   │   │               └── search_tree_2.jpg
+│   │   │   │   └── def.txt
+│   │   │   └── stochastic_thinking
+│   │   │       ├── 0_def.txt
+│   │   │       ├── 0_history.txt
+│   │   │       ├── 1_probability.txt
+│   │   │       ├── 2_simulation.txt
+│   │   │       ├── 3_roll_dice_simulation.py
+│   │   │       └── 4_birthday_problem.py
+│   │   └── supervised_unsupervised_and_linear_regression.txt
+│   └── symbolic_and_algebraic_manipulation
+│       └── README.md
+├── LICENSE
+├── README.md
+├── computing.code-workspace
+├── general_machine_setup.sh
+├── library
+├── problem_solving_techniques
+│   ├── learn_new_code_base.txt
+│   ├── learn_new_language.txt
+│   ├── optimization.txt
+│   ├── problem_solving_flow.txt
+│   ├── solution_template.txt
+│   └── thought_patterns.txt
+├── science_of_computation
+│   ├── 1_def.jpg
+│   ├── 2_science_of_computation_foundations.jpg
+│   └── README.md
+├── templates
+│   ├── definition.txt
+│   └── proof.txt
+├── todo.txt
+└── tree.txt
+
+120 directories, 322 files
