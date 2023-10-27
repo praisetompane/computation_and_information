@@ -1,6 +1,6 @@
 # an in-depth study of TypeScript
 
-* language reference:
+* language reference: https://www.typescriptlang.org/docs/handbook/intro.html
 * base modules index: 
 * standard library reference: 
 * packaging and package management:
@@ -11,6 +11,6 @@
     * third party modules/packages index: 
 	* structuring projects: 
 	* testing: 
-* extending and embedding:
+* extending and embedding:	
 * developer contribution guide:
 * compiler/interpreter:
