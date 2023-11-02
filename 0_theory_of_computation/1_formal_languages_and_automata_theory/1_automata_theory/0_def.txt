@@ -1,7 +1,7 @@
 def formal_languages_and_automata_theory: deals with definitions and properties of mathematical models of computation (sipser, 2012:3).
 
 provides:
-    precise definitions of computers(required by Computability and complexity theory) (Sipser, 2012:3).   
+    precise definitions of computers(required by Computability and Complexity theory) (Sipser, 2012:3).   
 
 models of computation (Sipser, 2012:3) (Sipser, 2020):
     - finite automata
