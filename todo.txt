@@ -27,20 +27,13 @@ General:
     HackerNews:  https://news.ycombinator.com/news
 
 - study:
-    - origins and history: why was computer science created? what is computer science? how is computer science done?: 1 hour
-        degree module: n/a
-        videos: 
-        readings:
-            - https://en.wikipedia.org/wiki/History_of_computer_science
-        recitations:
-        assignments:
-        exams:
-
-    - 0_foundations: what are the fundamental building blocks of computer science and how are they used to build all of computer science?
-        0_theory_of_computation: 1 hour
-            degree module: UNISA COS1511 | UNISA COS1512 
-            videos:
-            readings: 
+    - 0_foundations: what is computation? what can we compute? what can we not compute? why do we compute?: 
+        - 0_theory_of_computation: 1 hour
+            - degree module: UNISA COS1511 | UNISA COS1512 
+            - videos:
+                - Theoretical Computer Science. : https://www.youtube.com/watch?v=OS33r2Fk8YQ&list=PLCqUsBXxq16yBaN_hpo7dY2l9N-ZLtI-X
+                - Theory Of Computation: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/
+            - readings: 
                 - introduction_to_the_theory_of_computation_third_edition._michael_sipser.cengage_learning.pdf
                     - current position: Not Started
             recitations:

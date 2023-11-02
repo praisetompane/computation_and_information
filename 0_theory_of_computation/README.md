@@ -20,5 +20,5 @@ def: attempts to answer the question: "What are the fundamental capabilities and
     3_design_and_analysis_of_algorithms => defines how to make effective and efficient computations.
                                             
 # References:
-* Sipser, M. 2012. Introduction to the Theory of Computation. Cengage Learning.
+    - Sipser, M. 2012. Introduction to the Theory of Computation. Cengage Learning.
 

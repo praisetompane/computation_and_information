@@ -1,0 +1,19 @@
+elementary computer:
+    example: Charles Babbage' Analytical Engine
+    components:
+        - expandable memory?
+        - an arithmetic unit
+        - logic processing capabilities able to interpret a programming language with loops and conditional branching
+
+    Von Neumann architecture
+        idea: computer instructions and data can share memory space.
+         - Arithmetic Logic Unit (ALU)
+        - Instruction Processing Unit (IPU)
+        - Memory  
+
+Boolean Algebra allows modelling computational processes mathematically
+
+Modern CS:
+    Goedel
+
+Q: why do we compute?
