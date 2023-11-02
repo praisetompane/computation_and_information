@@ -4,12 +4,13 @@ purpose: understand computation.
     - study
     - field update
 - study:
-    - 0_foundations: what is computation?
+    - 0_foundations: what is computation? what can we compute? what can we not compute? why do we compute?: 
         - 0_theory_of_computation: 1 hour
             - degree module: UNISA COS1511 | UNISA COS1512 
             - videos:
+                - Theoretical Computer Science. : https://www.youtube.com/watch?v=OS33r2Fk8YQ&list=PLCqUsBXxq16yBaN_hpo7dY2l9N-ZLtI-X
+                - Theory Of Computation: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/
             - readings: 
-                - high level intro: https://www.youtube.com/watch?v=7GWP0oP4_Vc&list=PLylTVsqZiRXN3Q86XJV6OWOmIzvVZs75E
                 - introduction_to_the_theory_of_computation_third_edition._michael_sipser.cengage_learning.pdf
                     - current position: Not Started
                 - Stanford Encyclopedia of Philosophy. The Church-Turing Thesis. https://plato.stanford.edu/entries/church-turing/.

@@ -15,3 +15,5 @@ Boolean Algebra allows modelling computational processes mathematically
 
 Modern CS:
     Goedel
+
+Q: why do we compute?
