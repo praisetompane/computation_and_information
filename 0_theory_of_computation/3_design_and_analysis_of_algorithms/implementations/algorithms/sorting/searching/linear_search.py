@@ -10,6 +10,6 @@ def linear_search(value, arr):
 data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 assert(linear_search(8, data) == 8)
-assert(linear_search(11, data) == None)
+assert(linear_search(11, data) is None)
 
 print("completed successfully")
