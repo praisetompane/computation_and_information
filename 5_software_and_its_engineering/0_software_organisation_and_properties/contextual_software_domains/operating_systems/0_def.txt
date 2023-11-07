@@ -64,3 +64,9 @@ def operating system (or OS):
 
 References:
     Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
+
+General References:
+- Operating Systems: Crash Course Computer Science #18: https://m.youtube.com/watch?v=26QPDBe-NB8&pp=ygUdT3BlcmF0aW5nIHN5c3RlbSBjcmFzaCBjb3Vyc2U%3D
+- Linux:
+     - Memory Management: https://m.youtube.com/watch?v=tpRlczF0pqw
+     - Deep Linux. Heap: https://m.youtube.com/playlist?list=PLZQ4UbPWTlon-F9l6KAlAjxeZsqNmxM5K

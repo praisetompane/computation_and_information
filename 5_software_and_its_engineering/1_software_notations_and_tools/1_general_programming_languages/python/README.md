@@ -23,6 +23,7 @@ core python syntax and applications using the language
 * extending and embedding: https://docs.python.org/3.9/extending/index.html
 * developer contribution guide: https://devguide.python.org/
 * compiler/interpreter: https://github.com/praisetompane/cpython.
+* computational complexity cost model: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/readings/python-cost-model/
 
 # community:
 In python what does it mean by everything is an object?: https://stackoverflow.com/questions/40478536/in-python-what-does-it-mean-by-everything-is-an-object
