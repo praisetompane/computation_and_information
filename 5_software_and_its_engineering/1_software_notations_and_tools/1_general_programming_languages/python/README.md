@@ -23,6 +23,10 @@ core python syntax and applications using the language
 * extending and embedding: https://docs.python.org/3.9/extending/index.html
 * developer contribution guide: https://devguide.python.org/
 * compiler/interpreter: https://github.com/praisetompane/cpython.
+* history and usage:
+  * The Story of Python, by Its Creator, Guido van Rossum: https://www.youtube.com/watch?v=J0Aq44Pze-w
+  * What is Python Used For?: https://www.youtube.com/watch?v=-67hh86N42Q&list=PL1SlsJ5DkUXCItreEt0rVviOdOXSP1hm3&index=26
+  * I built the same app 3 times | Which Python Framework is best? Django vs Flask vs FastAPI: https://www.youtube.com/watch?v=3vfum74ggHE&list=PL1SlsJ5DkUXCItreEt0rVviOdOXSP1hm3&index=27
 
 # community:
 In python what does it mean by everything is an object?: https://stackoverflow.com/questions/40478536/in-python-what-does-it-mean-by-everything-is-an-object
