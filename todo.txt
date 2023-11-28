@@ -4,12 +4,15 @@ purpose: understand computation.
     - study
     - field update
 - study:
+        - 10.2.5 Models of Computation: https://www.youtube.com/watch?v=vJqBBh2XFTM
     - 0_foundations: what is computation? what can we compute? what can we not compute? why do we compute?: 
         - 0_theory_of_computation: 1 hour
             - degree module: UNISA COS1511 | UNISA COS1512 
             - videos:
                 - Theoretical Computer Science. : https://www.youtube.com/watch?v=OS33r2Fk8YQ&list=PLCqUsBXxq16yBaN_hpo7dY2l9N-ZLtI-X
-                - Theory Of Computation: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/
+                - Theory Of Computation: 
+                    https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/
+                    https://www.youtube.com/watch?v=9syvZr-9xwk&list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY
             - readings: 
                 - introduction_to_the_theory_of_computation_third_edition._michael_sipser.cengage_learning.pdf
                     - current position: Not Started
@@ -22,8 +25,7 @@ purpose: understand computation.
         - degree module: MIT { 6.1200[J] | 6.042J } | UNISA MAT2612 | UNISA MAT3707
         - videos: 
             - Mathematics of Computer Science: https://m.youtube.com/playlist?list=PLB7540DEDD482705B
-            - Dr N J Wildberger. Wild Egg Maths. Algebra of Boole: https://www.youtube.com/playlist?list=PLzdiPTrEWyz7dAFDVOhscRPqK3M6FNauN
-        readings: 
+        - readings: 
             - Epp, S.S. 2010. Discrete mathematics with applications. 4th ed. Cengage Learning. Boston, MA.
                 current position: pg. 6, exercise 1.1, question 4
             - 6.1200[J]	Mathematics for Computer Science
@@ -31,9 +33,22 @@ purpose: understand computation.
         - recitations:
         - assignments:
         - exams:
-    - 2_hardware: how are physical materials used to represent computation or build machines that can compute?: 1 hour
-        - degree module: UNISA COS1521
+    - 3_design_and_analysis_of_algorithms: 1 hour
+        - degree module: MIT 6.1210
         - videos: 
+            - Introduction To Algorithms:
+                Demaine E. Devadas S. Introduction To Algorithms. 2011. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-4-heaps-and-heap-sort/.
+                    - current position: Lecture 1: Algorithmic Thinking, Peak Finding
+        - readings: 
+        - recitations:
+        - assignments:
+        - exams:
+    - 2_hardware: how are physical materials used to represent computation or build machines that can compute?: 1 hour
+        - degree module: UNISA COS1521 | MIT 6.1910
+        - videos: 
+            - MIT 6.004 Computation Structures: https://www.youtube.com/playlist?list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2            
+            - Companion Video Series to "But How Do It Know?": https://m.youtube.com/playlist?list=PLYE0XunAbwfDvfabOlNWLViRcMI54M6CR
+            - Dr N J Wildberger. Wild Egg Maths. Algebra of Boole: https://www.youtube.com/playlist?list=PLzdiPTrEWyz7dAFDVOhscRPqK3M6FNauN
         - readings: 
             - but_how_do_it_know?_the_basic_principles_of_computers_for_everyone.john_clark_scott.pdf
                 current position: pg. 181
@@ -50,12 +65,17 @@ purpose: understand computation.
                     THE DISPLAY SCREEN
                     FIRMWARE
                     Start from the Top to read the whole book completely.
+            - MIT 6.004 Computation Structure:
+                https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/
         - recitations:
         - assignments:
         - exams:
     - 5_software_and_its_engineering: what is software? how are bit patterns organized to represent computation? 1 hour
         - degree module: UNISA COS1511 | UNISA COS1512 
         - videos:
+           - MIT 6.172 Performance Engineering of Software System: https://m.youtube.com/playlist?list=PLUl4u3cNGP63VIBQVWguXxZZi0566y7Wf
+           - MIT 6.001 Structure and Interpretation, 1986: https://m.youtube.com/playlist?list=PLE18841CABEA24090
+
         readings: 
             - concepts_techniques_and_models_of_computer_programming.van_roy_p.haridi_s.pdf
                 - current position: pg. xiv: When should we add a concept ...: R2
@@ -107,3 +127,4 @@ legend:
 
 ================================================completed================================================
 2023-October-28: https://en.wikipedia.org/wiki/History_of_computer_science
+                    

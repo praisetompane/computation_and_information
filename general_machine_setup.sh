@@ -37,6 +37,10 @@ echo "installing mendeley reference manager"
     brew install mendeley-reference-manager
 echo "done" 
 
+echo "installing codekit"
+    brew install codekit
+echo "done" 
+
 
 #echo "installing scarlet 2i2 studio 3rd generation"
 #filename="focusrite.dmg" 

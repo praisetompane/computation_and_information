@@ -23,6 +23,7 @@ core python syntax and applications using the language
 * extending and embedding: https://docs.python.org/3.9/extending/index.html
 * developer contribution guide: https://devguide.python.org/
 * compiler/interpreter: https://github.com/praisetompane/cpython.
+* computational complexity cost model: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/pages/readings/python-cost-model/
 * history and usage:
   * The Story of Python, by Its Creator, Guido van Rossum: https://www.youtube.com/watch?v=J0Aq44Pze-w
   * What is Python Used For?: https://www.youtube.com/watch?v=-67hh86N42Q&list=PL1SlsJ5DkUXCItreEt0rVviOdOXSP1hm3&index=26

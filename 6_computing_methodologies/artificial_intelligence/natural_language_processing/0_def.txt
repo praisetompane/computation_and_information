@@ -1,10 +1,7 @@
-human language and word meaning:¹ 
-    human language serves to connect humans in the "human network".
-        human language = networking language
-            slow network
-    writing ~5000 years old
+def natural language processing¹:
 
-representation of meaning words³:
+
+representation of the meaning of words(Manning, 2019):
     def denotational semantics: defining what things(idea/meaning) represent 
         signifier(symbol) => signified(idea or thing)
     NB: Difficult to model computationally
@@ -16,14 +13,14 @@ representation of meaning words³:
 Usable meaning in computation:
     1. nltk => old tool
     
-traditional nlp(until ~2012):² 
+traditional NLP(until ~2012)(Manning, 2019):
     words = discrete symbols
-    hotel, conference,motel - a LOCALIST representation
+    hotel, conference, motel - a LOCALIST representation
 
     meaning representation = one-hot vectors
     
-neural network nlp³:
+neural network NLP (Manning, 2019):
     mean representation = distributional semantics
 
 references: 
-    1,2,3 Chris Manning, CS224n: Natural Language Processing with Deep Learning,Stanford / Winter 2022, https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbFhrcnpCRDJsbVhXMFdFX2FROGRmbnk5YVBfQXxBQ3Jtc0ttUnRIT0pZQ0Uxa1NBaUVxd3ZRLVo0TzN2RTFLcUpWX2FsODBXTHVaaGVveHJUMVRaaUFldG9TcHdwU0c3QWlmeFJ4Ti1UOGZlZkMxZi1FTF82QWp6OF9sVUhEcHJyaG1KX203NElzSk9IUlJvQ1RxUQ&q=https%3A%2F%2Fstanford.io%2F3CORGu1&v=8rXD5-xhemo
+    Manning C. Stanford CS224N: NLP with Deep Learning | Winter 2019 | Lecture 1 – Introduction and Word Vectors. 2022. https://www.youtube.com/watch?v=8rXD5-xhemo

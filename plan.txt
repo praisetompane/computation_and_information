@@ -2,17 +2,17 @@ BSc Computing Science:
     20xx-January-01 - 20xx-December-31:
         UNISA - Undergraduate - BSc Computing Science:
             program: https://www.unisa.ac.za/sites/corporate/default/Register-to-study-through-Unisa/Undergraduate-&-honours-qualifications/Find-your-qualification-&-choose-your-modules/All-qualifications/Bachelor-of-Science-Mathematics-and-Computer-Science-(98801-%E2%80%93-MCS)
-
-            First level
-                Module (Please click on the module to see further information) 	Pre-requisite/Co-requisite/Recommendation
-                Group A. Compulsory
-                    COS1501 - Theoretical Computer Science I 	
-                    COS1511 - Introduction to Programming I 	
+            20xx-January-01 - 20xx-December-31:
+                First level:
+                    MAT1503 - Linear Algebra I 	
+                    MAT1512 - Calculus A 	
+                    COS1501 - Theoretical Computer Science I 
+                    COS1511 - Introduction to Programming I 
+            
+            20xx-January-01 - 20xx-December-31:
                     COS1512 - Introduction to Programming II 	Co-requisite:COS1511
                     COS1521 - Computer Systems: Fundamental Concepts 	
                     EUP1501 - Ethical Information and Communication Technologies for Development Solutions 	
-                    MAT1503 - Linear Algebra I 	
-                    MAT1512 - Calculus A 	
                     MAT1613 - Calculus B 	Co-requisite:MAT1512
 
             Second level
