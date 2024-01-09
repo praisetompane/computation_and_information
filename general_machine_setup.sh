@@ -8,10 +8,6 @@ echo "installing zoom"
     brew install zoom
 echo "done"
 
-echo "installing discord"
-    brew install discord
-echo "done"
-
 echo "installing etcher"
     brew install balenaetcher
 echo "done" 
@@ -32,9 +28,8 @@ echo "installing pyspelling"
     pip install pyspelling
 echo "done" 
 
-echo "installing mendeley reference manager"
-    brew install mendeley
-    brew install mendeley-reference-manager
+echo "installing endnote"
+    brew install endnote
 echo "done" 
 
 echo "installing codekit"

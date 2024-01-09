@@ -4,10 +4,11 @@ purpose: understand computation.
     - study
     - field update
 - study:
-        - 10.2.5 Models of Computation: https://www.youtube.com/watch?v=vJqBBh2XFTM
+    - 10.2.5 Models of Computation: https://www.youtube.com/watch?v=vJqBBh2XFTM
+    
     - 0_foundations: what is computation? what can we compute? what can we not compute? why do we compute?: 
         - 0_theory_of_computation: 1 hour
-            - degree module: UNISA COS1511 | UNISA COS1512 
+            - degree module: UNISA COS1501 | UNISA COS1512 
             - videos:
                 - Theoretical Computer Science. : https://www.youtube.com/watch?v=OS33r2Fk8YQ&list=PLCqUsBXxq16yBaN_hpo7dY2l9N-ZLtI-X
                 - Theory Of Computation: 
