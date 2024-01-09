@@ -105,9 +105,38 @@ General:
                 - current position: Not Started
             - https://github.com/aosabook/aosabook
                 - current position: Not Started
-        recitations:
-        assignments:
-        exams:
+        - recitations:
+        - assignments:
+        - exams:
+    - practice algorithms and data structure problem solving:
+        - leet 75
+        - hackerank
+        - cracking the coding interview problems
+        - programming competition problems
+        - ...
+- field update:
+    - Quanta Magazine: https://www.quantamagazine.org/computer-science/
+    - ACM DL: https://dl.acm.org : browse what is happening in computing.
+    - Development: https://www.infoq.com/development/
+    - Architecture & Design: https://www.infoq.com/architecture-design/
+    - AI, ML & Data Engineering: 
+        https://www.infoq.com/ai-ml-data-eng/
+        https://read.deeplearning.ai/the-batch/
+    - Culture & Methods: 
+        - https://www.infoq.com/culture-methods/
+    - DevOps: https://www.infoq.com/devops/
+    - General:
+        - https://www.ischools.org/news/categories/news
+        - https://www.media.mit.edu
+        - HackerNews:  https://news.ycombinator.com/news
+==============================================================================================
+- next:
+    - 3_computer_systems_organization: 1 hour
+        - degree module:
+        - videos:
+        - readings: 
+        - assignments:
+        - exams:
 
 ==============================================================================================
 next:
