@@ -87,6 +87,12 @@ purpose: understand computation.
         - recitations:
         - assignments:
         - exams:
+    - practice algorithms and data structure problem solving:
+        - leet 75
+        - hackerank
+        - cracking the coding interview problems
+        - programming competition problems
+        - ...
 - field update:
     - Quanta Magazine: https://www.quantamagazine.org/computer-science/
     - ACM DL: https://dl.acm.org : browse what is happening in computing.
