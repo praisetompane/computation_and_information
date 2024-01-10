@@ -7,6 +7,7 @@
 - packaging and package management:
 	- guide: 
 	- tools:
+        - LiveServer plugin for VSCode hot code reload
     - third party modules/packages index: 
         - Node:
             - npm: first version: 2010
