@@ -36,6 +36,10 @@ echo "installing codekit"
     brew install codekit
 echo "done" 
 
+echo "installing iterm2"
+    brew install iterm2
+echo "done" 
+
 
 #echo "installing scarlet 2i2 studio 3rd generation"
 #filename="focusrite.dmg" 
