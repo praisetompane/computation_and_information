@@ -13,3 +13,5 @@
 - compiler/interpreter:
 - developer contribution guide:
 - history and usage:
+- best practices:
+	https://stackoverflow.com/questions/33831997/what-are-the-best-practices-for-building-a-simple-php-website-in-this-structure
