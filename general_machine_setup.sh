@@ -41,10 +41,6 @@ echo "installing pytube"
     pip install pytube
 echo "done"
 
-
-#echo "installing scarlet 2i2 studio 3rd generation"
-#filename="focusrite.dmg" 
-#curl -o focusrite.dmg https://fael-downloads-prod.focusrite.com/customer/prod/downloads/Focusrite%20Control%20-%203.11.0.1983.dmg
-#sudo hdiutil attach $filename
-#sudo installer -package /Volumes/
-#echo "done"
+echo "installing mas"
+    brew install mas
+echo "done"
