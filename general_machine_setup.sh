@@ -28,16 +28,13 @@ echo "installing pyspelling"
     pip install pyspelling
 echo "done" 
 
-echo "installing endnote"
-    brew install endnote
-echo "done" 
-
-echo "installing codekit"
-    brew install codekit
-echo "done" 
 
 echo "installing iterm2"
     brew install iterm2
+echo "done" 
+
+echo "installing google-chrome"
+    brew install google-chrome
 echo "done" 
 
 
