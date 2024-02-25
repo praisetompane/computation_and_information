@@ -37,6 +37,10 @@ echo "installing google-chrome"
     brew install google-chrome
 echo "done" 
 
+echo "installing pytube"
+    pip install pytube
+echo "done"
+
 
 #echo "installing scarlet 2i2 studio 3rd generation"
 #filename="focusrite.dmg" 
