@@ -1,4 +1,4 @@
-purpose: understand computation
+purpose: understand computation and information.
 
 priority:
     - field update
