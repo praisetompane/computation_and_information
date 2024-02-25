@@ -1,7 +1,5 @@
 echo "installing pytube"
-    # source: https://github.com/pytube/pytube#
-    # download: pytube {url}
-    python -m pip install pytube
+    pip install pytube
 echo "done"
 
 echo "installing zoom"
@@ -28,7 +26,6 @@ echo "installing pyspelling"
     pip install pyspelling
 echo "done" 
 
-
 echo "installing iterm2"
     brew install iterm2
 echo "done" 
@@ -37,10 +34,10 @@ echo "installing google-chrome"
     brew install google-chrome
 echo "done" 
 
-echo "installing pytube"
-    pip install pytube
-echo "done"
-
 echo "installing mas"
     brew install mas
+echo "done"
+
+echo "installing microsoft-edge"
+    brew uninstall microsoft-edge
 echo "done"
