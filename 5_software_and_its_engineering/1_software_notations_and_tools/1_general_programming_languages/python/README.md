@@ -31,3 +31,6 @@ core python syntax and applications using the language
 
 # community:
 In python what does it mean by everything is an object?: https://stackoverflow.com/questions/40478536/in-python-what-does-it-mean-by-everything-is-an-object
+
+# references:
+	- https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/

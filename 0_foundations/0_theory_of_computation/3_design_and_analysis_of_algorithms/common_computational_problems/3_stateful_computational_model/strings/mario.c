@@ -1,3 +1,7 @@
+/*
+	please ensure cs50 library is installed.
+	libcs50: https://github.com/cs50/libcs50/tree/main
+*/
 #include <stdio.h>
 #include <cs50.h> 
 
