@@ -1,8 +1,10 @@
-# What is Computation?
+# What is Computation and Information?
 
-objective: an attempt at unpacking in layman's terms what computation is, and humanity's current implementation of computation.
+objectives: 
+  - an attempt at unpacking in layman's terms what is computation and information.
+  - explore humanity's current implementation of computation.
 
-def¹: the **transformation** of **sequences of symbols** by **precise rules**(Konrad, 2015:6)
+def computation¹: the **transformation** of **sequences of symbols** by **precise rules**(Konrad, 2015:6)
 
 * symbols = {1,0,\*,{,;,<,>,...}
   * example sequences:
@@ -12,7 +14,7 @@ def¹: the **transformation** of **sequences of symbols** by **precise rules**(K
 * precise rules = steps to follow
 
 
-def²: The **evolution process** of some environment, by a **sequence of "simple, local" steps** (Stanford Encyclopedia of Philosophy).
+def computation²: The **evolution process** of some environment, by a **sequence of "simple, local" steps** (Stanford Encyclopedia of Philosophy).
 
 ## In plain English:
 * def computation: a list of steps to do something.
