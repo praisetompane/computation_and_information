@@ -1,4 +1,4 @@
-# an in-depth study of C#
+# an in-depth study of C
 
 * library reference:
 * language reference: 
