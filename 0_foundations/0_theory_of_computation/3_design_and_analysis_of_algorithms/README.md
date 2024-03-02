@@ -24,14 +24,16 @@ def²: a recipe for solving a specific problem by manipulating symbols (Wengrow,
 def³: a computational procedure for solving a problem (Demaine, 2017)
     i.e. input -> algorithm -> output
 
+repository of algorithms: https://github.com/algorithm-archivists/algorithm-archive
+
 plain english:
-    - algorithms are just a sequence of steps "to do something"
-        "to do something", you need:
-            store and name things = variables/values(see point 2)
-            decisions = if, else
-            repeat = iteration constructs = loops, recursion
-            
-    - etymology: Why algorithms are called algorithms | BBC Ideas: https://m.youtube.com/watch?v=oRkNaF0QvnI
+- algorithms are just a sequence of steps "to do something"
+    "to do something", you need:
+        store and name things = variables/values(see point 2)
+        decisions = if, else
+        repeat = iteration constructs = loops, recursion
+        
+- etymology: Why algorithms are called algorithms | BBC Ideas: https://m.youtube.com/watch?v=oRkNaF0QvnI
     
 # What is a Data Structure?
 def¹: how data is organised (Wengrow, 2017:27).
