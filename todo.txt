@@ -4,8 +4,6 @@ purpose: understand computation and information.
     - study
     - field update
 - study:
-    - 10.2.5 Models of Computation: https://www.youtube.com/watch?v=vJqBBh2XFTM
-    
     - 0_foundations: what is computation? what can we compute? what can we not compute? why do we compute?: 
         - 0_theory_of_computation: 1 hour
             - degree module: UNISA COS1501 | UNISA COS1512 
@@ -15,7 +13,7 @@ purpose: understand computation and information.
                     https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/
                     https://www.youtube.com/watch?v=9syvZr-9xwk&list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY
             - readings: 
-                - introduction_to_the_theory_of_computation_third_edition._michael_sipser.cengage_learning.pdf
+                - introduction_to_the_theory_of_computation_third_edzition._michael_sipser.cengage_learning.pdf
                     - current position: Not Started
                 - Stanford Encyclopedia of Philosophy. The Church-Turing Thesis. https://plato.stanford.edu/entries/church-turing/.
                     - current position: Forgot => Start Over => Not Started
