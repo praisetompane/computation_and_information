@@ -6,11 +6,6 @@ objective:
     - prove correctness of solutions.
     - argue efficiency.
 
-## What is a Computational Problem?
-def: a binary relation from problem inputs to correct outputs (Demaine, Ku, Solomon, 2020).
-    for binary relation definition:
-        see: https://github.com/praisetompane/mathematics/blob/master/0_foundations/relation.txt
-
 # What is an Algorithm?
 def¹: a finite procedure
         that maps
