@@ -1134,601 +1134,73 @@
 │   │   │   │   ├── project
 │   │   │   │   │   ├── build.properties
 │   │   │   │   │   ├── metals.sbt
-│   │   │   │   │   ├── project
-│   │   │   │   │   │   ├── metals.sbt
-│   │   │   │   │   │   ├── project
-│   │   │   │   │   │   │   └── target
-│   │   │   │   │   │   │       └── config-classes
-│   │   │   │   │   │   │           ├── $cdc44c18e06b35e98d82$.class
-│   │   │   │   │   │   │           ├── $cdc44c18e06b35e98d82.cache
-│   │   │   │   │   │   │           └── $cdc44c18e06b35e98d82.class
-│   │   │   │   │   │   └── target
-│   │   │   │   │   │       ├── config-classes
-│   │   │   │   │   │       │   ├── $50728e3a9a785c544e74$.class
-│   │   │   │   │   │       │   ├── $50728e3a9a785c544e74.cache
-│   │   │   │   │   │       │   └── $50728e3a9a785c544e74.class
-│   │   │   │   │   │       ├── scala-2.12
-│   │   │   │   │   │       │   └── sbt-1.0
-│   │   │   │   │   │       │       ├── sync
-│   │   │   │   │   │       │       │   └── copy-resource
-│   │   │   │   │   │       │       └── update
-│   │   │   │   │   │       │           └── update_cache_2.12
-│   │   │   │   │   │       │               ├── inputs
-│   │   │   │   │   │       │               └── output
-│   │   │   │   │   │       └── streams
-│   │   │   │   │   │           ├── _global
-│   │   │   │   │   │           │   ├── _global
-│   │   │   │   │   │           │   │   ├── _global
-│   │   │   │   │   │           │   │   │   └── streams
-│   │   │   │   │   │           │   │   │       └── out
-│   │   │   │   │   │           │   │   └── csrLogger
-│   │   │   │   │   │           │   │       └── _global
-│   │   │   │   │   │           │   │           └── streams
-│   │   │   │   │   │           │   │               └── out
-│   │   │   │   │   │           │   ├── csrConfiguration
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   ├── csrProject
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   ├── dependencyPositions
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── update_cache_2.12
-│   │   │   │   │   │           │   │               ├── input_dsp
-│   │   │   │   │   │           │   │               └── output_dsp
-│   │   │   │   │   │           │   ├── ivyConfiguration
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   ├── ivySbt
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   ├── moduleSettings
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   ├── projectDescriptors
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   ├── scalaCompilerBridgeScope
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   └── update
-│   │   │   │   │   │           │       └── _global
-│   │   │   │   │   │           │           └── streams
-│   │   │   │   │   │           │               └── out
-│   │   │   │   │   │           ├── compile
-│   │   │   │   │   │           │   ├── _global
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       ├── compileOutputs
-│   │   │   │   │   │           │   │       │   └── previous
-│   │   │   │   │   │           │   │       └── discoveredMainClasses
-│   │   │   │   │   │           │   │           └── data
-│   │   │   │   │   │           │   ├── bspReporter
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   ├── compile
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   ├── compileIncremental
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           ├── export
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   ├── copyResources
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   ├── dependencyClasspath
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── export
-│   │   │   │   │   │           │   ├── exportedProducts
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── export
-│   │   │   │   │   │           │   ├── externalDependencyClasspath
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── export
-│   │   │   │   │   │           │   ├── incOptions
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   ├── internalDependencyClasspath
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           ├── export
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   ├── managedClasspath
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── export
-│   │   │   │   │   │           │   ├── scalacOptions
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   ├── unmanagedClasspath
-│   │   │   │   │   │           │   │   └── _global
-│   │   │   │   │   │           │   │       └── streams
-│   │   │   │   │   │           │   │           ├── export
-│   │   │   │   │   │           │   │           └── out
-│   │   │   │   │   │           │   └── unmanagedJars
-│   │   │   │   │   │           │       └── _global
-│   │   │   │   │   │           │           └── streams
-│   │   │   │   │   │           │               └── export
-│   │   │   │   │   │           └── runtime
-│   │   │   │   │   │               ├── dependencyClasspath
-│   │   │   │   │   │               │   └── _global
-│   │   │   │   │   │               │       └── streams
-│   │   │   │   │   │               │           └── export
-│   │   │   │   │   │               ├── exportedProducts
-│   │   │   │   │   │               │   └── _global
-│   │   │   │   │   │               │       └── streams
-│   │   │   │   │   │               │           └── export
-│   │   │   │   │   │               ├── externalDependencyClasspath
-│   │   │   │   │   │               │   └── _global
-│   │   │   │   │   │               │       └── streams
-│   │   │   │   │   │               │           └── export
-│   │   │   │   │   │               ├── fullClasspath
-│   │   │   │   │   │               │   └── _global
-│   │   │   │   │   │               │       └── streams
-│   │   │   │   │   │               │           └── export
-│   │   │   │   │   │               ├── internalDependencyClasspath
-│   │   │   │   │   │               │   └── _global
-│   │   │   │   │   │               │       └── streams
-│   │   │   │   │   │               │           ├── export
-│   │   │   │   │   │               │           └── out
-│   │   │   │   │   │               ├── managedClasspath
-│   │   │   │   │   │               │   └── _global
-│   │   │   │   │   │               │       └── streams
-│   │   │   │   │   │               │           └── export
-│   │   │   │   │   │               ├── unmanagedClasspath
-│   │   │   │   │   │               │   └── _global
-│   │   │   │   │   │               │       └── streams
-│   │   │   │   │   │               │           ├── export
-│   │   │   │   │   │               │           └── out
-│   │   │   │   │   │               └── unmanagedJars
-│   │   │   │   │   │                   └── _global
-│   │   │   │   │   │                       └── streams
-│   │   │   │   │   │                           └── export
-│   │   │   │   │   └── target
-│   │   │   │   │       ├── config-classes
-│   │   │   │   │       │   ├── $5c0c1a64d5a6c99f5ad8$.class
-│   │   │   │   │       │   ├── $5c0c1a64d5a6c99f5ad8.cache
-│   │   │   │   │       │   ├── $5c0c1a64d5a6c99f5ad8.class
-│   │   │   │   │       │   ├── $ad418d2f1116469fdcfa$.class
-│   │   │   │   │       │   ├── $ad418d2f1116469fdcfa.cache
-│   │   │   │   │       │   └── $ad418d2f1116469fdcfa.class
-│   │   │   │   │       ├── scala-2.12
-│   │   │   │   │       │   └── sbt-1.0
-│   │   │   │   │       │       ├── sync
-│   │   │   │   │       │       │   └── copy-resource
-│   │   │   │   │       │       └── update
-│   │   │   │   │       │           └── update_cache_2.12
-│   │   │   │   │       │               ├── inputs
-│   │   │   │   │       │               └── output
-│   │   │   │   │       └── streams
-│   │   │   │   │           ├── _global
-│   │   │   │   │           │   ├── _global
-│   │   │   │   │           │   │   ├── _global
-│   │   │   │   │           │   │   │   └── streams
-│   │   │   │   │           │   │   │       └── out
-│   │   │   │   │           │   │   ├── bloopInstall
-│   │   │   │   │           │   │   │   └── _global
-│   │   │   │   │           │   │   │       └── streams
-│   │   │   │   │           │   │   │           └── out
-│   │   │   │   │           │   │   └── csrLogger
-│   │   │   │   │           │   │       └── _global
-│   │   │   │   │           │   │           └── streams
-│   │   │   │   │           │   │               └── out
-│   │   │   │   │           │   ├── csrConfiguration
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── csrProject
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── dependencyPositions
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── update_cache_2.12
-│   │   │   │   │           │   │               ├── input_dsp
-│   │   │   │   │           │   │               └── output_dsp
-│   │   │   │   │           │   ├── ivyConfiguration
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── ivySbt
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── moduleSettings
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── projectDescriptors
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── scalaCompilerBridgeScope
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── update
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── updateClassifiers
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           ├── out
-│   │   │   │   │           │   │           └── update_cache_2.12
-│   │   │   │   │           │   │               ├── inputs
-│   │   │   │   │           │   │               └── output
-│   │   │   │   │           │   └── updateSbtClassifiers
-│   │   │   │   │           │       └── _global
-│   │   │   │   │           │           └── streams
-│   │   │   │   │           │               └── out
-│   │   │   │   │           ├── compile
-│   │   │   │   │           │   ├── _global
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       ├── compileOutputs
-│   │   │   │   │           │   │       │   └── previous
-│   │   │   │   │           │   │       └── discoveredMainClasses
-│   │   │   │   │           │   │           └── data
-│   │   │   │   │           │   ├── bloopGenerate
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── bloopPostGenerate
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── bspReporter
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── compile
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── compileIncremental
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           ├── export
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── copyResources
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── dependencyClasspath
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── export
-│   │   │   │   │           │   ├── exportedProducts
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── export
-│   │   │   │   │           │   ├── externalDependencyClasspath
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── export
-│   │   │   │   │           │   ├── incOptions
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── internalDependencyClasspath
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           ├── export
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── managedClasspath
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── export
-│   │   │   │   │           │   ├── scalacOptions
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── unmanagedClasspath
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           ├── export
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   └── unmanagedJars
-│   │   │   │   │           │       └── _global
-│   │   │   │   │           │           └── streams
-│   │   │   │   │           │               └── export
-│   │   │   │   │           ├── it
-│   │   │   │   │           │   ├── bloopGenerate
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   └── bloopPostGenerate
-│   │   │   │   │           │       └── _global
-│   │   │   │   │           │           └── streams
-│   │   │   │   │           │               └── out
-│   │   │   │   │           ├── runtime
-│   │   │   │   │           │   ├── dependencyClasspath
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── export
-│   │   │   │   │           │   ├── exportedProducts
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── export
-│   │   │   │   │           │   ├── externalDependencyClasspath
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── export
-│   │   │   │   │           │   ├── fullClasspath
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── export
-│   │   │   │   │           │   ├── internalDependencyClasspath
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           ├── export
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   ├── managedClasspath
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           └── export
-│   │   │   │   │           │   ├── unmanagedClasspath
-│   │   │   │   │           │   │   └── _global
-│   │   │   │   │           │   │       └── streams
-│   │   │   │   │           │   │           ├── export
-│   │   │   │   │           │   │           └── out
-│   │   │   │   │           │   └── unmanagedJars
-│   │   │   │   │           │       └── _global
-│   │   │   │   │           │           └── streams
-│   │   │   │   │           │               └── export
-│   │   │   │   │           └── test
-│   │   │   │   │               ├── bloopGenerate
-│   │   │   │   │               │   └── _global
-│   │   │   │   │               │       └── streams
-│   │   │   │   │               │           └── out
-│   │   │   │   │               └── bloopPostGenerate
-│   │   │   │   │                   └── _global
-│   │   │   │   │                       └── streams
-│   │   │   │   │                           └── out
+│   │   │   │   │   └── project
+│   │   │   │   │       ├── metals.sbt
+│   │   │   │   │       └── project
+│   │   │   │   │           └── target
+│   │   │   │   │               └── config-classes
+│   │   │   │   │                   ├── $cdc44c18e06b35e98d82$.class
+│   │   │   │   │                   ├── $cdc44c18e06b35e98d82.cache
+│   │   │   │   │                   └── $cdc44c18e06b35e98d82.class
 │   │   │   │   ├── setup.sh
-│   │   │   │   ├── src
-│   │   │   │   │   └── main
-│   │   │   │   │       └── scala
-│   │   │   │   │           ├── 0_stdio_cli.scala
-│   │   │   │   │           ├── 0_stdio_file_database.scala
-│   │   │   │   │           ├── 0_stdio_file_text.scala
-│   │   │   │   │           ├── 5_collections_list_custom_filter.scala
-│   │   │   │   │           ├── 5_collections_list_custom_length.scala
-│   │   │   │   │           ├── 5_collections_list_custom_reverse.scala
-│   │   │   │   │           ├── 5_collections_list_filter_positions.scala
-│   │   │   │   │           ├── 5_collections_list_replication.scala
-│   │   │   │   │           └── legacy
-│   │   │   │   │               ├── AlgebraicDataTypes.sc
-│   │   │   │   │               ├── ApplyAndUnapply.sc
-│   │   │   │   │               ├── Cafe.sc
-│   │   │   │   │               ├── ChecksumCalculator.sc
-│   │   │   │   │               ├── Closures.sc
-│   │   │   │   │               ├── Control Abstraction.sc
-│   │   │   │   │               ├── CountNoWords.sc
-│   │   │   │   │               ├── EssentialScala.sc
-│   │   │   │   │               ├── FallWinterSpringSummer.sc
-│   │   │   │   │               ├── Function Literals.sc
-│   │   │   │   │               ├── Functors.sc
-│   │   │   │   │               ├── Lists.sc
-│   │   │   │   │               ├── MainTester.sc
-│   │   │   │   │               ├── MinimalisationProblem.sc
-│   │   │   │   │               ├── Monads.sc
-│   │   │   │   │               ├── ParallelComputation.sc
-│   │   │   │   │               ├── ParametizateArrays.sc
-│   │   │   │   │               ├── Partial Functions.sc
-│   │   │   │   │               ├── PatternMatching _With_Objects_Enumerations_And_Types.sc
-│   │   │   │   │               ├── Sets and Maps.sc
-│   │   │   │   │               ├── Special Function Cases.sc
-│   │   │   │   │               ├── Streams.sc
-│   │   │   │   │               ├── Summer.sc
-│   │   │   │   │               ├── Tail Recursion.sc
-│   │   │   │   │               ├── Traits.sc
-│   │   │   │   │               ├── Tuples.sc
-│   │   │   │   │               ├── TypeClasses.sc
-│   │   │   │   │               ├── UnitvsNothing.sc
-│   │   │   │   │               ├── WorldlyApp.sc
-│   │   │   │   │               ├── WorldlyGreeter.sc
-│   │   │   │   │               ├── caseclasses.sc
-│   │   │   │   │               ├── collections.sc
-│   │   │   │   │               ├── constructors.sc
-│   │   │   │   │               ├── fancyGreeter.sc
-│   │   │   │   │               ├── greetCarefully.sc
-│   │   │   │   │               ├── greetSimply
-│   │   │   │   │               ├── hello.sc
-│   │   │   │   │               ├── helloarg
-│   │   │   │   │               ├── helloarg.bat
-│   │   │   │   │               ├── implicitParameters.sc
-│   │   │   │   │               ├── implicits.sc
-│   │   │   │   │               ├── iteration.sc
-│   │   │   │   │               ├── list.sc
-│   │   │   │   │               ├── questions.txt
-│   │   │   │   │               ├── traitsAndAbstractclasses.sc
-│   │   │   │   │               └── typesystem_subtyping.sc
-│   │   │   │   └── target
-│   │   │   │       ├── global-logging
-│   │   │   │       ├── scala-3.*.*
-│   │   │   │       │   └── update
-│   │   │   │       │       └── update_cache_3.*.*
-│   │   │   │       │           ├── inputs
-│   │   │   │       │           └── output
-│   │   │   │       ├── scala-3.3.*0
-│   │   │   │       │   └── update
-│   │   │   │       │       └── update_cache_3.3.*0
-│   │   │   │       │           ├── inputs
-│   │   │   │       │           └── output
-│   │   │   │       ├── scala-3.3.0
-│   │   │   │       │   └── update
-│   │   │   │       │       └── update_cache_3
-│   │   │   │       │           ├── inputs
-│   │   │   │       │           └── output
-│   │   │   │       ├── scala-3.4.0
-│   │   │   │       │   └── update
-│   │   │   │       │       └── update_cache_3
-│   │   │   │       │           ├── inputs
-│   │   │   │       │           └── output
-│   │   │   │       ├── streams
-│   │   │   │       │   ├── _global
-│   │   │   │       │   │   ├── _global
-│   │   │   │       │   │   │   ├── bloopInstall
-│   │   │   │       │   │   │   │   └── _global
-│   │   │   │       │   │   │   │       └── streams
-│   │   │   │       │   │   │   │           └── out
-│   │   │   │       │   │   │   └── csrLogger
-│   │   │   │       │   │   │       └── _global
-│   │   │   │       │   │   │           └── streams
-│   │   │   │       │   │   │               └── out
-│   │   │   │       │   │   ├── csrConfiguration
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── out
-│   │   │   │       │   │   ├── csrProject
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── out
-│   │   │   │       │   │   ├── dependencyPositions
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           ├── update_cache_3
-│   │   │   │       │   │   │           │   ├── input_dsp
-│   │   │   │       │   │   │           │   └── output_dsp
-│   │   │   │       │   │   │           ├── update_cache_3.*.*
-│   │   │   │       │   │   │           │   ├── input_dsp
-│   │   │   │       │   │   │           │   └── output_dsp
-│   │   │   │       │   │   │           └── update_cache_3.3.*0
-│   │   │   │       │   │   │               ├── input_dsp
-│   │   │   │       │   │   │               └── output_dsp
-│   │   │   │       │   │   ├── ivyConfiguration
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── out
-│   │   │   │       │   │   ├── ivySbt
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── out
-│   │   │   │       │   │   ├── moduleSettings
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── out
-│   │   │   │       │   │   ├── projectDescriptors
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── out
-│   │   │   │       │   │   ├── update
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── out
-│   │   │   │       │   │   └── updateClassifiers
-│   │   │   │       │   │       └── _global
-│   │   │   │       │   │           └── streams
-│   │   │   │       │   │               ├── out
-│   │   │   │       │   │               └── update_cache_3
-│   │   │   │       │   │                   ├── inputs
-│   │   │   │       │   │                   └── output
-│   │   │   │       │   ├── compile
-│   │   │   │       │   │   ├── bloopGenerate
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── out
-│   │   │   │       │   │   ├── bloopPostGenerate
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── out
-│   │   │   │       │   │   ├── externalDependencyClasspath
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── export
-│   │   │   │       │   │   ├── managedClasspath
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── export
-│   │   │   │       │   │   ├── scalacOptions
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── out
-│   │   │   │       │   │   ├── unmanagedClasspath
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           ├── export
-│   │   │   │       │   │   │           └── out
-│   │   │   │       │   │   └── unmanagedJars
-│   │   │   │       │   │       └── _global
-│   │   │   │       │   │           └── streams
-│   │   │   │       │   │               └── export
-│   │   │   │       │   ├── it
-│   │   │   │       │   │   ├── bloopGenerate
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── out
-│   │   │   │       │   │   └── bloopPostGenerate
-│   │   │   │       │   │       └── _global
-│   │   │   │       │   │           └── streams
-│   │   │   │       │   │               └── out
-│   │   │   │       │   ├── runtime
-│   │   │   │       │   │   ├── externalDependencyClasspath
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── export
-│   │   │   │       │   │   ├── managedClasspath
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           └── export
-│   │   │   │       │   │   ├── unmanagedClasspath
-│   │   │   │       │   │   │   └── _global
-│   │   │   │       │   │   │       └── streams
-│   │   │   │       │   │   │           ├── export
-│   │   │   │       │   │   │           └── out
-│   │   │   │       │   │   └── unmanagedJars
-│   │   │   │       │   │       └── _global
-│   │   │   │       │   │           └── streams
-│   │   │   │       │   │               └── export
-│   │   │   │       │   └── test
-│   │   │   │       │       ├── bloopGenerate
-│   │   │   │       │       │   └── _global
-│   │   │   │       │       │       └── streams
-│   │   │   │       │       │           └── out
-│   │   │   │       │       ├── bloopPostGenerate
-│   │   │   │       │       │   └── _global
-│   │   │   │       │       │       └── streams
-│   │   │   │       │       │           └── out
-│   │   │   │       │       ├── externalDependencyClasspath
-│   │   │   │       │       │   └── _global
-│   │   │   │       │       │       └── streams
-│   │   │   │       │       │           └── export
-│   │   │   │       │       ├── managedClasspath
-│   │   │   │       │       │   └── _global
-│   │   │   │       │       │       └── streams
-│   │   │   │       │       │           └── export
-│   │   │   │       │       ├── scalacOptions
-│   │   │   │       │       │   └── _global
-│   │   │   │       │       │       └── streams
-│   │   │   │       │       │           └── out
-│   │   │   │       │       ├── unmanagedClasspath
-│   │   │   │       │       │   └── _global
-│   │   │   │       │       │       └── streams
-│   │   │   │       │       │           ├── export
-│   │   │   │       │       │           └── out
-│   │   │   │       │       └── unmanagedJars
-│   │   │   │       │           └── _global
-│   │   │   │       │               └── streams
-│   │   │   │       │                   └── export
-│   │   │   │       └── task-temp-directory
+│   │   │   │   └── src
+│   │   │   │       └── main
+│   │   │   │           └── scala
+│   │   │   │               ├── 0_stdio_cli.scala
+│   │   │   │               ├── 0_stdio_file_database.scala
+│   │   │   │               ├── 0_stdio_file_text.scala
+│   │   │   │               ├── 5_collections_list_custom_filter.scala
+│   │   │   │               ├── 5_collections_list_custom_length.scala
+│   │   │   │               ├── 5_collections_list_custom_reverse.scala
+│   │   │   │               ├── 5_collections_list_filter_positions.scala
+│   │   │   │               ├── 5_collections_list_replication.scala
+│   │   │   │               └── legacy
+│   │   │   │                   ├── AlgebraicDataTypes.sc
+│   │   │   │                   ├── ApplyAndUnapply.sc
+│   │   │   │                   ├── Cafe.sc
+│   │   │   │                   ├── ChecksumCalculator.sc
+│   │   │   │                   ├── Closures.sc
+│   │   │   │                   ├── Control Abstraction.sc
+│   │   │   │                   ├── CountNoWords.sc
+│   │   │   │                   ├── EssentialScala.sc
+│   │   │   │                   ├── FallWinterSpringSummer.sc
+│   │   │   │                   ├── Function Literals.sc
+│   │   │   │                   ├── Functors.sc
+│   │   │   │                   ├── Lists.sc
+│   │   │   │                   ├── MainTester.sc
+│   │   │   │                   ├── MinimalisationProblem.sc
+│   │   │   │                   ├── Monads.sc
+│   │   │   │                   ├── ParallelComputation.sc
+│   │   │   │                   ├── ParametizateArrays.sc
+│   │   │   │                   ├── Partial Functions.sc
+│   │   │   │                   ├── PatternMatching _With_Objects_Enumerations_And_Types.sc
+│   │   │   │                   ├── Sets and Maps.sc
+│   │   │   │                   ├── Special Function Cases.sc
+│   │   │   │                   ├── Streams.sc
+│   │   │   │                   ├── Summer.sc
+│   │   │   │                   ├── Tail Recursion.sc
+│   │   │   │                   ├── Traits.sc
+│   │   │   │                   ├── Tuples.sc
+│   │   │   │                   ├── TypeClasses.sc
+│   │   │   │                   ├── UnitvsNothing.sc
+│   │   │   │                   ├── WorldlyApp.sc
+│   │   │   │                   ├── WorldlyGreeter.sc
+│   │   │   │                   ├── caseclasses.sc
+│   │   │   │                   ├── collections.sc
+│   │   │   │                   ├── constructors.sc
+│   │   │   │                   ├── fancyGreeter.sc
+│   │   │   │                   ├── greetCarefully.sc
+│   │   │   │                   ├── greetSimply
+│   │   │   │                   ├── hello.sc
+│   │   │   │                   ├── helloarg
+│   │   │   │                   ├── helloarg.bat
+│   │   │   │                   ├── implicitParameters.sc
+│   │   │   │                   ├── implicits.sc
+│   │   │   │                   ├── iteration.sc
+│   │   │   │                   ├── list.sc
+│   │   │   │                   ├── questions.txt
+│   │   │   │                   ├── traitsAndAbstractclasses.sc
+│   │   │   │                   └── typesystem_subtyping.sc
 │   │   │   ├── scheme
 │   │   │   │   ├── README.md
 │   │   │   │   ├── application_projects
@@ -2054,4 +1526,4 @@
 ├── todo.txt
 └── tree.txt
 
-670 directories, 1385 files
+297 directories, 1230 files
