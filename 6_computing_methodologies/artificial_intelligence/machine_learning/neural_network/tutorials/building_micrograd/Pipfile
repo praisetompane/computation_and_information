@@ -4,9 +4,10 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
-matplotlib = "*"
-ipykernel = "*"
+numpy = "==1.26.4"
+matplotlib = "==3.8.3"
+ipykernel = "==6.29.4"
+graphviz = "==0.20.3"
 
 [dev-packages]
 
