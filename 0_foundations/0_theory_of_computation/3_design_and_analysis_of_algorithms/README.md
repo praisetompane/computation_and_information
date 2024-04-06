@@ -38,7 +38,14 @@ defᵖˡᵃⁱⁿ_ᵉⁿᵍˡⁱˢʰ: data structures are just how you store thi
         place to store it = array index, node in a list, leave in a tree etc
         a way to retrieve = access patterns = LIFO, FIFO etc
 
+## What is a Computational Problem?
+def: a binary relation from problem inputs to correct outputs (Demaine, Ku, Solomon, 2020).
+- for binary relation definition:
+    see: https://github.com/praisetompane/mathematics/blob/master/0_foundations/relation.txt
 
+## types of Computational Problem
+    - https://en.wikipedia.org/wiki/Computational_problem
+    
 # References:
 * Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.
 * Demaine E. Ku J. Solomon J. Introduction To Algorithms. 2020. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/
