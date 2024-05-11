@@ -1,0 +1,58 @@
+def:
+  kubernetes-native backup for k8s 
+
+  stateless app + external datastore:
+    k8s snapsot AND injeect blueprint backup to database store at the point in time.
+  performance:
+    f(k8s workloads)
+
+  product:
+    - kasten-io
+
+  flow:
+    git -> trigger kasten backup      -> deploy delta
+              -> save to remote storage
+
+  static time:
+    policy: 
+      defines backup
+        - filters
+        - frequency
+        - config
+        - ...
+    ci/cd:
+      build -> test -> backup to kasten step -> deploy new version
+                        - call kasten pod:
+                          - execute backup
+                            - deploy to remote storage
+                            Q: does veeam offer the remote storage?
+    configurability:
+      - policy
+        - per app
+        - per label
+
+usage:
+  k8s cluster:
+    deploy kasten as pod
+
+k8s managed cluster setup:
+  AWS:
+    ROSA
+    EKS
+  rancher
+
+canonical usa case:
+  app₁
+    label: hourly
+  app₂
+    label: monthly
+    
+  kasten:
+    - policies:
+      - hourly
+      - monthly
+    - on configured frequency:
+      - get all applications with label
+        - run backup
+
+
