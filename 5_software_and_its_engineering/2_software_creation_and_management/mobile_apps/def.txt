@@ -1,0 +1,43 @@
+why?
+  - cost
+  - velocity
+  - talent
+
+def tools:
+  - react native
+    - properties:
+      - jsx
+  - flutter
+    - properties:
+      - dart
+  - kotlin multiplatform
+    - properties
+      - kotlin
+  - ionic
+    - properties
+       JavaScript
+  - .NET MAUI
+    history:
+      - xamarin successor
+  - Native Script
+    - properties:
+      - JavaScript
+
+constraints:
+  - bundle size
+    - user bandwidth
+  - platform expertise
+    - Google Plastore Toolkit
+    - Apple AppStore Toolkit
+  - performance
+    native?:
+      - CPU bound applications
+  - developer experience:
+    - platform bias to iOS|Android
+  - app life time and dependencies
+  - support
+     vendor suppoort:
+      biad to Native built
+  - SBOM
+    def: Software Bill Of Materiall
+demo:
