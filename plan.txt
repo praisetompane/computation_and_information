@@ -2,20 +2,21 @@ BSc Computing Science:
     20xx-January-01 - 20xx-December-31:
         UNISA - Undergraduate - BSc Computing Science:
             program: https://www.unisa.ac.za/sites/corporate/default/Register-to-study-through-Unisa/Undergraduate-&-honours-qualifications/Find-your-qualification-&-choose-your-modules/All-qualifications/Bachelor-of-Science-Mathematics-and-Computer-Science-(98801-%E2%80%93-MCS)
-            20xx-January-01 - 20xx-December-31:
-                First level:
+            
+            First Level:
+                20xx-January-01 - 20xx-December-31:
                     MAT1503 - Linear Algebra I 	
                     MAT1512 - Calculus A 	
                     COS1501 - Theoretical Computer Science I 
                     COS1511 - Introduction to Programming I 
-            
-            20xx-January-01 - 20xx-December-31:
+                
+                20xx-January-01 - 20xx-December-31:
                     COS1512 - Introduction to Programming II 	Co-requisite:COS1511
                     COS1521 - Computer Systems: Fundamental Concepts 	
                     EUP1501 - Ethical Information and Communication Technologies for Development Solutions 	
                     MAT1613 - Calculus B 	Co-requisite:MAT1512
 
-            Second level
+            Second Level:
                 Module (Please click on the module to see further information) 	Pre-requisite/Co-requisite/Recommendation
                 Group A. Compulsory
                     APM2611 - Differential Equations 	Pre-requisite:MAT1512
@@ -33,7 +34,7 @@ BSc Computing Science:
                 
                     Recommendation:Students should have both MAT1512 and MAT1503 and also be registered for MAT1613 concurrently with MAT2615.
                     PLS2607 - Philosophy of Science 	
-            Third level
+            Third Level:
                 Module (Please click on the module to see further information) 	Pre-requisite/Co-requisite/Recommendation
                 Group A. Compulsory
                     APM3711 - Numerical Methods II 	Pre-requisite:APM2613
