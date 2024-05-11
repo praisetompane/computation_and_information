@@ -21,7 +21,7 @@ Two major types of Machine Learning Algorithms
             [Based on the knowledge encoded into the training set] : The "Right Answers"
 
         Representation of h?
-
+k
         hθ(x) = θ + θx
         : All this means is that we are going to predict that {y} is a linear function of {x}
         -> {y} is some straight line function of {x}

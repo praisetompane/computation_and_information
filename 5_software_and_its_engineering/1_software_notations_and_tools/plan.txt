@@ -10,13 +10,10 @@ Research:
         - https://www.cs.cornell.edu/research/lang
         - https://www.mccormick.northwestern.edu/computer-science/research/areas/programming-languages.html
         - https://compiler-research.org/
-
-    - build
-        - What is Programming Languages Research?: https://www.youtube.com/watch?v=70_DFytfnWw
-
+    - build:
         - computer programming problems:
             - cracking the coding interview book
-        - contribute to a programming language and its ecosystem: 
+        - contribute to a programming language and its ecosystem:
             - Python
                 - CPython: https://github.com/python/cpython
                     - https://devguide.python.org
@@ -30,6 +27,7 @@ Research:
                 - Akka
         - https://github.com/praisetompane/algorithms_and_data_structures
     - study:
+        - What is Programming Languages Research?: https://www.youtube.com/watch?v=70_DFytfnWw
         - python
             - finish studying Python language reference
             - Python essentials to be a Python software engineer
@@ -44,6 +42,8 @@ Research:
             - css
         - go
             - c
+        - rust:
+            - https://www.rust-lang.org
         - java
             - scala
         - haskell
@@ -60,3 +60,4 @@ Research:
             - https://www.chipverify.com/verilog/verilog-tutorial
             - https://inst.eecs.berkeley.edu/~eecs151/fa20/files/verilog/Verilog_Primer_Slides.pdf
             - https://web.mit.edu/6.111/www/f2017/handouts/L03_4.pdf
+        - git: https://github.com/praisetompane/git

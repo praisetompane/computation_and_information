@@ -167,3 +167,5 @@ tree.txt
 
 # NODE
 node_modules
+
+.DS_Store
