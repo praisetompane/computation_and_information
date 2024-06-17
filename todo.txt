@@ -1,9 +1,9 @@
 purpose: understand computation and information.
 
 - priority:
-    - study
+    - learn
     - field update
-- study:
+- learn:
     - 0_foundations: what is computation? what can we compute? what can we not compute? why do we compute?:
         - 0_theory_of_computation: 1 hour
             - degree module: UNISA COS1501 | UNISA COS1512

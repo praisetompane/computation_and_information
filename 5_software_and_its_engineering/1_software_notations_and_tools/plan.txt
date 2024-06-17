@@ -29,24 +29,42 @@ Research:
     - study:
         - What is Programming Languages Research?: https://www.youtube.com/watch?v=70_DFytfnWw
         - python
-            - finish studying Python language reference
-            - Python essentials to be a Python software engineer
+            - complete: /computation_and_information/language_template
+                - Python essentials to be a Python software engineer
                 - some things I found that I do not know:
                     - IO threads. select
                     - synchronous IO multiplexing
                     -   from socket import socket
                         socket.getpeername()
                         all()
+            - write simplified interpreter and compiler for the language in the language
+            - finish studying Python language reference
         - javascript AND typescript
             - html
             - css
+            - complete: /computation_and_information/language_template
+            - write simplified interpreter and compiler for the language in the language
         - go
-            - c
+            - complete: /computation_and_information/language_template
+            - write simplified interpreter and compiler for the language in the language
+        - c
+            - complete: /computation_and_information/language_template
+            - write simplified interpreter and compiler for the language in the language
         - rust:
-            - https://www.rust-lang.org
+            - complete: /computation_and_information/language_template
+                - https://www.rust-lang.org
+                - https://github.com/praisetompane/rust/tree/main
+            - write simplified interpreter and compiler for the language in the language
         - java
+            - complete: /computation_and_information/language_template
+            - write simplified interpreter and compiler for the language in the language
+
             - scala
+                - complete: /computation_and_information/language_template
+                - write simplified interpreter and compiler for the language in the language
         - haskell
+            - complete: /computation_and_information/language_template
+            - write simplified interpreter and compiler for the language in the language
         - https://github.com/praisetompane/unified_discipline_of_programming
         - assembly
             - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/lecture-4-assembly-language-computer-architecture
