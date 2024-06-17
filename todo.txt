@@ -1,35 +1,10 @@
 purpose: understand computation and information.
 
-priority:
+- priority:
+    - learn
     - field update
-    - study
-
-- field update:
-    Quanta Magazine: https://www.quantamagazine.org/computer-science/
-    ACM DL: https://dl.acm.org : browse what is happening in computing.
-
-Development: https://www.infoq.com/development/
-
-Architecture & Design: https://www.infoq.com/architecture-design/
-
-AI, ML & Data Engineering: 
-    https://www.infoq.com/ai-ml-data-eng/
-    https://read.deeplearning.ai/the-batch/
-
-Culture & Methods: 
-    https://www.infoq.com/culture-methods/
-
-DevOps: https://www.infoq.com/devops/
-
-General:
-    https://www.ischools.org/news/categories/news
-    https://www.media.mit.edu
-    HackerNews:  https://news.ycombinator.com/news
-
-- study:
-    - 10.2.5 Models of Computation: https://www.youtube.com/watch?v=vJqBBh2XFTM
-    
-    - 0_foundations: what is computation? what can we compute? what can we not compute? why do we compute?: 
+- learn:
+    - 0_foundations: what is computation? what can we compute? what can we not compute? why do we compute?:
         - 0_theory_of_computation: 1 hour
             - degree module: UNISA COS1501 | UNISA COS1512 
             - videos:
