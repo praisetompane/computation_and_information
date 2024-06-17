@@ -21,10 +21,8 @@ Research:
                 - Django
                     - complete a full tutorial app to learn/remember Django.
                     - Django Ecommece: https://www.youtube.com/watch?v=YZvRrldjf1Y
-            - Scala
-                - Scala 3 (Dotty): https://github.com/praisetompane/dotty
-                - Play
-                - Akka
+            - Rust
+            - Mojo
         - https://github.com/praisetompane/algorithms_and_data_structures
     - study:
         - What is Programming Languages Research?: https://www.youtube.com/watch?v=70_DFytfnWw
@@ -58,10 +56,6 @@ Research:
         - java
             - complete: /computation_and_information/language_template
             - write simplified interpreter and compiler for the language in the language
-
-            - scala
-                - complete: /computation_and_information/language_template
-                - write simplified interpreter and compiler for the language in the language
         - haskell
             - complete: /computation_and_information/language_template
             - write simplified interpreter and compiler for the language in the language
@@ -78,4 +72,3 @@ Research:
             - https://www.chipverify.com/verilog/verilog-tutorial
             - https://inst.eecs.berkeley.edu/~eecs151/fa20/files/verilog/Verilog_Primer_Slides.pdf
             - https://web.mit.edu/6.111/www/f2017/handouts/L03_4.pdf
-        - git: https://github.com/praisetompane/git
