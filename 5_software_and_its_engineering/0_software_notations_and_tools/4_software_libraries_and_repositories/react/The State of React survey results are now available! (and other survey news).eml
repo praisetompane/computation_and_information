@@ -1,0 +1,497 @@
+Return-path: <01000190d9534429-0803e619-bf19-45eb-9375-e8f48e73f07a-000000_at_mail_devographics_com_62hk245xbk5752_9e9b2e76@icloud.com>
+Original-recipient: rfc822;praisetompane@icloud.com
+Received: from p00-icloudmta-smtpin-us-west-3a-100-percent-20 by p47-mailgateway-smtp-6997bdbd5c-hrgbf (mailgateway 2421B53)
+	with SMTP id 5cd1ccb0-ac91-4617-8702-40df25c79f48 
+	for <praisetompane@icloud.com>; Mon, 22 Jul 2024 07:23:57 GMT
+X-Apple-MoveToFolder: INBOX 
+X-Apple-Action: MOVE_TO_FOLDER/INBOX
+X-Apple-UUID: 5cd1ccb0-ac91-4617-8702-40df25c79f48
+Received: from a9-109.smtp-out.amazonses.com (a9-109.smtp-out.amazonses.com [54.240.9.109])
+	by p00-icloudmta-smtpin-us-west-3a-100-percent-20.localdomain (Postfix) with ESMTPS id EF9BBC00110
+	for <mythic.aeries-0o@icloud.com>; Mon, 22 Jul 2024 07:23:53 +0000 (UTC)
+X-ICL-Info: GAtbRFYDBVBFSlVFSwQEQgYMWxkXXlNCBhAWSk0EGFBBSUhOVgEGW1UcAkpIAQZSRUhfRxwJA1FBTVROVQAOUkYcUEZBHVQEREBLQ01VVE9MSlFCVVUOBEFBA0BLVgZVFFRWR0gABlI1FAceFB5SBwMWAQUZQF4LFgpIFBddFgQRRA8UFF9DBlsaCRpYQlVfGAASHxFTGAMQCw8SCx0GDTUQBRsXRVJMFhYLVxBVWg1IGF9aSQAPTAYUEgdVX0MWWxgLFgJfWBEQCkgUF10WEgELWxZBHQdSTFcVGgxAGw0ADUgWFVFMDRsKAwRWU1kPVR0CShxVQA0SCwcHEFlVEVsaCRpYVFJfFBQHDRdeRQcGVwUYFRBbCxFEWkdJAAZSREBWE0EFBVZBS19aSAgGURBPV05VUlBTTFRSQh1SG1tGTlNaHQhQVk0cUUQeAAEDWElWR0gABiIQFAceFB5XDxQDCRkLVUVMFhYLSQ==
+X-ICL-Score: 3.3320332342
+Authentication-Results: bimi.icloud.com; bimi=skipped reason="insufficient dmarc"
+X-ARC-Info: policy=fail; arc=none
+Authentication-Results: arc.icloud.com; arc=none
+Authentication-Results: dmarc.icloud.com; dmarc=none header.from=devographics.com
+X-DMARC-Info: pass=none; dmarc-policy=(nopolicy); s=u0; d=u0; pdomain=devographics.com
+X-DMARC-Policy: none
+Authentication-Results: dkim-verifier.icloud.com;
+	dkim=pass (2048-bit key) header.d=devographics.com header.i=@devographics.com header.b=ggp3dF7z
+Authentication-Results: dkim-verifier.icloud.com;
+	dkim=pass (1024-bit key) header.d=amazonses.com header.i=@amazonses.com header.b=fHpvZ9Ab
+Authentication-Results: spf.icloud.com; spf=pass (spf.icloud.com: domain of 01000190d9534429-0803e619-bf19-45eb-9375-e8f48e73f07a-000000@mail.devographics.com designates 54.240.9.109 as permitted sender) smtp.mailfrom=01000190d9534429-0803e619-bf19-45eb-9375-e8f48e73f07a-000000@mail.devographics.com
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1721633031;
+	h=From:To:Subject:List-Unsubscribe:List-Unsubscribe-Post:MIME-Version:Date:Message-ID:Content-Type:Feedback-ID;
+	bh=kYtR8k9uT792TF0qDee8mSxKDD20JV5uZr2ii+59JoU=;
+	b=fHpvZ9AbxUUfTCEI+556GYyvJANaaWSMoKppzoeoiw0bN7q3mn7kBfGjzcO8hTSv
+	hZctp5l/Ta4w/ODZasldJBCPCaFGuZGIjEE54GKl12MNjo0vsSuOlcjdfFoCoNkx4w0
+	RlcNtl914ixeX5O8q+4TKYNngabStzWDz1K27Wp0=
+from: "Devographics (State of React)" <noreply_at_devographics_com_62hk245xbk5752_6c009e9c@icloud.com>
+to: Hide My Email <mythic.aeries-0o@icloud.com>
+Subject: The State of React survey results are now available! (and other
+ survey news)
+X-Entity-Ref-Id: bd9ade01-7343-4d39-a994-4e28eedf416f
+X-EmailOctopus-Parent-Id: 3b5339ca-47f8-11ef-9d65-8d1e48e47b5e
+X-EmailOctopus-Parent-Type-Id: campaign
+X-EmailOctopus-List-Id: 463dc2a9-b2ff-11e8-a3c9-06b79b628af2
+X-EmailOctopus-List-Contact-Id: 9a1313c6-6bc2-11ee-8b93-d30805d7ea4d
+X-EmailOctopus-Started-Preparing-At: 2024-07-22T07:15:14+00:00
+X-EmailOctopus-Sent-At: 2024-07-22T07:23:51+00:00
+X-EmailOctopus-Team-Id: d6326819-4f4c-11e9-a3c9-06b79b628af2
+X-EmailOctopus-Version: 4
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+X-EmailOctopus-Ses-Configuration-Set-Name: emailoctopus-92ac08625b86fcb74e8dc6e633188d55
+MIME-Version: 1.0
+Date: Mon, 22 Jul 2024 07:23:51 +0000
+Message-ID: <01000190d9534429-0803e619-bf19-45eb-9375-e8f48e73f07a-000000@email.amazonses.com>
+Content-Type: multipart/alternative; boundary=DuZx9ihS
+Feedback-ID: ::1.us-east-1.Zn2XbPJ1nfTANXo6+vzwpwI990RXCqU704u0/Ryj9y8=:AmazonSES
+X-SES-Outgoing: 2024.07.22-54.240.9.109
+X-CLX-Shades: None
+X-MANTSH: 1TFkXGBoRCllEF2VuHRhDTHp6HwUeEQpZTRdkRURPEQpfWRcYHB8RCl9NF2RFRE8
+ RCllJFxgaGnEZHgYYHXcGGx8GGgYaBhsaGgYacRoQGncGGgYHHxoGGgYaBhoGGnEaEBp3BhoRC
+ lleF2xseREKQ04XSVp8WkBpXkIbf0BTbRhlf0xHbnJcRmtyTnhdZXJbbmgRClhcFxkEGgQfGgU
+ bGgQbHBgEGBMEGB4SEBseGh8aEQpeWRdOGhwYRhEKTVwXGBofEQpMWhdpbG1Bb10RCkxGF01rE
+ QpDWhcfHgQYHhoEEwQbGhMRCkJeFxsRCkJGF2dHYWhza1tHS19jEQpCRxdtUEVpHmFoaE8SaxE
+ KQlwXGxEKXk4XGxEKQksXYmRfH19deBNJcGYRCkJJF2JkXx9fXXgTSXBmEQpCRRdtUHISbRt9e
+ k5aXREKQk4XYmRfH19deBNJcGYRCkJMF2FTR3xhQEAeWB9fEQpCbBdiYXhtS3xeZgFGAREKQkA
+ XbwUTbFpJBWxeQm8RCkJYF29SaGsbemd4aUlnEQpaWBcZEQpwaBdiaUJZRUZfbUNCZBAaEQpwa
+ BduclB+e3kebkBDYxAbEhEKcGgXbmMbGmBPaHBBGn8QGhEKcGgXY0sfQHgbaWMZc0YQGhEKcGg
+ XZx1lbBsSRURAT04QGhEKcGgXa0gaYF0FAVlHZmgQGhEKcGgXZR0bfEUaf11MEgEQGhEKcGgXe
+ hlyekhyRx5vblgQGhEKcH8XZ3sYW2QFT2xpeHsQGhEKcF8XaBlEG0FFRR5DWwUQGhEKcH0Xb0V
+ EbB9NXhlyXW4QGhEKcH8XY3J6Ell5Qh9YU0QQGhEKcF8XZxlzUFJsfXN5ZmMQGhEKcH0XaHtDT
+ 2kcckxJAUIQGhEKcH8XYh1Tc3BzX3AbG2MQHBoRCnB9F2loAW8eUEF4QmBNEBoRCnB/F24eGnx
+ sElsdQU5cEAcZGhEKcF8XY11tb0dpYhlmc3oQGhEKcH0XYBhQE35ZaGsFGlkQGhEKcH8XaWNMZ
+ QVjf1NsYwEQGxIRCnBfF3pQeGBzRAV4W2Z+EBoRCnB9F29BQGxeQktIc0teEBoRCnB/F2VfYmJ
+ kYRsYeFpDEAcdGhEKcF8XZn1yR3xaQFBGaFIQBx4SEQpwfRdmHU5uaX1lRhh+chAaEQpwXxdrR
+ 1xhAX9FYENvYxAHGRoRCnB9F2ZheWsdTxtFHUBmEBoRCnBfF2B7HGNaGEkFBRxGEBoRCnB9F2E
+ ZemZIcGcaentEEBoRCnB/F2taGlAdQGV9bFhyEAcSGREKcF8XbklBR05veHhufxsQGhEKcH0Xb
+ 2JPe18cWBplREEQGhEKcH0Xa194eR1rWUB+GHIQGhEKcH0XYEYYRWgbQGEbSH0QGhEKcH0XZFl
+ JHG5sX38aQxoQGhEKcH0XZBxGUFpeQFlJW20QGhEKcH0XYmVBHn4aExtGbmcQGhEKcH0XZ2wdR
+ BhZU2UTH0sQGhEKcH0XbEUZSXxlSV5gbX0QGhEKcF8Xa0tvcEhSY2lpBXoQGhEKcH0XelJwWh5
+ 6HwV4aWIQGhEKcGwXZEx+S20FYGJbYE8QGhEKbX4XGhEKWE0XSxE=
+X-Proofpoint-GUID: cpVpjCth1UjyG2OUfmDXvlAXdRwOXqDB
+X-Proofpoint-ORIG-GUID: cpVpjCth1UjyG2OUfmDXvlAXdRwOXqDB
+X-ICLOUD-HME: p=mythic.aeries-0o@icloud.com; d=2022.stateofjs.com; f=praisetompane@icloud.com; r=to; s=noreply@devographics.com
+
+--DuZx9ihS
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Announcing the first-ever State of React
+survey=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=
+=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=
+=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=
+=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=8C=C2=A0=E2=80=
+=8C
+
+=09=09[Insert alt text here]
+
+=09=09The State of React survey =
+results are now available
+
+It's taken a while, but the results from las=
+t year's State of React
+survey are now available [1].=C2=A0
+
+As alway=
+s, big thanks to this year's sponsors:
+
+=09* TOKYODEV, which will help =
+you find your dream dev job in Japan [2]
+even if you don't speak Japanese=
+
+=09* FRONTEND MASTERS, who offer high-quality courses about the web
+ec=
+osystem [3] led by industry veterans.=C2=A0
+=09* RENDER ATL, the tech con=
+ference focused on all things web [4] that
+always has the best speaker li=
+ne-up.=C2=A0
+
+=09=09View the Results =E2=86=92 [1]
+
+=09=09Help Us D=
+esign the 2024 Surveys
+
+With 2023 behind us, now is the time to focus o=
+n 2024 =E2=80=93 especially
+if there's something you think we should be a=
+sking about!
+
+Learn more about when the next surveys will take place =
+=E2=80=93 and how to
+contribute [5].=C2=A0
+
+=09=09 You are receiving =
+this email because you signed up for our email
+list, or took one of our s=
+urveys in the past.=20
+Unsubscribe [6]=C2=A0=C2=A0|=C2=A0=C2=A0View this em=
+ail in your browser [7]
+
+
+
+Links:
+------
+[1] https://2023.state=
+ofreact.com/
+[2] https://www.tokyodev.com/jobs/react?utm_source=3Dstateof=
+react&utm_medium=3Dwebsite&utm_campaign=3Dstateofreact2023_announcement
+[=
+3] https://frontendmasters.com/?utm_source=3Dstateofreact&utm_medium=3Dwebs=
+ite&utm_campaign=3Dstateofreact2023_announcement
+[4] https://www.renderat=
+l.com/?utm_source=3Dstateofreact&utm_medium=3Dwebsite&utm_campaign=3Dstateo=
+freact2023
+[5] https://dev.to/sachagreif/planning-out-the-2024-state-of-s=
+urveys-4lb9
+[6] https://araneoides.eomail3.com/unsubscribe?ep=3D1&l=3D463=
+dc2a9-b2ff-11e8-a3c9-06b79b628af2&lc=3D9a1313c6-6bc2-11ee-8b93-d30805d7ea4d=
+&p=3D3b5339ca-47f8-11ef-9d65-8d1e48e47b5e&pt=3Dcampaign&pv=3D4&spa=3D172163=
+2514&t=3D1721633031&s=3D2006f297455cc56512aa640c36fbdeb6f90aac64388321fb8d2=
+bddb9a9167644
+[7] https://araneoides.eomail3.com/web-version?ep=3D1&lc=3D=
+9a1313c6-6bc2-11ee-8b93-d30805d7ea4d&p=3D3b5339ca-47f8-11ef-9d65-8d1e48e47b=
+5e&pt=3Dcampaign&t=3D1721633031&s=3D59eaa5ef23fb5b5e381297fc8d37ff8ac1f226f=
+f0c35e9d630863095ba9ae6e3
+--DuZx9ihS
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en"><head><title>State of CSS 2023</title><met=
+a http-equiv=3D"Content-Type" content=3D"text/html charset=3DUTF-8"><meta n=
+ame=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"><meta =
+http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge"><style type=3D"text/cs=
+s">
+=09=09=09/* CLIENT-SPECIFIC STYLES */
+=09=09=09
+=09=09=09body,
+=09=09=09table,
+=09=09=09td,
+=09=09=09a {
+=09=09=09=09-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+=09=09=09}
+=09=09=09/* Prevent WebKit and Windows mobile changing default text sizes *=
+/
+=09=09=09
+=09=09=09table,
+=09=09=09td {
+=09=09=09=09mso-table-lspace: 0pt; mso-table-rspace: 0pt;
+=09=09=09}
+=09=09=09/* Remove spacing between tables in Outlook 2007 and up */
+=09=09=09
+=09=09=09img {
+=09=09=09=09-ms-interpolation-mode: bicubic;
+=09=09=09}
+=09=09=09/* Allow smoother rendering of resized image in Internet Explorer =
+*/
+=09=09=09/* RESET STYLES */
+=09=09=09
+=09=09=09img {
+=09=09=09=09border: 0; height: auto; line-height: 100%; outline: none; text=
+-decoration: none;
+=09=09=09}
+=09=09=09
+=09=09=09table {
+=09=09=09=09border-collapse: collapse !important;
+=09=09=09}
+=09=09=09
+=09=09=09body {
+=09=09=09=09height: 100% !important; margin: 0 !important; padding: 0 !impo=
+rtant; width: 100% !important;
+=09=09=09}
+=09=09=09/* iOS BLUE LINKS */
+=09=09=09
+=09=09=09a[x-apple-data-detectors] {
+=09=09=09=09color: inherit !important; text-decoration: none !important; fo=
+nt-size: inherit !important; font-family: inherit !important; font-weight: =
+inherit !important; line-height: inherit !important;
+=09=09=09}
+=09=09=09/* MOBILE STYLES */
+=09=09=09
+=09=09=09@media screen and (max-width: 525px) {
+=09=09=09=09/* ALLOWS FOR FLUID TABLES */
+=09=09=09=09.wrapper {
+=09=09=09=09=09width: 100% !important; max-width: 100% !important;
+=09=09=09=09}
+=09=09=09=09/* ADJUSTS LAYOUT OF LOGO IMAGE */
+=09=09=09=09.logo img {
+=09=09=09=09=09margin: 0 auto !important;
+=09=09=09=09}
+=09=09=09=09/* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+=09=09=09=09.mobile-hide {
+=09=09=09=09=09display: none !important;
+=09=09=09=09}
+=09=09=09=09.img-max {
+=09=09=09=09=09max-width: 100% !important; width: 100% !important; height: =
+auto !important;
+=09=09=09=09}
+=09=09=09=09/* FULL-WIDTH TABLES */
+=09=09=09=09.responsive-table {
+=09=09=09=09=09width: 100% !important;
+=09=09=09=09}
+=09=09=09=09/* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+=09=09=09=09.padding {
+=09=09=09=09=09padding: 10px 5% 15px 5% !important;
+=09=09=09=09}
+=09=09=09=09.padding-meta {
+=09=09=09=09=09padding: 30px 5% 0px 5% !important; text-align: center;
+=09=09=09=09}
+=09=09=09=09.padding-copy {
+=09=09=09=09=09g: 10px 5% 10px 5% !important; text-align: center;
+=09=09=09=09}
+=09=09=09=09.no-padding {
+=09=09=09=09=09padding: 0 !important;
+=09=09=09=09}
+=09=09=09=09.section-padding {
+=09=09=09=09=09padding: 50px 15px 50px 15px !important;
+=09=09=09=09}
+=09=09=09=09/* ADJUST BUTTONS ON MOBILE */
+=09=09=09=09.mobile-button-container {
+=09=09=09=09=09margin: 0 auto; width: 100% !important;
+=09=09=09=09}
+=09=09=09=09.mobile-button {
+=09=09=09=09=09padding: 15px !important; border: 0 !important; font-size: 1=
+6px !important; display: block !important;
+=09=09=09=09}
+=09=09=09}
+=09=09=09/* ANDROID CENTER FIX */
+=09=09=09
+=09=09=09div[style*=3D"margin: 16px 0;"] {
+=09=09=09=09margin: 0 !important;
+=09=09=09}
+
+=09=09</style><!--[if gte mso 12]>
+<style type=3D"text/css">
+.mso-right {
+padding-left: 20px;
+}
+</style>
+<![endif]--></head><body class=3D"fr-no-selection" style=3D"margin: 0px !im=
+portant; padding: 0px !important;">
+
+
+<!-- HIDDEN PREHEADER TEXT --><div class=3D"litmus-builder-preview-text" st=
+yle=3D"display:none;font-size:1px;color:#333333;line-height:1px;max-height:=
+0px;max-width:0px;opacity:0;overflow:hidden;">Announcing the first-ever Sta=
+te of React survey&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=8C&nbsp;=E2=80=
+=8C&nbsp;=E2=80=8C</div><!-- HEADER --><table border=3D"0" cellpadding=3D"0=
+" cellspacing=3D"0" width=3D"100%"><tbody><tr><td align=3D"center" bgcolor=
+=3D"#272325" class=3D"section-padding" style=3D"padding: 70px 15px 70px 15p=
+x;"><!--[if (gte mso 9)|(IE)]>
+            <table role=3D"presentation" align=3D"center" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" width=3D"500">
+            <tr>
+            <td align=3D"center" valign=3D"top" width=3D"500">
+            <![endif]--><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" class=3D"responsive-table" style=3D"max-width: 500px;" width=3D"100%=
+"><tbody><tr><td><!-- HERO IMAGE --><table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" width=3D"100%"><tbody><tr><td align=3D"center" class=3D"pa=
+dding"><a href=3D"#" target=3D"_blank"><img src=3D"https://gallery.eomail3.=
+com/d6326819-4f4c-11e9-a3c9-06b79b628af2%2F1721617613711-react2023-square.p=
+ng" width=3D"500" height=3D"500" border=3D"0" alt=3D"Insert alt text here" =
+style=3D"display: block; padding: 0px; color: rgb(38, 110, 156); text-decor=
+ation: none; font-family: Helvetica, arial, sans-serif; font-size: 16px;" c=
+lass=3D"img-max"></a></td></tr></tbody></table></td></tr></tbody></table><!=
+--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]--></td></tr>
+
+<tr><td align=3D"center" bgcolor=3D"#ffffff" class=3D"section-padding" styl=
+e=3D"padding: 25px 15px 70px 15px;"><table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" class=3D"responsive-table" width=3D"500"><tbody><tr><td><t=
+able border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tbody=
+><tr><td><!-- COPY --><table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"100%"><tbody><tr><td align=3D"center" class=3D"padding-copy" st=
+yle=3D"font-size: 25px; font-family: Helvetica, Arial, sans-serif; color: #=
+333333; padding-top: 30px;">The State of React survey results are now avail=
+able</td></tr>
+<tr><td align=3D"center" class=3D"padding-copy" style=3D"padding: 20px 0 0 =
+0; font-size: 16px; line-height: 25px; font-family: Helvetica, Arial, sans-=
+serif; color: #666666;">It's taken a while, but the results from last year'=
+s State of React survey <a href=3D"https://blbrv08v.r.us-east-1.awstrack.me=
+/L0/https:%2F%2F2023.stateofreact.com%2F/1/01000190d9534429-0803e619-bf19-4=
+5eb-9375-e8f48e73f07a-000000/1eWj_Nj6blf-YP9-cWltwbvs_Pc=3D383" rel=3D"noop=
+ener noreferrer" target=3D"_blank">are now available</a>.&nbsp;<br><br>As a=
+lways, big thanks to this year's sponsors:<ul><li><strong>TokyoDev</strong>=
+, which will <a href=3D"https://blbrv08v.r.us-east-1.awstrack.me/L0/https:%=
+2F%2Fwww.tokyodev.com%2Fjobs%2Freact%3Futm_source=3Dstateofreact%26utm_medi=
+um=3Dwebsite%26utm_campaign=3Dstateofreact2023_announcement/1/01000190d9534=
+429-0803e619-bf19-45eb-9375-e8f48e73f07a-000000/TJ7TP-dhm_Tub_MJSJTgiYhl-zs=
+=3D383" rel=3D"noopener noreferrer" target=3D"_blank">help you find your dr=
+eam dev job in Japan</a> even if you don't speak Japanese</li><li><strong>F=
+rontend Masters</strong>, who offer <a href=3D"https://blbrv08v.r.us-east-1=
+.awstrack.me/L0/https:%2F%2Ffrontendmasters.com%2F%3Futm_source=3Dstateofre=
+act%26utm_medium=3Dwebsite%26utm_campaign=3Dstateofreact2023_announcement/1=
+/01000190d9534429-0803e619-bf19-45eb-9375-e8f48e73f07a-000000/Xko27ewvL6Gji=
+IkaEvbPrqBUkNw=3D383" rel=3D"noopener noreferrer" target=3D"_blank">high-qu=
+ality courses about the web ecosystem</a> led by industry veterans.&nbsp;</=
+li><li><strong>Render ATL</strong>, <a href=3D"https://blbrv08v.r.us-east-1=
+.awstrack.me/L0/https:%2F%2Fwww.renderatl.com%2F%3Futm_source=3Dstateofreac=
+t%26utm_medium=3Dwebsite%26utm_campaign=3Dstateofreact2023/1/01000190d95344=
+29-0803e619-bf19-45eb-9375-e8f48e73f07a-000000/V7RuJbyA-XipLBzi3eCjNsNmx9U=
+=3D383" rel=3D"noopener noreferrer" target=3D"_blank">the tech conference f=
+ocused on all things web</a> that always has the best speaker line-up.&nbsp=
+;</li></ul></td></tr></tbody></table></td></tr>
+<tr><td align=3D"center"><!-- BULLETPROOF BUTTON --><table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" width=3D"100%"><tbody><tr><td align=3D"cen=
+ter" class=3D"padding" style=3D"padding-top: 25px;"><table border=3D"0" cel=
+lpadding=3D"0" cellspacing=3D"0" class=3D"mobile-button-container"><tbody><=
+tr><td align=3D"center" bgcolor=3D"#ef4e88" style=3D"border-radius: 3px;"><=
+a class=3D"mobile-button" href=3D"https://blbrv08v.r.us-east-1.awstrack.me/=
+L0/https:%2F%2F2023.stateofreact.com%2F/2/01000190d9534429-0803e619-bf19-45=
+eb-9375-e8f48e73f07a-000000/lCy520a6ZGXxEql6_Bv6jR1yiUo=3D383" rel=3D"noope=
+ner noreferrer" style=3D"font-size: 16px; font-family: Helvetica, Arial, sa=
+ns-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decor=
+ation: none; border-radius: 3px; padding: 15px 25px; border: 1px solid #ef4=
+e88; display: inline-block;" target=3D"_blank">View the Results =E2=86=92</=
+a></td></tr></tbody></table></td></tr></tbody></table></td></tr>
+
+<tr><td><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"10=
+0%"><tbody><tr><td><!-- COPY --><table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%"><tbody><tr><td align=3D"center" class=3D"paddin=
+g-copy" style=3D"padding: 20px 0 0 0; font-size: 16px; line-height: 25px; f=
+ont-family: Helvetica, Arial, sans-serif; color: #666666;"><strong><span st=
+yle=3D"font-size: 24px;">Help Us Design the 2024 Surveys<br></span></strong=
+><br>With 2023 behind us, now is the time to focus on 2024 =E2=80=93 especi=
+ally if there's something you think we should be asking about!<br><br>Learn=
+ more about <a href=3D"https://blbrv08v.r.us-east-1.awstrack.me/L0/https:%2=
+F%2Fdev.to%2Fsachagreif%2Fplanning-out-the-2024-state-of-surveys-4lb9/1/010=
+00190d9534429-0803e619-bf19-45eb-9375-e8f48e73f07a-000000/PnuXZl2mEWDkBxjI2=
+7Ix-wMaino=3D383" rel=3D"noopener noreferrer" target=3D"_blank">when the ne=
+xt surveys will take place =E2=80=93 and how to contribute</a>.&nbsp;</td><=
+/tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></t=
+d></tr>
+<tr><td align=3D"center" bgcolor=3D"#ffffff" style=3D"padding: 20px 0px;"><=
+!--[if (gte mso 9)|(IE)]>
+            <table role=3D"presentation" align=3D"center" border=3D"0" cell=
+spacing=3D"0" cellpadding=3D"0" width=3D"500">
+            <tr>
+            <td align=3D"center" valign=3D"top" width=3D"500">
+            <![endif]--><!-- UNSUBSCRIBE COPY --><table align=3D"center" bo=
+rder=3D"0" cellpadding=3D"0" cellspacing=3D"0" class=3D"responsive-table" s=
+tyle=3D"max-width: 500px;" width=3D"100%"><tbody><tr><td align=3D"center" s=
+tyle=3D"font-size: 12px; line-height: 18px; font-family: Helvetica, Arial, =
+sans-serif; color:#666666;">
+You are receiving this email because you signed up for our email list, or t=
+ook one of our surveys in the past.
+<br><a href=3D"https://blbrv08v.r.us-east-1.awstrack.me/L0/https:%2F%2Faran=
+eoides.eomail3.com%2Funsubscribe%3Fep=3D1%26l=3D463dc2a9-b2ff-11e8-a3c9-06b=
+79b628af2%26lc=3D9a1313c6-6bc2-11ee-8b93-d30805d7ea4d%26p=3D3b5339ca-47f8-1=
+1ef-9d65-8d1e48e47b5e%26pt=3Dcampaign%26pv=3D4%26spa=3D1721632514%26t=3D172=
+1633031%26s=3D2006f297455cc56512aa640c36fbdeb6f90aac64388321fb8d2bddb9a9167=
+644/1/01000190d9534429-0803e619-bf19-45eb-9375-e8f48e73f07a-000000/JK-2_OaQ=
+Mqu8ZC734KyIE7hKlYM=3D383" style=3D"color: #666666; text-decoration: none;"=
+ target=3D"_blank">Unsubscribe</a><span style=3D"font-family: Arial, sans-s=
+erif; font-size: 12px; color: #444444;">&nbsp;&nbsp;|&nbsp;&nbsp;</span><a =
+href=3D"https://blbrv08v.r.us-east-1.awstrack.me/L0/https:%2F%2Faraneoides.=
+eomail3.com%2Fweb-version%3Fep=3D1%26lc=3D9a1313c6-6bc2-11ee-8b93-d30805d7e=
+a4d%26p=3D3b5339ca-47f8-11ef-9d65-8d1e48e47b5e%26pt=3Dcampaign%26t=3D172163=
+3031%26s=3D59eaa5ef23fb5b5e381297fc8d37ff8ac1f226ff0c35e9d630863095ba9ae6e3=
+/1/01000190d9534429-0803e619-bf19-45eb-9375-e8f48e73f07a-000000/5Jg4hEwoNp-=
+9YF_CwpZCU2anT9g=3D383" style=3D"color: #666666; text-decoration: none;" ta=
+rget=3D"_blank">View this email in your browser</a></td></tr></tbody></tabl=
+e><!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]--></td></tr></tbody></table></td></tr></tbody></table=
+><img alt=3D"" src=3D"https://blbrv08v.r.us-east-1.awstrack.me/I0/01000190d=
+9534429-0803e619-bf19-45eb-9375-e8f48e73f07a-000000/jfDDF7KJqo0OXwUmAsQBy81=
+8jfg=3D383" style=3D"display: none; width: 1px; height: 1px;">
+</body></html>
+--DuZx9ihS--
