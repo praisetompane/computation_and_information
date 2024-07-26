@@ -1,0 +1,99 @@
+==============================================================================================================================================================
+Research:
+    - sources:
+        - https://www.quantamagazine.org/computer-science/
+        - What is Programming Languages Research?: https://www.youtube.com/watch?v=70_DFytfnWw
+    - sub-areas:
+        - ...
+    - schools:
+        - https://www.cs.utexas.edu/research/programming-languages-and-compilers
+        - https://www.cs.cornell.edu/research/lang
+        - https://www.mccormick.northwestern.edu/computer-science/research/areas/programming-languages.html
+        - https://compiler-research.org/
+
+    - build
+        - What is Programming Languages Research?: https://www.youtube.com/watch?v=70_DFytfnWw
+
+        - computer programming problems:
+            - cracking the coding interview book
+<<<<<<<< HEAD:5_software_and_its_engineering/0_software_notations_and_tools/plan.txt
+        - contribute to a programming language and its ecosystem: 
+========
+            - Hackerank
+        - contribute to a programming language and its ecosystem:
+>>>>>>>> 4a55223b (refactor: reorder order of learning in 5_software_and_its_engineering and add compilers material.):5_software_and_its_engineering/0_software_notations_and_tools/todo.txt
+            - Python
+                - CPython: https://github.com/python/cpython
+                    - https://devguide.python.org
+                - Flask: https://github.com/pallets/flask
+                - Django
+                    - complete a full tutorial app to learn/remember Django.
+                    - Django Ecommece: https://www.youtube.com/watch?v=YZvRrldjf1Y
+            - Scala
+                - Scala 3 (Dotty): https://github.com/praisetompane/dotty
+                - Play
+                - Akka
+        - https://github.com/praisetompane/algorithms_and_data_structures
+    - study:
+        - python
+            - complete: /computation_and_information/language_template
+                - Python essentials to be a Python software engineer
+                - some things I found that I do not know:
+                    - IO threads. select
+                    - synchronous IO multiplexing
+                    -   from socket import socket
+                        socket.getpeername()
+                        all()
+            - write simplified interpreter and compiler for the language in the language
+            - finish studying Python language reference
+        - compilers:
+            - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c11/
+            - https://www.youtube.com/watch?v=F5-87RM_zHA&list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2&index=93&pp=iAQB
+
+            - https://www.youtube.com/playlist?list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2
+            - https://www.youtube.com/watch?v=yCd3CzGSte8&list=TLPQMjUwNzIwMjToaaZrcaOFcQ&index=2
+            - https://ocw.mit.edu/courses/6-035-computer-language-engineering-sma-5502-fall-2005/
+            - https://ocw.mit.edu/courses/6-035-computer-language-engineering-spring-2010/
+            - https://www.youtube.com/playlist?list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2
+        - c
+            - complete: /computation_and_information/language_template
+            - write simplified interpreter and compiler for the language in the language
+        - assembly
+            - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/lecture-4-assembly-language-computer-architecture
+            - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/lecture-4-assembly-language-computer-architecture
+        - machine_code: instruction sets
+            - x86
+            - arm
+            - mibs
+            - risc-v
+            - cisc
+        - javascript AND typescript
+            - html
+            - css
+            - complete: /computation_and_information/language_template
+            - write simplified interpreter and compiler for the language in the language
+        - go
+            - complete: /computation_and_information/language_template
+            - write simplified interpreter and compiler for the language in the language
+        - rust:
+            - complete: /computation_and_information/language_template
+                - https://www.rust-lang.org
+                - https://github.com/praisetompane/rust/tree/main
+            - write simplified interpreter and compiler for the language in the language
+        - java
+            - complete: /computation_and_information/language_template
+            - write simplified interpreter and compiler for the language in the language
+
+            - scala
+                - complete: /computation_and_information/language_template
+                - write simplified interpreter and compiler for the language in the language
+        - haskell
+            - complete: /computation_and_information/language_template
+            - write simplified interpreter and compiler for the language in the language
+        - https://github.com/praisetompane/unified_discipline_of_programming
+                - coq
+        - pytorch
+        - verilog
+            - https://www.chipverify.com/verilog/verilog-tutorial
+            - https://inst.eecs.berkeley.edu/~eecs151/fa20/files/verilog/Verilog_Primer_Slides.pdf
+            - https://web.mit.edu/6.111/www/f2017/handouts/L03_4.pdf
