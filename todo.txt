@@ -37,9 +37,68 @@ purpose: understand computation and information.
                 NB: Compilers
                 - in offline library
                 - https://www.youtube.com/playlist?list=PL0300FE43396456C1
+
         - readings:
             - https://ocw.mit.edu/courses/6-035-computer-language-engineering-spring-2010/
             - https://ocw.mit.edu/courses/6-035-computer-language-engineering-spring-2010/pages/lecture-notes/
+            - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c11/
+            - https://www.youtube.com/watch?v=F5-87RM_zHA&list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2&index=93&pp=iAQB
+            - https://www.youtube.com/playlist?list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2
+            - https://www.youtube.com/watch?v=yCd3CzGSte8&list=TLPQMjUwNzIwMjToaaZrcaOFcQ&index=2
+            - https://ocw.mit.edu/courses/6-035-computer-language-engineering-sma-5502-fall-2005/
+            - https://ocw.mit.edu/courses/6-035-computer-language-engineering-spring-2010/
+            - https://www.youtube.com/playlist?list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2
+            - https://github.com/praisetompane/computation_and_information/tree/main/5_software_and_its_engineering/0_software_notations_and_tools/unified_discipline_of_computer_programming
+                - What is Programming Languages Research?: https://www.youtube.com/watch?v=70_DFytfnWw
+            - python
+                - complete: /computation_and_information/language_template
+                    - Python essentials to be a Python software engineer
+                    - some things I found that I do not know:
+                        - IO threads. select
+                        - synchronous IO multiplexing
+                        -   from socket import socket
+                            socket.getpeername()
+                            all()
+                - write simplified interpreter and compiler for the language in the language
+                - finish studying Python language reference
+            - c
+                - complete: /computation_and_information/language_template
+                - write simplified interpreter and compiler for the language in the language
+            - assembly
+                - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/lecture-4-assembly-language-computer-architecture
+                - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/lecture-4-assembly-language-computer-architecture
+            - machine_code: instruction sets
+                - x86
+                - arm
+                - mibs
+                - risc-v
+                - cisc
+            - verilog
+                - https://www.chipverify.com/verilog/verilog-tutorial
+                - https://inst.eecs.berkeley.edu/~eecs151/fa20/files/verilog/Verilog_Primer_Slides.pdf
+                - https://web.mit.edu/6.111/www/f2017/handouts/L03_4.pdf
+            - Unix: https://github.com/mit-pdos/xv6-riscv
+            - Linux: https://github.com/torvalds/linux
+            - javascript AND typescript
+                - complete: /computation_and_information/language_template
+                - write simplified interpreter and compiler for the language in the language
+            - go
+                - complete: /computation_and_information/language_template
+                - write simplified interpreter and compiler for the language in the language
+            - rust:
+                - complete: /computation_and_information/language_template
+                    - https://www.rust-lang.org
+                    - https://github.com/praisetompane/rust/tree/main
+                - write simplified interpreter and compiler for the language in the language
+            - java
+                - complete: /computation_and_information/language_template
+                - write simplified interpreter and compiler for the language in the language
+            - haskell
+                - complete: /computation_and_information/language_template
+                - write simplified interpreter and compiler for the language in the language
+            - coq
+            - pytorch
+
         - assignments:
         - exams:
     - 2_hardware: 2 hours
@@ -48,6 +107,8 @@ purpose: understand computation and information.
             - MIT 6.004 Computation Structures, Spring 2017
                 - in offline library
                 - https://www.youtube.com/playlist?list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2
+            - MIT 6.172 Performance Engineering of Software Systems, Fall 2018:
+            - https://www.youtube.com/playlist?list=PLUl4u3cNGP63VIBQVWguXxZZi0566y7Wf
         - readings:
             - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/
             - but_how_do_it_know?_the_basic_principles_of_computers_for_everyone
