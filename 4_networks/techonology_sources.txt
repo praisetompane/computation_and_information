@@ -1,0 +1,7 @@
+techonology sources:
+    - Vendors:
+        - Cisco System
+        - IBM
+        - Juniper
+        - ...
+    - Academia
