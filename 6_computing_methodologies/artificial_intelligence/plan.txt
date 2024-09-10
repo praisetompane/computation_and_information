@@ -1,231 +1,223 @@
 ==============================================================================================================================================================
-Research:
-  - guide: https://github.com/praisetompane/research_scientist_machine_learning
-  - sub-areas:
-    - Deep Learning
-    - Machine Learning
-    - Natural Language Processing
-    - Reinforcement Learning
-  - sources:
-      - https://www.quantamagazine.org/computer-science/
-  - schools:
-      - ...
-  - my key interest: Knowledge Representation. 
-      - how do humans represent knowledge?
-      - is there a general representation of knowledge?
-  - companies | research labs:
-      - Kaggle competitions
-      - https://github.com/openai/
-      - https://github.com/google-research
-      - https://github.com/google-deepmind/deepmind-research
-      - https://github.com/facebookresearch
-      - https://github.com/anthropics
-      - Imbue: https://generallyintelligent.ai/
-      - https://cohere.com/
-      - https://github.com/Stability-AI
-      - https://github.com/EleutherAI
-      - https://github.com/huggingface
-      - https://boards.greenhouse.io/deepmind/jobs/5444299?t=bbda0eea1us
-      - https://github.com/google-deepmind/deepmind-research
-      - https://lelapa.ai
-  - datasets:
-      - handwritten images:
-          - http://yann.lecun.com/exdb/mnist/
-  - community:
-      - http://colah.github.io
-  - library:
-      - https://distill.pub
-  - priority:
-      - build: 2 hours
-      - study: 2 hours
+research:
+    - guide: https://github.com/praisetompane/research_scientist_machine_learning
+    - sub-areas:
+        - deep learning
+        - machine learning
+        - natural language processing
+        - reinforcement learning
+    - sources:
+        - https://www.quantamagazine.org/computer-science/
+    - schools:
+        - ...
+    - my key interest: knowledge representation. 
+        - how do humans represent knowledge?
+        - is there a general representation of knowledge?
+    - companies | research labs:
+        - kaggle competitions
+        - https://github.com/openai/
+        - https://github.com/google-research
+        - https://github.com/google-deepmind/deepmind-research
+        - https://github.com/facebookresearch
+        - https://github.com/anthropics
+        - imbue: https://generallyintelligent.ai/
+        - https://cohere.com/
+        - https://github.com/stability-ai
+        - https://github.com/eleutherai
+        - https://github.com/huggingface
+        - https://boards.greenhouse.io/deepmind/jobs/5444299?t=bbda0eea1us
+        - https://github.com/google-deepmind/deepmind-research
+        - https://lelapa.ai
+- datasets:
+    - handwritten images:
+        - http://yann.lecun.com/exdb/mnist/
+- community:
+    - http://colah.github.io
+- library:
+    - https://distill.pub
+- priority:
+    - build: 2 hours
+    - study: 2 hours
 
-      - build:
-          - app_corporate_culture_measurer
-              https://github.com/praisetompane/app_corporate_culture_measurer
-      - study:
-          - Neural Networks: Zero to Hero: https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
+    - build:
+        - app_corporate_culture_measurer
+            https://github.com/praisetompane/app_corporate_culture_measurer
+    - study:
+        - guide: 
+            - https://www.youtube.com/watch?v=mhchrvfaxlc&t=1044s
+            - https://github.com/praisetompane/research_scientist_guide_artificial_intelligence
+        - python:
+            - https://github.com/praisetompane/python
+        - mathematics:
+            - courses:  
+                - https://www.khanacademy.org/math/statistics-probability
+                - statquest
+                - 3ble1brown
+            - statistics: 
+                - descriptive vs inferential statistics: *
+                - continous vs discrete data
+                - nominal vs ordinal data
+                - measures of central tendency: mean, median, mode: *
+                - measures of dispersion: variance, standard deviation: *
+            - probability:
+                - basics
+                - distributions: normal distribution
+                - correlation and convariance
+                - central limit theorem
+            - hypothesis testing: 
+                - p value
+                - confidence interval
+                - type 1 vs typor 2 error
+                - z test
+            - linear algebra: vectors, metrices, eigenvalues and eigenvectors
+            - basic plots: histograms, pie chars, scatter plots
+            - exploratory data analysis:
+                - first option i found: https://www.kaggle.com/code/imoore/intro-to-exploratory-data-analysis-eda-in-python
+                - other options: https://www.kaggle.com/code?searchquery=exploratory+data+analysis
+        - data science:
+            - numpy
+            - pandas
+            - matplotlib
+            - seaborn
+        - machine learning:
+            - toolkit:
+                - scikit-learn
+                - pytorch
+                - tensorflow
+                - keras
+            - statistical ml:
+                - course: machine learning tutorial python | machine learning for beginners: https://www.youtube.com/playlist?list=pleo1k3hjs3uvcetyteyfe0-rn5r8zn9rw
+                    nb: first 21 videos only
+                - preprocessing:
+                    - handling na values
+                    - outlier treatment
+                    - data normalization
+                    - one hot encoding
+                    - label encoding
+                    - trani test split
+                    - cross validation
+                - model building
+                    - types of ml:
+                        - supervised learning
+                        - unsupervised learning
 
-          - AI Engineer Guide:
-              guide: https://www.youtube.com/watch?v=MhCHrvfAXlc&t=1044s
-              - python:
-                  - generators: https://www.youtube.com/watch?v=66HNCg7_gfE&list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0&index=24&pp=iAQB
-                  - iterators: https://www.youtube.com/watch?v=ffFRuB03qLE&list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0&index=23&pp=iAQB
-                  - decorators: https://www.youtube.com/watch?v=IVWZxr0kOyI&list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0&index=28&pp=iAQB
-                  - multithreading: https://www.youtube.com/watch?v=PJ4t2U15ACo&list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0&index=29&pp=iAQB
-                  - multiprocessing: https://www.youtube.com/watch?v=Lu5LrKh1Zno&list=PLeo1K3hjS3uv5U-Lmlnucd7gqF-3ehIh0&index=30&pp=iAQB
-              - numpy
-              - pandas
-              - matplotlib
-              - seaborn
-              - mathematics:
-                  - courses:  - https://www.khanacademy.org/math/statistics-probability
-                              - statquest
-                              - 3ble1brown
-                  - Statistics: 
-                      - Descriptive vs Inferential statistics: *
-                      - Continous vs Discrete data
-                      - Nominal vs Ordinal data
-                      - Measures of central tendency: mean, median, mode: *
-                      - Measures of dispersion: variance, standard deviation: *
-                  - Probability:
-                      - basics
-                      - distributions: normal distribution
-                      - correlation and convariance
-                      - central limit theorem
-                  - Hypothesis testing: 
-                      - p value
-                      - confidence interval
-                      - type 1 vs typor 2 error
-                      - Z test
-                  - Linear Algebra: Vectors, Metrices, Eigenvalues and Eigenvectors
-                  - Basic plots: Histograms, Pie Chars, Scatter Plots
-                  - Exploratory Data Analysis:
-                      - first option I found: https://www.kaggle.com/code/imoore/intro-to-exploratory-data-analysis-eda-in-python
-                      - other options: https://www.kaggle.com/code?searchQuery=Exploratory+data+analysis
-                  - Machine Learning(ML):
-                      - statistical ML:
-                          - course: Machine Learning Tutorial Python | Machine Learning For Beginners: https://www.youtube.com/playlist?list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw
-                              NB: First 21 Videos Only
-                          - Preprocessing:
-                              - Handling NA values
-                              - outlier treatment
-                              - data normalization
-                              - One hot encoding
-                              - Label encoding
-                              - Trani test split
-                              - Cross validation
-                          - Model Building
-                              - Types of ML:
-                                  - supervised learning
-                                  - unsupervised learning
+                        - supervised:
+                            - regression
+                            - classification
+                        - unsupervised: ???
+                    - linear models:
+                        - linear regression
+                        - logistic regression
+                        - gradient descent
+                    - non linear models(tree based models)
+                        - decision tree
+                        - random forest
+                        - xgboost
+                    - model evaluation:
+                        - regression
+                            - mean squared error
+                            - mean absoluate error
+                            - mape
+                        - classification:
+                            - accurary
+                            - precision recall
+                            - f1 score
+                            - roc curve
+                    - hyperparameter tuning: 
+                        - gridsearchcv
+                        - randomsearchcv
+                    - unsupervises k means: 
+                        - hierarchical clustering
+                        - dimensionality reduction(pca)
+                    - feature engineering:
+                        - https://www.youtube.com/playlist?list=pleo1k3hjs3ut5olrdievxk9n3q7mkhdxo
 
-                                  - supervised:
-                                      - regression
-                                      - classification
-                                  - unsupervised: ???
-                              - Linear models:
-                                  - Linear regression
-                                  - Logistic regression
-                                  - Gradient descent
-                              - Non Linear models(tree based models)
-                                  - Decision Tree
-                                  - Random Forest
-                                  - XGBoost
-                              - Model Evaluation:
-                                  - Regression
-                                      - Mean Squared Error
-                                      - Mean Absoluate Error
-                                      - MAPE
-                                  - Classification:
-                                      - Accurary
-                                      - Precision Recall
-                                      - F1 Score
-                                      - ROC curve
-                              - Hyperparameter Tuning: 
-                                  - GridSearchCV
-                                  - RandomSearchCV
-                              - Unsupervises K means: 
-                                  - Hierarchical clustering
-                                  - Dimensionality reduction(PCA)
-                              - Feature Engineering:
-                                  - https://www.youtube.com/playlist?list=PLeo1K3hjS3ut5olrDIeVXk9N3Q7mKhDxO
-                  - ML Ops = DevOps
-                  - Machine Learning Projects with Deployment:
-                      - try AWS Sage Maker
-                      - Data Science & Machine Learning Project - Part 1 Introduction | Image Classification
-                          https://www.youtube.com/watch?v=qWXXHjV3JHI&list=PLeo1K3hjS3uvaRHZLl-jLovIjBP14QTXc&index=1
-                      - Data Science Project | Machine Learning Project | Real Estate Price Prediction:
-                          https://www.youtube.com/playlist?list=PLeo1K3hjS3uu7clOTtwsp94PcHbzqpAdg
-                  - Deep Learning:
-                      - What is a Neural Network?
-                          - Forward propagation
-                          - Backward propagation
-                          - courses:
-                              - Neural Networks: Zero to Hero: https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
-                              - mathemtical core: back-propagation
-                                  - core of Deep Neural Network libraries
-                                      example: PyTorch
-                                  def:
-                                      plain english:
-                                          - mathemtical expresssion:
-                                              input = { input data, neural net weights}
-                                              output = { predictions of neural net ∨ loss function }
-                                  - Neural Networks and Deep Learning: http://neuralnetworksanddeeplearning.com
-                                      - https://github.com/mnielsen/neural-networks-and-deep-learning
-              
-                      - Building multilayer perceptron
-                      - Special neural network architectures:
-                          - Convolutional Neural Network (CNN)
-                          - Sequence Models:
-                              - RNN
-                              - LSTM
-                      - Framworks and Libraries:
-                          - PyTorch
-                      - Project: 
-                          - Potato Disease Classification: Deep learning project end to end: https://www.youtube.com/watch?v=dGtDTjYs3xc&list=PLeo1K3hjS3ut49PskOfLnE6WUoOp_2lsD
-                  - NLP | Computer Vision 
-                      NB: This where people specialize
-                      - NLP
-                      - Computer Vision
-                      - NLP
-                          - NLP Tutorial Python: https://www.youtube.com/playlist?list=PLeo1K3hjS3uuvuAXhYjV2lMEShq2UYSwX
-                  - LLM and Langchain:
-                      - What is LLM?
-                      - Vector database
-                      - Word Embedding
-                      - Framworks and Libraries:
-                          - Langchain framwork
-                              - course: https://www.youtube.com/watch?v=nAmC7SoVLd8&list=PLeo1K3hjS3uu0N_0W6giDXzZIcB07Ng_F
-          
-          - AI Research Scientist Guide: 
-              guide: https://github.com/praisetompane/research_scientist_guide_artificial_intelligence
+            - deep learning:
+                - what is a neural network?
+                    - forward propagation
+                    - backward propagation
+                    - courses:
+                        - neural networks: zero to hero: https://www.youtube.com/playlist?list=plaqhirjkxbuwi23v9cthsa9gvcauhrvkz
+                        - mathemtical core: back-propagation
+                            - core of deep neural network libraries
+                                example: pytorch
+                            def:
+                                plain english:
+                                    - mathemtical expresssion:
+                                        input = { input data, neural net weights}
+                                        output = { predictions of neural net ∨ loss function }
+                            - neural networks and deep learning: http://neuralnetworksanddeeplearning.com
+                                - https://github.com/mnielsen/neural-networks-and-deep-learning
+                    - building multilayer perceptron
+                    - special neural network architectures:
+                        - convolutional neural network (cnn)
+                        - sequence models:
+                            - rnn
+                            - lstm
+                    - framworks and libraries:
+                        - pytorch
+                    - project: 
+                        - potato disease classification: deep learning project end to end: https://www.youtube.com/watch?v=dgtdtjys3xc&list=pleo1k3hjs3ut49pskoflne6wuoop_2lsd
+                                - reinforcement learning:
+                - ...
+            - nlp | computer vision 
+                nb: this where people specialize
+                - computer vision
+                - nlp
+                    - nlp tutorial python: https://www.youtube.com/playlist?list=pleo1k3hjs3uuvuaxhyjv2lmeshq2uyswx
+                    - natural language processing:
+                        - [1hr talk] intro to large language models: https://youtu.be/zjkbmfhnj_g
+                            - learn the core of nlp: https://github.com/praisetompane/computation/blob/9929c42976b5e30cf5ced3d887c9f52fb5748b31/6_computing_methodologies/artificial_intelligence/natural_language_processing/todo.txt
+                            - deep learning basics and its technique used in nlp:
+                                - techniques:
+                                    - attention
+                                    - recurrent networks
+                            - basic understanding of human languages and the difficulty of understanding and creating them.
+                            - to build nlp systems (in pytorch) for some nlp problems:
+                                - nlp problems:
+                                    - word meaning
+                                    - dependency parsing
+                                    - machine translation
+                                    - question answering
 
-          - Machine Learning:
-              
-          - Deep Learning:
-              - ...
-          - Reinforcement Learning:
-              - ...
-          - Natural Language Processing:
-              - [1hr Talk] Intro to Large Language Models: https://youtu.be/zjkBMFhNj_g
-                  - learn the core of NLP: https://github.com/praisetompane/computation/blob/9929c42976b5e30cf5ced3d887c9f52fb5748b31/6_computing_methodologies/artificial_intelligence/natural_language_processing/todo.txt
-                  - Deep Learning basics and its technique used in NLP:
-                      - techniques:
-                          - attention
-                          - recurrent networks
-                  - Basic understanding of human languages and the difficulty of understanding and creating them.
-                  - To build NLP systems (in PyTorch) for some NLP problems:
-                      - NLP problems:
-                          - word Meaning
-                          - dependency parsing
-                          - machine translation
-                          - question Answering
-      
-      - accreditation:
-          - Oxford Artificial Intelligence Programme: https://oxford-onlineprogrammes.getsmarter.com/presentations/lp/oxford-artificial-intelligence-programme/?utm_source=sfmc&utm_medium=email&utm_campaign=Thu-Spring-Promo_20240404_INT_listname_edX_International_Newsletter_FINAL_Data_Cloud
-          - MIT Statistics and Data Science: https://www.edx.org/masters/micromasters/mitx-statistics-and-data-science?utm_source=sfmc&utm_medium=email&utm_campaign=Thu-Spring-Promo_20240404_INT_listname_edX_International_Newsletter_FINAL_Data_Cloud
-          - UCT DATA SCIENCE WITH PYTHON: https://uct-online.getsmarter.com/presentations/lp/uct-data-science-with-python-short-course/?utm_source=sfmc&utm_medium=email&utm_campaign=Thu-Spring-Promo_20240404_INT_listname_edX_International_Newsletter_FINAL_Data_Cloud
-
-      - courses:
-          If you are looking for free courses about AI/ML and Data Science, I have compiled the 20+ Best IBM Courses that I found super high quality and helpful.
-          𝟭. What is Data Science: https://lnkd.in/grRWiGHa
-          𝟮. Python for DS and AI Dev: https://lnkd.in/dTjC2nER
-          𝟯. Tools for Data Science: https://lnkd.in/gsya84nP
-          𝟰. Databases & SQL for DS: https://lnkd.in/dbwNXGx7
-          𝟱. Machine Learning in Python: https://lnkd.in/gp5mrejP
-          𝟲. Data Science Methodology: https://lnkd.in/g9midt9m
-          𝟳. Data Viz with Python: https://lnkd.in/g_DYdAda
-          𝟴. Data Analysis with Python: https://lnkd.in/gF9rmwKD
-          𝟵. Data Science Pro Certificate: https://lnkd.in/d58NA5mG
-          𝟭𝟬. Projects for Data Science: https://lnkd.in/gNRKZHzB
-          𝟭𝟭. EDA for Machine Learning: https://lnkd.in/gy_vHJx4
-          𝟭𝟮. Intro to DS Specialization: https://lnkd.in/gJM424ya
-          𝟭𝟯. Excel for Data Analysis: https://lnkd.in/g383RPRh
-          𝟭𝟰. Scalable Data Science: https://lnkd.in/gdzqEXGp
-          𝟭𝟱. Intro to Data Analytics: https://lnkd.in/gUZ4mBBW
-          𝟭𝟲. Data Analyst Pro : https://lnkd.in/gnRwfcw5
-          𝟭𝟳. Applied DS Capstone: https://lnkd.in/gxuDiVDE
-          𝟭𝟴. Introduction to AI: https://lnkd.in/gYNJFA9F
-          𝟭𝟵. Intro to Cybersecurity: https://lnkd.in/gSM7qjgu
-          𝟮𝟬. Cybersecurity Analyst: Pro: https://lnkd.in/gSM7qjgu
-          𝟮𝟭. IBM AI Engineering: https://lnkd.in/gv5b9NKA
+                    - llm and langchain:
+                        - what is llm?
+                        - vector database
+                        - word embedding
+                        - framworks and libraries:
+                            - langchain framwork
+                                - course: https://www.youtube.com/watch?v=namc7sovld8&list=pleo1k3hjs3uu0n_0w6gidxzzicb07ng_f
+        - ml ops = devops
+        - applications:
+            - try aws sage maker
+            - data science & machine learning project - part 1 introduction | image classification
+                https://www.youtube.com/watch?v=qwxxhjv3jhi&list=pleo1k3hjs3uvarhzll-jlovijbp14qtxc&index=1
+            - data science project | machine learning project | real estate price prediction:
+                https://www.youtube.com/playlist?list=pleo1k3hjs3uu7clottwsp94pchbzqpadg
+        - accreditation:
+            - oxford artificial intelligence programme: https://oxford-onlineprogrammes.getsmarter.com/presentations/lp/oxford-artificial-intelligence-programme/?utm_source=sfmc&utm_medium=email&utm_campaign=thu-spring-promo_20240404_int_listname_edx_international_newsletter_final_data_cloud
+            - mit statistics and data science: https://www.edx.org/masters/micromasters/mitx-statistics-and-data-science?utm_source=sfmc&utm_medium=email&utm_campaign=thu-spring-promo_20240404_int_listname_edx_international_newsletter_final_data_cloud
+            - uct data science with python: https://uct-online.getsmarter.com/presentations/lp/uct-data-science-with-python-short-course/?utm_source=sfmc&utm_medium=email&utm_campaign=thu-spring-promo_20240404_int_listname_edx_international_newsletter_final_data_cloud
+            - courses:
+                if you are looking for free courses about ai/ml and data science, i have compiled the 20+ best ibm courses that i found super high quality and helpful.
+                𝟭. what is data science: https://lnkd.in/grrwigha
+                𝟮. python for ds and ai dev: https://lnkd.in/dtjc2ner
+                𝟯. tools for data science: https://lnkd.in/gsya84np
+                𝟰. databases & sql for ds: https://lnkd.in/dbwnxgx7
+                𝟱. machine learning in python: https://lnkd.in/gp5mrejp
+                𝟲. data science methodology: https://lnkd.in/g9midt9m
+                𝟳. data viz with python: https://lnkd.in/g_dydada
+                𝟴. data analysis with python: https://lnkd.in/gf9rmwkd
+                𝟵. data science pro certificate: https://lnkd.in/d58na5mg
+                𝟭𝟬. projects for data science: https://lnkd.in/gnrkzhzb
+                𝟭𝟭. eda for machine learning: https://lnkd.in/gy_vhjx4
+                𝟭𝟮. intro to ds specialization: https://lnkd.in/gjm424ya
+                𝟭𝟯. excel for data analysis: https://lnkd.in/g383rprh
+                𝟭𝟰. scalable data science: https://lnkd.in/gdzqexgp
+                𝟭𝟱. intro to data analytics: https://lnkd.in/guz4mbbw
+                𝟭𝟲. data analyst pro : https://lnkd.in/gnrwfcw5
+                𝟭𝟳. applied ds capstone: https://lnkd.in/gxudivde
+                𝟭𝟴. introduction to ai: https://lnkd.in/gynjfa9f
+                𝟭𝟵. intro to cybersecurity: https://lnkd.in/gsm7qjgu
+                𝟮𝟬. cybersecurity analyst: pro: https://lnkd.in/gsm7qjgu
+                𝟮𝟭. ibm ai engineering: https://lnkd.in/gv5b9nka
