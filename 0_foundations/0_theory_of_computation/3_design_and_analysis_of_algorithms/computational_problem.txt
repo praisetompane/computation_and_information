@@ -1,8 +1,8 @@
-def: a binary relation from problem inputs to correct outputs (Demaine, Ku, Solomon, 2020).
+def computational_problem: a binary relation from problem inputs to correct outputs (Demaine, Ku, Solomon, 2020).
     - binary relation definition:
         see: https://github.com/praisetompane/mathematics/blob/master/0_foundations/relation.txt
 
-types of Computational Problem
+computational problem types:
     - https://en.wikipedia.org/wiki/Computational_problem
 
     Data Re/Organization:
