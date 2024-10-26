@@ -4,20 +4,27 @@ purpose: understand computation and information.
     - learn
     - field update
 - learn:
-    - 0_foundations/0_theory_of_computation: 2 hours
-        - degree module: MIT 18.404
+    - computation_and_information/0_foundations: 2 hours
+        - degree module: UNISA COS1501 | 6.042[J] | 18.062[J]
+            - Purpose:
+                - To introduce students to some concepts from Discrete Mathematics as a theoretical foundation for Computer Science.
+                - This background is relevant to:
+                    - relational databases,
+                    - the development of provably correct programs,
+                    - the analysis of algorithms.
         - library:
-            - MIT 18.404J Theory of Computation, Fall 2020:
+            - MIT 6.042J Mathematics For Computer Science
                 - in offline library
-                - https://www.youtube.com/playlist?list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY
+                - current:
+                - playlist: https://www.youtube.com/playlist?list=PLB7540DEDD482705B
         - readings:
-            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/lecture-notes/
-            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/
+            - Epp, S.S. 2010. Discrete mathematics with applications. 4th ed. Cengage Learning. Boston, MA.
+                - current position: pg. 6, exercise 1.1, question 4
+            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/
         - recitations:
         - assignments:
-            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
         - exams:
-            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
+
     - 0_foundations/3_design_and_analysis_of_algorithms: 2 hours
         - degree module: MIT 18.410[J] | MIT 6.006
         - library:
@@ -30,6 +37,7 @@ purpose: understand computation and information.
         - readings:
         - assignments:
         - exams:
+
     - 5_software_and_its_engineering/0_software_notations_and_tools: 2 hours
         - degree module: MIT 6.035
         - library:
@@ -94,6 +102,7 @@ purpose: understand computation and information.
 
         - assignments:
         - exams:
+
     - 2_hardware: 2 hours
         - degree module:
         - library:
@@ -107,6 +116,7 @@ purpose: understand computation and information.
             - but_how_do_it_know?_the_basic_principles_of_computers_for_everyone
         - assignments:
         - exams:
+
 - field update:
     - Quanta Magazine: https://www.quantamagazine.org/computer-science/
     - ACM DL: https://dl.acm.org : browse what is happening in computing.
@@ -124,6 +134,22 @@ purpose: understand computation and information.
         - HackerNews:  https://news.ycombinator.com/news
 ==============================================================================================
 - next:
+
+    - 0_foundations/0_theory_of_computation: 2 hours
+        - degree module: MIT 18.404
+        - library:
+            - MIT 18.404J Theory of Computation, Fall 2020:
+                - in offline library
+                - https://www.youtube.com/playlist?list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY
+        - readings:
+            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/lecture-notes/
+            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/
+        - recitations:
+        - assignments:
+            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
+        - exams:
+            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
+
 
 - next_field_template
         - degree module:
