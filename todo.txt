@@ -26,7 +26,7 @@ purpose: understand computation and information.
         - exams:
 
     - 0_foundations/3_design_and_analysis_of_algorithms: 2 hours
-        - degree module: MIT 18.410[J] | MIT 6.006
+        - degree module: UNISA COS2611 | MIT 18.410[J] | MIT 6.006
         - library:
             - MIT 6.006 Introduction to Algorithms, Spring 2020
                 - in offline library
