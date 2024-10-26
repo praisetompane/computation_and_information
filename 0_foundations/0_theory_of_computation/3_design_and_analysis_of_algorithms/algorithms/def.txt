@@ -1,7 +1,7 @@
 def¹: a finite procedure
         that maps
             an input
-            to a **single** output (Demaine, Ku, Solomon, 2020).
+            to a single output (Demaine, Ku, Solomon, 2020).
         i.e.a function f: Input -> Output.
             a solution to a computational problem.
 
@@ -21,7 +21,7 @@ plain english:
             
 etymology: Why algorithms are called algorithms | BBC Ideas: https://m.youtube.com/watch?v=oRkNaF0QvnI
         
-# References:
-* Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.
-* Demaine E. Ku J. Solomon J. Introduction To Algorithms. 2020. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/
-* Demaine E. Devadas S. Introduction To Algorithms. 2011. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-4-heaps-and-heap-sort/.
+References:
+    Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.
+    Demaine E. Ku J. Solomon J. Introduction To Algorithms. 2020. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/
+    Demaine E. Devadas S. Introduction To Algorithms. 2011. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-4-heaps-and-heap-sort/.
