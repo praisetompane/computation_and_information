@@ -16,6 +16,7 @@ purpose: understand computation and information.
             - MIT 6.042J Mathematics For Computer Science
                 - in offline library
                 - current: Lecture 1: Introduction and Proofs + Lecture Notes + Recitation, ...
+                        timestamp: 
                 - playlist: https://www.youtube.com/playlist?list=PLB7540DEDD482705B
         - readings:
             - Epp, S.S. 2010. Discrete mathematics with applications. 4th ed. Cengage Learning. Boston, MA.
@@ -31,6 +32,7 @@ purpose: understand computation and information.
             - MIT 6.006 Introduction to Algorithms, Spring 2020
                 - in offline library
                 - current: Lecture 1: Algorithms and Computation + Lecture Notes + Recitation, ...
+                        timestamp: 
                 - https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY
             - MIT 6.006 Introduction to Algorithms, Fall 2011
                 - in offline library
@@ -43,65 +45,83 @@ purpose: understand computation and information.
         - degree module: MIT 6.035
         - library:
             - MIT 6.035 Computer Language Engineering, Fall 2005
-                NB: Compilers
                 - in offline library
                 - current: 
                 - https://www.youtube.com/playlist?list=PL0300FE43396456C1
-
         - readings:
-            - https://ocw.mit.edu/courses/6-035-computer-language-engineering-spring-2010/
-            - https://ocw.mit.edu/courses/6-035-computer-language-engineering-spring-2010/pages/lecture-notes/
-            - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c11/
-            - https://www.youtube.com/watch?v=F5-87RM_zHA&list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2&index=93&pp=iAQB
-            - https://www.youtube.com/playlist?list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2
-            - https://www.youtube.com/watch?v=yCd3CzGSte8&list=TLPQMjUwNzIwMjToaaZrcaOFcQ&index=2
-            - https://ocw.mit.edu/courses/6-035-computer-language-engineering-sma-5502-fall-2005/
-            - https://ocw.mit.edu/courses/6-035-computer-language-engineering-spring-2010/
-            - https://www.youtube.com/playlist?list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2
-            - https://github.com/praisetompane/computation_and_information/tree/main/5_software_and_its_engineering/0_software_notations_and_tools/unified_discipline_of_computer_programming
-                - What is Programming Languages Research?: https://www.youtube.com/watch?v=70_DFytfnWw
-            - python
-                - complete: /computation_and_information/language_template
-                - write simplified interpreter and compiler for the language in the language
-                - finish studying Python language reference
-            - c
-                - complete: /computation_and_information/language_template
-                - write simplified interpreter and compiler for the language in the language
-            - assembly
-                - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/lecture-4-assembly-language-computer-architecture
-                - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/lecture-4-assembly-language-computer-architecture
-            - machine_code: instruction sets
-                - x86
-                - arm
-                - mibs
-                - risc-v
-                - cisc
-            - verilog
-                - https://www.chipverify.com/verilog/verilog-tutorial
-                - https://inst.eecs.berkeley.edu/~eecs151/fa20/files/verilog/Verilog_Primer_Slides.pdf
-                - https://web.mit.edu/6.111/www/f2017/handouts/L03_4.pdf
-            - Unix: https://github.com/mit-pdos/xv6-riscv
-            - Linux: https://github.com/torvalds/linux
-            - javascript AND typescript
-                - complete: /computation_and_information/language_template
-                - write simplified interpreter and compiler for the language in the language
-            - go
-                - complete: /computation_and_information/language_template
-                - write simplified interpreter and compiler for the language in the language
-            - rust:
-                - complete: /computation_and_information/language_template
-                    - https://www.rust-lang.org
-                    - https://github.com/praisetompane/rust/tree/main
-                - write simplified interpreter and compiler for the language in the language
-            - java
-                - complete: /computation_and_information/language_template
-                - write simplified interpreter and compiler for the language in the language
-            - haskell
-                - complete: /computation_and_information/language_template
-                - write simplified interpreter and compiler for the language in the language
-            - coq
-            - pytorch
+            - 3_compilers
+                - craftinginterpreters
+                    - https://craftinginterpreters.com/contents.html
+                    - computation_and_information/5_software_and_its_engineering/0_software_notations_and_tools/3_compilers/craftinginterpreters
 
+                - python
+                    - complete: /computation_and_information/language_template
+                    - write simplified interpreter and compiler for the language in the language
+                    - finish studying Python language reference
+                
+                - https://ocw.mit.edu/courses/6-035-computer-language-engineering-sma-5502-fall-2005/pages/readings/
+                    - Cooper, Keith, and Linda Torczon. Engineering a Compiler. San Mateo, CA: Morgan Kaufman, 2003. ISBN: 155860698X.
+                        A modern classroom textbook, with increased emphasis on the back-end and implementation techniques. (Ark book)
+
+                    - Appel, Andrew W. Modern Compiler Implementation in Java®. Cambridge, UK: Cambridge University Press, 1997. ISBN: 0521583888.
+                        A textbook tutorial on compiler implementation, including techniques for many language features. (Tiger book)
+                        - https://www.cs.princeton.edu/~appel/modern/java/
+                        - https://www.cs.princeton.edu/~appel/modern/c/
+
+                    - Muchnick, Steven. Advanced Compiler Design and Implementation. 1st ed. San Mateo, CA: Morgan Kaufman, 1997. ISBN: 1558603204.
+                        Essentially a recipe book of optimizations; very complete and suited for industrial practitioners and researchers. (Whale book)
+
+                    - Aho, Alfred V., Ravi Sethi, and Jeffrey Ullman. Compilers: Principles, Techniques and Tools. Reading, MA: Addison-Wesley, 1986. ISBN: 0201100886.
+                        The classic compilers textbook, although its front-end emphasis reflects its age. (Dragon book)
+                - c
+                    - complete: /computation_and_information/language_template
+                    - write simplified interpreter and compiler for the language in the language
+                        - study: https://github.com/llvm/llvm-project/tree/main/clang
+
+                - assembly
+                    - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/lecture-4-assembly-language-computer-architecture
+                    - https://github.com/brianrhall/Assembly
+
+                - machine_code: instruction sets
+                    - x86
+                    - arm
+                    - mibs
+                    - risc-v: https://github.com/mit-pdos/xv6-riscv
+                    - cisc
+
+                - verilog
+                    - https://www.chipverify.com/verilog/verilog-tutorial
+                    - https://inst.eecs.berkeley.edu/~eecs151/fa20/files/verilog/Verilog_Primer_Slides.pdf
+                    - https://web.mit.edu/6.111/www/f2017/handouts/L03_4.pdf
+
+                - javascript AND typescript
+                    - complete: /computation_and_information/language_template
+                    - write simplified interpreter and compiler for the language in the language
+
+                - go
+                    - complete: /computation_and_information/language_template
+                    - write simplified interpreter and compiler for the language in the language
+
+                - rust:
+                    - complete: /computation_and_information/language_template
+                        - https://www.rust-lang.org
+                        - https://github.com/praisetompane/rust/tree/main
+                    - write simplified interpreter and compiler for the language in the language
+
+                - java
+                    - complete: /computation_and_information/language_template
+                    - write simplified interpreter and compiler for the language in the language
+
+                - haskell
+                    - complete: /computation_and_information/language_template
+                    - write simplified interpreter and compiler for the language in the language
+
+                - coq
+
+                - pytorch
+
+            - unified_discipline_of_computer_programming
+                - readings: /1_general_programming_languages/concepts_techniques_and_models_of_computer_programming.van_roy_p.pdf 
         - assignments:
         - exams:
 
@@ -151,6 +171,16 @@ purpose: understand computation and information.
         - exams:
             https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
 
+    - 5_software_and_its_engineering/1_software_organisation_and_properties: 2 hours
+        - degree module: MIT 6.035
+        - library:
+            - MIT 6.035 Computer Language Engineering, Fall 2005
+                - in offline library
+                - current: 
+                - https://www.youtube.com/playlist?list=PL0300FE43396456C1
+        - readings:
+            - /contextual_software_domains/operating_systems
+                - Linux: https://github.com/torvalds/linux
 
 - next_field_template
         - degree module:
