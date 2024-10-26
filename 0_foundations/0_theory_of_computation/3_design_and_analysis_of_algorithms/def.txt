@@ -1,0 +1,4 @@
+def objective:
+    1. solve computational problems.	
+    2. prove correctness of solutions.	
+    3. argue efficiency.
