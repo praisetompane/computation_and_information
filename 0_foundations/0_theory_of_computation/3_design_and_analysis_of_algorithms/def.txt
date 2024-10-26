@@ -1,0 +1,11 @@
+def objective (Demaine, Ku, Solomon, 2020):
+    1. solve computational problems:
+        - see: 0_foundations/0_theory_of_computation/3_design_and_analysis_of_algorithms/computational_problem.txt
+    2. prove solution correctness:
+        - techniques:
+            - induction
+    3. argue efficiency:
+        - techniques:
+            - asymptotic analysis
+References:
+    Demaine E. Ku J. Solomon J. Introduction To Algorithms. 2020. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/

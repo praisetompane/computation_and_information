@@ -15,7 +15,7 @@ purpose: understand computation and information.
         - library:
             - MIT 6.042J Mathematics For Computer Science
                 - in offline library
-                - current:
+                - current: Lecture 1: Introduction and Proofs + Lecture Notes + Recitation, ...
                 - playlist: https://www.youtube.com/playlist?list=PLB7540DEDD482705B
         - readings:
             - Epp, S.S. 2010. Discrete mathematics with applications. 4th ed. Cengage Learning. Boston, MA.
@@ -26,10 +26,11 @@ purpose: understand computation and information.
         - exams:
 
     - 0_foundations/3_design_and_analysis_of_algorithms: 2 hours
-        - degree module: MIT 18.410[J] | MIT 6.006
+        - degree module: UNISA COS2611 | MIT 18.410[J] | MIT 6.006
         - library:
             - MIT 6.006 Introduction to Algorithms, Spring 2020
                 - in offline library
+                - current: Lecture 1: Algorithms and Computation + Lecture Notes + Recitation, ...
                 - https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY
             - MIT 6.006 Introduction to Algorithms, Fall 2011
                 - in offline library
@@ -44,6 +45,7 @@ purpose: understand computation and information.
             - MIT 6.035 Computer Language Engineering, Fall 2005
                 NB: Compilers
                 - in offline library
+                - current: 
                 - https://www.youtube.com/playlist?list=PL0300FE43396456C1
 
         - readings:
@@ -108,6 +110,7 @@ purpose: understand computation and information.
         - library:
             - MIT 6.004 Computation Structures, Spring 2017
                 - in offline library
+                - current: 
                 - https://www.youtube.com/playlist?list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2
             - MIT 6.172 Performance Engineering of Software Systems, Fall 2018:
             - https://www.youtube.com/playlist?list=PLUl4u3cNGP63VIBQVWguXxZZi0566y7Wf
