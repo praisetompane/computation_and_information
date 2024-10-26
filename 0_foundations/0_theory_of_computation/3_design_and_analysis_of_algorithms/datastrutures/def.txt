@@ -1,0 +1,11 @@
+def¹: how data is organised (Wengrow, 2017:27).
+
+defᵖˡᵃⁱⁿ_ᵉⁿᵍˡⁱˢʰ: data structures are just how you store things
+    to store something, you need:
+        place to store it = array index, node in a list, leave in a tree etc
+        a way to retrieve = access patterns = LIFO, FIFO etc
+    
+References:
+    Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.
+    Demaine E. Ku J. Solomon J. Introduction To Algorithms. 2020. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/
+    Demaine E. Devadas S. Introduction To Algorithms. 2011. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-4-heaps-and-heap-sort/.
