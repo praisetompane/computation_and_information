@@ -135,8 +135,7 @@ purpose: understand computation and information.
         - https://www.media.mit.edu
         - HackerNews:  https://news.ycombinator.com/news
 ==============================================================================================
-- next:
-
+- next: 
     - 0_foundations/0_theory_of_computation: 2 hours
         - degree module: MIT 18.404
         - library:
