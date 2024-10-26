@@ -4,42 +4,40 @@ purpose: understand computation and information.
     - learn
     - field update
 - learn:
-    - 0_foundations: what is computation? what can we compute? what can we not compute? why do we compute?:
-        - 0_theory_of_computation: 1 hour
-            - degree module: UNISA COS1501 | UNISA COS1512 
-            - videos:
-                - Theoretical Computer Science. : https://www.youtube.com/watch?v=OS33r2Fk8YQ&list=PLCqUsBXxq16yBaN_hpo7dY2l9N-ZLtI-X
-                - Theory Of Computation: https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/video_galleries/video-lectures/
-            - readings: 
-                - introduction_to_the_theory_of_computation_third_edition._michael_sipser.cengage_learning.pdf
-                    - current position: Not Started
-                - Stanford Encyclopedia of Philosophy. The Church-Turing Thesis. https://plato.stanford.edu/entries/church-turing/.
-                    - current position: Forgot => Start Over => Not Started
-            - recitations:
-            - assignments:
-            - exams:
-    - 1_mathematics_of_computing: how is mathematics used to model computation or computational processes?: 1 hour
-        - degree module: MIT { 6.1200[J] | 6.042J } | UNISA MAT2612 | UNISA MAT3707
-        - videos: 
-            - Mathematics of Computer Science: https://m.youtube.com/playlist?list=PLB7540DEDD482705B
-        - readings: 
+    - computation_and_information/0_foundations: 2 hours
+        - degree module: UNISA COS1501 | 6.042[J] | 18.062[J]
+            - Purpose:
+                - To introduce students to some concepts from Discrete Mathematics as a theoretical foundation for Computer Science.
+                - This background is relevant to:
+                    - relational databases,
+                    - the development of provably correct programs,
+                    - the analysis of algorithms.
+        - library:
+            - MIT 6.042J Mathematics For Computer Science
+                - in offline library
+                - current:
+                - playlist: https://www.youtube.com/playlist?list=PLB7540DEDD482705B
+        - readings:
             - Epp, S.S. 2010. Discrete mathematics with applications. 4th ed. Cengage Learning. Boston, MA.
-                current position: pg. 6, exercise 1.1, question 4
-            - 6.1200[J]	Mathematics for Computer Science
-                - current position: Lecture 1: Introduction and Proofs/Readings
+                - current position: pg. 6, exercise 1.1, question 4
+            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/
         - recitations:
         - assignments:
         - exams:
-    - 3_design_and_analysis_of_algorithms: 1 hour
-        - degree module: MIT 6.1210
-        - videos: 
-            - Introduction To Algorithms:
-                Demaine E. Devadas S. Introduction To Algorithms. 2011. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-4-heaps-and-heap-sort/.
-                    - current position: Lecture 1: Algorithmic Thinking, Peak Finding
-        - readings: 
-        - recitations:
+
+    - 0_foundations/3_design_and_analysis_of_algorithms: 2 hours
+        - degree module: MIT 18.410[J] | MIT 6.006
+        - library:
+            - MIT 6.006 Introduction to Algorithms, Spring 2020
+                - in offline library
+                - https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY
+            - MIT 6.006 Introduction to Algorithms, Fall 2011
+                - in offline library
+                - https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
+        - readings:
         - assignments:
         - exams:
+
     - 5_software_and_its_engineering/0_software_notations_and_tools: 2 hours
         - degree module: MIT 6.035
         - library:
@@ -104,6 +102,7 @@ purpose: understand computation and information.
 
         - assignments:
         - exams:
+
     - 2_hardware: 2 hours
         - degree module:
         - library:
@@ -117,12 +116,6 @@ purpose: understand computation and information.
             - but_how_do_it_know?_the_basic_principles_of_computers_for_everyone
         - assignments:
         - exams:
-    - practice algorithms and data structure problem solving:
-        - leet 75
-        - hackerank
-        - cracking the coding interview problems
-        - programming competition problems
-        - ...
 - field update:
     - Quanta Magazine: https://www.quantamagazine.org/computer-science/
     - ACM DL: https://dl.acm.org : browse what is happening in computing.
@@ -140,7 +133,24 @@ purpose: understand computation and information.
         - HackerNews:  https://news.ycombinator.com/news
 ==============================================================================================
 - next:
-    - 3_computer_systems_organization: 1 hour
+
+    - 0_foundations/0_theory_of_computation: 2 hours
+        - degree module: MIT 18.404
+        - library:
+            - MIT 18.404J Theory of Computation, Fall 2020:
+                - in offline library
+                - https://www.youtube.com/playlist?list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY
+        - readings:
+            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/lecture-notes/
+            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/
+        - recitations:
+        - assignments:
+            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
+        - exams:
+            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
+
+
+- next_field_template
         - degree module:
         - videos:
         - readings: 
