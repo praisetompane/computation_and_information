@@ -1,4 +1,4 @@
-Chapter: What the...(Scott, 2009:10)
+Chapter: WHAT THE...(Scott, 2009:10)
     A CRAZY LIGHTING SYSTEM (With TWO switches)
         -> If BOTH switches are ON the light is OFF
         -> If BOTH switches are OFF the light is ON
@@ -69,4 +69,4 @@ Chapter: What the...(Scott, 2009:10)
                  __
 
 References:
-    Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
+    Scott J.C. 2009. WHAT THE...?. But how Do it Know? The Basic Principles of Computers for Everyone.
