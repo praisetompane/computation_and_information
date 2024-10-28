@@ -1,8 +1,7 @@
 # What is Computation and Information?
 
-objectives: 
-  - an attempt at unpacking in layman's terms what is computation and information.
-  - explore humanity's current implementation of computation.
+objectives: an attempt at unpacking in layman's terms what are computation and information.
+
 
 def computation¹: the **transformation** of **sequences of symbols** by **precise rules**(Konrad, 2015:6)
 
