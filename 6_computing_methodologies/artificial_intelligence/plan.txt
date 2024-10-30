@@ -1,6 +1,6 @@
 ==============================================================================================================================================================
 research:
-    - guide: https://github.com/praisetompane/research_scientist_machine_learning
+    - guide: https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide
     - sub-areas:
         - deep learning
         - machine learning
@@ -45,7 +45,7 @@ research:
     - study:
         - guide: 
             - https://www.youtube.com/watch?v=mhchrvfaxlc&t=1044s
-            - https://github.com/praisetompane/research_scientist_guide_artificial_intelligence
+            - https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide
         - python:
             - https://github.com/praisetompane/python
         - mathematics:
@@ -179,7 +179,7 @@ research:
                                     - dependency parsing
                                     - machine translation
                                     - question answering
-
+                    - https://github.com/stanfordnlp/CoreNLP
                     - llm and langchain:
                         - what is llm?
                         - vector database
