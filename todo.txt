@@ -112,7 +112,6 @@ purpose: understand computation and information.
                 - LEAN
                     - source:
                         - https://github.com/leanprover
-                        - 
 
                 - rust:
                     - complete: https://github.com/praisetompane/rust
