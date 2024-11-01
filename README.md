@@ -1,5 +1,5 @@
 # Computation and Information
-## What is Computation and Information?
+## What are Computation and Information?
 
 objectives: an attempt at unpacking in layman's terms what computation and information are.
 
