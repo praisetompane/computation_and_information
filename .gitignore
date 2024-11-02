@@ -168,8 +168,8 @@ tree.txt
 # NODE
 node_modules
 
-.DS_Store
-library
-
 # Scala
 .metals
+
+.DS_Store
+journal.txt
