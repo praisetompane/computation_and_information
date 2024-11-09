@@ -5,7 +5,7 @@ purpose: understand computation and information.
     - field update
 - learn:
     - computation_and_information/0_foundations: 2 hours
-        - degree module: UNISA COS1501 | MIT 6.042[J] | 18.062[J]
+        - degree module: UNISA COS1501 | MIT 6.042[J] | MIT 18.062[J] 
             - Purpose:
                 - To introduce students to some concepts from Discrete Mathematics as a theoretical foundation for Computer Science.
                 - This background is relevant to:
@@ -19,7 +19,7 @@ purpose: understand computation and information.
                         timestamp: 
                 - playlist: https://www.youtube.com/playlist?list=PLB7540DEDD482705B
         - readings:
-            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/
+            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
             - Epp, S.S. 2010. Discrete mathematics with applications. 4th ed. Cengage Learning. Boston, MA.
                 - current position: pg. 6, exercise 1.1, question 4
         - recitations:
