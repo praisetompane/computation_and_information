@@ -5,14 +5,8 @@ purpose: understand computation and information.
     - field update
 - learn:
     - computation_and_information/0_foundations: 2 hours
-        - degree module: UNISA COS1501 | MIT 6.042[J] | MIT 18.062[J] 
-            - Purpose:
-                - To introduce students to some concepts from Discrete Mathematics as a theoretical foundation for Computer Science.
-                - This background is relevant to:
-                    - relational databases,
-                    - the development of provably correct programs,
-                    - the analysis of algorithms.
-        - library:
+        - degree module: MIT 6.042[J] | MIT 18.062[J] 
+        - lecture:
             - MIT 6.042J Mathematics For Computer Science
                 - in offline library
                 - current: Lecture 1: Introduction and Proofs + Lecture Notes + Recitation, ...
@@ -28,8 +22,9 @@ purpose: understand computation and information.
         - exams:
 
     - 0_foundations/3_design_and_analysis_of_algorithms: 2 hours
-        - degree module: UNISA COS2611 | MIT 18.410[J] | MIT 6.006
-        - library:
+        - degree module: MIT 18.410[J] | MIT 6.006
+        - resource index: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/resource-index/
+        - lecture:
             - MIT 6.006 Introduction to Algorithms, Spring 2020
                 - in offline library
                 - current: Lecture 1: Algorithms and Computation + Lecture Notes + Recitation, ...
@@ -43,7 +38,7 @@ purpose: understand computation and information.
         - exams:
 
     - 5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages: 2 hours
-        - degree module: UNISA COS1511 | UNISA COS1512 | MIT 6.1010 | MIT 6.100A
+        - degree module: MIT 6.1010 | MIT 6.100A
         - lecture:
         - readings:
             - python
