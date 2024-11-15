@@ -71,61 +71,12 @@ Wits University:
     masters:
 
     doctrate: 
+
 ==============================================================================================================================================================
-UNISA:
-    undergraduate: 
-        program: 
-            BSc Mathematics and Computer Science
-            https://www.unisa.ac.za/sites/corporate/default/Register-to-study-through-Unisa/Undergraduate-&-honours-qualifications/Find-your-qualification-&-choose-your-modules/All-qualifications/Bachelor-of-Science-Mathematics-and-Computer-Science-(98801-%E2%80%93-MCS)
-            https://www.unisa.ac.za/sites/corporate/default/Register-to-study-through-Unisa/Subjects-&-modules/All-subjects/COMPUTER-SCIENCE
-        First Level:
-            20xx-January-01 - 20xx-December-31:
-                MAT1503 - Linear Algebra I
-                MAT1512 - Calculus A
-                COS1501 - Theoretical Computer Science I
-                COS1511 - Introduction to Programming I
-
-            20xx-January-01 - 20xx-December-31:
-                COS1512 - Introduction to Programming II 	Co-requisite:COS1511
-                COS1521 - Computer Systems: Fundamental Concepts
-                EUP1501 - Ethical Information and Communication Technologies for Development Solutions
-                MAT1613 - Calculus B 	Co-requisite:MAT1512
-
-        Second Level:
-            Module (Please click on the module to see further information) 	Pre-requisite/Co-requisite/Recommendation
-            Group A. Compulsory
-                APM2611 - Differential Equations 	Pre-requisite:MAT1512
-                Co-requisite:MAT1503, MAT1613
-                APM2613 - Numerical Methods I 	Pre-requisite:COS1511
-                Co-requisite:MAT1512, MAT1503
-                COS2601 - Theoretical Computer Science II 	Pre-requisite:COS1501
-                COS2611 - Programming: Data Structures 	Pre-requisite:COS1512
-                COS2614 - Programming: Contemporary Concepts 	Pre-requisite:COS1511 and COS1512
-                COS2661 - Formal Logic II 	Pre-requisite:COS1501
-                MAT2611 - Linear Algebra 2 	Pre-requisite:MAT1503
-                MAT2612 - Introduction to Discrete Mathematics 	Pre-requisite:COS1501 or MAT1512 or MAT1503
-                MAT2613 - Real Analysis I 	Pre-requisite:MAT1613
-                MAT2615 - Calculus in Higher Dimensions 	Pre-requisite:MAT1512 or MAT1503
-
-                Recommendation:Students should have both MAT1512 and MAT1503 and also be registered for MAT1613 concurrently with MAT2615.
-                PLS2607 - Philosophy of Science
-        Third Level:
-            Module (Please click on the module to see further information) 	Pre-requisite/Co-requisite/Recommendation
-            Group A. Compulsory
-                APM3711 - Numerical Methods II 	Pre-requisite:APM2613
-                COS3701 - Theoretical Computer Science III 	Pre-requisite:COS2601
-                COS3711 - Advanced Programming 	Pre-requisite:COS2611 & COS2614
-                COS3721 - Operating Systems and Architecture 	Pre-requisite:COS2614
-                COS3751 - Techniques of Artificial Intelligence 	Pre-requisite:COS2611 & COS2661
-                COS3761 - Formal Logic III 	Pre-requisite:COS2661
-                MAT3701 - Linear Algebra III 	Pre-requisite:MAT2611
-                MAT3705 - Complex Analysis 	Pre-requisite:MAT2615, MAT2613
-                MAT3706 - Ordinary Differential Equations 	Pre-requisite:APM2611
-                MAT3707 - Discrete Mathematics: Combinatorics 	Pre-requisite:MAT2612
-                MAT3711 - Real Analysis II 	Pre-requisite:MAT2613
-
-    honours: 
-
-    masters:
-
-    doctrate: 
+course content template:
+    readings:
+    videos:
+        current position:
+    recitations:
+    assignments:
+    exams:
