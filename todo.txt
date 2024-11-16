@@ -1,136 +1,141 @@
-purpose: understand computation and information.
+- computation_and_information/0_foundations:
+    - lectures:
+        - Prof. Tom Leighton Dr. Marten van Dijk. MIT 6042J Mathematics for Computer Science Fall 2010:
+            - current: Lecture 1: Introduction and proofs: *
+    - readings:
+        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
+        - Epp, S.S. 2010. Discrete mathematics with applications. 4th ed. Cengage Learning. Boston, MA.
+            - current position: pg. 6, exercise 1.1, question 4
+    - recitations:
+        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/recitations/
+    - assignments: 
+        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/assignments/
+    - exams:
+        - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/exams/
 
-- priority:
-    - learn
-    - field update
-- learn:
-    - computation_and_information/0_foundations: 2 hours
-        - degree module: MIT 6.042[J] | MIT 18.062[J] 
-        - lecture:
-            - MIT 6.042J Mathematics For Computer Science
-                - in offline library
-                - current: Lecture 1: Introduction and Proofs + Lecture Notes + Recitation, ...
-                        timestamp: 
-                - playlist: https://www.youtube.com/playlist?list=PLB7540DEDD482705B
-        - readings:
-            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
-            - Epp, S.S. 2010. Discrete mathematics with applications. 4th ed. Cengage Learning. Boston, MA.
-                - current position: pg. 6, exercise 1.1, question 4
-            - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/
-        - recitations:
-        - assignments:
-        - exams:
+- 0_foundations/3_design_and_analysis_of_algorithms:
+    - resource index: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/resource-index/
+    - lectures:
+        - Prof. Erik Demaine, Dr. Jason Ku, Prof. Justin Solomon.MIT 6.006 Introduction to Algorithms, Spring 2020:
+            - current: 1. Algorithms and Computation [ZA-tUyM_y7s]: *
+        - Prof. Erik Demaine, Prof. Srini Devadas. MIT 6.006 Introduction to Algorithms, Fall 2011:
+            - current: Lecture 2: Models of Computation, Document Distance: *
+    - readings:
+        - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/
+    - assignments:
+        - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/assignments/
+        - practice:
+            - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/practice-problems/
+    - exams:
+    - quizzes: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
 
-    - 0_foundations/3_design_and_analysis_of_algorithms: 2 hours
-        - degree module: MIT 18.410[J] | MIT 6.006
-        - resource index: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/resource-index/
-        - lecture:
-            - MIT 6.006 Introduction to Algorithms, Spring 2020
-                - in offline library
-                - current: Lecture 1: Algorithms and Computation + Lecture Notes + Recitation, ...
-                        timestamp: 
-                - https://www.youtube.com/playlist?list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY
-            - MIT 6.006 Introduction to Algorithms, Fall 2011
-                - in offline library
-                - https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb
-        - readings:
-        - assignments:
-        - exams:
-
-    - 5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages: 2 hours
-        - degree module: MIT 6.1010 | MIT 6.100A
-        - lecture:
-        - readings:
-            - python
-                - complete: https://github.com/praisetompane/python
-                - write simplified interpreter and compiler for the language in the language
-                - superset: https://github.com/modularml/mojo
+- 5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages:
+    - lectures:
+    - readings:
+        - python
+            - complete: https://github.com/praisetompane/python
+            - write simplified interpreter and compiler for the language in the language
+            - superset: https://github.com/modularml/mojo
+        
+        - go
+            - complete: /computation_and_information/language_template
+            - write simplified interpreter and compiler for the language in the language
             
-            - go
-                - complete: /computation_and_information/language_template
-                - write simplified interpreter and compiler for the language in the language
-                
-            - c
-                - complete: https://github.com/praisetompane/c
-                - lecture:
-                    - Neso Academy C Programming
-                        - https://www.youtube.com/watch?v=rLf3jnHxSmU&list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR&pp=iAQB
-                - readings:
-                    - Brian Kernighan, Dennis Ritchie, The C Programming Language
-                
-                - write simplified interpreter and compiler for the language in the language
-                - write HTTP server
+        - c
+            - complete: https://github.com/praisetompane/c
+            - lectures:
+                - Neso Academy C Programming
+                    - https://www.youtube.com/watch?v=rLf3jnHxSmU&list=PLBlnK6fEyqRggZZgYpPMUxdY1CYkZtARR&pp=iAQB
+            - readings:
+                - Brian Kernighan, Dennis Ritchie, The C Programming Language
+            
+            - write simplified interpreter and compiler for the language in the language
+            - write HTTP server
 
-            - assembly
-                - lecture:
-                    - MIT 6.172 Performance Engineering Of Software Systems:
-                        - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/lecture-4-assembly-language-computer-architecture
-                            Lecture 4: Assembly Language & Computer Architecture:
-                                - https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-4-assembly-language-computer-architecture/
-                            Lecture 5: C to Assembly
-                                - https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-5-c-to-assembly/
-                - readings:
-                    - https://github.com/brianrhall/Assembly
-                
-            - machine_code: instruction sets
-                - x86
-                - arm
-                - mibs
-                - risc-v: 
-                    - https://github.com/riscv
-                    - https://github.com/mit-pdos/xv6-riscv
-                - cisc 
-                - resources: https://crackmes.one
+        - assembly
+            - lectures:
+                - MIT 6.172 Performance Engineering Of Software Systems:
+                    - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/lecture-4-assembly-language-computer-architecture
+                        Lecture 4: Assembly Language & Computer Architecture:
+                            - https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-4-assembly-language-computer-architecture/
+                        Lecture 5: C to Assembly
+                            - https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-5-c-to-assembly/
+            - readings:
+                - https://github.com/brianrhall/Assembly
+            
+        - machine_code: instruction sets
+            - x86
+            - arm
+            - mibs
+            - risc-v: 
+                - https://github.com/riscv
+                - https://github.com/mit-pdos/xv6-riscv
+            - cisc 
+            - resources: https://crackmes.one
 
-            - haskell
-                - complete: /computation_and_information/language_template
-                - source: 
-                    - https://github.com/haskell
-                    - https://github.com/ghc
-                - write simplified interpreter and compiler for the language in the language
+        - haskell
+            - complete: /computation_and_information/language_template
+            - source: 
+                - https://github.com/haskell
+                - https://github.com/ghc
+            - write simplified interpreter and compiler for the language in the language
 
-            - pytorch
+        - pytorch
 
-            - verilog
-                - complete: https://github.com/praisetompane/verilog
-                - https://web.mit.edu/6.111/www/f2017/handouts/L03_4.pdf
-                - https://inst.eecs.berkeley.edu/~eecs151/fa20/files/verilog/Verilog_Primer_Slides.pdf
-                - https://www.chipverify.com/verilog/verilog-tutorial
+        - verilog
+            - complete: https://github.com/praisetompane/verilog
+            - https://web.mit.edu/6.111/www/f2017/handouts/L03_4.pdf
+            - https://inst.eecs.berkeley.edu/~eecs151/fa20/files/verilog/Verilog_Primer_Slides.pdf
+            - https://www.chipverify.com/verilog/verilog-tutorial
 
-            - coq
-                - source:
-                    - https://github.com/coq
-            - LEAN
-                - source:
-                    - https://github.com/leanprover
+        - coq
+            - source:
+                - https://github.com/coq
+        - LEAN
+            - source:
+                - https://github.com/leanprover
 
-            - rust:
-                - complete: https://github.com/praisetompane/rust
-                    - https://www.rust-lang.org
-                    - https://github.com/praisetompane/rust/tree/main
-                - write simplified interpreter and compiler for the language in the language
+        - rust:
+            - complete: https://github.com/praisetompane/rust
+                - https://www.rust-lang.org
+                - https://github.com/praisetompane/rust/tree/main
+            - write simplified interpreter and compiler for the language in the language
 
-            - java
-                - complete: /computation_and_information/language_template
-                - write simplified interpreter and compiler for the language in the language
+        - java
+            - complete: /computation_and_information/language_template
+            - write simplified interpreter and compiler for the language in the language
 
-            - typescript_and_javascript 
-                - complete: /computation_and_information/language_template
-                - write simplified interpreter and compiler for the language in the language
+        - typescript_and_javascript 
+            - complete: /computation_and_information/language_template
+            - write simplified interpreter and compiler for the language in the language
 
-            - unified_discipline_of_computer_programming
-                - readings: /1_general_programming_languages/concepts_techniques_and_models_of_computer_programming.van_roy_p.pdf 
-        - assignments:
-        - exams:
+        - unified_discipline_of_computer_programming
+            - readings: /1_general_programming_languages/concepts_techniques_and_models_of_computer_programming.van_roy_p.pdf 
+    - assignments:
+    - exams:
 
-    - 5_software_and_its_engineering/0_software_notations_and_tools/3_compilers: 2 hours
-        - degree module: MIT 6.035
-        - lecture:
+- 2_hardware:
+    - lectures:
+        - Chris Terman. MIT 6.004 Computation Structures, Spring 2017
+            - current: 1.2.1 What is Information？ [R0tFDXBZvKI]: *
+
+        - Charles Leiserson, Julian Shun. MIT 6.172 Performance Engineering of Software Systems, Fall 2018:
+            - current: None
+    - readings:
+        - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/
+        - but_how_do_it_know?_the_basic_principles_of_computers_for_everyone
+        - https://github.com/brianrhall/Assembly
+    - assignments:
+    - exams: 
+        
+============================================================================================================
+- next: 
+    - 5_software_and_its_engineering/0_software_notations_and_tools/3_compilers
+        - lectures:
             - Neso Academy Compiler Design:
                 - https://www.youtube.com/playlist?list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q
 
             - MIT 6.035 Computer Language Engineering, Fall 2005
-                - in offline library
                 - current: 
                 - https://www.youtube.com/playlist?list=PL0300FE43396456C1
 
@@ -156,42 +161,8 @@ purpose: understand computation and information.
             - Aho, Alfred V., Ravi Sethi, and Jeffrey Ullman. Compilers: Principles, Techniques and Tools. Reading, MA: Addison-Wesley, 1986. ISBN: 0201100886.
                 The classic compilers textbook, although its front-end emphasis reflects its age. (Dragon book)
 
-    - 2_hardware: 2 hours
-        - degree module:
-        - library:
-            - MIT 6.004 Computation Structures, Spring 2017
-                - in offline library
-                - current: 
-                - https://www.youtube.com/playlist?list=PLUl4u3cNGP62WVs95MNq3dQBqY2vGOtQ2
-            - MIT 6.172 Performance Engineering of Software Systems, Fall 2018:
-                - https://www.youtube.com/playlist?list=PLUl4u3cNGP63VIBQVWguXxZZi0566y7Wf
-        - readings:
-            - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/
-            - but_how_do_it_know?_the_basic_principles_of_computers_for_everyone
-            - https://github.com/brianrhall/Assembly
-        - assignments:
-        - exams: 
-        
-- field update:
-    - Quanta Magazine: https://www.quantamagazine.org/computer-science/
-    - ACM DL: https://dl.acm.org : browse what is happening in computing.
-    - Development: https://www.infoq.com/development/
-    - Architecture & Design: https://www.infoq.com/architecture-design/
-    - AI, ML & Data Engineering: 
-        https://www.infoq.com/ai-ml-data-eng/
-        https://read.deeplearning.ai/the-batch/
-    - Culture & Methods: 
-        - https://www.infoq.com/culture-methods/
-    - DevOps: https://www.infoq.com/devops/
-    - General:
-        - https://www.ischools.org/news/categories/news
-        - https://www.media.mit.edu
-        - HackerNews:  https://news.ycombinator.com/news
-==============================================================================================
-- next: 
-    - 0_foundations/0_theory_of_computation: 2 hours
-        - degree module: MIT 18.404
-        - library:
+    - 0_foundations/0_theory_of_computation
+        - lectures:
             - MIT 18.404J Theory of Computation, Fall 2020:
                 - in offline library
                 - https://www.youtube.com/playlist?list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY
@@ -204,9 +175,8 @@ purpose: understand computation and information.
         - exams:
             https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
 
-    - 5_software_and_its_engineering/1_software_organisation_and_properties: 2 hours
-        - degree module: 
-        - lecture:
+    - 5_software_and_its_engineering/1_software_organisation_and_properties
+        - lectures:
             - MIT 6.172 Performance Engineering Of Software Systems:
                 - https://www.youtube.com/playlist?list=PLUl4u3cNGP63VIBQVWguXxZZi0566y7Wf
         - readings:
@@ -214,30 +184,21 @@ purpose: understand computation and information.
                 - Linux: https://github.com/torvalds/linux
 
     - 4_networks
-        - degree module: UP COS216 | UP COS332
-        - lecture:
-            - https://www.youtube.com/playlist?list=PLrjkTql3jnm8d1ddpVKifXO_fPjSKATCp
+        - lectures:
+            - Web Technology. https://www.youtube.com/playlist?list=PLrjkTql3jnm8d1ddpVKifXO_fPjSKATCp  
+                - https://www.education4u.in
         - readings:
         - assignments:
         - exams:
 
-- next_field_template
-        - degree module:
-        - videos:
-        - readings: 
-        - assignments:
-        - exams:
-
-==============================================================================================
-next:
-
-timeline:
-    see .plan.txt
+============================================================================================================
+- next field template:
+    - lectures:
+    - readings:
+    - assignments:
+    - exams:
+============================================================================================================
 
 legend:
-    *: visited today/last session
-        nb: all subjects must be visited before a repeat visit.
-
-================================================completed================================================
-2023-October-28: https://en.wikipedia.org/wiki/History_of_computer_science
-                    
+    *: S visit complete
+    **: R3 visit complete
