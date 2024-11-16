@@ -1,0 +1,42 @@
+==============================================================================================================================================================
+Massachusetts Institute of Technology:    
+    undergraduate: 
+        - program: 
+            - Bachelor of Science in Computer Science and Engineering
+            - https://catalog.mit.edu/degree-charts/computer-science-engineering-course-6-3/
+
+    honours: 
+
+    masters:
+
+    doctrate: 
+==============================================================================================================================================================
+University of Pretoria:
+    - undergraduate: 
+        - program:
+            - BSc Computer Science
+            - https://www.cs.up.ac.za/undergraduate/ 
+            - https://www.cs.up.ac.za/module_categories/undergraduate/
+    - honours: 
+        - program:
+            - https://www.cs.up.ac.za/honours/
+            - https://www.cs.up.ac.za/module_categories/honours/
+    - masters:
+        - program:
+            - https://www.cs.up.ac.za/module_categories/masters/
+    - doctrate:
+        - program: 
+            - https://www.cs.up.ac.za/module_categories/doctoral/
+    - projects: https://github.com/COS301-SE-2024
+
+==============================================================================================================================================================
+accreditation template:
+    undergraduate: 
+        - 
+    honours: 
+        -
+    masters:
+        -
+    doctrate: 
+        -
+==============================================================================================================================================================

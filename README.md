@@ -37,6 +37,7 @@
 - [DevOps](https://www.infoq.com/devops/)
 
 ## Community:
+- [HackerNews](https://news.ycombinator.com/news)
 
 ## Computer Scientists:
 - [ACM Turing Interviews](https://www.youtube.com/playlist?list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO)
