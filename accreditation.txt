@@ -23,9 +23,10 @@ University of Pretoria:
             - https://www.cs.up.ac.za/module_categories/honours/
     - masters:
         - program:
-            - https://www.cs.up.ac.za/module_categories/masters/
+            - https://www.cs.up.ac.za/postgraduate/
     - doctrate:
         - program: 
+            - https://www.cs.up.ac.za/postgraduate/
             - https://www.cs.up.ac.za/module_categories/doctoral/
     - projects: https://github.com/COS301-SE-2024
 
