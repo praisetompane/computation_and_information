@@ -172,4 +172,4 @@ node_modules
 .metals
 
 .DS_Store
-journal.txt
+journal/
