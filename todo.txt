@@ -31,6 +31,9 @@
 
 - 5_software_and_its_engineering/0_software_notations_and_tools/3_compilers
         - lectures:
+            - Prof. Alex Aiken. StanfordOnline SOE.YCSCS1 Compilers
+                - https://learning.edx.org/course/course-v1:StanfordOnline+SOE.YCSCS1+3T2024/home
+
             - Neso Academy. 2023. Compiler Design:
                 - https://www.youtube.com/playlist?list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q
 
@@ -159,9 +162,9 @@
     - 3_computer_systems_organization:
         - lectures:
             - Morris Robert, Madden Samuel. 2005. MIT 6.033 Computer System Engineering
-                - https://dspace.mit.edu/handle/1721.1/56581
-            - Dr. Katrina LaCurts. 2018. MIT 6.033 Computer System Engineering
                 - https://www.youtube.com/playlist?list=PL6535748F59DCA484
+                - https://dspace.mit.edu/handle/1721.1/118791
+            - Dr. Katrina LaCurts. 2018. MIT 6.033 Computer System Engineering
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
         - readings:
         - assignments:
@@ -180,9 +183,9 @@ next₂:
     - 5_software_and_its_engineering/1_software_organisation_and_properties
         - lectures:
             - Morris Robert, Madden Samuel. 2005. MIT 6.033 Computer System Engineering
-                - https://dspace.mit.edu/handle/1721.1/56581
-            - Dr. Katrina LaCurts. 2018. MIT 6.033 Computer System Engineering
                 - https://www.youtube.com/playlist?list=PL6535748F59DCA484
+                - https://dspace.mit.edu/handle/1721.1/118791
+            - Dr. Katrina LaCurts. 2018. MIT 6.033 Computer System Engineering
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
         - readings:
             - /contextual_software_domains/operating_systems
