@@ -1,6 +1,6 @@
 - 1_mathematics_of_computing:
     - lectures:
-        - Prof. Tom Leighton Dr. Marten van Dijk. MIT 6042J Mathematics for Computer Science Fall 2010:
+        - Prof. Tom Leighton, Dr. Marten van Dijk. 2010. MIT 6042J Mathematics for Computer Science:
             - current: Lecture 1: Introduction and proofs: *
     - readings:
         - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
@@ -16,9 +16,9 @@
 - 0_foundations/0_theory_of_computation/3_design_and_analysis_of_algorithms:
     - resource index: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/resource-index/
     - lectures:
-        - Prof. Erik Demaine, Dr. Jason Ku, Prof. Justin Solomon.MIT 6.006 Introduction to Algorithms, Spring 2020:
+        - Prof. Erik Demaine, Dr. Jason Ku, Prof. Justin Solomon. 2020. MIT 6.006 Introduction to Algorithms:
             - current: 1. Algorithms and Computation [ZA-tUyM_y7s]: *
-        - Prof. Erik Demaine, Prof. Srini Devadas. MIT 6.006 Introduction to Algorithms, Fall 2011:
+        - Prof. Erik Demaine, Prof. Srini Devadas. 2011. MIT 6.006 Introduction to Algorithms:
             - current: Lecture 2: Models of Computation, Document Distance: *
     - readings:
         - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/
@@ -31,15 +31,14 @@
 
 - 5_software_and_its_engineering/0_software_notations_and_tools/3_compilers
         - lectures:
-            - Neso Academy Compiler Design:
+            - Neso Academy. 2023. Compiler Design:
                 - https://www.youtube.com/playlist?list=PLBlnK6fEyqRjT3oJxFXRgjPNzeS-LFY-q
 
-            - MIT 6.035 Computer Language Engineering, Fall 2005
-                - current:
+            - Prof. Martin Rinard, Prof. Saman Amarasinghe. 2005. MIT 6.035 Computer Language Engineering
                 - https://www.youtube.com/playlist?list=PL0300FE43396456C1
 
-            - MIT 6.172 Performance Engineering Of Software Systems:
-                - current: Lecture 9: What Compilers Can and Cannot Do: https://www.youtube.com/watch?v=ulJm7_aTiQM
+            - Prof. Charles Leiserson, Prof. Julian Shun. 2018. MIT 6.172 Performance Engineering of Software Systems:
+                - current: Lecture 9: What Compilers Can and Cannot Do: https://www.youtube.com/playlist?list=PLUl4u3cNGP63VIBQVWguXxZZi0566y7Wf
         - readings:
             - craftinginterpreters
                 - https://craftinginterpreters.com/contents.html
@@ -62,10 +61,10 @@
 
 - 2_hardware:
     - lectures:
-        - Chris Terman. MIT 6.004 Computation Structures, Spring 2017
+        - Prof. Chris Terman. 2017. MIT 6.004 Computation Structures
             - current: 1.2.1 What is Information？ [R0tFDXBZvKI]: *
 
-        - Charles Leiserson, Julian Shun. MIT 6.172 Performance Engineering of Software Systems, Fall 2018:
+        - Prof. Charles Leiserson, Prof. Julian Shun. 2018. MIT 6.172 Performance Engineering of Software Systems
             - current: None
     - readings:
         - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/
@@ -78,8 +77,7 @@
 - next₁:
     - 0_foundations/0_theory_of_computation:
         - lectures:
-            - MIT 18.404J Theory of Computation, Fall 2020:
-                - in offline library
+            - Prof. Michael Sipser. 2020. MIT 18.404J Theory of Computation
                 - https://www.youtube.com/playlist?list=PLUl4u3cNGP60_JNv2MmK3wkOt9syvfQWY
         - readings:
             https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/lecture-notes/
@@ -106,7 +104,7 @@
 
             - assembly
                 - lectures:
-                    - MIT 6.172 Performance Engineering Of Software Systems:
+                    - Prof. Charles Leiserson, Prof. Julian Shun. 2018. MIT 6.172 Performance Engineering of Software Systems:
                         - https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2018/lecture-videos/lecture-4-assembly-language-computer-architecture
                             Lecture 4: Assembly Language & Computer Architecture:
                                 - https://ocw.mit.edu/courses/6-172-performance-engineering-of-software-systems-fall-2018/resources/lecture-4-assembly-language-computer-architecture/
@@ -160,8 +158,11 @@
 
     - 3_computer_systems_organization:
         - lectures:
-            - MIT 6.033 Computer System Engineering
-                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/
+            - Morris Robert, Madden Samuel. 2005. MIT 6.033 Computer System Engineering
+                - https://dspace.mit.edu/handle/1721.1/56581
+            - Dr. Katrina LaCurts. 2018. MIT 6.033 Computer System Engineering
+                - https://www.youtube.com/playlist?list=PL6535748F59DCA484
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
         - readings:
         - assignments:
         - exams:
@@ -178,14 +179,19 @@
 next₂:
     - 5_software_and_its_engineering/1_software_organisation_and_properties
         - lectures:
-            - MIT 6.172 Performance Engineering Of Software Systems:
-                - https://www.youtube.com/playlist?list=PLUl4u3cNGP63VIBQVWguXxZZi0566y7Wf
+            - Morris Robert, Madden Samuel. 2005. MIT 6.033 Computer System Engineering
+                - https://dspace.mit.edu/handle/1721.1/56581
+            - Dr. Katrina LaCurts. 2018. MIT 6.033 Computer System Engineering
+                - https://www.youtube.com/playlist?list=PL6535748F59DCA484
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
         - readings:
             - /contextual_software_domains/operating_systems
                 - Linux: https://github.com/torvalds/linux
 
     - 6_computing_methodologies/artificial_intelligence:
         - lectures:
+            - Prof. Shai Ben-David. 2015. University of Waterloo CS 485-685 Foundations of Machine Learning
+            - Prof. Tamara Broderick. 2020. MIT 6.036 Introduction to Machine Learning
         - readings:
         - assignments:
         - exams:
@@ -195,7 +201,7 @@ next₂:
         - readings:
         - assignments:
         - exams:
-        
+
     - 6_computing_methodologies/concurrent_computing_methodologies:
         - lectures:
         - readings:
