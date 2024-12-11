@@ -1,4 +1,0 @@
-
-General References:
-    Linux File System Explained!: https://www.youtube.com/watch?v=bbmWOjuFmgA
-    How Does Linux Boot Process Work?: https://youtu.be/XpFsMB6FoOs
