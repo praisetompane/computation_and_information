@@ -1,2 +1,0 @@
-MacOS specific:
-    ~/Library/Containers/com.docker.docker/Data/vms/0/data
