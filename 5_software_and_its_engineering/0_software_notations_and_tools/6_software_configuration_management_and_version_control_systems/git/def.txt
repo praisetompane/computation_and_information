@@ -1,5 +1,0 @@
-def git:
-
-commit message standardization:
-    https://www.conventionalcommits.org/en/v1.0.0/
-    https://github.com/conventional-changelog/commitlint/tree/master

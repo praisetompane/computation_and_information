@@ -1,7 +1,0 @@
-start terminal in container:
-    docker exec -it <mycontainer> bash
-
-tag local image:
-    sudo docker tag myimage5 hitanshug/testrep:v1
-    myimage5 = the local image
-    hitanshug/testrep:v1 = tag you want to use
