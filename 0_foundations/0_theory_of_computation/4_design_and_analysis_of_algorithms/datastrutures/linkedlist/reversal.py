@@ -14,11 +14,10 @@ class LinkedList:
     def __str__(self) -> str:
         string_value = ""
         current_node = self.head
-        while current_node.next != None:
+        while current_node != None:
             string_value += f"{current_node.value} "
             current_node = current_node.next
-
-        string_value += f"{current_node.value}"
+            
         return string_value
 
     def reverse(self):
