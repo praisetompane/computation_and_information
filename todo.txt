@@ -13,7 +13,7 @@
     - exams:
         - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/exams/
 
-- 0_foundations/0_theory_of_computation/3_design_and_analysis_of_algorithms:
+- 0_theory_of_computation/3_design_and_analysis_of_algorithms:
     - resource index: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/resource-index/
     - lectures:
         - Prof. Erik Demaine, Dr. Jason Ku, Prof. Justin Solomon. 2020. MIT 6.006 Introduction to Algorithms:
