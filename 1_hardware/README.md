@@ -8,7 +8,7 @@
     - https://github.com/riscv
     - https://github.com/mit-pdos/xv6-riscv
 - open hardware:
-    - https://github.com/oxidecomputer
+    - [Oxide Computer Company](https://github.com/oxidecomputer)
 
 ## References:
 
