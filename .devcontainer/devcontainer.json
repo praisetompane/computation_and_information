@@ -1,6 +1,8 @@
 {
 	"name": "computation_and_information",
-	"image": "../Dockerfile",
+	"build": {
+		"dockerfile": "../Dockerfile"
+	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
