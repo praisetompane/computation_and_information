@@ -7,6 +7,6 @@
 - instruction set architectures:
     - [RISCV](https://github.com/riscv)
 - open hardware:
-    - [OxideComputer](https://github.com/oxidecomputer)
+    - [Oxide Computer Company](https://github.com/oxidecomputer)
 
 ## References:

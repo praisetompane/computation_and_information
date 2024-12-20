@@ -1,6 +1,6 @@
 {
 	"name": "computation_and_information",
-	"image": "mcr.microsoft.com/devcontainers/python",
+	"image": "../Dockerfile",
 	"customizations": {
 		"vscode": {
 			"extensions": [
