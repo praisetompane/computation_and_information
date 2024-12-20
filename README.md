@@ -1,4 +1,5 @@
 # What are Computation and Information?
+![build status](https://github.com/praisetompane/computation_and_information/actions/workflows/computation_and_information.yaml/badge.svg) <br>
 
 **objectives**: an attempt at unpacking in layman's terms what computation and information are.
 
