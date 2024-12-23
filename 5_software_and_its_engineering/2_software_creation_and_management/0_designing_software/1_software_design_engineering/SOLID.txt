@@ -68,7 +68,7 @@ Open Closed Principle
                 class EFTFee extends Fee
                     +calculateFee //specific calculation for EFTFee
 
-                infuture
+                in future
                 class ChequeDepositFee
                     +calculateFee 
 
@@ -144,7 +144,7 @@ Interface Segregation Principle
         +write: throw exception
         +close: close the file
 
-    class rire OnlyFileStream extends Stream
+    class OnlyFileStream extends Stream
         +read: throw exception
         +write: read file 
         +close: close the file

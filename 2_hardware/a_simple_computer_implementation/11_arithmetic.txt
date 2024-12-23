@@ -16,8 +16,8 @@ implementation of operations (Scott, 2009:91):
             Add R0 to R1
 
 
-        Q:  Why does NOTting and ADDing result in subtraction? 
-            Why do you have to add 1 after NOTting? 
+        Q:  Why does applying NOT and ADD result in subtraction? 
+            Why do you have to add 1 after applying NOT? 
             Why do you ignore the carry bit?
     
     multiplication:

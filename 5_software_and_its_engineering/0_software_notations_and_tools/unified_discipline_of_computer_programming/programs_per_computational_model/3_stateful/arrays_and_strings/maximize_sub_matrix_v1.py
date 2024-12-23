@@ -49,12 +49,12 @@
 
     Performance:
         NR = number of row = 2N
-        O(N + N) = O(2N) = visit top N and bottom N rows
+        𝑂(𝑁 + 𝑁) = O(2N) = visit top N and bottom N rows
 
         O(2N * 2N) => rotation cost
 
         NC = number of cols = 2N
-        O(N + N) = O(2N) = visit top N and bottom N cols
+        𝑂(𝑁 + 𝑁) = O(2N) = visit top N and bottom N cols
 
         O(2N + 2N)
             visit each col
@@ -66,7 +66,7 @@
 def flippingMatrix(matrix):
 
     matrix_szie = len(matrix[0])
-    n= matrix_szie//2
+    n = matrix_szie//2
     # sum cols
     # sum rows
 
@@ -76,14 +76,14 @@ def flippingMatrix(matrix):
             last_n_elements_sum = 0
 
             if first_n_elements_sum < last_n_elements_sum:
-                #rotate col
+                # rotate col
 
-    # sum rows
+                # sum rows
     for row in matrix:
         if sum(row[: n]) < sum(row[-n:]):
             row.reverse()
 
-    n_by_n_matrix_sum= 0
+    n_by_n_matrix_sum = 0
     for row in matrix[: n]:
         for col in matrix[: n]:
             n_by_n_matrix_sum += col

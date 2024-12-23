@@ -1,7 +1,6 @@
 What is a functor?
     resources:
-        https://hackernoon.com/functors-and-applicatives-b9af535b1440
-        https://www.youtube.com/watch?v=2b5ln_xQe04
+        Sinisa Louc. Hackernoon. 2016. Functors and Applicatives
 
     Wrapper/Container/Context for values
         with the following operations
@@ -115,7 +114,7 @@ What Scala data types are, or behave like, monads?
     List
     Seq
     All of them?
-    No, Ints etc
+    No, Int etc
 
 What are the basic and optional requirement/s to conform a Monad?
     unit
@@ -159,7 +158,7 @@ How does it differentiate from common recursion?
         identity tail recursion
         label the beginning
         update parameters at the end
-        execute a goto start
+        execute a go-to start
 
 What issues are there with tail recursive functions in the JVM?
     The instruction set available on the JVM makes implementing more advanced tail recursion very difficult
@@ -168,8 +167,8 @@ What issues are there with tail recursive functions in the JVM?
 
     Example of ones that can't
         1. mutually tail recursive calls
-            def isEven(n: Int) if (n % 2 == 0) true else isOdd(n)
-            def isOdd(n: Int) if (n % 2 != 0) true else isEven(n)
+            def is_even(n: Int) if (n % 2 == 0) true else is_odd(n)
+            def is_odd(n: Int) if (n % 2 != 0) true else is_even(n)
         2. if the tail call is nested in a function value
             { functionCall(n) }
 
@@ -195,7 +194,8 @@ What are implicit parameters?
 
 What are type classes?
     Resource: https://blog.scalac.io/2017/04/19/typeclasses-in-scala.html
-    Read this AS WELL!!: https://medium.com/@sinisalouc/ad-hoc-polymorphism-and-type-classes-442ae22e5342
+
+    Sinisa Louc. Hackernoon. 2016. Ad-hoc polymorphism and type classes
     A Type class is a class(group) of types
         Which satisfy some contract (They're not necessarily in the same class hierarchy)
             defined somewhere(maybe in a trait in Scala)
@@ -208,7 +208,7 @@ What are type classes?
 
 
     Use case: Want to add some behavior to classes that are not in some natural class hierarchy
-            Construct to add adhoc polymorphism by creating a grouping of objects?
+            Construct to add ad-hoc polymorphism by creating a grouping of objects?
         What is polymorphism? => refer to OOP file
 
 What are lenses?

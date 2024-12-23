@@ -24,9 +24,9 @@ Flow:
     prior_node.next = prior_node.next.next
 
 Performance:
-    Time = O(N - 1) = O(N) #drop constants
+    Time = O(N - 1) = 𝑂(𝑁) #drop constants
         inspect every element until you find node before the target_node
-    Space = O(N)
+    Space = 𝑂(𝑁)
         Space to store linkedlist
 
 """

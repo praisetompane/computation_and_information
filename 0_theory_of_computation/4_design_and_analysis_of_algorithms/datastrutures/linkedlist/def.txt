@@ -13,7 +13,7 @@ Performance Analysis (Wengrow, 2017:144-150):
     Read: Looking up something from a particular spot in the data structure
         Steps = 
             Head of list = 1 step = O(1)
-            Rest of list = N steps to value = O(N)
+            Rest of list = N steps to value = 𝑂(𝑁)
     
     Search: Looking for a particular value in Te data structure
         Steps = 
@@ -21,12 +21,12 @@ Performance Analysis (Wengrow, 2017:144-150):
     Insert: Adding a value to the data structure 
         Steps = 
             Head of list = 2 steps to reappoint pointers = O(1)
-            Bottom of list = N steps to last value + 1 step to appoint last value's next = O(N) + O(1) = O(N)
+            Bottom of list = N steps to last value + 1 step to appoint last value's next = 𝑂(𝑁) + O(1) = 𝑂(𝑁)
 
     Delete: Removing a value from the data structure
         Steps = 
             Head of list = 2 steps to reappoint pointers = O(1)
-            Rest of list = N steps to last value + 1 step to appoint last value's next = O(N) + O(1) = O(N)
+            Rest of list = N steps to last value + 1 step to appoint last value's next = 𝑂(𝑁) + O(1) = 𝑂(𝑁)
 
 References:
     Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.

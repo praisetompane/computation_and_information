@@ -74,7 +74,7 @@ Chapter 6: Session state
     Database Session state
 
 Chapter 7: Distribution strategies
-  CORBA
+  Common Object Request Broker Architecture
 
 Chapter 8: Putting it all together
 

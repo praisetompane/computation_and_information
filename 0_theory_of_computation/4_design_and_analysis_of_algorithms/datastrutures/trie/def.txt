@@ -6,7 +6,7 @@ What is it?
         It is set of things(nodes)
         Each node has:
             a set of nodes which represent valid next nodes
-                where set size <= ALPHABET_IZE[Number of discrete things(nodes)]
+                where set size <= ALPHABETIZE[Number of discrete things(nodes)]
             an indicator[Boolean, or special child node] of whether it is a final node in some valid sequence
 
     More concrete example:

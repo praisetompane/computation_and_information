@@ -2,11 +2,11 @@ def:
     availability: percentage of time a system is operational
     reliability: probability of the percentage of time a system will be operational.
 
-    pratical example:
+    practical example:
         Given:
             total_hours := 8 
-            system_unoperational_hours := 1
-            system_operational_hours := total_hours - system_unoperational_hours
+            system_inoperative_hours := 1
+            system_operational_hours := total_hours - system_inoperative_hours
         Then
             availability := system_operational_hours/total_hours = 7/8 = 0.875 = 86%
 

@@ -9,4 +9,4 @@ human language and word meaning (Manning, 2019):
         - temporal: for posterity
 
 references: 
-    Manning C. Stanford CS224N: NLP with Deep Learning | Winter 2019 | Lecture 1 – Introduction and Word Vectors. 2022. https://www.youtube.com/watch?v=8rXD5-xhemo
+    Manning C.D. 2019. Stanford CS224N. Lecture 1 – Introduction and Word Vectors

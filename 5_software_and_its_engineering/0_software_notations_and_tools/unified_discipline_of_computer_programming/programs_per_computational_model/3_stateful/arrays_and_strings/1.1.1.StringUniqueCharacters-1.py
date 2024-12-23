@@ -30,8 +30,8 @@ print(contain_all_unique_characters(s4))
         N = length of string
         NC = length of letter count storage, NC <= N 
 
-        Time = O(N)
-        Space = O(NC) = O(N)
+        Time = 𝑂(𝑁)
+        Space = O(NC) = 𝑂(𝑁)
             Space required to represent the dictionary storing the letter count
 
 """
