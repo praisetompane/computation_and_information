@@ -42,7 +42,7 @@
         
     Performance:
         N = number of elements in array
-        O(N)
+        𝑂(𝑁)
 """
 
 

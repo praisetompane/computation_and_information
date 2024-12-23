@@ -46,7 +46,7 @@
 
 def determine_if_only_one_change_exists(long_string, long_string_length, short_string):
     for i in range(long_string_length):
-        if long_string[:i] + long_string[i + 1 :] == short_string:
+        if long_string[:i] + long_string[i + 1:] == short_string:
             return True
     return False
 
@@ -81,5 +81,5 @@ print(one_away("pales", "ple"))  # false
     Performance
         N, Where N is the length of the longest string
 
-        Time = O(N)
+        Time = 𝑂(𝑁)
 """

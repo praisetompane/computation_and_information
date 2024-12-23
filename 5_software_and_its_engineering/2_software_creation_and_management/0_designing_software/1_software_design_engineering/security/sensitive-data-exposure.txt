@@ -1,5 +1,5 @@
 def:
-    sensitive data exposed to actors that are not authorised to view that data
+    sensitive data exposed to actors that are not authorized to view that data
         sensitive data = credit cards, credentials etc
 
 causes: 
@@ -8,8 +8,8 @@ causes:
 solutions:
     encrypt data during transport and at rest using latest encryption algorithms
     encrypt all data in transport using secure protocols such as TLS
-    dont' store sensitive data uncessarily
+    don't' store sensitive data unnecessarily
     use strong hashing or encryption algorithms
     when using a hashing algorithm be sure to use a salt and a pepper
-    for data tht doesn't need t be hashed, use symmetric encryption
+    for data that doesn't need t be hashed, use symmetric encryption
     disable caching of sensitive data

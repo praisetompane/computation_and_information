@@ -25,7 +25,7 @@ research:
         - https://github.com/stability-ai
         - https://github.com/eleutherai
         - https://github.com/huggingface
-        - https://boards.greenhouse.io/deepmind/jobs/5444299?t=bbda0eea1us
+        - https://boards.greenhouse.io/deepmind
         - https://github.com/google-deepmind/deepmind-research
         - https://lelapa.ai
 - datasets:
@@ -40,11 +40,10 @@ research:
     - study: 2 hours
 
     - build:
-        - app_corporate_culture_measurer
-            https://github.com/praisetompane/app_corporate_culture_measurer
+        - 
+        
     - study:
         - guide: 
-            - https://www.youtube.com/watch?v=mhchrvfaxlc&t=1044s
             - https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide
         - python:
             - https://github.com/praisetompane/python
@@ -52,10 +51,10 @@ research:
             - courses:  
                 - https://www.khanacademy.org/math/statistics-probability
                 - statquest
-                - 3ble1brown
+                - 3blue1brown
             - statistics: 
                 - descriptive vs inferential statistics: *
-                - continous vs discrete data
+                - continuous vs discrete data
                 - nominal vs ordinal data
                 - measures of central tendency: mean, median, mode: *
                 - measures of dispersion: variance, standard deviation: *
@@ -69,11 +68,10 @@ research:
                 - confidence interval
                 - type 1 vs typor 2 error
                 - z test
-            - linear algebra: vectors, metrices, eigenvalues and eigenvectors
+            - linear algebra: vectors, matrices, eigenvalues and eigenvectors
             - basic plots: histograms, pie chars, scatter plots
             - exploratory data analysis:
-                - first option i found: https://www.kaggle.com/code/imoore/intro-to-exploratory-data-analysis-eda-in-python
-                - other options: https://www.kaggle.com/code?searchquery=exploratory+data+analysis
+                - kaggle
         - data science:
             - numpy
             - pandas
@@ -86,7 +84,7 @@ research:
                 - tensorflow
                 - keras
             - statistical ml:
-                - course: machine learning tutorial python | machine learning for beginners: https://www.youtube.com/playlist?list=pleo1k3hjs3uvcetyteyfe0-rn5r8zn9rw
+                - course: machine learning tutorial python | machine learning for beginners
                     nb: first 21 videos only
                 - preprocessing:
                     - handling na values
@@ -94,7 +92,7 @@ research:
                     - data normalization
                     - one hot encoding
                     - label encoding
-                    - trani test split
+                    - train test split
                     - cross validation
                 - model building
                     - types of ml:
@@ -116,58 +114,57 @@ research:
                     - model evaluation:
                         - regression
                             - mean squared error
-                            - mean absoluate error
+                            - mean absolute error
                             - mape
                         - classification:
-                            - accurary
+                            - accuracy
                             - precision recall
                             - f1 score
                             - roc curve
                     - hyperparameter tuning: 
                         - gridsearchcv
                         - randomsearchcv
-                    - unsupervises k means: 
+                    - unsupervised k means: 
                         - hierarchical clustering
                         - dimensionality reduction(pca)
                     - feature engineering:
-                        - https://www.youtube.com/playlist?list=pleo1k3hjs3ut5olrdievxk9n3q7mkhdxo
+                        
 
             - deep learning:
                 - what is a neural network?
                     - forward propagation
                     - backward propagation
                     - courses:
-                        - neural networks: zero to hero: https://www.youtube.com/playlist?list=plaqhirjkxbuwi23v9cthsa9gvcauhrvkz
-                        - mathemtical core: back-propagation
+                        - Andrej Karpathy. 2022.Neural Networks: Zero to Hero.
+                        - mathematical core: back-propagation
                             - core of deep neural network libraries
                                 example: pytorch
                             def:
                                 plain english:
-                                    - mathemtical expresssion:
+                                    - mathematical expression:
                                         input = { input data, neural net weights}
                                         output = { predictions of neural net ∨ loss function }
-                            - neural networks and deep learning: http://neuralnetworksanddeeplearning.com
-                                - https://github.com/mnielsen/neural-networks-and-deep-learning
-                    - building multilayer perceptron
+                            - Michael A. Nielsen, "Neural Networks and Deep Learning", Determination Press, 2015
+                    - building multi-layer perceptron
                     - special neural network architectures:
                         - convolutional neural network (cnn)
                         - sequence models:
                             - rnn
                             - lstm
-                    - framworks and libraries:
+                    - frameworks and libraries:
                         - pytorch
                     - project: 
-                        - potato disease classification: deep learning project end to end: https://www.youtube.com/watch?v=dgtdtjys3xc&list=pleo1k3hjs3ut49pskoflne6wuoop_2lsd
+                        - potato disease classification: deep learning project end to end.
                                 - reinforcement learning:
                 - ...
             - nlp | computer vision 
                 nb: this where people specialize
                 - computer vision
                 - nlp
-                    - nlp tutorial python: https://www.youtube.com/playlist?list=pleo1k3hjs3uuvuaxhyjv2lmeshq2uyswx
+                    - nlp tutorial python
                     - natural language processing:
-                        - [1hr talk] intro to large language models: https://youtu.be/zjkbmfhnj_g
-                            - learn the core of nlp: https://github.com/praisetompane/computation/blob/9929c42976b5e30cf5ced3d887c9f52fb5748b31/6_computing_methodologies/artificial_intelligence/natural_language_processing/todo.txt
+                        - [1hr talk] intro to large language models
+                            - learn the core of nlp: University of Michigan. 2016. Natural Language Processing 
                             - deep learning basics and its technique used in nlp:
                                 - techniques:
                                     - attention
@@ -184,40 +181,17 @@ research:
                         - what is llm?
                         - vector database
                         - word embedding
-                        - framworks and libraries:
-                            - langchain framwork
-                                - course: https://www.youtube.com/watch?v=namc7sovld8&list=pleo1k3hjs3uu0n_0w6gidxzzicb07ng_f
+                        - frameworks and libraries:
+                            - langchain framework
+
         - ml ops = devops
         - applications:
             - try aws sage maker
             - data science & machine learning project - part 1 introduction | image classification
-                https://www.youtube.com/watch?v=qwxxhjv3jhi&list=pleo1k3hjs3uvarhzll-jlovijbp14qtxc&index=1
             - data science project | machine learning project | real estate price prediction:
-                https://www.youtube.com/playlist?list=pleo1k3hjs3uu7clottwsp94pchbzqpadg
         - accreditation:
-            - oxford artificial intelligence programme: https://oxford-onlineprogrammes.getsmarter.com/presentations/lp/oxford-artificial-intelligence-programme/?utm_source=sfmc&utm_medium=email&utm_campaign=thu-spring-promo_20240404_int_listname_edx_international_newsletter_final_data_cloud
-            - mit statistics and data science: https://www.edx.org/masters/micromasters/mitx-statistics-and-data-science?utm_source=sfmc&utm_medium=email&utm_campaign=thu-spring-promo_20240404_int_listname_edx_international_newsletter_final_data_cloud
-            - uct data science with python: https://uct-online.getsmarter.com/presentations/lp/uct-data-science-with-python-short-course/?utm_source=sfmc&utm_medium=email&utm_campaign=thu-spring-promo_20240404_int_listname_edx_international_newsletter_final_data_cloud
+            - oxford artificial intelligence programme
+            - mit statistics and data science: 
+            - uct data science with python: 
             - courses:
                 if you are looking for free courses about ai/ml and data science, i have compiled the 20+ best ibm courses that i found super high quality and helpful.
-                𝟭. what is data science: https://lnkd.in/grrwigha
-                𝟮. python for ds and ai dev: https://lnkd.in/dtjc2ner
-                𝟯. tools for data science: https://lnkd.in/gsya84np
-                𝟰. databases & sql for ds: https://lnkd.in/dbwnxgx7
-                𝟱. machine learning in python: https://lnkd.in/gp5mrejp
-                𝟲. data science methodology: https://lnkd.in/g9midt9m
-                𝟳. data viz with python: https://lnkd.in/g_dydada
-                𝟴. data analysis with python: https://lnkd.in/gf9rmwkd
-                𝟵. data science pro certificate: https://lnkd.in/d58na5mg
-                𝟭𝟬. projects for data science: https://lnkd.in/gnrkzhzb
-                𝟭𝟭. eda for machine learning: https://lnkd.in/gy_vhjx4
-                𝟭𝟮. intro to ds specialization: https://lnkd.in/gjm424ya
-                𝟭𝟯. excel for data analysis: https://lnkd.in/g383rprh
-                𝟭𝟰. scalable data science: https://lnkd.in/gdzqexgp
-                𝟭𝟱. intro to data analytics: https://lnkd.in/guz4mbbw
-                𝟭𝟲. data analyst pro : https://lnkd.in/gnrwfcw5
-                𝟭𝟳. applied ds capstone: https://lnkd.in/gxudivde
-                𝟭𝟴. introduction to ai: https://lnkd.in/gynjfa9f
-                𝟭𝟵. intro to cybersecurity: https://lnkd.in/gsm7qjgu
-                𝟮𝟬. cybersecurity analyst: pro: https://lnkd.in/gsm7qjgu
-                𝟮𝟭. ibm ai engineering: https://lnkd.in/gv5b9nka

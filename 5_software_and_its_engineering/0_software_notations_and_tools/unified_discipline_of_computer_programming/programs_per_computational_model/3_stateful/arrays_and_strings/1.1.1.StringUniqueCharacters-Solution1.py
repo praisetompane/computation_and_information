@@ -39,7 +39,7 @@ print(contain_all_unique_characters(s4))
         N = length of string, N <= C
 
 
-        Time = O(N) = O(C)
+        Time = 𝑂(𝑁) = O(C)
         Space = O(C)
             128 for all runs, therefore constant 
             The space cost of the boolean array

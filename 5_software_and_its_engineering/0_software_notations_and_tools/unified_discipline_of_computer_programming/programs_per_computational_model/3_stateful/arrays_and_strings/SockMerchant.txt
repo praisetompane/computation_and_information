@@ -15,34 +15,34 @@ Objective:
 1   1  3  1  2  1 3  3  3 3
 
 pairs = 0
-currentIndex = 0
+current_index = 0
 length = ar.length
 paired
 
-take currentValue at currentIndex
+take current_value at current_index
     for length - 1
-        y = currentIndex + 1
+        y = current_index + 1
         if y not in paired
-            if currentValue == ar[y]
+            if current_value == ar[y]
                 pairs += 1
-                currentIndex += 1
+                current_index += 1
                 add y to paired map
-    currentIndex += 1
+    current_index += 1
 
 
 =============== Attempt 2
 
 pairs = 0
-currentIndex = 0
+current_index = 0
 length = 7
 
 
 =============== Attempt 3 => Works
 
-    //numberGroup = group the same number
+    //number_group = group the same number
     /*
-        if numberGroup is even, add numberGroup/2 to pairs
+        if number_group is even, add number_group/2 to pairs
         else
-            val evenCount= find highest even number of elements
-            add eventCount/2 to pairs
+            val even_count= find highest even number of elements
+            add even_count/2 to pairs
     */

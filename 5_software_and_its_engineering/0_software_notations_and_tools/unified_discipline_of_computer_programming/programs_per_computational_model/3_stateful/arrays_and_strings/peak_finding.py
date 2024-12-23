@@ -1,5 +1,5 @@
 """
-    reference: https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=1
+    reference: Demaine E. Devadas S. 2011. MIT 6.006 Introduction To Algorithms. Lecture 1: Algorithmic Thinking, Peak Finding.
     Context:
         peak finder
             1 dimensional

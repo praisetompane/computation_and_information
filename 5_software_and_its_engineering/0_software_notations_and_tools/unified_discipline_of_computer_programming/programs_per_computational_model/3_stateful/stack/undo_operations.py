@@ -4,7 +4,7 @@ from impl.stack import Stack
     general use case = undo operations
     Performance:
         N = length of item list
-        Space = O(2 * N) = O(N)
+        Space = O(2 * N) = 𝑂(𝑁)
         write:
             Time = O(1)
         undo:

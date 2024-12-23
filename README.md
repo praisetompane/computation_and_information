@@ -41,7 +41,6 @@
 - [HackerNews](https://news.ycombinator.com/news)
 
 ## Computer Scientists:
-- [ACM Turing Interviews](https://www.youtube.com/playlist?list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO)
 
 ## References:
 - Konrad H. 2015. Computation in Science. Morgan & Claypool Publishers.

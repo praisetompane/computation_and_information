@@ -55,4 +55,4 @@ Algorithms:
 references:
     2,3,4 The Master Algorithm, Pedro Domingos
     1 Jeremy Kepner, and Vijay Gadepally. RES.LL-005 Mathematics of Big Data and Machine Learning. January IAP 2020.
-            Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu. https://www.youtube.com/watch?v=t4K6lney7Zw
+            Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu.

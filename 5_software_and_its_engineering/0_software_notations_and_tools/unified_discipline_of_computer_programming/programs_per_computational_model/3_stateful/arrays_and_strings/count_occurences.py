@@ -15,17 +15,17 @@
         there will always be a lonlely integer (i.e. n will always be odd)
         
     Flow
-        option 1: O(N + N) = O(2N) = O(N)
+        option 1: 𝑂(𝑁 + 𝑁) = O(2N) = 𝑂(𝑁)
             initialise empty hash occurances = array_value -> count
             for each value in a
                 store count in occurances
             find entry(key) with only one occurances
             CHOSE THIS ONE
-        Option 2: O(NlogN + N)
+        Option 2: 𝑂(𝑁𝑙𝑜𝑔𝑁 + 𝑁)
             sort
             return number whose adjacent is not equal to itself
         
-        Option 3: O(N) + O(1) = O(N) = WRONG THOUGH
+        Option 3: 𝑂(𝑁) + O(1) = 𝑂(𝑁) = WRONG THOUGH
             Since an odd number + odd number = even
                   an even number + odd number = even    
                   sum of n(which odd) is going to be odd

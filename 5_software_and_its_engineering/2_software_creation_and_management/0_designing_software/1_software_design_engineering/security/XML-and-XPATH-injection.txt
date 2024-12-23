@@ -1,9 +1,9 @@
 Def
-    target XML datastores
-    Inject maliciums XML or XPATH code using user input
+    target XML data stores
+    Inject malicious XML or XPATH code using user input
 Solution
     XPATH injection:
-        Parameterized XPATH inteface
+        Parameterized XPATH interface
         Sanitize all user input used in XPATH expressions
             Remove XPATH special characters:
                 () = [] : ' , * / WHITESPACES

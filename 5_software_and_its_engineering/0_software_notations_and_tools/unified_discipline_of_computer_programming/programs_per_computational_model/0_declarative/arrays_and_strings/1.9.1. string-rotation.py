@@ -59,19 +59,19 @@ def string_rotation(s1, s2):
     return is_substring(s1, s2 + s2)
 
 
-assert(string_rotation("waterbottle", "erbottlewat"))  # True
-assert(string_rotation("abcd", "cdab"))  # True
-assert(not string_rotation("abcd", "cdaob"))  # False
-assert(not string_rotation("abcd", ""))  # False
+assert (string_rotation("waterbottle", "erbottlewat"))  # True
+assert (string_rotation("abcd", "cdab"))  # True
+assert (not string_rotation("abcd", "cdaob"))  # False
+assert (not string_rotation("abcd", ""))  # False
 print("completed successfully")
 
 """
     Performance
         N = length of 1 (where s2 == s3 in length)
 
-        Time = O(2N + N) => O(N)
+        Time = O(2N + N) => 𝑂(𝑁)
              Time to concatenate s2 with itself and check if s1 is in s2
 
-        Space = O(2N) => O(N)
+        Space = O(2N) => 𝑂(𝑁)
             Storage for concatenation of s2 by itself
 """

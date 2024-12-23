@@ -14,7 +14,7 @@ computational problem types:
 
         1. Can you rearrange the data in to a structure more suitable for the problem?
 
-            e.g. SockMerchant.txt
+            e.g. Sock Merchant:
             https://www.hackerrank.com/challenges/sock-merchant/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
 
     Path Problems:
@@ -24,14 +24,14 @@ computational problem types:
         2. Walk the problem space while simultaneously solving the problem
             as opposed to mapping out the whole problem space(i.e. the path) then solving the problem
             e.g. 
-            JumpingOnTheClouds.txt
+            Jumping On The Clouds:
             https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
 
-            CountingValleys.txt
+            counting-valleys
             https://www.hackerrank.com/challenges/counting-valleys/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=warmup
         
         3.  Compute the final state without walking the whole path step by step
-            i.e. Avoid O(N) implementation
+            i.e. Avoid 𝑂(𝑁) implementation
             If the final state factor is defined(e.g. number of rotations)
 
             e.g. rotate_left.scala 
@@ -43,7 +43,7 @@ computational problem types:
             Q: How many operations did it take to get to jumbled state?
             A: Reverse to initial state and count operations required to rollback
 
-            e.g. NewYearChaos.scala
+            e.g. new-year-chaos.scala
 
         5. many decision points => 
             problem wording = generate, print all possibilities
@@ -69,12 +69,12 @@ computational problem types:
             def:
                 N = number of elements in data structure
                 
-                time = O(N)
-                memory = O(N)
+                time = 𝑂(𝑁)
+                memory = 𝑂(𝑁)
         """
 
 References:
-    Mcdowell GL. 2015. Cracking The Coding Interview. 6th ed. CareerCup.
+    Mcdowell G.L. 2015. Cracking The Coding Interview. 6th ed. CareerCup.
     Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.
-    Demaine E. Ku J. Solomon J. Introduction To Algorithms. 2020. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-1-algorithms-and-computation/
-    Demaine E. Devadas S. Introduction To Algorithms. 2011. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-4-heaps-and-heap-sort/.
+    Demaine E. Ku J. Solomon J. 2020. MIT 6.006 Introduction To Algorithms. 1. Algorithms and Computation
+    Demaine E. Devadas S. 2011. MIT 6.006 Introduction To Algorithms. Lecture 1: Algorithmic Thinking, Peak Finding.

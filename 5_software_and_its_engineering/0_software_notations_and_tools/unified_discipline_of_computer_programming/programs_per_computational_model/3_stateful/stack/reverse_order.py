@@ -4,8 +4,8 @@ from impl.stack import Stack
     general use case = reverse order
     Performance:
         N = length of item list
-        Time = O(2 * N) = O(N)
-        Space = O(2 * N) = O(N)
+        Time = O(2 * N) = 𝑂(𝑁)
+        Space = O(2 * N) = 𝑂(𝑁)
 """
 
 

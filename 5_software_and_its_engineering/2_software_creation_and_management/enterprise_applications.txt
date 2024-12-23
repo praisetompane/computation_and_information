@@ -15,7 +15,7 @@ BUILDING ACTUAL ENTERPRISE APPLICATION
 
       1.1.2. Repositories (Data access layer)
 
-    1.2. Messaging : RabbitMQ/ ActiveMQ/ MSMQ (Asnc)
+    1.2. Messaging : RabbitMQ/ ActiveMQ/ MSMQ (Asynchronous)
          Publish/Subscribe pattern
 
 
@@ -23,7 +23,7 @@ BUILDING ACTUAL ENTERPRISE APPLICATION
 
     1.4. Synchronous services
       REST:
-        Dropwizard
+        DropWizard
           Jetty : Application server
           Jersey: REST endpoints
           Jackson: JSON sterilizer

@@ -19,7 +19,7 @@ plain english:
             decisions = if, else
             repeat = iteration constructs = loops, recursion
             
-etymology: Why algorithms are called algorithms | BBC Ideas: https://m.youtube.com/watch?v=oRkNaF0QvnI
+etymology: Why algorithms are called algorithms | BBC Ideas:
         
 References:
     Wengrow J. 2017. A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills.
