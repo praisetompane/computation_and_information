@@ -12,7 +12,7 @@ class LinkedListDoubly:
         self.initialise_from_array(numbers)
 
     """
-        O(N)
+        𝑂(𝑁)
     """
 
     def toString(self):
@@ -26,7 +26,7 @@ class LinkedListDoubly:
         return number
 
     """
-        O(N)
+        𝑂(𝑁)
     """
 
     def toInt(self):
@@ -50,7 +50,7 @@ class LinkedListDoubly:
             self.tail = new_number
 
     """
-        O(N)
+        𝑂(𝑁)
     """
 
     def initialise_from_array(self, numbers):

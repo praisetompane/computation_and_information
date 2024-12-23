@@ -9,7 +9,7 @@ def operating system (or OS):
                             What Instruction Code is executed?
                                 Microcode?
                                 see: https://media.ccc.de/v/34c3-9058-everything_you_want_to_know_about_x86_microcode_but_might_have_been_afraid_to_ask
-                    - manage program lifecycle:
+                    - manage program life-cycle:
                         1. start program
                         2. allocate run time
                         3. terminate program
@@ -66,7 +66,7 @@ References:
     Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
 
 General References:
-- Operating Systems: Crash Course Computer Science #18: https://m.youtube.com/watch?v=26QPDBe-NB8&pp=ygUdT3BlcmF0aW5nIHN5c3RlbSBjcmFzaCBjb3Vyc2U%3D
+- Crash Course. 2017. Operating Systems: Crash Course Computer Science #18.
 - Linux:
-     - Memory Management: https://m.youtube.com/watch?v=tpRlczF0pqw
-     - Deep Linux. Heap: https://m.youtube.com/playlist?list=PLZQ4UbPWTlon-F9l6KAlAjxeZsqNmxM5K
+     - Deep Linux. 2022. Memory Management
+     - Deep Linux. 2023. glibc Heap Series

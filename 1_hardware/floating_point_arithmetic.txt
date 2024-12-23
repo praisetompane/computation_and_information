@@ -2,8 +2,4 @@ def IEEE 754:
     IEEE Standard for Floating-Point Arithmetic (IEEE 754)
     TBD
 
-    - IEEE Standard for Floating-Point Arithmetic (IEEE 754)
-    - IEEE Standard for Floating-Point Arithmetic (IEEE 754): https://www.youtube.com/watch?v=dQhj5RGtag0
-    - Representations of Floating Point Numbers: https://www.youtube.com/watch?v=yvdtwKF87Ts
-
-    sdff
+    - Neso Academy. 2022. IEEE Standard for Floating-Point Arithmetic (IEEE 754)

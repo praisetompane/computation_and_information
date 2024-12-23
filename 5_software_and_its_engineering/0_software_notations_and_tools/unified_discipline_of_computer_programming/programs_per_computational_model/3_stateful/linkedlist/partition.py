@@ -30,7 +30,7 @@
 
         Option 2:
             Use quick sort in language libary
-            BUT Write your own and could get O(N) since we're not interested in fully sorting the lit
+            BUT Write your own and could get 𝑂(𝑁) since we're not interested in fully sorting the lit
 
             Performance
                 Time: O(NlogN) =>  
@@ -53,7 +53,7 @@
                     move to next node
 
             Performance
-                Time: O(N) =>  
+                Time: 𝑂(𝑁) =>  
                 Space
 
             Paper Run:

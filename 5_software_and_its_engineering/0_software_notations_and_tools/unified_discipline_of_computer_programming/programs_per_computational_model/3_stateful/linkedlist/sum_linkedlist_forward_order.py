@@ -10,7 +10,7 @@
 
     Defintions:
 
-    Contraints:
+    Constraints:
 
     Assumptions:
         base 10 number system

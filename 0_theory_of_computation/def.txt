@@ -17,4 +17,4 @@ topics relationship (Yanofsky, 2021):
                                             
 References:
     Sipser, M. 2012. Introduction to the Theory of Computation. Cengage Learning.
-    Yanofsky, NS. 2021. Theoretical Computer Science. Chapter 0. Introduction.Brooklyn College.https://www.youtube.com/watch?v=OS33r2Fk8YQ&list=PLCqUsBXxq16yBaN_hpo7dY2l9N-ZLtI-X
+    Yanofsky, NS. 2021. Theoretical Computer Science. Chapter 0. Introduction.Brooklyn College.

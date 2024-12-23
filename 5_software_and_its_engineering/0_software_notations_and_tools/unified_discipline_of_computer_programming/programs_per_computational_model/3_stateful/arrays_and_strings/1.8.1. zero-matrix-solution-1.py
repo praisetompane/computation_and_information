@@ -73,11 +73,13 @@ def zero_matrix(source_matrix):
 
 source = [[1, 1, 0], [1, 1, 1], [0, 1, 1], [1, 1, 1]]
 
-print(zero_matrix(source) == [[0, 0, 0], [0, 1, 0], [0, 0, 0], [0, 1, 0]])  # true
+print(zero_matrix(source) == [[0, 0, 0], [
+      0, 1, 0], [0, 0, 0], [0, 1, 0]])  # true
 
 source = [[1, 1, 0, 1], [1, 1, 1, 1], [0, 1, 1, 1]]
 
-print(zero_matrix(source) == [[0, 0, 0, 0], [0, 1, 0, 1], [0, 0, 0, 0]])  # true
+print(zero_matrix(source) == [[0, 0, 0, 0],
+      [0, 1, 0, 1], [0, 0, 0, 0]])  # true
 """ 
     Performance
         M = rows
@@ -85,6 +87,6 @@ print(zero_matrix(source) == [[0, 0, 0, 0], [0, 1, 0, 1], [0, 0, 0, 0]])  # true
         
         Time = O(M*N) 
             We have to inspect every element in the matrix
-        Space = O(N) where N is the larger of N and M    
+        Space = 𝑂(𝑁) where N is the larger of N and M    
             Storage for flags
 """

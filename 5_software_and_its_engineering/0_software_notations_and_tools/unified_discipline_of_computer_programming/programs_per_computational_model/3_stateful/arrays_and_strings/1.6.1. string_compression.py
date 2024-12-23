@@ -65,7 +65,8 @@ def compress(string_input):
 
             if character != current_character or i == last_index:
                 compressed_string = (
-                    compressed_string + str(current_character) + str(character_count)
+                    compressed_string +
+                    str(current_character) + str(character_count)
                 )
                 character_count = 1
                 current_character = character
@@ -89,7 +90,7 @@ print(compress("abcdef") == "abcdef")  # true  compressed same as original
 """
     Performance
         N = length of string
-        Time = O(N)
-        Space = O(2N) => O(N)
+        Time = 𝑂(𝑁)
+        Space = O(2N) => 𝑂(𝑁)
             Compressed string might be twice as long for 
 """

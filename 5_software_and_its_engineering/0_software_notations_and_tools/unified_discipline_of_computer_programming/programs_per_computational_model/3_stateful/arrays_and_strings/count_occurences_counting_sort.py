@@ -24,9 +24,9 @@
         100 <= n <= 10^6 : size of the array
         0 <= arr[i] < 100 range of values
     Performance
-            O(N): we visit each array element
+            𝑂(𝑁): we visit each array element
             O(100): initialise frequncy table of size 100
-            O(N + 100) = O(N) : drop constants
+            O(N + 100) = 𝑂(𝑁) : drop constants
 """
 
 

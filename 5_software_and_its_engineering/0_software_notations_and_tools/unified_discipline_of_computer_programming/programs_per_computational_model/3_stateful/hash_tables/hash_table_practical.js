@@ -26,7 +26,7 @@ console.log('Count votes linear ', countVotes(votes))
 
 /*
     O(1) insetion
-    O(N) counting/read
+    𝑂(𝑁) counting/read
 */
 //end non hash table solution
 votesH = {}

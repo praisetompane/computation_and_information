@@ -17,16 +17,16 @@ class LinkedList:
         while current_node != None:
             string_value += f"{current_node.value} "
             current_node = current_node.next
-            
+
         return string_value
 
     def reverse(self):
         """
             Performance:
 
-                Time = O(N)
+                Time = 𝑂(𝑁)
                 Space = O(1): reuses existing nodes.
-    
+
         """
         current_node = self.head
         next_node = None

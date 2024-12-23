@@ -12,8 +12,8 @@ end
     removal from beginning is O(1)
 
     perfect for a queue
-    vs normal linked list O(1) removal from beginning, O(N) insertion at the end
-    vs array O(N) removel from beginning, O(1) insetion at the end
+    vs normal linked list O(1) removal from beginning, 𝑂(𝑁) insertion at the end
+    vs array 𝑂(𝑁) removel from beginning, O(1) insetion at the end
 '''
 class DoublyLinkedList
     attr_accessor :first_node, :last_node

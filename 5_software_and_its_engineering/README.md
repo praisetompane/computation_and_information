@@ -27,6 +27,10 @@
 
 ## References:
 - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
+<<<<<<< HEAD
 - The Architecture of Open Source Applications: http://aosabook.org/en/index.html
 - https://github.com/aosabook
 >>>>>>> 44a3db6f (docs: clean up top level introduction documents)
+=======
+- The Architecture of Open Source Applications. Volume 1
+>>>>>>> f69e33de (fix: spelling errors and add exceptions for Mathematics concepts, Authors and random characters in URLs.)

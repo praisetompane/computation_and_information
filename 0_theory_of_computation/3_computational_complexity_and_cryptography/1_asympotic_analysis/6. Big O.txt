@@ -4,29 +4,29 @@ def =
     
 An analogy
 
-TIME COMPLEnITY
+TIME COMPLEXITY
     Asymptotic runtime/Big O time
-        - How does the runtime(runnig time) of the algorithm chnage,
+        - How does the runtime(running time) of the algorithm change,
               as the size of the problem changes
 
     Big O, Big Theta and Big Omega
 
     Three ways to describe an algorithm's runtime
-        Best Case, Worst Case and Enpected Case
+        Best Case, Worst Case and Expected Case
 
-SPACE COMPLEnITY
+SPACE COMPLEXITY
     The amount of memory/space
         required by an algorithm
 
     e.g.
-        array of n size = O(n) space complenty
-        2D array of n*n = O(n^2) space complenty
+        array of n size = O(n) space complexity
+        2D array of n*n = O(n^2) space complexity
         stack space used in recursive calls
-            def fac(n):
+            def factorial(n):
                 if n == 1: return 1
-                else: return(n * fac(n - 1))
+                else: return(n * factorial(n - 1))
             
-            For function above, O(n) space complexity on fac calls on the stack
+            For function above, O(n) space complexity on factorial calls on the stack
 
 
 DROP THE CONSTANTS
@@ -40,14 +40,14 @@ DROP THE NON DETERMINANT CONSTANTS
     O(N^2 + N) should just be O(N)
     O(N^2 + N^2) should just be O(N^2)
 
-COMMON BIG O RUNTIMES, BEST TO WORST
+COMMON BIG O RUNTIME, BEST TO WORST
 
     O(1)     = constant time
     O(log n) = logarithmic time
     O(n) = linear time
     O(n log n) = 
     O(n^2) = 
-    O(2^n) = enponential time
+    O(2^n) = exponential time
     O(n!) = 
     ...
     O(n^n)
@@ -70,7 +70,7 @@ MULTIPART ALGORITHMS
             O(A * B)
 
 AMORTISED TIME ???(COME BACK TO THIS)
-    def = rumtime that descibes the worst case happens infrequently
+    def = runtime that describes the worst case happens infrequently
 
     ArrayList
         insertion runtime:
@@ -78,7 +78,7 @@ AMORTISED TIME ???(COME BACK TO THIS)
                                 rare
             common = O(1)
 
-        Expl: during insertion, double capacity when size is power of 2
+        Explanation: during insertion, double capacity when size is power of 2
               double the capacity at size  1,2,4,8,16 ... X
                                      takes 1,2,4,8,16 ... X copies
 
@@ -86,10 +86,10 @@ AMORTISED TIME ???(COME BACK TO THIS)
                                      right to left = halves until you get to 1
                                      X + x/2 + x/4+ x/8 + ... 1 roughly 2X 
 
-                                     X insertion takes O(2X) = armotised time for each insertion
+                                     X insertion takes O(2X) = armotized time for each insertion
                                      
 
-log N RUNTIMES
+log N RUNTIME
     O(log N)
     Problem size is halved until its equal to 1
 
@@ -108,7 +108,7 @@ log N RUNTIMES
                     log 2 = 1
                     log 16 = 3
 
-RECURSIVE RUNTIMES
+RECURSIVE RUNTIME
     int f (n) {
         if (n <= 1){
             return 1;
@@ -117,7 +117,7 @@ RECURSIVE RUNTIMES
     }
 
     my runtime
-        O(N + N) => O(2N) => O(N)
+        𝑂(𝑁 + 𝑁) => O(2N) => O(N)
         first f(n - 1) and f(n - 1) are loops
         INCORRECT! as subsequent calls in the first f(n - 1) each generate a pair of f(n - 1)
             that's not a loop through N elements(it's a lot more) 
@@ -127,12 +127,12 @@ RECURSIVE RUNTIMES
 
                 Applies when there are more than 1 function calls per recursive node 
 
-                Otherwise it's just O(N), much like a loop (asuuming ofcourse we go through each value of N)
+                Otherwise it's just O(N), much like a loop (assuming of-course we go through each value of N)
     correct
         O(2^N)
         EXPLAIN??
 
-EXCERCISES
+EXERCISES
     Why sorting is O(N log N)?
         Come back:
         Exercise 8

@@ -28,7 +28,7 @@ class Queue:
     def is_empty(self):
         return len(self.items) == 0
 
-    # O(N)
+    # 𝑂(𝑁)
     def __str__(self):
         return ",".join([str(i) for i in self.items])
 

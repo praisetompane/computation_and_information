@@ -6,8 +6,8 @@ Predicting Best fit line/curve to approximate data :
     partial derivative
 
 
-    y = mx + c
-        c is the y intercept? What is that?
+    𝑦 = 𝑚𝑥 + 𝑐
+        𝑐 is the y intercept? What is that?
 
 Logistic Regression:
     Predict output that can only assume two binary values
@@ -18,4 +18,4 @@ Logistic Regression:
     sigmoid function: function that exists only between 0 and 1 
 
 references:
-    Zach Star, The Mathematics of Machine Learning. https://www.youtube.com/watch?v=Rt6beTKDtqY
+    Zach Star. 2018. The Mathematics of Machine Learning.

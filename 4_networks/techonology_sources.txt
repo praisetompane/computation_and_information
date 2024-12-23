@@ -1,4 +1,4 @@
-techonology sources:
+technology sources:
     - Vendors:
         - Cisco System
         - IBM

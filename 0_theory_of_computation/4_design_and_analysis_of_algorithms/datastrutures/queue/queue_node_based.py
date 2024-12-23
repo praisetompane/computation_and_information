@@ -42,7 +42,7 @@ class Queue:
     def is_empty(self):
         return self.first is None
 
-    # O(N)
+    # 𝑂(𝑁)
     def __str__(self):
         current = self.first
         queue = ""

@@ -6,14 +6,14 @@ def: throughput: the maximum data that is transferred a unit of time.
 
 def: latency: the amount of time it takes data to go from one end to another.
 
-            pratical example:
+            practical example:
                 amount of time it takes data
                     for a request from a client node
                     to reach a server node
 
             latency = request_time - request_reception_time    
 
-pratical example:
+practical example:
     given:
         10m cable
         10 bits width cable := 10 bits cab be on the cable concurrently(i.e. at the same time).
