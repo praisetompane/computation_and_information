@@ -1,0 +1,19 @@
+name: computation_and_information
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  spell_check:
+    runs-on: ubuntu-latest
+    steps:
+    - name: check out repo
+      uses: actions/checkout@v4
+    - name: spell check
+      uses: rojopolis/spellcheck-github-actions@0.45.0
+      with:                                        
+        task_name: Markdown
+        output_file: spellcheck-output.txt

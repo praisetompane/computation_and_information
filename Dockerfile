@@ -1,12 +1,11 @@
-FROM mcr.microsoft.com/devcontainers/python:3.12
+FROM mcr.microsoft.com/devcontainers/python:3.13
 
 WORKDIR /computation_and_information
 
 COPY . .
 
 RUN export DEBIAN_FRONTEND=noninteractive
-RUN sudo apt-get update
-RUN sudo apt-get clean
-RUN sudo rm -rf /var/lib/apt/lists/*
+RUN apt-get update \
+    && apt-get install -y aspell
 
 RUN pipenv install
