@@ -27,7 +27,7 @@ Flow:
 Performance:
     Time = O(1) 
         constant time to copy data and shift pointers
-    Space = O(N)
+    Space = 𝑂(𝑁)
         Space to store linkedlist
 
 """

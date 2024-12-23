@@ -9,7 +9,7 @@ def file (Scott, 2009:115):
 
 def file system:
 
-    formal (Linux System Administrators Guide): a datastructure and method
+    formal (Linux System Administrators Guide): a data structure and method
                 that provides a way
                     to manage how
                         data is stored and retrieved from disk.

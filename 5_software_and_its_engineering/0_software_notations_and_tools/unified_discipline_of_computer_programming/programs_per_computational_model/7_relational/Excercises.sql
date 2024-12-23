@@ -93,7 +93,7 @@
 	SELECT custid,empid
 	FROM Sales.Orders
 	where (orderdate BETWEEN '20080201' AND '20080301'))
-		EXCEPT -- You need to explictly exclude the members of the set that you dont want(those who are member on the 2007 set)
+		EXCEPT -- You need to explictly exclude the members of the set that you don't want(those who are member on the 2007 set)
 	SELECT custid,empid
 	FROM Sales.Orders
 	WHERE Year(orderdate) = 2007 -- Needed because you get custid and empids that placed orders in 2007 and subtract from the above ser

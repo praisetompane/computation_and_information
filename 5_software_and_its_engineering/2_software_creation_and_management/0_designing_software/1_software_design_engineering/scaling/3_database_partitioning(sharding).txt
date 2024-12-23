@@ -12,13 +12,13 @@ types:
         limitation: each feature(vertical slice) can get large
                         thus would need to partition that.
                             possibly with a different partition method => more complexity
-        pratical example:
+        practical example:
             given:
                 social network:
                     friends
                     messages
                     profile
-            partition accross:
+            partition across:
                 database server 1: friends
                 database server 2: messages
                 database server 3: profiles
@@ -26,7 +26,7 @@ types:
     - key-based(hash-based):
         use some part of the data to partition by.
 
-        pratical simple example:
+        practical simple example:
             allocate N servers
             use mod(key, n) to allocate data with identifier = key to server n
                 limitation := fixed number of servers
@@ -34,7 +34,7 @@ types:
 
     - directory-based:
         maintain look up table of where data is located.
-        allows for easy additinal servers
+        allows for easy additional servers
         limitation: 
             directory is a single point of failure
             performance impact from frequent access of directory

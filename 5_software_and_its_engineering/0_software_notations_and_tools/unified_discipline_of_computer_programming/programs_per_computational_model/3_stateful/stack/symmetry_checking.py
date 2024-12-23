@@ -4,8 +4,8 @@ from impl.stack import Stack
     general use case: symmetry test
     Performance:
         N = length of _document
-        Time = O(N)
-        Space = O(N)
+        Time = 𝑂(𝑁)
+        Space = 𝑂(𝑁)
 """
 
 

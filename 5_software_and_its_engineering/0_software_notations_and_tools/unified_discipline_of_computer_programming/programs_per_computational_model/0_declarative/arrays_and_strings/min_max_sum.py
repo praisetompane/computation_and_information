@@ -33,10 +33,10 @@
     Performance 
         N = size of array
         S = O(NlogN): sorting time
-        MIS = O(N - 1) = O(N) : minimum sum
-        MAS = O(N - 1) = O(N) : maximum sum
+        MIS = O(N - 1) = 𝑂(𝑁) : minimum sum
+        MAS = O(N - 1) = 𝑂(𝑁) : maximum sum
 
-        O(NlogN + N)
+        𝑂(𝑁𝑙𝑜𝑔𝑁 + 𝑁)
 """
 
 

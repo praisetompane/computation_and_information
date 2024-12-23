@@ -1,11 +1,11 @@
 def n: = number of elements
     
-log₂n       :
+𝑙𝑜𝑔₂𝑛      :
 
 n           : for every item in a list
                 visit it once
                     to solve the problem
-nlog₂n      :
+𝑛𝑙𝑜𝑔₂𝑛     :
 
     N²      : for every item in a list, 
                 combine it individually

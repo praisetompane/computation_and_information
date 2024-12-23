@@ -1,5 +1,5 @@
 def:
-    users can perform actions they are not authorisef for
+    users can perform actions they are not authorized for
     resources can be accessed by unauthorised users
 
 causes: 
@@ -12,7 +12,7 @@ causes:
 
         access unauthorised functions:
             authenticated user
-                knows framework => crafts URL(to an endpoint) to create a user with elevated priviledges
+                knows framework => crafts URL(to an endpoint) to create a user with elevated privileges
                     - happens if the endpoint is protected by access control checks
 
 solutions:

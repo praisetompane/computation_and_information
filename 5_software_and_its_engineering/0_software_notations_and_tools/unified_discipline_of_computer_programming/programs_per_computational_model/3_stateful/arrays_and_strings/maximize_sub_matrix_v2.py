@@ -61,7 +61,7 @@ import sys
             if number > any in max_values
                 swap number with max_values
         return sum max_Values
-    Contraints:
+    Constraints:
         1 <= q <= 16
         1 <= 
     Performance

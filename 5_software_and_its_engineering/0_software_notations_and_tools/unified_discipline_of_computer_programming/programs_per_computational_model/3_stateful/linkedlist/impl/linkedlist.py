@@ -10,7 +10,7 @@ class LinkedList:
         self.initialise_from_array(numbers)
 
     """
-        O(N)
+        𝑂(𝑁)
     """
 
     def toString(self):
@@ -24,7 +24,7 @@ class LinkedList:
         return number
 
     """
-        O(N)
+        𝑂(𝑁)
     """
 
     def toInt(self):
@@ -34,7 +34,7 @@ class LinkedList:
             return int(self.toString())
 
     """
-        O(N)
+        𝑂(𝑁)
     """
 
     def add(self, data):
@@ -48,7 +48,7 @@ class LinkedList:
             current_node.next = new_number
 
     """
-        O(N)
+        𝑂(𝑁)
     """
 
     def initialise_from_array(self, numbers):

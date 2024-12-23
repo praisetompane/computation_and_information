@@ -6,7 +6,7 @@ Two major types of Machine Learning Algorithms
         - Discrete list of the possible values (Yes/No; 1, 2 , 5; Non lethal, Lethal, Fatal) is
         given to the machine
 
-        Two subtypes
+        Two sub-types
             - Regression algorithms: Predict a continuous value output(example of the price of a house)
             - Classification algorithms: Predict a discrete value output(1 or 0; Yes,No,Maybe)
 
@@ -128,5 +128,3 @@ LINEAR REGRESSION WITH ONE VARIABLE (UNIVARIATE LINEAR REGRESSION)
 
         * Use Gradient descent to MINIMIZE J(θ0,θ1)[The cost function]
         * Determine partial derivative's value for θ0 and θ1
-          https://www.coursera.org/learn/machine-learning/supplement/Mc0tF/linear-regression-with-one-variable
-          : Just the slop of the cost function  J(θ0,θ1)

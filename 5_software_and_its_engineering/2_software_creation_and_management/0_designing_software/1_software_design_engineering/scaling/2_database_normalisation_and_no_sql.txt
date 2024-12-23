@@ -5,35 +5,35 @@ context: joins across database tables get slow as the system grows larger.
         O(Table1 * Table2 * Table3 ...Tableₙ)
 
 solutions:
-    - denormalisation
+    - denormalization
     - NoSQL
 
-def: denormalisation: store redundant data in database to speed up reads
+def: denormalization: store redundant data in database to speed up reads
 
-    pratical example:
+    practical example:
         store related data, but distinct data on one table
         instead of separate ones linked by keys
         
         given, tables: 
             project:
-                projectId PK
+                project_id PK
                 name
-                duedate
+                due_date
                 ...
             task:
-                taskId PK
-                projectId FK
+                task_id PK
+                project_id FK
                 name
-                duedate
+                due_date
                 description
                 assignee
                 ...
         can be:
             project_task
-                projectTaskId
-                projectname
-                taskname
-                taskduedate
+                project_task_id
+                project_name
+                task_name
+                due_date
                 description
                 assignee
 

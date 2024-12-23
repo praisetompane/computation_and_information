@@ -27,6 +27,6 @@ print(contain_all_unique_characters(s4))
 
         Time = O( N log N + N)
             sort takes = N log N
-        Space = O(N)
+        Space = 𝑂(𝑁)
             The space cost of the sorted array
 """

@@ -2,13 +2,13 @@
 def: the science of giving computers the ability to act intelligently (Kepner, Gadepally, 2020).
 
 subsets (Kepner, Gadepally, 2020)
-  - Narrow AI: Theory and develpment of computing sytems that perform tasks that augment for human intelligence such perception, classification, reasoning, learning, abstracting and/or acting etc.
-  - General AI: Theory and develpment of fully autonous co  ting sytems.
+  - Narrow AI: Theory and develOpment of computing systems that perform tasks that augment for human intelligence such perception, classification, reasoning, learning, abstracting and/or acting etc.
+  - General AI: Theory and develOpment of fully autonomous co  ting systems.
 
 constraints:
   - compute
   - data
-  - generalisable knowledge and ability to encode it into algorithm
+  - generalizable knowledge and ability to encode it into algorithm
 
 four waves of AI (Kepner, Gadepally, 2020)
   - Reasoning
@@ -18,12 +18,12 @@ four waves of AI (Kepner, Gadepally, 2020)
 
 Dimensions: - Reasoning - Learning - Abstracting - Reasoning
 
-Contraints:
+Constraints:
   Compute power
   Data(Size and Quality)
   Ability to encode knowledge into algorithm
 
-- Reasoning: Explicity define what the rules of a domain are.
+- Reasoning: ExplicitLy define what the rules of a domain are.
   - Perceiving: Low
   - Learning: None
   - Abstracting: None
@@ -46,4 +46,4 @@ Contraints:
   - Reasoning: High
 
 References:
-  Kepner J., Gadepally V. 2020. RES.LL-005 Mathematics of Big Data and Machine Learning. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu. https://www.youtube.com/watch?v=t4K6lney7Zw
+  Kepner J., Gadepally V. 2020. RES.LL-005 Mathematics of Big Data and Machine Learning. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu.

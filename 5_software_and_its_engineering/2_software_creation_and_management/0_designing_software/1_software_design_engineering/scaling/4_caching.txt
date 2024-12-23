@@ -4,13 +4,13 @@ def: in memory key-value mapping
         on data request:
         retrieve from cache
             if not found, 
-                qurery data store
+                query data store
                 maybe add to cache
                     either data
                     or rendered version
             
 
-        pratical example:
+        practical example:
             key := query
             value := database rows
 

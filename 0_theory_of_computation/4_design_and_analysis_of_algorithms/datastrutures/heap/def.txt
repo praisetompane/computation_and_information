@@ -33,7 +33,7 @@ Heap:
                 left(i) = 2i
                 right(i) = 2i + 1
 
-                height of tree is bound by logN,
+                height of tree is bound by 𝑙𝑜𝑔(𝑁),
                     because the tree representation/visualization is nearly complete tree.  
 
 Max Heap (Demaine, Devadas, 2011):
@@ -45,7 +45,7 @@ Max Heap (Demaine, Devadas, 2011):
 
     Abstract Data Type(ADT) :
         - max_heapify(A, i)
-            O(logN) => N = A length
+            O(𝑙𝑜𝑔(𝑁)) => N = A length
             NB: assumes trees at left(i) and right(i) are max heaps (i.e. already correct)
         - build_max_heap(A)
             for i in n/2 down to 1
@@ -61,7 +61,7 @@ Max Heap (Demaine, Devadas, 2011):
         leaves = O   O O
     
         leaves = elements A[n/2 + 1 ... n]
-        ∴ O(NlogN)
+        ∴ 𝑂(𝑁𝑙𝑜𝑔𝑁)
 
     Performance:
         - observe max_heapify takes:
@@ -72,7 +72,7 @@ Max Heap (Demaine, Devadas, 2011):
         - observe we have:
             - n/4 nodes at level 1
             - n/8 nodes at level 2
-            - 1 node at level logN    
+            - 1 node at level 𝑙𝑜𝑔(𝑁)    
             
 References: 
     Demaine E., Devadas S. Introduction To Algorithms. 2011. https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-fall-2011/resources/lecture-4-heaps-and-heap-sort/.
