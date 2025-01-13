@@ -5,7 +5,7 @@ matrix:
       ignore-case: false
     dictionary:
       wordlists:
-        - .wordlist.txt
+        - .spellcheck_exceptions_dictionary.txt
       encoding: utf-8
     sources:
       - "**/*.md"

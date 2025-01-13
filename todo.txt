@@ -1,3 +1,15 @@
+- 0_foundations/0_theory_of_computation:
+    - lectures:
+        - Prof. Michael Sipser. 2020. MIT 18.404J Theory of Computation
+    - readings:
+        https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/lecture-notes/
+        https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/
+    - recitations:
+    - assignments:
+        https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
+    - exams:
+        https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
+
 - 1_mathematics_of_computing:
     - lectures:
         - Prof. Tom Leighton, Dr. Marten van Dijk. 2010. MIT 6042J Mathematics for Computer Science:
@@ -60,33 +72,36 @@
         - Aho, Alfred V., Ravi Sethi, and Jeffrey Ullman. Compilers: Principles, Techniques and Tools. Reading, MA: Addison-Wesley, 1986. ISBN: 0201100886.
             The classic compilers textbook, although its front-end emphasis reflects its age. (Dragon book)
 
-- 2_hardware:
-    - lectures:
-        - Prof. Chris Terman. 2017. MIT 6.004 Computation Structures
-            - current: 1.2.1 What is Information: *
-
-        - Prof. Charles Leiserson, Prof. Julian Shun. 2018. MIT 6.172 Performance Engineering of Software Systems
-            - current: None
-    - readings:
-        - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/
-        - but_how_do_it_know?_the_basic_principles_of_computers_for_everyone
-        - https://github.com/brianrhall/Assembly
-    - assignments:
-    - exams:
-
 ============================================================================================================
 - next₁:
-    - 0_foundations/0_theory_of_computation:
+    - 2_hardware:
         - lectures:
-            - Prof. Michael Sipser. 2020. MIT 18.404J Theory of Computation
+            - Prof. Chris Terman. 2017. MIT 6.004 Computation Structures
+                - current: 1.2.1 What is Information: *
+
+            - MITx's Circuits and Electronics XSeries Program: 
+                - series: https://www.edx.org/xseries/mitx-circuits-and-electronics
+
+                - MITx: Circuits and Electronics 1: Basic Circuit Analysis
+                    - https://www.edx.org/learn/circuits/massachusetts-institute-of-technology-circuits-and-electronics-1-basic-circuit-analysis
+
+                - MITx: Circuits and Electronics 2: Amplification, Speed, and Delay
+                    - https://www.edx.org/learn/circuits/massachusetts-institute-of-technology-circuits-and-electronics-2-amplification-speed-and-delay
+
+                - MITx: Circuits and Electronics 3: Applications
+                    - https://www.edx.org/learn/electronics/massachusetts-institute-of-technology-circuits-and-electronics-3-applications-2
+
+            - Prof. Charles Leiserson, Prof. Julian Shun. 2018. MIT 6.172 Performance Engineering of Software Systems
+                - current: None
+                
         - readings:
-            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/lecture-notes/
-            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/
-        - recitations:
+            - https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/
+            - but_how_do_it_know?_the_basic_principles_of_computers_for_everyone
+            - https://github.com/brianrhall/Assembly
+            - hardware integration | hardware-software integration | system integration: https://www.tea.blue/blog/hardware-software-integration-benefits/
+        
         - assignments:
-            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
         - exams:
-            https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/exams/
 
     - 5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages:
         - lectures:
