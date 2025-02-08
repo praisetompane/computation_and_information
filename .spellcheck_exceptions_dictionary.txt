@@ -59,9 +59,10 @@ Vijay
 Wengrow
 Yanofsky
 Zach
-
+Slonka
 
 # concepts
+superset
 ADT
 ALU
 Analagizers
@@ -214,6 +215,7 @@ llm
 LTE
 matplotlib
 mibs
+mojo
 MSMQ
 nltk
 npm
@@ -221,6 +223,8 @@ numpy
 odbc
 pdos
 pypi
+pipenv
+pyspelling
 RabbitMQ
 riscv
 Scaladex
@@ -234,7 +238,8 @@ UDP
 Verilog
 Worndet
 yaml
-
+cpython
+modularml
 
 # institutions
 ACM
@@ -355,3 +360,8 @@ lecun
 README
 txt
 warmup
+FJE
+PLn
+nlO
+nrSd
+xjjaSLBSzmno
