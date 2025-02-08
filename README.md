@@ -5,10 +5,10 @@
 
 **def computation¹**: the **transformation** of **sequences of symbols** by **precise rules**(Konrad, 2015:6)
 
-* symbols = {1,0,\*,{,;,<,>,...}
-  * example sequences:
-    * 11010
-    * ;\*>{11}  
+- symbols = {1,0,\*,{,;,<,>,...}
+  - example sequences:
+    - 11010
+    - ;\*>{11}
       i.e. any sequence of the valid symbols
 * precise rules = steps to follow
 
@@ -41,6 +41,13 @@
 - [HackerNews](https://news.ycombinator.com/news)
 
 ## Computer Scientists:
+- [ACM A.M. Turing Award Laureate Interviews](https://www.youtube.com/playlist?list=PLn0nrSd4xjjaSLBSzmno-3Ods6FJE9nlO)
+
+## Spellcheck:
+```shell
+pipenv shell
+pyspelling -c spellcheck.yaml
+```
 
 ## References:
 - Konrad H. 2015. Computation in Science. Morgan & Claypool Publishers.
