@@ -13,7 +13,7 @@
     - [codes](../2_hardware/a_simple_computer_implementation/7_codes.txt)
     - [languages](../2_hardware/a_simple_computer_implementation/13_languages.txt)
    
-[**def computer programming**](./0_software_notations_and_tools/unified_discipline_of_computer_programming/README.md)
+[**def computer programming**](../5_software_and_its_engineering/2_software_creation_and_management/computer_programming/README.md)
 
 
 ## Tech Stacks
