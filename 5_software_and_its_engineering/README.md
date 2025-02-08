@@ -13,24 +13,20 @@
     - [codes](../2_hardware/a_simple_computer_implementation/7_codes.txt)
     - [languages](../2_hardware/a_simple_computer_implementation/13_languages.txt)
    
-[**def computer programming**](./5_software_and_its_engineering/0_software_notations_and_tools/unified_discipline_of_computer_programming/README.md)
+[**def computer programming**](../5_software_and_its_engineering/2_software_creation_and_management/computer_programming/README.md)
 
 
-<<<<<<< HEAD
 # References:
 * Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
 * The Architecture of Open Source Applications: http://aosabook.org/en/index.html
 * https://github.com/aosabook
-=======
+
 ## Tech Stacks
 - [stacks](https://stackshare.io/stacks)
 
 ## References:
 - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
-<<<<<<< HEAD
 - The Architecture of Open Source Applications: http://aosabook.org/en/index.html
 - https://github.com/aosabook
->>>>>>> 44a3db6f (docs: clean up top level introduction documents)
-=======
 - The Architecture of Open Source Applications. Volume 1
->>>>>>> f69e33de (fix: spelling errors and add exceptions for Mathematics concepts, Authors and random characters in URLs.)
+
