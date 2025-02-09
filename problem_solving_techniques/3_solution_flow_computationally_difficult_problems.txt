@@ -1,0 +1,13 @@
+when confronted with a problem that seems computationally difficulty (Sipser. 2012:2):
+    Option 1: Understand which aspect(s) of the problem are the root of the difficulty
+                Attempt to rephrase them in a way that is easily solvable
+    Option 2: You may be able to settle for a less than perfect solution to the problem
+    Option 3: Some problems are only hard at the worst case and easy for all other cases.
+                Determine if yours is one of these.
+                    Is it fine if it runs fast most of the time and slow once in a while?
+    Option 4: Consider other types of computation, that might speed up certain tasks/aspects.
+        e.g. random computation.
+
+
+References:
+    Sipser, M. 2012. Introduction to the Theory of Computation. Cengage Learning.

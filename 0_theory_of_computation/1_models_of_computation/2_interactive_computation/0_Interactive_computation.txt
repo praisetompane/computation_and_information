@@ -1,4 +1,4 @@
-def x:
+def interactive_computation:
     - formal: ???
 
         - in words: ???

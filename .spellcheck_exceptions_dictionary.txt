@@ -305,7 +305,6 @@ forName
 printf
 py
 
-
 # programming definitions
 BankToBankPayment
 calculateFee
@@ -346,8 +345,6 @@ WriteStream
 ZapperPayment
 ZeroAmountException
 ZeroPayablePayment
-
-
 
 # urls
 AddSteps

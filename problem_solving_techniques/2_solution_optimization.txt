@@ -1,20 +1,18 @@
-
 Your key weapon: Hash table (Mcdowell, 2015)
 
 Standard Asymptotic Complexities:
-    * 𝑂(1)
-    * 𝑂(𝑙𝑜𝑔ₙ)
-    * 𝑂(𝑁)
-    * 𝑂(𝑁𝑙𝑜𝑔ₙ)
-    * 𝑂(𝑁²)
-    * 𝑂(𝑁³)
-    * (2ⁿ)
+    - 𝑂(1)
+    - 𝑂(𝑙𝑜𝑔ₙ)
+    - 𝑂(𝑁)
+    - 𝑂(𝑁𝑙𝑜𝑔ₙ)
+    - 𝑂(𝑁²)
+    - 𝑂(𝑁³)
+    - (2ⁿ)
 
-    * O(1): no optimization needed
+    - O(1): no optimization needed
     
-    * O(N²):
+    - O(N²):
         How do you explore n² combinations in N time(i.e. in one iteration = 𝑂(𝑁))?
-
 
             1. Change from:
                     iterating(exploring) with an index
