@@ -10,8 +10,7 @@
 				"ms-python.vscode-pylance",
 				"ms-python.black-formatter",
 				"ms-python.debugpy",
-				"ms-python.mypy-type-checker",
-				"mozart-oz.vscode-oz"
+				"ms-python.mypy-type-checker"
 			],
 			"settings": {}
 		}
