@@ -1,4 +1,4 @@
-def x:
+def probabilistic computation:
     - formal: ???
 
         - in words: ???

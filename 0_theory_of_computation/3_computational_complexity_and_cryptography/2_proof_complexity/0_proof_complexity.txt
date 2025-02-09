@@ -1,4 +1,4 @@
-def x:
+def proof complexity:
     - formal: ???
 
         - in words: ???
