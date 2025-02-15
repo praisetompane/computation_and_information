@@ -1,0 +1,20 @@
+def regular language:
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties: ???
+
+    - examples: ???
+
+    - use cases: ???
+        
+    - proof: ???
+    
+References:
+    Sipser, M. 2020. Introduction to the Theory of Computation.
+

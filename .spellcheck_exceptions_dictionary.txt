@@ -190,7 +190,7 @@ WTW
 YCSCS
 
 
-# technology
+# technology:
 ActiveMQ
 Artifactory
 boneCP
@@ -241,7 +241,7 @@ yaml
 cpython
 modularml
 
-# institutions
+# institutions:
 ACM
 anthropics
 CareerCup

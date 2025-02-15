@@ -34,6 +34,7 @@
             - current: Lecture 2: Models of Computation, Document Distance: *
     - readings:
         - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/
+        - T.H., Leiserson C.E., Rivest R.L., Stein, C. 2009. Introduction To Algorithms. The MIT Press.pdf.pdf
     - assignments:
         - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/assignments/
         - practice:
@@ -219,6 +220,9 @@ next₂:
         - lectures:
             - Ben-David, S. 2015. University of Waterloo CS 485-685 Foundations of Machine Learning
             - Broderick, T. 2020. MIT 6.036 Introduction to Machine Learning
+            - MITx: Introduction to Computational Thinking and Data Science: https://www.edx.org/learn/computer-science/massachusetts-institute-of-technology-introduction-to-computational-thinking-and-data-science
+            - MITx: Machine Learning with Python: from Linear Models to Deep Learning: https://www.edx.org/learn/machine-learning/massachusetts-institute-of-technology-machine-learning-with-python-from-linear-models-to-deep-learning?utm_source=mitopenlearning-mit-open-learning&utm_medium=affiliate_partner
+            - HarvardX: CS50's Introduction to Artificial Intelligence with Python: https://www.edx.org/learn/artificial-intelligence/harvard-university-cs50-s-introduction-to-artificial-intelligence-with-python?utm_source=lms_catalog_service_user&utm_medium=affiliate_partner&_gl=1*hmq9pu*_gcl_au*MTgxMTI5NzM0NC4xNzM2MzA2MDEz*_ga*MTYyMjc3MDcxMy4xNzM2MzA2MDAy*_ga_D3KS4KMDT0*MTczNjMwNjAwMS4xLjEuMTczNjMwNjQ0OS40NS4wLjA 
             - Karpathy, A. 2022. Neural Networks - Zero to Hero
             - Manning, C.D. 2019. Stanford CS224N Natural Language Processing
             - https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide
