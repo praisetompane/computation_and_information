@@ -1,11 +1,11 @@
 def finite automata:
     formal:
-        a finite automata M is a 5-tuple(Q, Σ, δ, q₀, F,) (Sipser, 2020):
+        a finite automata 𝑀 is a 5-tuple(𝑄, Σ, δ, q₀, 𝐹) (Sipser, 2020):
 
-        Q  = finite set of all states
+        𝑄  = finite set of all states
         Σ  = finite set of alphabet symbols
         q₀ = start state/initial state
-        F  = finite set of final states = set of accept states
+        𝐹  = finite set of final states = set of accept states
         δ  = transition function
             δ: Q × Σ => Q : this is function definition
                     δ       : function name
@@ -17,14 +17,21 @@ def finite automata:
                 diagrammatic version:
                          a
                     q -------> r
+            
             in words:
 
-    plain english:
+    - plain english: ???
 
-    intuition:
+    - intuition: ???
 
-    examples:
+    - properties:
+        - 𝐿(the language of the finite automata) = the set of strings that reach any final state.
 
+    - examples: ???
+
+    - use cases: ???
+        
+    - proof: ???
                     
     diagrammatic representation of components
         states
