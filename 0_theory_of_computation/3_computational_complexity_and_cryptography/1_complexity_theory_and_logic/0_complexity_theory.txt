@@ -25,4 +25,4 @@ impact (Sipser. 2012:2):
 Leverages concepts from Computability theory.
 
 References:
-    Sipser, M. 2012. Introduction to the Theory of Computation. Cengage Learning.
+    - Sipser, M. 2013. Introduction to the Theory of Computation. 3rd edition. Cengage Learning.
