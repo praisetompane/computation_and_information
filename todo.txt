@@ -5,7 +5,8 @@
     - readings:
         - https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/readings/ :
             - Sipser, M. 2013. Introduction to the Theory of Computation. 3rd edition. Cengage Learning
-    - recitations:
+        - Copeland, B. Jack, "The Church-Turing Thesis", The Stanford Encyclopedia of Philosophy (Winter 2024 Edition), Edward N. Zalta & Uri Nodelman (eds.). https://plato.stanford.edu/archives/win2024/entries/church-turing/
+    - recitations: 
     - assignments:
         https://ocw.mit.edu/courses/18-404j-theory-of-computation-fall-2020/pages/assignments/
     - exams:
@@ -15,6 +16,7 @@
     - lectures:
         - Leighton, T. van Dijk, M. 2010. 6042J - Mathematics for Computer Science. Massachusetts Institute of Technology
             - current: Lecture 1: Introduction and proofs: **
+        - Programming with Math | The Lambda Calculus: https://www.youtube.com/watch?v=ViPNHMSUcog
     - readings:
         - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
             - current:  Chapter 1: Propositions:
@@ -35,7 +37,6 @@
     - lectures:
         - Demaine, E., Ku, J., Solomon, J. 2020. 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology
             - current: 1. Algorithms and Computation: *
-
         - Demaine, E., Devadas, S. 2011. 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology
             - current: Lecture 2: Models of Computation, Document Distance: *
         - Sedgewick R., Wayne K. Algorithms Part I. Princeton University.
@@ -106,6 +107,8 @@
         - computer_programming: https://github.com/praisetompane/computer_programming
             - source:
                 Van Roy, P. 2004. Concepts, Techniques, and Models of Computer Programming
+    - tools:
+        - language modelling: https://github.com/runtimeverification/k
     - assignments:
         - https://see.stanford.edu/course/cs107: Under the Assignments menu
     - exams:
@@ -123,6 +126,7 @@
         - readings:
             - Appel, A.W. 1997. Modern Compiler Implementation in C. Cambridge, UK: Cambridge University Press
             - Nystrom, R. Crafting Interpreters. https://craftinginterpreters.com/contents.html
+                - https://github.com/munificent/craftinginterpreters
             - Rinard, M. Amarasinghe, S. 2005. Computer Language Engineering (SMA 5502)
             - Cooper, Keith, and Linda Torczon. Engineering a Compiler. San Mateo, CA: Morgan Kaufman, 2003. ISBN: 155860698X.
                 A modern classroom textbook, with increased emphasis on the back-end and implementation techniques. (Ark book)
@@ -133,6 +137,7 @@
                 The classic compilers textbook, although its front-end emphasis reflects its age. (Dragon book)
             - Appel, A.W. 1998. Modern Compiler Implementation in ML. Cambridge, UK: Cambridge University Press
             - Appel, A.W. 1998. Modern Compiler Implementation in Java. Cambridge, UK: Cambridge University Press
+            - LLVM: https://www.llvm.org/docs/
         - assignments:
         - exams:
         - quizzes:
@@ -172,6 +177,9 @@
                 - https://dspace.mit.edu/handle/1721.1/118791
             - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
+            - Kanich, C. CS 361 Systems Programming. University of Illinois at Chicago
+            - Donovan, J.J. 1972. Systems Programming
+            - Katzan, H. 1970. Advanced Programming: Programming and Operating Systems.
         - readings:
         - assignments:
         - exams:
