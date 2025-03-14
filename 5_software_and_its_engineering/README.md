@@ -1,4 +1,4 @@
-# What is Software?
+# What is Software and how is it Engineered?
 
 **objective**: unpack in layman's terms what computer programming, software and software engineering are and their role in the current implementation of computation.
 
@@ -16,17 +16,9 @@
 [**def computer programming**](../5_software_and_its_engineering/2_software_creation_and_management/computer_programming/README.md)
 
 
-# References:
-* Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
-* The Architecture of Open Source Applications: http://aosabook.org/en/index.html
-* https://github.com/aosabook
-
 ## Tech Stacks
 - [stacks](https://stackshare.io/stacks)
 
 ## References:
 - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone.
-- The Architecture of Open Source Applications: http://aosabook.org/en/index.html
-- https://github.com/aosabook
 - The Architecture of Open Source Applications. Volume 1
-

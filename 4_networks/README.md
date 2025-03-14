@@ -4,7 +4,7 @@
 
 **def network¹**: collection of connected machines that communicate through a protocol(language){HTTP, HTTPS, SFTP, TCP, UDP, IP,...}ᶜⁱᵗᵃᵗⁱᴼⁿ_ⁿᵉᵉᵈᵉᵈ
 
-## network standards body:
+## Network Standards Body:
 - IETF
 - ITU
 

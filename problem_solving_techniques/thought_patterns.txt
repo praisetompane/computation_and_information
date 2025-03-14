@@ -1,8 +1,8 @@
-Thinking like a computer scientist:
-    - Understand more of the structure and rich relationships in your field.
+thinking like a computer scientist:
+    - understand more of the structure and rich relationships in your field.
     - involves looking for patterns and relationships. 
 
-Problem Solving Techniques
+problem solving techniques
     - functional decomposition
     - generalization
         - find solution to the simple problem first, then figure out how to make it general
@@ -12,13 +12,12 @@ Problem Solving Techniques
         - identify patterns and relationships
         - use them to solve the more complex problem
 
-Program Development Techniques
-    - Incremental Development
+program development techniques
+    - incremental development
 
-Types of Iteration
-    definite iteration: we know how MANY TIMES we will iterate
+types of iteration
+    definite iteration: we know how many times we will iterate
     indefinite iteration: we don't know how many times we will iterate
-                        : There is also a bit of work to prove we will terminate
-                        : And more work for the programmer to ensure that we do terminate,
+                        : there is also a bit of work to prove we will terminate
+                        : and more work for the programmer to ensure that we do terminate,
                             if we do want the computation to stop(which is generally the case)
-                        

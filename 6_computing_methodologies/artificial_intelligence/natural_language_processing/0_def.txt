@@ -1,10 +1,7 @@
-human language and word meaning:¹ 
-    human language serves to connect humans in the "human network".
-        human language = networking language
-            slow network
-    writing ~5000 years old
+def natural language processing¹:
 
-representation of meaning words³:
+
+representation of the meaning of words(Manning, 2019):
     def denotational semantics: defining what things(idea/meaning) represent 
         signifier(symbol) => signified(idea or thing)
     NB: Difficult to model computationally
@@ -16,13 +13,13 @@ representation of meaning words³:
 Usable meaning in computation:
     1. nltk => old tool
     
-traditional nlp(until ~2012):² 
+traditional NLP(until ~2012)(Manning, 2019):
     words = discrete symbols
-    hotel, conference,motel - a LOCALIST representation
+    hotel, conference, motel - a LOCALIST representation
 
     meaning representation = one-hot vectors
     
-neural network nlp³:
+neural network NLP (Manning, 2019):
     mean representation = distributional semantics
 
 References: 

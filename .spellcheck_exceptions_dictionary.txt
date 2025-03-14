@@ -11,6 +11,11 @@ AMATH
 
 
 # authors
+Uri
+Zalta
+Nodelman
+Kanich
+Katzan
 Guttag
 amasad
 Nystrom
@@ -193,6 +198,7 @@ trie
 deserialization
 misconfiguration
 
+
 # course codes:
 BSc
 IAP
@@ -208,6 +214,7 @@ YCSCS
 
 
 # technology
+LLVM
 visualstudio
 devcontainers
 ActiveMQ
@@ -262,6 +269,7 @@ cpython
 modularml
 vdhl
 zig
+
 
 # institutions
 reddit
@@ -374,10 +382,10 @@ ZeroAmountException
 ZeroPayablePayment
 
 
-
 # urls
 rdt
 src
+runtimeverification
 whatisrt
 AddSteps
 ccs
@@ -403,3 +411,4 @@ yegge
 IUCompilerCourse
 sewpr
 toc
+ViPNHMSUcog
