@@ -7,13 +7,19 @@ on:
     branches: [ main ]
 
 jobs:
-  spell_check:
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Check Repository
       uses: actions/checkout@v4
-
     - name: Spell Check
       uses: rojopolis/spellcheck-github-actions@0.45.0
-      with:                                        
+      with:       
+        task_name: English                                 
         output_file: spellcheck-output.txt
+    - name: Install Pipenv
+      run: python -m pip install pipenv
+    - name: Install Dependencies
+      run: pipenv sync --system -d
+    - name: Run Tests
+      run: pytest
