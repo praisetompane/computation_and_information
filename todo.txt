@@ -83,10 +83,14 @@
             - rust
             - zig
         - python: https://github.com/praisetompane/python
+            - Bennett, J. 2019. See CPython run - Getting to know your Python interpreter. North Bay Python: **
+            - cpython
+                - study the cpython code base: https://github.com/praisetompane/python_implementation_study_cpython
+            - Kaptur, A. 2018. A Python Interpreter Written in Python
+            - Bennett, J. 2018. A Bit about Bytes - Understanding Python Bytecode. PyCon
+            - Ike-Nwosu, O. 2019. Inside The Python Virtual Machine
             - mojo[after all python and the other languages are learned]
                 - superset: https://github.com/modularml/mojo
-            - cpython[being studied as part of studying the language spec]
-                - study the cpython code base: https://github.com/praisetompane/cpython
         - haskell: https://github.com/praisetompane/haskell
             - scala: https://github.com/praisetompane/scala[already learned, but could learn more including scala 3]
             - proof assistants | languages with dependent types

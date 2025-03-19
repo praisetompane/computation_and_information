@@ -11,6 +11,8 @@ AMATH
 
 
 # authors
+Nwosu
+Kaptur
 Uri
 Zalta
 Nodelman
@@ -191,7 +193,7 @@ xgboost
 XPATH
 PLT
 Redex
-
+Bytecode
 
 # domain specific
 trie
@@ -273,6 +275,7 @@ zig
 
 # institutions
 reddit
+PyCon
 ACM
 anthropics
 CareerCup
