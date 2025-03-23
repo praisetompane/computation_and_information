@@ -1,4 +1,4 @@
-def tokens:
+def data model:
     - formal: ???
 
         - in words: ???

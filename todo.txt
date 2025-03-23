@@ -84,6 +84,7 @@
             - zig
         - python: https://github.com/praisetompane/python
             - Bennett, J. 2019. See CPython run - Getting to know your Python interpreter. North Bay Python: **
+            - Severance, C. 2022. C Programming for Everybody
             - cpython
                 - study the cpython code base: https://github.com/praisetompane/python_implementation_study_cpython
             - Kaptur, A. 2018. A Python Interpreter Written in Python

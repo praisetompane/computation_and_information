@@ -1,4 +1,4 @@
-def x:
+def packaging_and_distribution:
     - formal: ???
 
         - in words: ???

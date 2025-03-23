@@ -1,53 +1,62 @@
 # Language
+![build status](https://github.com/praisetompane/language/actions/workflows/language.yaml/badge.svg) <br>
 
 ## Objectives
 - An in-depth study of:
-    - Language's Compiler/Intepreter.
-    - This focuses on:
-        - []()
+    - Language's Compiler/Interpreter.
+        - This focuses on:
+            - []()
+            - [Annotations on the actual interpreter implementation]()
     - Language's language design, implementation and ecosystem.
+
 ## Language Details
-  - [language specification]()
+- [Language Specification]
     - the syntax and semantics description
     - key topics:
-      - implementations
-      - lexical analysis
-      - data model
+        - implementations
+        - lexical analysis
+        - data model
         - standard type hierarchy
-      - execution model
-  - [language reference]()
-  - [base modules index]()
-  - [standard library reference]()
-  	- commonly used and required features of a language
-		e.g. collections
-  - package management:
-    - [packaging]()
-    - tools:
-    - structuring projects:
-  - [package index]()
-  - [extending and embedding]()
-  - [developer contribution guide]()
-  - [compiler/interpreter]()
-  - memory model:
-    - [computational complexity cost model]()
-  - history:
-  - usage:
-    - the style of effective programs, with emphasis on idioms
-    - fundamentals
-      - value declaration
-      - decision structures
-      - iteration structures
-    - algorithms and data structure implementations
-
-## Testing
+        - execution model
+- [Compiler | Interpreter]()
+- [Type System]()
+- [Memory Model]()
+- [Language Reference]()
+- [Standard Library]()
+    - commonly used and required features of a language
+        e.g. collections
+- Packaging and Distribution
+    - [Core Module Index]()
+    - [Package Index]()
+    - Tools:
+        - ...
+    - Structuring Projects:
+        - ...
+- [Extending and Embedding]()
+- [Developer Contribution Guide]
+- [History]
 
 ## Use Cases
-  - [Applications for Language]()
+- [Applications for Language]()
+- [Effective Application]
+    - the style of effective programs, with emphasis on idioms      
+
+## Community
 
 ## Learning Resources
-  - [practice problems]()
   - [roadmap]()
+  - [practice problems]()
+
+## Spell Check
+```shell
+pyspelling -c spellcheck.yaml
+```
 
 ## References
+
+## Legend:
+**Q**: Question for later research
+
+**MYINC**: My Insight/Conjecture [Could Be Unoriginal/False and Likely Is]
 
 **Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serve as my distributed memory.
