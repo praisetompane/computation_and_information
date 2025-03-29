@@ -39,8 +39,8 @@
 ## Use Cases
 - [Applications for Language]()
 - [Effective Application]
-    - the style of effective programs, with emphasis on idioms      
-
+    - The style of effective programs, with emphasis on idioms.      
+    - Metaphors, images, and ways of thinking favoured by the language.
 ## Community
 
 ## Learning Resources

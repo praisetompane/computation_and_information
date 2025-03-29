@@ -7,7 +7,7 @@
     
 
 - plain english:
-    - attempts to answer the question: "What are the fundamental capabilities and limitations of computers?"(Sipser. 2012:1).
+    - attempts to answer the question: "What are the fundamental capabilities and limitations of computers?"(Sipser, 2012:1).
 
 
 

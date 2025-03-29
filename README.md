@@ -1,8 +1,8 @@
-# What are Computation and Information?
+# What is Computation?
 ![build status](https://github.com/praisetompane/computation_and_information/actions/workflows/computation_and_information.yaml/badge.svg) <br>
 
 ## Objectives
-- An attempt at unpacking in layman's terms what computation and information are.
+- An attempt at unpacking computation and implementation of computing machines in layman's terms.
 
 ## Definitions
 - def computation¹: the **transformation** of **sequences of symbols** by **precise rules**(Konrad, 2015:6).
@@ -18,9 +18,6 @@
 
 - def computation: a list of steps to do something
 - def compute: to do/run a computation.
-- plain english: ???
-
-- def information: ???
 
 ## Dependencies
 - [Docker](https://docs.docker.com/get-started/)
@@ -66,4 +63,4 @@ pyspelling -c spellcheck.yaml
 
 **MYINC**: My Insight/Conjecture [Could Be Unoriginal/False and Likely Is]
 
-**Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serve as distributed memory.
+**Disclaimer**: This is an ongoing and incomplete project to unpack these concepts and serves as my distributed memory.

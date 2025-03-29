@@ -15,7 +15,7 @@ def computability theory(Sipser, 2012:3):
         - research timeline: 1930 - 1950
 
     - examples:
-        - classification of problems (Sipser. 2012:2):
+        - classification of problems (Sipser, 2012:2):
             - SOLVABLE
                 - add two numbers 1 + 5.
                 - ...

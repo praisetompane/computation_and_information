@@ -1,4 +1,4 @@
-def: attempts to answer the question: "What are the fundamental capabilities and limitations of computers?"(Sipser. 2012:1).
+def: attempts to answer the question: "What are the fundamental capabilities and limitations of computers?"(Sipser, 2012:1).
 
 topics relationship (Yanofsky, 2021):
     1_formal_languages_and_automata_theory => defines computers and languages they understand.

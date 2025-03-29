@@ -1,3 +1,5 @@
+see: https://github.com/praisetompane/mathematics/blob/main/68_computer_science/68Rxx_discrete_mathematics_in_relation_to_computer_science/68R10_graph_theory(including_graph_drawing)_in_computer%20science/0_graph.txt
+
 A set of things(nodes/vertices)
     and the relationships(edges) between the nodes
         there can also be no relationships between all or some of the nodes (Leighton, van Dijk, 2010).
