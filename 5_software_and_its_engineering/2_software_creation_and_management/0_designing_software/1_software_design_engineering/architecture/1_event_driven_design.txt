@@ -1,0 +1,23 @@
+def x:
+    - formal: ???
+
+        - in words: an architectural pattern, in which communication between systems happens over
+                      asynchronous messages via a message broker typically using publish subscribe pattern.
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties: ???
+
+    - examples:
+      - at the start 
+
+    - use cases:
+      - update the entire platform when a specific state has changed, so interested systems can respond.
+        - example:
+          - a new day system business day has started.
+        
+    - proof: ???
+    
+References: ???

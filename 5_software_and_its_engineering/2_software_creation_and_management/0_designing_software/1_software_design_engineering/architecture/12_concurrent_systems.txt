@@ -1,0 +1,24 @@
+def concurrency:
+    - formal: ???
+
+        - in words: ???
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties:
+        - levels of concurrency: https://www.geeksforgeeks.org/what-are-the-four-levels-of-concurrency/
+
+    - examples: ???
+
+    - use cases: ???
+
+    - proof: ???
+
+References: ???
+
+
+References:
+    - Pike, R. 2015. Concurrency is not Parallelism.
+    - Hoare, T. 2004. Communicating Sequential Processes.

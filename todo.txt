@@ -16,7 +16,7 @@
     - lectures:
         - Leighton, T. van Dijk, M. 2010. 6042J - Mathematics for Computer Science. Massachusetts Institute of Technology
             - current: Lecture 1: Introduction and proofs: **
-        - Programming with Math | The Lambda Calculus: https://www.youtube.com/watch?v=ViPNHMSUcog
+        - Ben-David, S. 2015. CS 245 - Logic and Computation. University of Waterloo.
     - readings:
         - https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/pages/readings/
             - current:  Chapter 1: Propositions:
@@ -37,8 +37,6 @@
     - lectures:
         - Demaine, E., Ku, J., Solomon, J. 2020. 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology
             - current: 1. Algorithms and Computation: *
-        - Demaine, E., Devadas, S. 2011. 6.006 - Introduction to Algorithms. Massachusetts Institute of Technology
-            - current: Lecture 2: Models of Computation, Document Distance: *
         - Sedgewick R., Wayne K. Algorithms Part I. Princeton University.
     - readings:
         - https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/
@@ -51,9 +49,10 @@
     - quizzes: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/quizzes/
 
 - 5_software_and_its_engineering/0_software_notations_and_tools/1_general_programming_languages:
-    - lectures:
-        - Cain, J. 2008. CS107 - Programming Paradigms. Stanford
-            - https://see.stanford.edu/course/cs107
+    - lectures:            
+        - Cain, J. 2025. CS107 - Computer Organization and Systems. Stanford University
+            - https://web.stanford.edu/class/cs107/index
+            - legacy: https://see.stanford.edu/course/cs107
         - Bauer, A, Pretnar, M. The Programming Languages Zoo
     - readings:
         - https://see.stanford.edu/course/cs107: Under the Resources section
@@ -107,7 +106,7 @@
                         - https://github.com/coq
         - verilog | vdhl
         - pytorch
-        - Pierce, B,C. Types and Programming Languages. The MIT Press
+        - Pierce, B.C. Types and Programming Languages. The MIT Press
         - Semantics Engineering with PLT Redex. https://redex.racket-lang.org/sewpr-toc.html
         - computer_programming: https://github.com/praisetompane/computer_programming
             - source:
@@ -118,16 +117,13 @@
         - https://see.stanford.edu/course/cs107: Under the Assignments menu
     - exams:
         - https://see.stanford.edu/course/cs107: Under the Exams menu
-
 ============================================================================================================
 - next₁:
     - 5_software_and_its_engineering/0_software_notations_and_tools/3_compilers
         - lectures:
-            - Aiken, A. 2025. SOE-YCSCS1 - Compilers. Stanford
-            - Rinard, M., Amarasinghe, S. 2005. 6.035 - Computer Language Engineering. Massachusetts Institute of Technology
+            - Aiken, A. 2025. SOE-YCSCS1 - Compilers. Stanford University
             - Leiserson, C., Shun, J. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
                 - current: Lecture 9: What Compilers Can and Cannot Do
-            - Neso Academy. 2023. Compiler Design
         - readings:
             - Appel, A.W. 1997. Modern Compiler Implementation in C. Cambridge, UK: Cambridge University Press
             - Nystrom, R. Crafting Interpreters. https://craftinginterpreters.com/contents.html
@@ -161,8 +157,6 @@
                     - https://www.edx.org/learn/circuits/massachusetts-institute-of-technology-circuits-and-electronics-2-amplification-speed-and-delay
                 - MITx: Circuits and Electronics 3: Applications
                     - https://www.edx.org/learn/electronics/massachusetts-institute-of-technology-circuits-and-electronics-3-applications-2
-            - Prof. Charles Leiserson, Prof. Julian Shun. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
-                - current: None
         - readings:
             - Slonka, K., Hall, B.R. 2020. Assembly Programming and Computer Architecture for Software Engineers. 2nd Edition
             - Scott J.C. 2009. But how Do it Know? The Basic Principles of Computers for Everyone
@@ -174,55 +168,32 @@
         - assignments:
         - exams:
 
-    - 3_computer_systems_organization:
+    - 5_software_and_its_engineering/1_software_organization_and_properties/contextual_software_domains/operating_systems
         - lectures:
-            - Cain, J. 2025. CS107 - Computer Organization and Systems. Stanford
-                - https://online.stanford.edu/courses/cs107-computer-organization-and-systems
-            - Robert, M, Samuel, M. 2005. 6.033 - Computer System Engineering Massachusetts Institute of Technology
-                - https://dspace.mit.edu/handle/1721.1/118791
             - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
+                - Week 1 - 4
             - Kanich, C. CS 361 Systems Programming. University of Illinois at Chicago
             - Donovan, J.J. 1972. Systems Programming
             - Katzan, H. 1970. Advanced Programming: Programming and Operating Systems.
         - readings:
-        - assignments:
-        - exams:
+            - Linux: https://github.com/torvalds/linux
 
     - 4_networks:
         - lectures:
-            - Web Technology. 2019. Education 4u.
-                - https://www.education4u.in
-        - readings:
-        - assignments:
-        - exams:
-
-============================================================================================================
-next₂:
-    - 5_software_and_its_engineering/1_software_organization_and_properties
-        - lectures:
-            - Robert, M, Samuel, M. 2005. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
-                - https://dspace.mit.edu/handle/1721.1/118791
             - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
                 - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
-        - readings:
-            - /contextual_software_domains/operating_systems
-                - Linux: https://github.com/torvalds/linux
-
-    - 6_computing_methodologies/artificial_intelligence:
-        - lectures:
-            - Ben-David, S. 2015. University of Waterloo CS 485-685 Foundations of Machine Learning
-            - Broderick, T. 2020. 6.036 - Introduction to Machine Learning. Massachusetts Institute of Technology
-            - Karpathy, A. 2022. Neural Networks - Zero to Hero
-            - Manning, C.D. 2019. CS224N - Natural Language Processing. Stanford
-            - https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide
+                - Week 5 - 7
         - readings:
         - assignments:
         - exams:
-
-    - 6_computing_methodologies/symbolic_and_algebraic_manipulation:
+============================================================================================================
+next₂:
+    - 6_computing_methodologies/distributed_computing_methodologies:
         - lectures:
-            - De Sterck, H. Ullrich P. 2006. AMATH 242/CS 371/CM 271 - Introduction To Computational Mathematics. University of Waterloo.
+            - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
+                - Week 8 - 10
         - readings:
         - assignments:
         - exams:
@@ -233,7 +204,44 @@ next₂:
         - assignments:
         - exams:
 
+    - 5_software_and_its_engineering:
+        - lectures:
+            - Prof. Charles Leiserson, Prof. Julian Shun. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
+                - current: None
+        - readings:
+        - assignments:
+        - exams:
+
+    - security_and_privacy:
+        - lectures:
+            - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
+                - https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/pages/syllabus/
+                - Week 11 - 14
+        - readings:
+        - assignments:
+        - exams:
 ============================================================================================================
+next₃:
+    - 6_computing_methodologies/artificial_intelligence:
+        - lectures:
+            - Broderick, T. 2020. 6.036 - Introduction to Machine Learning. Massachusetts Institute of Technology
+            - Ben-David, S. 2015. CS 485-685 - Foundations of Machine Learning. University of Waterloo
+            - Manning, C.D. 2024. CS224N - Natural Language Processing. Stanford University
+            - Karpathy, A. 2022. Neural Networks - Zero to Hero
+            - https://github.com/ahmedbahaaeldin/From-0-to-Research-Scientist-resources-guide
+        - readings:
+            - Daumé H. 2017. A Course in Machine Learning
+        - assignments:
+        - exams:
+
+    - 6_computing_methodologies/symbolic_and_algebraic_manipulation:
+        - lectures:
+            - De Sterck, H. Ullrich P. 2006. AMATH 242/CS 371/CM 271 - Introduction To Computational Mathematics. University of Waterloo.
+        - readings:
+        - assignments:
+        - exams:
+============================================================================================================
+
 - next field template:
     - lectures:
     - readings:

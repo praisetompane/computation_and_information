@@ -1,0 +1,54 @@
+def api_first_design:
+    - formal: ???
+
+        - in words: a product implementation philosophy, characterized by API as first-class citizens and key abstractions for modelling
+                        the product. 
+
+    - plain english: ???
+
+    - intuition: ???
+
+    - properties:
+        - standardized, consistent and reusable APIs: 
+            https://swagger.io/resources/articles/difference-between-api-documentation-specification/
+        - benefits:
+            - development teams can work in parallel:
+                - API first allows teams to design contract which other teams can build against.
+                - for testing, teams can stub responses and dependencies.
+            - reduce the cost of product development:
+                - APIs can be reused in various applications.
+            - increases the speed to market:
+                - APIs can be reused without starting over per product.
+                - API building can be automated by starting with API Definition files which can be used code generators.
+                    - tools:
+                        - https://swagger.io/api-hub/
+                - Allows adding new technologies without re-architecture
+            - ensures a good developer experience
+            - reduces risk of failure 
+
+        - execution plan:
+            - brainstorm: figure out which services should be exposed as APIs
+            - define API stakeholders
+            - design API contract: API standards = {naming, versioning, URLs, response codes}
+            - design API style guide
+            - implement API governance:
+                - https://swagger.io/solutions/governance-and-standardization/
+            - automate processes:
+                - style validation
+                - make APIs self service
+                - api mocking and versioning
+                - interactive documentation or sandboxes to allow experimentation
+            - track and manage your API portfolio
+            - create API portal
+                https://www.infoq.com/articles/paypal-api-first-part1
+    - examples: ???
+
+    - use cases: ???
+        
+    - proof: ???
+    
+References:
+    Wagner, J. Understanding  the API-First Approach to Building Products. https://swagger.io/resources/articles/adopting-an-api-first-approach/
+    https://swagger.io/resources/articles/adopting-an-api-first-approach/
+    https://swagger.io/resources/articles/difference-between-api-documentation-specification/
+    https://github.com/OAI/OpenAPI-Specification
