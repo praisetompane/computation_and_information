@@ -8,11 +8,15 @@ TBD
 ZA
 vec
 AMATH
-
+APIs
+OAI
+ORM
 
 # authors
 Nwosu
+Daumé
 Kaptur
+Hoare
 Uri
 Zalta
 Nodelman
@@ -78,9 +82,10 @@ Tratt
 Pretnar
 Siek
 
-# concepts
+# domain specific
 superset
 ADT
+observability
 ALU
 Analagizers
 applicative
@@ -194,12 +199,11 @@ XPATH
 PLT
 Redex
 Bytecode
-
-# domain specific
+apigateway
+microservices
 trie
 deserialization
 misconfiguration
-
 
 # course codes:
 BSc
@@ -213,7 +217,6 @@ STK
 WST
 WTW
 YCSCS
-
 
 # technology
 LLVM
@@ -275,6 +278,7 @@ zig
 
 # institutions
 reddit
+atlasgo
 PyCon
 ACM
 anthropics
@@ -332,6 +336,7 @@ XSeries
 mitx
 xseries
 Computerphile
+OpenAPI
 
 # programming keyowrds
 ArrayList
@@ -339,7 +344,10 @@ craftinginterpreters
 forName
 printf
 py
-
+Println
+fmt
+func
+println
 
 # programming definitions
 BankToBankPayment
@@ -384,9 +392,10 @@ ZapperPayment
 ZeroAmountException
 ZeroPayablePayment
 
-
 # urls
+Rxx
 roadmap
+aosabook
 rdt
 src
 runtimeverification
