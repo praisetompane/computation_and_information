@@ -1,5 +1,5 @@
 {
-	"name": "computation_and_information",
+	"name": "computation",
 	"build": {
 		"dockerfile": "../Dockerfile"
 	},
@@ -15,6 +15,6 @@
 			"settings": {}
 		}
 	},
-	"workspaceMount": "source=${localWorkspaceFolder},target=/computation_and_information,type=bind,consistency=delegated",
-	"workspaceFolder": "/computation_and_information"
+	"workspaceMount": "source=${localWorkspaceFolder},target=/computation,type=bind,consistency=delegated",
+	"workspaceFolder": "/computation"
 }
