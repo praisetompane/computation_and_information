@@ -190,6 +190,14 @@
         - exams:
 ============================================================================================================
 next₂:
+    - 5_software_and_its_engineering:
+        - lectures:
+            - Prof. Charles Leiserson, Prof. Julian Shun. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
+                - current: None
+        - readings:
+        - assignments:
+        - exams:
+
     - 6_computing_methodologies/distributed_computing_methodologies:
         - lectures:
             - LaCurts, K. 2018. 6.033 - Computer System Engineering. Massachusetts Institute of Technology
@@ -201,14 +209,6 @@ next₂:
 
     - 6_computing_methodologies/concurrent_computing_methodologies:
         - lectures:
-        - readings:
-        - assignments:
-        - exams:
-
-    - 5_software_and_its_engineering:
-        - lectures:
-            - Prof. Charles Leiserson, Prof. Julian Shun. 2018. 6.172 - Performance Engineering of Software Systems. Massachusetts Institute of Technology
-                - current: None
         - readings:
         - assignments:
         - exams:
