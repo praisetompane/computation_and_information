@@ -145,3 +145,19 @@ class LinkedList:
             return "".join(str(values))
         else:
             return "".join(values)
+
+    def reverse(self):
+        if self.head:
+            last_processed = None
+            next_node_to_process = None
+            current_node = self.head
+            while (current_node):
+                next_node_to_process = current_node.next
+
+                current_node.next = last_processed
+
+                last_processed = current_node
+                current_node = next_node_to_process
+            self.head = last_processed
+        else:
+            raise ValueError("List is empty")

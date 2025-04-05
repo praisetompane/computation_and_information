@@ -101,3 +101,14 @@ def test_string_representation():
     linked_list.insert_values(["banana", "mango", "grapes", "orange"])
 
     assert repr(linked_list) == "['banana', 'mango', 'grapes', 'orange']"
+
+
+def test_reverse():
+    linked_list = LinkedList()
+    linked_list.insert_values([1, 2, 3, 4])
+    linked_list.reverse()
+
+    assert linked_list.head.data == 4
+    assert linked_list.head.next.data == 3
+    assert linked_list.head.next.next.data == 2
+    assert linked_list.head.next.next.next.data == 1
