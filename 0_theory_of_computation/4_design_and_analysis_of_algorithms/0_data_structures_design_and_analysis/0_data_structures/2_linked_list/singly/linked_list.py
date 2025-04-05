@@ -1,11 +1,17 @@
 from singly.node import Node
+from collections.abc import Sequence
 
 
 class LinkedList:
     def __init__(self):
         self.head = None
 
-    def __len__(self):
+    def __len__(self) -> int:
+        """Calculates the length of the list.
+
+        Returns:
+            int: Number of elements in list
+        """
         length = 0
         current_node = self.head
         while (current_node):
@@ -13,7 +19,12 @@ class LinkedList:
             current_node = current_node.next
         return length
 
-    def insert_at_top(self, data):
+    def insert_at_top(self, data: any) -> None:
+        """Inserts a value to the top of the list
+
+        Args:
+            data (any): Data to be inserted.
+        """
         node = Node(data)
         if self.head:
             node.next = self.head
@@ -21,9 +32,11 @@ class LinkedList:
         else:
             self.head = node
 
-    def insert_values(self, values: list):
-        """
-            Insert iterable of values to the end
+    def insert_values(self, values: Sequence) -> None:
+        """ Insert values of a sequence to the end of the list.
+
+        Args:
+            values (Sequence): Sequence data to be inserted
         """
         # O(N). N = length of current values in list
 
@@ -55,7 +68,15 @@ class LinkedList:
             # M = length of new values
             # if M = N, then O(N*N) = O(N^2)
 
-    def remove_from_top(self):
+    def remove_from_top(self) -> any:
+        """Removes and returns value at the head of the list.
+
+        Raises:
+            ValueError: List is empty
+
+        Returns:
+            any: Data in the head of the list.
+        """
         if self.head:
             node = self.head
             self.head = self.head.next
@@ -63,7 +84,13 @@ class LinkedList:
         else:
             raise ValueError("List is empty")
 
-    def insert_at_end(self, data):
+    def insert_at_end(self, data: any) -> None:
+        """Insert a value to the end of the list.
+
+        Args:
+            data (any): Data to be inserted at the end.
+                        Use `insert_values` to insert a collection of values.
+        """
         node = Node(data)
         if self.head:
             current_node = self.head
@@ -73,7 +100,16 @@ class LinkedList:
         else:
             self.head = node
 
-    def insert_after_value(self, predicate_value, data):
+    def insert_after_value(self, predicate_value: any, data: any) -> None:
+        """Insert a value after the supplied @predicate_value
+
+        Args:
+            predicate_value (any): Value to to insert after.
+            data (any): Data to insert.
+
+        Raises:
+            IndexError: The list is empty
+        """
         if self.head == None:
             raise IndexError("The list is empty")
 
@@ -84,7 +120,12 @@ class LinkedList:
                 return
             current_node = current_node.next
 
-    def remove_by_value(self, value):
+    def remove_by_value(self, value: any) -> None:
+        """Remove a specific @value from the list.
+
+        Args:
+            value (any): Value to be removed.
+        """
         if self.head.data == value:
             self.head = self.head.next
             return
@@ -96,8 +137,58 @@ class LinkedList:
                 return
             current_node = current_node.next
 
+    def __repr__(self) -> str:
+        """Return string representation to be used by Python's `repr`
+
+        Returns:
+            str: String representation of the list.
+        """
+        values = []
+        if self.head:
+            current_node = self.head
+            while (current_node):
+                if (current_node.next):
+                    values.append(current_node.data)
+                else:
+                    values.append(current_node.data)
+                current_node = current_node.next
+            return "".join(str(values))
+        else:
+            return "".join(values)
+
+    def reverse(self) -> None:
+        """Reverse the list order.
+
+        Raises:
+            ValueError: List is empty
+        """
+        if self.head:
+            last_processed = None
+            next_node_to_process = None
+            current_node = self.head
+            while (current_node):
+                next_node_to_process = current_node.next
+
+                current_node.next = last_processed
+
+                last_processed = current_node
+                current_node = next_node_to_process
+            self.head = last_processed
+        else:
+            raise ValueError("List is empty")
+
     # I do not think these would be useful in practice. If you want an indexed structure, then use a array/list
-    def insert_at_index(self, index, data):
+    # They are for demonstration and practice.
+    def insert_at_index(self, index: int, data: any) -> None:
+        """Insert data at an index.
+
+        Args:
+            index (int): Index to insert the data at.
+            data (any): Data to insert.
+
+        Raises:
+            IndexError: Index out of bounds
+        """
         size = len(self)
         if index < 0 or index > size:
             raise IndexError("Index out of bounds")
@@ -114,7 +205,15 @@ class LinkedList:
             current_node = current_node.next
             idx += 1
 
-    def remove_at_index(self, index):
+    def remove_at_index(self, index: int) -> None:
+        """Remove value at an index.
+
+        Args:
+            index (int): Index to remove.
+
+        Raises:
+            IndexError: Index of out bounds
+        """
         size = len(self)
         if index < 0 or index >= size:
             raise IndexError(f"Index of out bounds: Index: {index}")
@@ -131,33 +230,3 @@ class LinkedList:
                 return
             current_node = current_node.next
             idx += 1
-
-    def __repr__(self):
-        values = []
-        if self.head:
-            current_node = self.head
-            while (current_node):
-                if (current_node.next):
-                    values.append(current_node.data)
-                else:
-                    values.append(current_node.data)
-                current_node = current_node.next
-            return "".join(str(values))
-        else:
-            return "".join(values)
-
-    def reverse(self):
-        if self.head:
-            last_processed = None
-            next_node_to_process = None
-            current_node = self.head
-            while (current_node):
-                next_node_to_process = current_node.next
-
-                current_node.next = last_processed
-
-                last_processed = current_node
-                current_node = next_node_to_process
-            self.head = last_processed
-        else:
-            raise ValueError("List is empty")
