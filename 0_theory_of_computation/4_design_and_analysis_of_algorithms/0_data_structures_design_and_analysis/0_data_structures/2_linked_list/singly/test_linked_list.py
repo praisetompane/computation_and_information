@@ -42,3 +42,13 @@ def test_insert():
 
     assert linked_list.head.data == 1
     assert linked_list.head.next.data == 2
+
+
+def insert_after_value():
+    linked_list = LinkedList()
+    linked_list.insert_at_top(1)
+    linked_list.insert_at_end(5)
+
+    linked_list.insert_after_value(5, "five")
+
+    assert linked_list.head.next.next.data == "five"
