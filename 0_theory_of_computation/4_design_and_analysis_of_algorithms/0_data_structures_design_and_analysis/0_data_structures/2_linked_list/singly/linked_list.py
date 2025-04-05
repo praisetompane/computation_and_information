@@ -75,3 +75,15 @@ class LinkedList:
                 current_node.next = Node(data, current_node.next)
                 return
             current_node = current_node.next
+
+    def remove_by_value(self, value):
+        if self.head.data == value:
+            self.head = self.head.next
+            return
+
+        current_node = self.head
+        while (current_node.next):
+            if current_node.next.data == value:
+                current_node.next = current_node.next.next
+                return
+            current_node = current_node.next

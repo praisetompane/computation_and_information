@@ -62,3 +62,13 @@ def test_insert_values():
     assert linked_list.head.next.data == "mango"
     assert linked_list.head.next.next.data == "grapes"
     assert linked_list.head.next.next.next.data == "orange"
+
+
+def test_remove_by_value():
+    linked_list = LinkedList()
+    linked_list.insert_values(["banana", "mango", "grapes", "orange"])
+
+    linked_list.remove_by_value("grapes")
+    assert linked_list.head.data == "banana"
+    assert linked_list.head.next.data == "mango"
+    assert linked_list.head.next.next.data == "orange"
