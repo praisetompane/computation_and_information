@@ -131,3 +131,17 @@ class LinkedList:
                 return
             current_node = current_node.next
             idx += 1
+
+    def __repr__(self):
+        values = []
+        if self.head:
+            current_node = self.head
+            while (current_node):
+                if (current_node.next):
+                    values.append(current_node.data)
+                else:
+                    values.append(current_node.data)
+                current_node = current_node.next
+            return "".join(str(values))
+        else:
+            return "".join(values)

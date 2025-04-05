@@ -94,3 +94,10 @@ def test_remove_at_index():
     assert linked_list.head.data == "banana"
     assert linked_list.head.next.data == "mango"
     assert linked_list.head.next.next.data == "orange"
+
+
+def test_string_representation():
+    linked_list = LinkedList()
+    linked_list.insert_values(["banana", "mango", "grapes", "orange"])
+
+    assert repr(linked_list) == "['banana', 'mango', 'grapes', 'orange']"
