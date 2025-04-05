@@ -72,3 +72,25 @@ def test_remove_by_value():
     assert linked_list.head.data == "banana"
     assert linked_list.head.next.data == "mango"
     assert linked_list.head.next.next.data == "orange"
+
+
+def test_insert_at_index():
+    linked_list = LinkedList()
+    linked_list.insert_values(["banana", "mango", "grapes", "orange"])
+
+    linked_list.insert_at_index(2, "pie")
+    assert linked_list.head.data == "banana"
+    assert linked_list.head.next.data == "mango"
+    assert linked_list.head.next.next.data == "pie"
+    assert linked_list.head.next.next.next.data == "grapes"
+    assert linked_list.head.next.next.next.next.data == "orange"
+
+
+def test_remove_at_index():
+    linked_list = LinkedList()
+    linked_list.insert_values(["banana", "mango", "grapes", "orange"])
+
+    linked_list.remove_at_index(2)
+    assert linked_list.head.data == "banana"
+    assert linked_list.head.next.data == "mango"
+    assert linked_list.head.next.next.data == "orange"

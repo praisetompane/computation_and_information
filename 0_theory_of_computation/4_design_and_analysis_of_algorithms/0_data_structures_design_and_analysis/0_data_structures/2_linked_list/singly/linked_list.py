@@ -5,6 +5,14 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
+    def __len__(self):
+        length = 0
+        current_node = self.head
+        while (current_node):
+            length = length + 1
+            current_node = current_node.next
+        return length
+
     def insert_at_top(self, data):
         node = Node(data)
         if self.head:
@@ -87,3 +95,39 @@ class LinkedList:
                 current_node.next = current_node.next.next
                 return
             current_node = current_node.next
+
+    # I do not think these would be useful in practice. If you want an indexed structure, then use a array/list
+    def insert_at_index(self, index, data):
+        size = len(self)
+        if index < 0 or index > size:
+            raise IndexError("Index out of bounds")
+
+        if index == 0:
+            self.head = Node(data, self.head)
+
+        idx = 0
+        current_node = self.head
+        while (idx < size):
+            if idx == index - 1:
+                current_node.next = Node(data, current_node.next)
+                return
+            current_node = current_node.next
+            idx += 1
+
+    def remove_at_index(self, index):
+        size = len(self)
+        if index < 0 or index >= size:
+            raise IndexError(f"Index of out bounds: Index: {index}")
+
+        if index == 0:
+            self.head = self.head.next
+            return
+
+        idx = 0
+        current_node = self.head
+        while (idx < size):
+            if idx == index - 1:
+                current_node.next = current_node.next.next
+                return
+            current_node = current_node.next
+            idx += 1
