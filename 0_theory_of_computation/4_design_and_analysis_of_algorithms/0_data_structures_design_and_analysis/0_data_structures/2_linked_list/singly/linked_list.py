@@ -12,3 +12,11 @@ class LinkedList:
             self.head = node
         else:
             self.head = node
+
+    def remove_from_top(self):
+        if self.head:
+            node = self.head
+            self.head = self.head.next
+            return node.data
+        else:
+            raise ValueError("List is empty")
