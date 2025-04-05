@@ -33,3 +33,12 @@ def test_remove_from_top():
         linked_list.remove_from_top()
     except ValueError as e:
         assert e.args == ("List is empty", )
+
+
+def test_insert():
+    linked_list = LinkedList()
+    linked_list.insert_at_end(1)
+    linked_list.insert_at_end(2)
+
+    assert linked_list.head.data == 1
+    assert linked_list.head.next.data == 2

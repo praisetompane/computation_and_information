@@ -20,3 +20,13 @@ class LinkedList:
             return node.data
         else:
             raise ValueError("List is empty")
+
+    def insert_at_end(self, data):
+        node = Node(data)
+        if self.head:
+            current_node = self.head
+            while (current_node.next):
+                current_node = current_node.next
+            current_node.next = node
+        else:
+            self.head = node
