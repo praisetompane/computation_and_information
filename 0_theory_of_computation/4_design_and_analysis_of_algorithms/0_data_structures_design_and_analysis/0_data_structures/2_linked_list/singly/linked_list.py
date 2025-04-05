@@ -13,6 +13,40 @@ class LinkedList:
         else:
             self.head = node
 
+    def insert_values(self, values: list):
+        """
+            Insert iterable of values to the end
+        """
+        # O(N). N = length of current values in list
+
+        def _insert_values(start_index):
+            # O(M). M = length of new values
+            current_node = self.head
+            while (current_node.next):
+                current_node = current_node.next
+
+            idx = start_index
+            while (idx < len(values)):
+                current_node.next = Node(values[idx])
+                current_node = current_node.next
+                idx += 1
+
+        if self.head == None:
+            self.head = Node(values[0])
+            _insert_values(1)
+        else:
+            _insert_values(0)
+
+        # Total = O(N + M) = O(N) | O(M) depending on which is longer. Therefore Linear = O(N)
+
+        # alternative
+        # for v in values:
+        #     self.insert(v)
+        # O(N * M)
+            # N = length of current values in list
+            # M = length of new values
+            # if M = N, then O(N*N) = O(N^2)
+
     def remove_from_top(self):
         if self.head:
             node = self.head

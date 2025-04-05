@@ -52,3 +52,13 @@ def insert_after_value():
     linked_list.insert_after_value(5, "five")
 
     assert linked_list.head.next.next.data == "five"
+
+
+def test_insert_values():
+    linked_list = LinkedList()
+    linked_list.insert_values(["banana", "mango", "grapes", "orange"])
+
+    assert linked_list.head.data == "banana"
+    assert linked_list.head.next.data == "mango"
+    assert linked_list.head.next.next.data == "grapes"
+    assert linked_list.head.next.next.next.data == "orange"
